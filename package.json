@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "3d-force-graph": "^1.70.5",
+    "express": "^4.17.1"
+  }
+}
