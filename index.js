@@ -9,7 +9,7 @@ const port = process.env.PORT || 8080;
 //   console.log("asd");
 // }
 
-app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(path.join(__dirname, "/docs")));
 
 // sendFile will go here
 app.get("/", function (req, res) {
