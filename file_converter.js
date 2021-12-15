@@ -30,6 +30,7 @@ info_json.forEach(protocol => {
       name: protocol.name,
       tvl: protocol.tvl,
       type: "Protocol",
+      color: "cyan"
     }
   )
   
@@ -40,7 +41,8 @@ info_json.forEach(protocol => {
         {
           id: oracle,
           name: oracle,
-          type: "Oracle"
+          type: "Oracle",
+          color: "red"
         }
       )
   
@@ -48,7 +50,9 @@ info_json.forEach(protocol => {
       converted_info_json.links.push(
         {
           source: oracle,
-          target: protocol.id
+          target: protocol.id,
+          type: "Oracle2Protocol",
+          particles: 2
         }
       )
   
@@ -57,19 +61,22 @@ info_json.forEach(protocol => {
 
   if(protocol.hasOwnProperty('chains')){
     protocol.chains.forEach(chain => {
-      // Creating Oracle Nodes
+      // Creating Chain Nodes
       converted_info_json.nodes.push(
         {
           id: chain,
           name: chain,
-          type: "Chain"
+          type: "Chain",
+          color: "orange"
         }
       )
-      // Creating Protocol - Oracle edges
+      // Creating Protocol - Chain edges
       converted_info_json.links.push(
         {
           source: chain,
-          target: protocol.id
+          target: protocol.id,
+          type: "Protocol2Chain",
+          particles: 0
         }
       )
 

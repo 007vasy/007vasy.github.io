@@ -14,10 +14,12 @@
   
       const Graph = ForceGraph3D()(elem)
         .jsonUrl('blocks.json')
-        .nodeAutoColorBy('type')
+        .nodeColor(node => node.color)
         .nodeRelSize(3)
         .nodeLabel(node => `${node.type}: ${node.name}`)
         .linkOpacity(0.2)
+        .linkAutoColorBy('type')
+        .linkDirectionalParticles('particles')
         .onNodeClick(node => window.open("https://api.llama.fi/protocol/" + node.slug, '_blank'));
     </script>
   </body>
