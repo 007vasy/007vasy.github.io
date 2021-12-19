@@ -32,6 +32,11 @@
           //nodeEl.textContent = `${node.type}: ${node.name}`
           nodeEl.style.color = node.color;
           nodeEl.className = 'node-label';
+          // if(node.type == 'Protocol')
+          // {
+          //   nodeEl.innerHTML += '<img src="'+node.logo+'" width=1% height=1%/>';
+          // }
+          
           return new THREE.CSS2DObject(nodeEl);
         })
         .nodeThreeObjectExtend(true);
