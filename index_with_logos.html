@@ -28,10 +28,11 @@
         .linkDirectionalParticles('particles')
         .onNodeClick(node => window.open("https://api.llama.fi/protocol/" + node.slug, '_blank'))
         .nodeThreeObject(node => {
-          const nodeEl = document.createElement('div');
-          //nodeEl.textContent = `${node.type}: ${node.name}`
-          nodeEl.style.color = node.color;
-          nodeEl.className = 'node-label';
+          const nodeEl = document.createElement('img');
+          nodeEl.src = node.logo
+          nodeEl.width = 10
+          nodeEl.height = 10
+          nodeEl.className = 'node-logo';
           return new THREE.CSS2DObject(nodeEl);
         })
         .nodeThreeObjectExtend(true);

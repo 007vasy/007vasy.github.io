@@ -29,6 +29,7 @@ info_json.forEach(protocol => {
       slug: protocol.slug,
       name: protocol.name,
       tvl: protocol.tvl,
+      logo: protocol.logo,
       type: "Protocol",
       color: "cyan"
     }
@@ -73,8 +74,8 @@ info_json.forEach(protocol => {
       // Creating Protocol - Chain edges
       converted_info_json.links.push(
         {
-          source: chain,
-          target: protocol.id,
+          source: protocol.id,
+          target: chain,
           type: "Protocol2Chain",
           particles: 0
         }
