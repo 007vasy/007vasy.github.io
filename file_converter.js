@@ -100,5 +100,27 @@ converted_info_json.nodes = uniqByKeepFirst(
   (item) => item.id
 );
 
+converted_info_json.nodes.forEach((node) => {
+  let source = node.name
+  let count = 0
+
+  if(node.type === "Protocol"){
+    source = node.id
+  }
+  converted_info_json.links.forEach(link => {
+    if (link.source == source){
+      count += 1;
+    };
+
+    if (node.type === "Chain" && link.target == source){
+      count += 1;
+    }
+    
+  })
+  
+  node.count = count
+  
+})
+
 let data = JSON.stringify(converted_info_json);
 fs.writeFileSync("docs/blocks.json", data);

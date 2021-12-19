@@ -22,14 +22,14 @@
         //.dagMode('radialout')
         //.nodeColor(node => node.color)
         //.nodeRelSize(3)
-        .nodeLabel(node => `${node.type}: ${node.name}`)
+        .nodeLabel(node => `${node.type}: ${node.name}, ${node.count}`)
         .linkOpacity(0.2)
         .linkAutoColorBy('type')
         .linkDirectionalParticles('particles')
         .onNodeClick(node => window.open("https://api.llama.fi/protocol/" + node.slug, '_blank'))
         .nodeThreeObject(node => {
           const nodeEl = document.createElement('div');
-          //nodeEl.textContent = `${node.type}: ${node.name}`
+          //nodeEl.textContent = `${node.count}`
           nodeEl.style.color = node.color;
           nodeEl.className = 'node-label';
           // if(node.type == 'Protocol')
