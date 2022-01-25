@@ -41,10 +41,16 @@
           if(protocol.hasOwnProperty('oracles')){
             protocol.oracles.forEach(oracle => {
               // Creating Oracle Nodes
+              let oracle_name = oracle
+
+              if(oracle.toLowerCase() == "internal" ){
+                oracle_name += "_" + protocol.slug
+              }
+
               converted_info_json.nodes.push(
                 {
-                  id: oracle,
-                  name: oracle,
+                  id: oracle_name,
+                  name: oracle_name,
                   type: "Oracle",
                   color: "red"
                 }
@@ -53,7 +59,7 @@
               // Creating Protocol - Oracle edges
               converted_info_json.links.push(
                 {
-                  source: oracle,
+                  source: oracle_name,
                   target: protocol.id,
                   type: "Oracle2Protocol",
                   particles: 2
