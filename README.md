@@ -4,7 +4,7 @@ quick 3D viz based on json inputs
 
 ## Local dev
 ```bash
-nodemon index.json
+nodemon index.js
 ```
 ## Defillama endpoint used
 

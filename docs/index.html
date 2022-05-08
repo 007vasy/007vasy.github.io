@@ -38,7 +38,7 @@
             }
           )
           
-          if(protocol.hasOwnProperty('oracles')){
+          if(protocol.hasOwnProperty('oracles') && protocol.oracles.length > 0) {
             protocol.oracles.forEach(oracle => {
               // Creating Oracle Nodes
               let oracle_name = oracle
