@@ -16,10 +16,13 @@
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
           .jsonUrl('brilliant_courses.json')
-          .nodeLabel('id')
-          .nodeAutoColorBy('group')
+          .nodeLabel('name')
+          .nodeAutoColorBy('type')
           .linkDirectionalParticles(3)
-          .linkDirectionalParticleSpeed(0.003);
+          .onNodeClick(node => window.open(node.id, '_blank'))
+          .linkDirectionalParticleSpeed(0.003)
+          .linkLabel('type')
+          .linkAutoColorBy('type');
     </script>
   </body>
   

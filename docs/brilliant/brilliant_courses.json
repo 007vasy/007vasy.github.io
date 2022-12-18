@@ -1,8 +1,11 @@
 {
     "nodes": [
-      {"id": "Myriel", "group": 1}
+      {"id": "https://brilliant.org/courses/puzzle-science/", "name":"Scientific Thinking", "type":"Scientifics Thinking"},
+      {"id": "https://brilliant.org/courses/physics-everyday/", "name":"Physics of the Everyday", "type":"Scientifics Thinking"},
+      {"id": "https://brilliant.org/courses/puzzle-science/", "name":"Scientific Thinking", "type":"Scientifics Thinking"},
+      {"id": "https://brilliant.org/courses/physics-everyday/", "name":"Physics of the Everyday", "type":"Scientifics Thinking"}
     ],
     "links": [
-      {"source": "Napoleon", "target": "Myriel", "value": 1}
+      {"source": "https://brilliant.org/courses/puzzle-science/", "target": "https://brilliant.org/courses/physics-everyday/", "type":"PreReqOf"}
     ]
 }
