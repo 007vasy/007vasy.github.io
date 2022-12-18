@@ -15,11 +15,11 @@
     <script>
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
-          .jsonUrl('brilliant_coures.json')
+          .jsonUrl('brilliant_courses.json')
           .nodeLabel('id')
           .nodeAutoColorBy('group')
-          .linkDirectionalParticles("value")
-          .linkDirectionalParticleSpeed(d => d.value * 0.001);
+          .linkDirectionalParticles(3)
+          .linkDirectionalParticleSpeed(0.003);
     </script>
   </body>
   
