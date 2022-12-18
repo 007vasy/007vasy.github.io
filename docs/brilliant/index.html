@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Brilliant</title>
-</head>
-<body>
-  <header>
-    <h1>Simple menu to showcase 3D graphs</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="/defi">Defi Universe</a></li>
-      <li><a href="/brilliant">Brilliant</a></li>
-      <li><a href="/cosmere">Cosmere</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h2>Welcome to my personal gh page</h2>
-    <p>This is the homepage of my website, feel free to navigate</p>
-  </main>
-  <footer>
-    <p>Copyright XXXX</p>
-  </footer>
-</body>
+    <title>Brilliant</title>
+    <style> body { margin: 0; } </style>
+  
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <!--<script src="../../dist/3d-force-graph.js"></script>-->
+  </head>
+  
+  <body>
+    <div id="3d-graph"></div>
+  
+    <script>
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+          .jsonUrl('brilliant_coures.json')
+          .nodeLabel('id')
+          .nodeAutoColorBy('group')
+          .linkDirectionalParticles("value")
+          .linkDirectionalParticleSpeed(d => d.value * 0.001);
+    </script>
+  </body>
+  
 </html>
