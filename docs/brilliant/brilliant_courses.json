@@ -1,11 +1,295 @@
 {
-    "nodes": [
-      {"id": "https://brilliant.org/courses/puzzle-science/", "name":"Scientific Thinking", "type":"Scientifics Thinking"},
-      {"id": "https://brilliant.org/courses/physics-everyday/", "name":"Physics of the Everyday", "type":"Scientifics Thinking"},
-      {"id": "https://brilliant.org/courses/puzzle-science/", "name":"Scientific Thinking", "type":"Scientifics Thinking"},
-      {"id": "https://brilliant.org/courses/physics-everyday/", "name":"Physics of the Everyday", "type":"Scientifics Thinking"}
-    ],
-    "links": [
-      {"source": "https://brilliant.org/courses/puzzle-science/", "target": "https://brilliant.org/courses/physics-everyday/", "type":"PreReqOf"}
-    ]
+  "nodes": [
+    {
+        "id": "https://brilliant.org/courses/logic-deduction/",
+        "name": "Logic"
+    },
+    {
+        "id": "https://brilliant.org/courses/puzzle-science/",
+        "name": "Scientific Thinking"
+    },
+    {
+        "id": "https://brilliant.org/courses/computer-science-essentials/",
+        "name": "Computer Science Fundamentals"
+    },
+    {
+        "id": "https://brilliant.org/courses/pre-algebra/",
+        "name": "Solving Equations"
+    },
+    {
+        "id": "https://brilliant.org/courses/pre-algebra/",
+        "name": "Solving Equations"
+    },
+    {
+        "id": "https://brilliant.org/courses/introduction-to-algebra/",
+        "name": "Introduction to Algebra"
+    },
+    {
+        "id": "https://brilliant.org/courses/algebra-extensions/",
+        "name": "Algebra I"
+    },
+    {
+        "id": "https://brilliant.org/courses/graphing-and-modeling/",
+        "name": "Algebra II"
+    },
+    {
+        "id": "https://brilliant.org/courses/complex-algebra/",
+        "name": "Complex Numbers"
+    },
+    {
+        "id": "https://brilliant.org/courses/basic-math/",
+        "name": "Everyday Math"
+    },
+    {
+        "id": "https://brilliant.org/courses/math-fundamentals/",
+        "name": "Mathematical Fundamentals"
+    },
+    {
+        "id": "https://brilliant.org/courses/basic-number-theory/",
+        "name": "Number Theory"
+    },
+    {
+        "id": "https://brilliant.org/courses/number-bases/",
+        "name": "Number Bases"
+    },
+    {
+        "id": "https://brilliant.org/courses/infinity/",
+        "name": "Infinity"
+    },
+    {
+        "id": "https://brilliant.org/courses/math-history/",
+        "name": "Math History"
+    },
+    {
+        "id": "https://brilliant.org/courses/geometry-fundamentals/",
+        "name": "Geometry Fundamentals"
+    },
+    {
+        "id": "https://brilliant.org/courses/beautiful-geometric-explorations/",
+        "name": "Beautiful Geometry"
+    },
+    {
+        "id": "https://brilliant.org/courses/basic-2d-geometry/",
+        "name": "Geometry I"
+    },
+    {
+        "id": "https://brilliant.org/courses/intermediate-2d-geometry/",
+        "name": "Geometry II"
+    },
+    {
+        "id": "https://brilliant.org/courses/3d-geometry/",
+        "name": "3D Geometry"
+    },
+    {
+        "id": "https://brilliant.org/courses/probability-fundamentals/",
+        "name": "Introduction to Probability"
+    },
+    {
+        "id": "https://brilliant.org/courses/probability/",
+        "name": "Applied Probability"
+    },
+    {
+        "id": "https://brilliant.org/courses/perplexing-probability/",
+        "name": "Perplexing Probability"
+    },
+    {
+        "id": "https://brilliant.org/courses/casino-games/",
+        "name": "Casino Probability"
+    },
+    {
+        "id": "https://brilliant.org/courses/probability_ii/",
+        "name": "Random Variables & Distributions"
+    },
+    {
+        "id": "https://brilliant.org/courses/statistics/",
+        "name": "Statistics Fundamentals"
+    },
+    {
+        "id": "https://brilliant.org/courses/advanced-statistics-i/",
+        "name": "Statistics I"
+    },
+    {
+        "id": "https://brilliant.org/courses/logic-deduction/",
+        "name": "Logic"
+    },
+    {
+        "id": "https://brilliant.org/courses/logical-languages/",
+        "name": "Logic II"
+    },
+    {
+        "id": "https://brilliant.org/courses/knowledge-and-uncertainty/",
+        "name": "Knowledge and Uncertainty"
+    },
+    {
+        "id": "https://brilliant.org/courses/math-competition-fundamentals/",
+        "name": "Contest Math I"
+    },
+    {
+        "id": "https://brilliant.org/courses/ace-the-amc/",
+        "name": "Contest Math II"
+    },
+    {
+        "id": "https://brilliant.org/courses/calculus-nutshell/",
+        "name": "Calculus in a Nutshell"
+    },
+    {
+        "id": "https://brilliant.org/courses/pre-calculus/",
+        "name": "Pre-Calculus"
+    },
+    {
+        "id": "https://brilliant.org/courses/trigonometry/",
+        "name": "Trigonometry"
+    },
+    {
+        "id": "https://brilliant.org/courses/calculus-done-right/",
+        "name": "Calculus Fundamentals"
+    },
+    {
+        "id": "https://brilliant.org/courses/calculus-ii/",
+        "name": "Integral Calculus"
+    },
+    {
+        "id": "https://brilliant.org/courses/multivariable-calculus/",
+        "name": "Multivariable Calculus"
+    },
+    {
+        "id": "https://brilliant.org/courses/linear-algebra/",
+        "name": "Introduction to Linear Algebra"
+    },
+    {
+        "id": "https://brilliant.org/courses/lin-alg/",
+        "name": "Linear Algebra with Applications"
+    },
+    {
+        "id": "https://brilliant.org/courses/vector-calculus/",
+        "name": "Vector Calculus"
+    },
+    {
+        "id": "https://brilliant.org/courses/differential-equations/",
+        "name": "Differential Equations"
+    },
+    {
+        "id": "https://brilliant.org/courses/math-quantitative-finance/",
+        "name": "Math for Quantitative Finance"
+    },
+    {
+        "id": "https://brilliant.org/courses/group-theory/",
+        "name": "Group Theory"
+    },
+    {
+        "id": "https://brilliant.org/courses/number-theory-linear-equations/",
+        "name": "Equations in Number Theory"
+    },
+    {
+        "id": "https://brilliant.org/courses/puzzle-science/",
+        "name": "Scientific Thinking"
+    },
+    {
+        "id": "https://brilliant.org/courses/physics-everyday/",
+        "name": "Physics of the Everyday"
+    },
+    {
+        "id": "https://brilliant.org/courses/chemical-reaction/",
+        "name": "The Chemical Reaction"
+    },
+    {
+        "id": "https://brilliant.org/courses/knowledge-and-uncertainty/",
+        "name": "Knowledge and Uncertainty"
+    },
+    {
+        "id": "https://brilliant.org/courses/dynamics-bootcamp/",
+        "name": "Classical Mechanics"
+    },
+    {
+        "id": "https://brilliant.org/courses/astronomy/",
+        "name": "Astrophysics"
+    },
+    {
+        "id": "https://brilliant.org/courses/gravitational-physics/",
+        "name": "Gravitational Physics"
+    },
+    {
+        "id": "https://brilliant.org/courses/electromagnetism/",
+        "name": "Electricity and Magnetism"
+    },
+    {
+        "id": "https://brilliant.org/courses/quantum-objects/",
+        "name": "Quantum Objects"
+    },
+    {
+        "id": "https://brilliant.org/courses/nutshell/",
+        "name": "Kurzgesagt \u2013 Beyond the Nutshell"
+    },
+    {
+        "id": "https://brilliant.org/courses/real-engineering/",
+        "name": "Real Engineering"
+    },
+    {
+        "id": "https://brilliant.org/courses/sabine/",
+        "name": "Quantum Mechanics with Sabine"
+    },
+    {
+        "id": "https://brilliant.org/courses/renewable-energy/",
+        "name": "Solar Energy"
+    },
+    {
+        "id": "https://brilliant.org/courses/computational-biology/",
+        "name": "Computational Biology"
+    },
+    {
+        "id": "https://brilliant.org/courses/special-relativity/",
+        "name": "Special Relativity"
+    },
+    {
+        "id": "https://brilliant.org/courses/molecular-representations/",
+        "name": "Molecules"
+    },
+    {
+        "id": "https://brilliant.org/courses/computer-science-essentials/",
+        "name": "Computer Science Fundamentals"
+    },
+    {
+        "id": "https://brilliant.org/courses/computer-science-algorithms/",
+        "name": "Algorithm Fundamentals"
+    },
+    {
+        "id": "https://brilliant.org/courses/programming-python/",
+        "name": "Programming with Python"
+    },
+    {
+        "id": "https://brilliant.org/courses/intro-neural-networks/",
+        "name": "Introduction to Neural Networks"
+    },
+    {
+        "id": "https://brilliant.org/courses/search-fundamentals/",
+        "name": "Search Engines"
+    },
+    {
+        "id": "https://brilliant.org/courses/cryptocurrency/",
+        "name": "Cryptocurrency"
+    },
+    {
+        "id": "https://brilliant.org/courses/quantum-computing/",
+        "name": "Quantum Computing"
+    },
+    {
+        "id": "https://brilliant.org/courses/artificial-neural-networks/",
+        "name": "Artificial Neural Networks"
+    },
+    {
+        "id": "https://brilliant.org/courses/reinforcement-learning/",
+        "name": "Reinforcement Learning"
+    },
+    {
+        "id": "https://brilliant.org/courses/memory/",
+        "name": "Computer Memory"
+    }
+  ],
+  "links": [
+    {
+      "source": "https://brilliant.org/courses/puzzle-science/",
+      "target": "https://brilliant.org/courses/physics-everyday/",
+      "type": "PreReqOf"
+    }
+  ]
 }
