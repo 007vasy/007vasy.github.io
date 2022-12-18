@@ -1,6 +1,16 @@
 # 007vasy.github.io
 
+## /defi
 quick 3D viz based on json inputs
+
+## /brilliant
+
+3d viz of brilliant courses
+
+## /cosmere
+
+WIP 3d viz of the great Brian Sanderson's fantasy universe
+
 
 ## Local dev
 ```bash
