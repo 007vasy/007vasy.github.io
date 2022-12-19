@@ -1,4 +1,4 @@
 DevNotes.md
 node_modules/
 
-docs/scraper/*.json
+scraper/*.json
