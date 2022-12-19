@@ -221,11 +221,6 @@
             "type": "Scientific Thinking"
         },
         {
-            "id": "https://brilliant.org/courses/knowledge-and-uncertainty/",
-            "name": "Knowledge and Uncertainty",
-            "type": "Scientific Thinking"
-        },
-        {
             "id": "https://brilliant.org/courses/dynamics-bootcamp/",
             "name": "Classical Mechanics",
             "type": "Advanced Physics"
