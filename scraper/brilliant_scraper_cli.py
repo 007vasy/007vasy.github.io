@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from pathlib import Path
+import time
 
 def site_content_as_text(url):
     reqs = requests.get(url)
@@ -20,7 +21,7 @@ def main():
     soup = site_content_as_text(url)
     
     nodes = []
-    links = []
+    edges = []
 
     print(">> Grabbing Nodes")
     for container in soup.find_all('div', {"class":"container"}):
@@ -38,51 +39,73 @@ def main():
                         "type":h3_text
                     })
 
+    print(f"Found {len(nodes)} nodes")
+
     print(">> Grabbing Edges")
     for node in nodes:
+        max_tries = 10
+        prev_edge_count = len(edges)
         node_url = node['id']
-        course_page = site_content_as_text(node_url)
-        print(f"Doing >> {node_url}")
-        for course_map in course_page.find_all('div', {"class":"map-item"}):
-            #print(course_map)
-            h5 = course_map.find('h5')
-            conn_cat = h5.text.strip()
+        tries = 0
 
-            for link in course_map.find_all('a'):
-                conn_url = create_full_link(link.get('href'))
+        while tries <= max_tries and prev_edge_count == len(edges):
+            
+            if tries != 0:
+                time.sleep(1    )
 
-                if conn_cat == 'Prerequisites':
-                    edge_type = 'PreReqOf'
+            course_page = site_content_as_text(node_url)
+            print(f"Doing try {tries} >> {node_url} {len(edges)}")
 
+            course_maps = course_page.find_all('div', {"class":"map-item"})
 
-                    links.append({
-                        "source":conn_url,
-                        "target":node_url,
-                        "type":edge_type,
-                        "curvature":0.1,
-                        "rotation":0.1
-                    })
-                
-                elif conn_cat == 'Next steps':
-                    edge_type = 'NextStep'
+            if len(course_maps) == 0:
+                print(f"{node_url} needs retry")
 
 
-                    links.append({
-                        "source":node_url,
-                        "target":conn_url,
-                        "type":edge_type,
-                        "curvature":-0.2,
-                        "rotation":-0.2
-                    })
-                
-                
-                else:
-                    print(f"wrong state at {node_url}")
 
+            for course_map in course_maps:
+                #print(course_map)
+                h5 = course_map.find('h5')
+                conn_cat = h5.text.strip()
+
+                for link in course_map.find_all('a', {"class":"course"}):
+                    conn_url = create_full_link(link.get('href'))
+
+                    if conn_cat == 'Prerequisites':
+                        edge_type = 'PreReqOf'
+
+
+                        edges.append({
+                            "source":conn_url,
+                            "target":node_url,
+                            "type":edge_type,
+                            "curvature":0.1,
+                            "rotation":0.1
+                        })
+                    
+                    elif conn_cat == 'Next steps':
+                        edge_type = 'NextStep'
+
+
+                        edges.append({
+                            "source":node_url,
+                            "target":conn_url,
+                            "type":edge_type,
+                            "curvature":-0.2,
+                            "rotation":-0.2
+                        })
+                    
+                    
+                    else:
+                        print(f"wrong state at {node_url}")
+
+            tries += 1 
+
+    print(f"Found {len(edges)} edges")
 
     graph = {
         "nodes":nodes,
-        "links":links
+        "links":edges
     }
 
     save_json(graph, Path(__file__).parent/'brilliant_temp.json')
