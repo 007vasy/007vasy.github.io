@@ -4,27 +4,111 @@
 <head>
     <title>Brilliant</title>
     <style> body { margin: 0; } </style>
-  
+    <!-- <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/three-spritetext"></script> -->
     <script src="//unpkg.com/3d-force-graph"></script>
     <!--<script src="../../dist/3d-force-graph.js"></script>-->
   </head>
   
   <body>
     <div id="3d-graph"></div>
-  
     <script>
-      const Graph = ForceGraph3D()
-        (document.getElementById('3d-graph'))
-          .jsonUrl('brilliant_courses.json')
-          .nodeLabel('name')
-          .nodeAutoColorBy('type')
-          .linkDirectionalParticles(3)
-          .onNodeClick(node => window.open(node.id, '_blank'))
-          .linkDirectionalParticleSpeed(0.003)
-          .linkCurvature('curvature')
-          .linkCurveRotation('rotation')
-          .linkLabel('type')
-          .linkAutoColorBy('type');
+      async function loadJson(){
+          const res = await fetch('brilliant_courses.json');
+          const json = await res.json();
+          return json;
+      }
+    </script>
+    <script>
+
+
+      const highlightNodes = new Set();
+      const highlightLinks = new Set();
+      let hoverNode = null;
+      loadJson().then(gData => {
+        
+        console.log(gData.links)
+        gData.links.forEach(link => {
+          console.log(link.source)
+          console.log(link.source)
+          const a = gData.nodes[link.source];
+          const b = gData.nodes[link.target];
+          console.log(gData.nodes[link.source]);
+          console.log(b);
+          if(!('neighbors' in a)) {
+            a['neighbors'] = []
+          };
+
+          if(!('neighbors' in b)) {
+            b['neighbors'] = []
+          };
+
+          !a.neighbors && (a.neighbors = []);
+          !b.neighbors && (b.neighbors = []);
+          a.neighbors.push(b);
+          b.neighbors.push(a);
+
+          !a.links && (a.links = []);
+          !b.links && (b.links = []);
+          a.links.push(link);
+          b.links.push(link);
+        });
+
+        const Graph = ForceGraph3D()
+          (document.getElementById('3d-graph'))
+            .graphData(gData)
+            .nodeLabel('name')
+            .nodeAutoColorBy('type')
+            .linkDirectionalParticles(5)
+            .onNodeClick(node => window.open(node.id, '_blank'))
+            .linkDirectionalParticleSpeed(0.005)
+            .linkCurvature('curvature')
+            .linkOpacity(0.2)
+            .linkCurveRotation('rotation')
+            .linkLabel('type')
+            .linkAutoColorBy('type')
+            .onNodeClick(node => window.open("https://api.llama.fi/protocol/" + node.slug, '_blank'))
+            .onNodeHover(node => {
+                // no state change
+                if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
+
+                highlightNodes.clear();
+                highlightLinks.clear();
+                if (node) {
+                  highlightNodes.add(node);
+                  node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+                  node.links.forEach(link => highlightLinks.add(link));
+                }
+
+                hoverNode = node || null;
+
+                updateHighlight();
+              })
+              .onLinkHover(link => {
+                highlightNodes.clear();
+                highlightLinks.clear();
+
+                if (link) {
+                  highlightLinks.add(link);
+                  highlightNodes.add(link.source);
+                  highlightNodes.add(link.target);
+                }
+
+                updateHighlight();
+              });
+
+
+
+      });
+
+      function updateHighlight() {
+        // trigger update of highlighted objects in scene
+        Graph
+          .nodeColor(Graph.nodeColor())
+          .linkWidth(Graph.linkWidth())
+          .linkDirectionalParticles(Graph.linkDirectionalParticles());
+        }
+      
     </script>
   </body>
   

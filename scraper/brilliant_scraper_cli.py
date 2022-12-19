@@ -23,6 +23,10 @@ def main():
     nodes = []
     edges = []
 
+    node_id = 0
+
+    node_url_to_node_id_map = {}
+
     print(">> Grabbing Nodes")
     for container in soup.find_all('div', {"class":"container"}):
         h3 = container.find('h3',recursive=False)
@@ -34,10 +38,13 @@ def main():
                 node_url = link.get('href')
                 if node_url is not None and '/courses/' in node_url and "/#/" not in node_url and node_url != url:
                     nodes.append({
-                        "id":create_full_link(node_url),
+                        "id":node_id,
+                        "url":create_full_link(node_url),
                         "name":link.text.strip(),
                         "type":h3_text
                     })
+                    node_url_to_node_id_map[create_full_link(node_url)] = node_id
+                    node_id += 1
 
     print(f"Found {len(nodes)} nodes")
 
@@ -45,7 +52,8 @@ def main():
     for node in nodes:
         max_tries = 10
         prev_edge_count = len(edges)
-        node_url = node['id']
+        node_url = node['url']
+        node_id = node['id']
         tries = 0
 
         while tries <= max_tries and prev_edge_count == len(edges):
@@ -71,13 +79,15 @@ def main():
                 for link in course_map.find_all('a', {"class":"course"}):
                     conn_url = create_full_link(link.get('href'))
 
+                    conn_id = node_url_to_node_id_map[conn_url]
+
                     if conn_cat == 'Prerequisites':
                         edge_type = 'PreReqOf'
 
 
                         edges.append({
-                            "source":conn_url,
-                            "target":node_url,
+                            "source":conn_id,
+                            "target":node_id,
                             "type":edge_type,
                             "curvature":0.1,
                             "rotation":0.1
@@ -88,8 +98,8 @@ def main():
 
 
                         edges.append({
-                            "source":node_url,
-                            "target":conn_url,
+                            "source":node_id,
+                            "target":conn_id,
                             "type":edge_type,
                             "curvature":-0.2,
                             "rotation":-0.2
