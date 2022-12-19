@@ -4,8 +4,8 @@
 <head>
     <title>Brilliant</title>
     <style> body { margin: 0; } </style>
-    <!-- <script src="//unpkg.com/three"></script>
-    <script src="//unpkg.com/three-spritetext"></script> -->
+    <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/three-spritetext"></script>
     <script src="//unpkg.com/3d-force-graph"></script>
     <!--<script src="../../dist/3d-force-graph.js"></script>-->
   </head>
@@ -36,7 +36,9 @@
         "Contributing Authors - Science": "rgba(255, 182, 193, 0.9)",
         "Foundational Computer Science": "rgba(176, 196, 222, 0.9)",
         "Applied Computer Science": "rgba(65, 105, 225, 0.9)",
-        "Contributing Authors - CS": "rgba(95, 158, 160, 0.9)"
+        "Contributing Authors - CS": "rgba(95, 158, 160, 0.9)",
+        "NextStep": "rgba(95, 160, 178, 0.9)",
+        "PreReqOf": "rgba(160, 85, 178, 0.9)",
       }
 
       const highlightNodes = new Set();
@@ -75,7 +77,6 @@
           (document.getElementById('3d-graph'))
             .graphData(gData)
             .nodeLabel('name')
-            .nodeAutoColorBy('type')
             .nodeColor(node => highlightNodes.has(node) ? node === hoverNode ? 'rgb(255,0,0,1)' : 'rgba(255,160,0,0.8)' : typeToColorMap[node.type])
             .linkWidth(link => highlightLinks.has(link) ? 4 : 1)
             .linkDirectionalParticles(link => highlightLinks.has(link) ? 4 : 1)
@@ -87,7 +88,7 @@
             .linkOpacity(0.2)
             .linkCurveRotation('rotation')
             .linkLabel('type')
-            .linkAutoColorBy('type')
+            .linkColor(link => typeToColorMap[link.type])
             .onNodeClick(node => window.open(node.url, '_blank'))
             .onNodeHover(node => {
                 // no state change
