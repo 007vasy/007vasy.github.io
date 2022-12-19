@@ -19,6 +19,8 @@
           .nodeLabel('name')
           .nodeAutoColorBy('type')
           .linkDirectionalParticles(3)
+          .linkCurvature('curvature')
+          .linkCurveRotation('rotation')
           .onNodeClick(node => window.open(node.id, '_blank'))
           .linkDirectionalParticleSpeed(0.003)
           .linkLabel('type')
