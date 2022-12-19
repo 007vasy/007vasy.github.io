@@ -24,6 +24,7 @@
 
       const highlightNodes = new Set();
       const highlightLinks = new Set();
+      let Graph = null;
       let hoverNode = null;
       loadJson().then(gData => {
         
@@ -54,7 +55,7 @@
           b.links.push(link);
         });
 
-        const Graph = ForceGraph3D()
+        Graph = ForceGraph3D()
           (document.getElementById('3d-graph'))
             .graphData(gData)
             .nodeLabel('name')
@@ -67,7 +68,7 @@
             .linkCurveRotation('rotation')
             .linkLabel('type')
             .linkAutoColorBy('type')
-            .onNodeClick(node => window.open("https://api.llama.fi/protocol/" + node.slug, '_blank'))
+            .onNodeClick(node => window.open(node.url, '_blank'))
             .onNodeHover(node => {
                 // no state change
                 if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
