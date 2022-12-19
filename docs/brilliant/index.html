@@ -14,7 +14,7 @@
     <div id="3d-graph"></div>
     <script>
       async function loadJson(){
-          const res = await fetch('brilliant_courses.json');
+          const res = await fetch('./brilliant_courses.json');
           const json = await res.json();
           return json;
       }
