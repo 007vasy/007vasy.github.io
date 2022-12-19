@@ -338,6 +338,20 @@
     ],
     "links": [
         {
+            "source": "https://brilliant.org/courses/pre-algebra/",
+            "target": "https://brilliant.org/courses/geometry-fundamentals/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/introduction-to-algebra/",
+            "target": "https://brilliant.org/courses/algebra-extensions/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
             "source": "https://brilliant.org/courses/math-fundamentals/",
             "target": "https://brilliant.org/courses/algebra-extensions/",
             "type": "PreReqOf",
@@ -361,6 +375,20 @@
         {
             "source": "https://brilliant.org/courses/graphing-and-modeling/",
             "target": "https://brilliant.org/courses/physics-everyday/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/graphing-and-modeling/",
+            "target": "https://brilliant.org/courses/complex-algebra/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/complex-algebra/",
+            "target": "https://brilliant.org/courses/calculus-done-right/",
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2
@@ -403,6 +431,34 @@
         {
             "source": "https://brilliant.org/courses/basic-number-theory/",
             "target": "https://brilliant.org/courses/math-competition-fundamentals/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/basic-number-theory/",
+            "target": "https://brilliant.org/courses/number-bases/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/number-bases/",
+            "target": "https://brilliant.org/courses/algebra-extensions/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/geometry-fundamentals/",
+            "target": "https://brilliant.org/courses/infinity/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/infinity/",
+            "target": "https://brilliant.org/courses/beautiful-geometric-explorations/",
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2
@@ -465,6 +521,20 @@
         },
         {
             "source": "https://brilliant.org/courses/basic-2d-geometry/",
+            "target": "https://brilliant.org/courses/intermediate-2d-geometry/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/intermediate-2d-geometry/",
+            "target": "https://brilliant.org/courses/3d-geometry/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/basic-2d-geometry/",
             "target": "https://brilliant.org/courses/3d-geometry/",
             "type": "PreReqOf",
             "curvature": 0.1,
@@ -507,6 +577,48 @@
         },
         {
             "source": "https://brilliant.org/courses/probability-fundamentals/",
+            "target": "https://brilliant.org/courses/perplexing-probability/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/perplexing-probability/",
+            "target": "https://brilliant.org/courses/probability/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/probability-fundamentals/",
+            "target": "https://brilliant.org/courses/casino-games/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/casino-games/",
+            "target": "https://brilliant.org/courses/probability/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/probability/",
+            "target": "https://brilliant.org/courses/probability_ii/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/probability_ii/",
+            "target": "https://brilliant.org/courses/multivariable-calculus/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/probability-fundamentals/",
             "target": "https://brilliant.org/courses/statistics/",
             "type": "PreReqOf",
             "curvature": 0.1,
@@ -515,6 +627,20 @@
         {
             "source": "https://brilliant.org/courses/statistics/",
             "target": "https://brilliant.org/courses/computational-biology/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/statistics/",
+            "target": "https://brilliant.org/courses/advanced-statistics-i/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/advanced-statistics-i/",
+            "target": "https://brilliant.org/courses/probability_ii/",
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2
@@ -532,6 +658,62 @@
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/logic-deduction/",
+            "target": "https://brilliant.org/courses/logical-languages/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/logical-languages/",
+            "target": "https://brilliant.org/courses/computational-biology/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/perplexing-probability/",
+            "target": "https://brilliant.org/courses/knowledge-and-uncertainty/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/knowledge-and-uncertainty/",
+            "target": "https://brilliant.org/courses/intro-neural-networks/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/math-fundamentals/",
+            "target": "https://brilliant.org/courses/math-competition-fundamentals/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/math-competition-fundamentals/",
+            "target": "https://brilliant.org/courses/ace-the-amc/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/math-competition-fundamentals/",
+            "target": "https://brilliant.org/courses/ace-the-amc/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/graphing-and-modeling/",
+            "target": "https://brilliant.org/courses/ace-the-amc/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
         },
         {
             "source": "https://brilliant.org/courses/trigonometry/",
@@ -576,6 +758,34 @@
             "rotation": -0.2
         },
         {
+            "source": "https://brilliant.org/courses/trigonometry/",
+            "target": "https://brilliant.org/courses/calculus-done-right/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/calculus-done-right/",
+            "target": "https://brilliant.org/courses/calculus-ii/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/calculus-done-right/",
+            "target": "https://brilliant.org/courses/calculus-ii/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/calculus-ii/",
+            "target": "https://brilliant.org/courses/multivariable-calculus/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
             "source": "https://brilliant.org/courses/calculus-done-right/",
             "target": "https://brilliant.org/courses/multivariable-calculus/",
             "type": "PreReqOf",
@@ -588,6 +798,62 @@
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/graphing-and-modeling/",
+            "target": "https://brilliant.org/courses/linear-algebra/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/linear-algebra/",
+            "target": "https://brilliant.org/courses/differential-equations/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/linear-algebra/",
+            "target": "https://brilliant.org/courses/lin-alg/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/lin-alg/",
+            "target": "https://brilliant.org/courses/differential-equations/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/calculus-done-right/",
+            "target": "https://brilliant.org/courses/vector-calculus/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/vector-calculus/",
+            "target": "https://brilliant.org/courses/differential-equations/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/multivariable-calculus/",
+            "target": "https://brilliant.org/courses/differential-equations/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/linear-algebra/",
+            "target": "https://brilliant.org/courses/differential-equations/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
         },
         {
             "source": "https://brilliant.org/courses/probability/",
@@ -605,14 +871,70 @@
         },
         {
             "source": "https://brilliant.org/courses/basic-number-theory/",
+            "target": "https://brilliant.org/courses/group-theory/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/group-theory/",
+            "target": "https://brilliant.org/courses/linear-algebra/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/basic-number-theory/",
             "target": "https://brilliant.org/courses/number-theory-linear-equations/",
             "type": "PreReqOf",
             "curvature": 0.1,
             "rotation": 0.1
         },
         {
+            "source": "https://brilliant.org/courses/puzzle-science/",
+            "target": "https://brilliant.org/courses/physics-everyday/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/puzzle-science/",
+            "target": "https://brilliant.org/courses/dynamics-bootcamp/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/puzzle-science/",
+            "target": "https://brilliant.org/courses/physics-everyday/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/physics-everyday/",
+            "target": "https://brilliant.org/courses/dynamics-bootcamp/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
             "source": "https://brilliant.org/courses/chemical-reaction/",
             "target": "https://brilliant.org/courses/computational-biology/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/perplexing-probability/",
+            "target": "https://brilliant.org/courses/knowledge-and-uncertainty/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/knowledge-and-uncertainty/",
+            "target": "https://brilliant.org/courses/intro-neural-networks/",
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2
@@ -641,6 +963,34 @@
         {
             "source": "https://brilliant.org/courses/astronomy/",
             "target": "https://brilliant.org/courses/dynamics-bootcamp/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/dynamics-bootcamp/",
+            "target": "https://brilliant.org/courses/gravitational-physics/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/gravitational-physics/",
+            "target": "https://brilliant.org/courses/quantum-objects/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/dynamics-bootcamp/",
+            "target": "https://brilliant.org/courses/electromagnetism/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/electromagnetism/",
+            "target": "https://brilliant.org/courses/renewable-energy/",
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2
@@ -702,6 +1052,20 @@
             "rotation": -0.2
         },
         {
+            "source": "https://brilliant.org/courses/puzzle-science/",
+            "target": "https://brilliant.org/courses/molecular-representations/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/molecular-representations/",
+            "target": "https://brilliant.org/courses/chemical-reaction/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
             "source": "https://brilliant.org/courses/computer-science-essentials/",
             "target": "https://brilliant.org/courses/computer-science-algorithms/",
             "type": "NextStep",
@@ -731,6 +1095,48 @@
         },
         {
             "source": "https://brilliant.org/courses/computer-science-essentials/",
+            "target": "https://brilliant.org/courses/programming-python/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/programming-python/",
+            "target": "https://brilliant.org/courses/computer-science-algorithms/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/algebra-extensions/",
+            "target": "https://brilliant.org/courses/intro-neural-networks/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/intro-neural-networks/",
+            "target": "https://brilliant.org/courses/artificial-neural-networks/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/computer-science-essentials/",
+            "target": "https://brilliant.org/courses/search-fundamentals/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/logic-deduction/",
+            "target": "https://brilliant.org/courses/search-fundamentals/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/computer-science-essentials/",
             "target": "https://brilliant.org/courses/cryptocurrency/",
             "type": "PreReqOf",
             "curvature": 0.1,
@@ -753,6 +1159,48 @@
         {
             "source": "https://brilliant.org/courses/quantum-computing/",
             "target": "https://brilliant.org/courses/quantum-objects/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/computer-science-essentials/",
+            "target": "https://brilliant.org/courses/artificial-neural-networks/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/artificial-neural-networks/",
+            "target": "https://brilliant.org/courses/computational-biology/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/intro-neural-networks/",
+            "target": "https://brilliant.org/courses/reinforcement-learning/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/reinforcement-learning/",
+            "target": "https://brilliant.org/courses/artificial-neural-networks/",
+            "type": "NextStep",
+            "curvature": -0.2,
+            "rotation": -0.2
+        },
+        {
+            "source": "https://brilliant.org/courses/computer-science-essentials/",
+            "target": "https://brilliant.org/courses/memory/",
+            "type": "PreReqOf",
+            "curvature": 0.1,
+            "rotation": 0.1
+        },
+        {
+            "source": "https://brilliant.org/courses/memory/",
+            "target": "https://brilliant.org/courses/intro-neural-networks/",
             "type": "NextStep",
             "curvature": -0.2,
             "rotation": -0.2

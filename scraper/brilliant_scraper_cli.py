@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from pathlib import Path
+import time
 
 def site_content_as_text(url):
     reqs = requests.get(url)
@@ -48,6 +49,9 @@ def main():
         tries = 0
 
         while tries <= max_tries and prev_edge_count == len(edges):
+            
+            if tries != 0:
+                time.sleep(1)
 
             course_page = site_content_as_text(node_url)
             print(f"Doing try {tries} >> {node_url} {len(edges)}")
@@ -55,7 +59,9 @@ def main():
             course_maps = course_page.find_all('div', {"class":"map-item"})
 
             if len(course_maps) == 0:
-                print(f"{node_url} needs rettry")
+                print(f"{node_url} needs retry")
+
+
 
             for course_map in course_maps:
                 #print(course_map)
