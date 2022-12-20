@@ -1,7 +1,12 @@
 # 007vasy.github.io
 
 ## /defi
-quick 3D viz based on json inputs
+visualise the defi universe based on the defillama endpoint 
+
+### Defillama endpoint used
+
+https://api.llama.fi/protocols
+https://api.llama.fi/protocol/:slug
 
 ## /brilliant
 
@@ -11,12 +16,7 @@ quick 3D viz based on json inputs
 
 WIP 3d viz of the great Brian Sanderson's fantasy universe
 
-
 ## Local dev
 ```bash
 nodemon index.js
 ```
-## Defillama endpoint used
-
-https://api.llama.fi/protocols
-https://api.llama.fi/protocol/:slug

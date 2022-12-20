@@ -84,10 +84,12 @@
             .linkDirectionalParticles(5)
             .onNodeClick(node => window.open(node.id, '_blank'))
             .linkDirectionalParticleSpeed(0.005)
+            .nodeRelSize(5)
             .linkCurvature('curvature')
             .linkOpacity(0.2)
             .linkCurveRotation('rotation')
             .linkLabel('type')
+            .linkDirectionalArrowLength(6)
             .linkColor(link => typeToColorMap[link.type])
             .onNodeClick(node => window.open(node.url, '_blank'))
             .onNodeHover(node => {
