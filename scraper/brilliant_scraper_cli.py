@@ -41,7 +41,9 @@ def main():
                         "id":node_id,
                         "url":create_full_link(node_url),
                         "name":link.text.strip(),
-                        "type":h3_text
+                        "type":h3_text,
+                        "inDegree":0,
+                        "outDegree":0
                     })
                     node_url_to_node_id_map[create_full_link(node_url)] = node_id
                     node_id += 1
@@ -92,6 +94,10 @@ def main():
                             "curvature":0.1,
                             "rotation":0.1
                         })
+
+                        nodes[node_id]['inDegree'] += 1
+                        nodes[conn_id]['outDegree'] += 1
+
                     
                     elif conn_cat == 'Next steps':
                         edge_type = 'NextStep'
@@ -104,6 +110,9 @@ def main():
                             "curvature":-0.2,
                             "rotation":-0.2
                         })
+
+                        nodes[conn_id]['inDegree'] += 1
+                        nodes[node_id]['outDegree'] += 1
                     
                     
                     else:
