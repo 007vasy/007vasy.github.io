@@ -3,7 +3,6 @@
     <style> body { margin: 0; } </style>
     <script src="//unpkg.com/three"></script>
     <script src="https://unpkg.com/3d-force-graph"></script>
-    <script src="//unpkg.com/three/examples/js/renderers/CSS2DRenderer.js"></script>
   <!--  <script src="../../dist/3d-force-graph.js"></script>-->
   </head>
   
@@ -144,9 +143,9 @@
         const elem = document.getElementById('3d-graph');
     
         const Graph = ForceGraph3D(
-            {
-          extraRenderers: [new THREE.CSS2DRenderer()]
-        }
+        //     {
+        //   extraRenderers: [new THREE.CSS2DRenderer()]
+        // }
         )(elem)
           .graphData(networkData)
           .nodeLabel(node => `${node.type}: ${node.name}, ${node.count}`)
@@ -154,14 +153,7 @@
           .linkAutoColorBy('type')
           .linkDirectionalParticles('particles')
           .onNodeClick(node => window.open("https://api.llama.fi/protocol/" + node.slug, '_blank'))
-          .nodeThreeObject(node => {
-            const nodeEl = document.createElement('div');
-            nodeEl.style.color = node.color;
-            nodeEl.className = 'node-label';
-            
-            return new THREE.CSS2DObject(nodeEl);
-          })
-          .nodeThreeObjectExtend(true);
+          .nodeColor(node.color)
       }
       render().then()
 
