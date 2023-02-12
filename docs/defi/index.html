@@ -142,7 +142,7 @@
       function doNodeThreeObject(node) {
           return new THREE.Mesh(
             // use logarithmic scale for node size
-            new THREE.SphereGeometry(Math.max(Math.log(node.count)*4,2)),
+            new THREE.SphereGeometry(Math.max(node.count/20,1)),
               new THREE.MeshLambertMaterial({
                 color: node.color,
                 transparent: true,
