@@ -25,25 +25,6 @@
     </script>
     <script>
 
-      const typeToColorMap = {
-        "Algebra":"rgba(200, 50, 1, 0.9)",
-        "Mathematical Thinking": "rgba(255, 165, 100, 0.9)",
-        "Geometry": "rgba(0, 128, 0, 0.9)",
-        "Statistics and Probability": "rgba(0, 0, 255, 0.9)",
-        "Logic and Deduction": "rgba(128, 0, 128, 0.9)",
-        "Contest Math": "rgba(255, 192, 203, 0.9)",
-        "Road to Calculus": "rgba(255, 215, 0, 0.9)",
-        "Advanced Mathematics": "rgba(139, 0, 139, 0.9)",
-        "Contributing Authors - Math": "rgba(128, 128, 128, 0.9)",
-        "Scientific Thinking": "rgba(0, 100, 0, 0.9)",
-        "Advanced Physics": "rgba(165, 42, 42, 0.9)",
-        "Contributing Authors - Science": "rgba(255, 182, 193, 0.9)",
-        "Foundational Computer Science": "rgba(176, 196, 222, 0.9)",
-        "Applied Computer Science": "rgba(65, 105, 225, 0.9)",
-        "Contributing Authors - CS": "rgba(95, 158, 160, 0.9)",
-        "NextStep": "rgba(95, 160, 178, 0.9)",
-        "PreReqOf": "rgba(160, 85, 178, 0.9)",
-      }
 
       const highlightNodes = new Set();
       const highlightLinks = new Set();
@@ -51,41 +32,38 @@
       let hoverNode = null;
       loadJson().then(gData => {
         
-        gData.nodes.forEach(node => {
-
-        })
-
-        gData.links.forEach(link => {
-          const a = gData.nodes[link.source];
-          const b = gData.nodes[link.target];
-          if(!('neighbors' in a)) {
-            a['neighbors'] = []
-          };
-
-          if(!('neighbors' in b)) {
-            b['neighbors'] = []
-          };
-
-          !a.neighbors && (a.neighbors = []);
-          !b.neighbors && (b.neighbors = []);
-          a.neighbors.push(b);
-          b.neighbors.push(a);
-
-          !a.links && (a.links = []);
-          !b.links && (b.links = []);
-          a.links.push(link);
-          b.links.push(link);
-        });
-
+       
         function getGeometry(node) {
-          let geometry = new THREE.SphereGeometry(5)
+          // spacetree
+          // nanotech
+          // intcoop
+          // neurotech
+          // longevity
 
-          if(node.inDegree === 0 && node.outDegree != 0) {
-            geometry = new THREE.TorusKnotGeometry(5, 1, 9);
+          // map a geometry to each subtree type
+
+          size = Math.max(node.degree/5,4)
+
+          let geometry = new THREE.SphereGeometry(size);
+
+          if(node.subtree === 'spacetree') {
+            geometry = new THREE.BoxGeometry(size, size, size);
           }
 
-          if(node.outDegree === 0 && node.inDegree != 0) {
-            geometry = new THREE.TorusKnotGeometry(5, 1)
+          if(node.subtree === 'nanotech') {
+            geometry = new THREE.TorusKnotGeometry(size, size)
+          }
+
+          if(node.subtree === 'intcoop') {
+            geometry = new THREE.TorusKnotGeometry(size, size, 9, 9);
+          }
+
+          if(node.subtree === 'neurotech') {
+            geometry = new THREE.DodecahedronGeometry(size);
+          }
+
+          if(node.subtree === 'longevity') {
+            geometry = new THREE.IcosahedronGeometry(size);
           }
 
           return geometry;
@@ -96,7 +74,7 @@
           return new THREE.Mesh(
               getGeometry(node),
               new THREE.MeshLambertMaterial({
-                color: highlightNodes.has(node) ? node === hoverNode ? 'rgb(255,0,0,1)' : 'rgba(255,160,0,0.8)' : typeToColorMap[node.type],
+                color: node.fill,
                 transparent: true,
                 opacity: 0.75
               })
@@ -106,51 +84,18 @@
         const Graph = ForceGraph3D()
           (document.getElementById('3d-graph'))
             .graphData(gData)
-            .nodeLabel('name')
-            .linkWidth(link => highlightLinks.has(link) ? 4 : 1)
-            .linkDirectionalParticles(link => highlightLinks.has(link) ? 4 : 1)
-            .linkDirectionalParticleWidth(link => highlightLinks.has(link) ? 4 : 1)
+            .nodeLabel(node => node.label + ', ' + node.desc)
             .linkDirectionalParticles(5)
             .onNodeClick(node => window.open(node.id, '_blank'))
             .linkDirectionalParticleSpeed(0.005)
             .linkCurvature('curvature')
-            .linkOpacity(0.2)
+            .linkOpacity(0.1)
+            .linkWidth(link => link.weight * 0.25)
             .linkCurveRotation('rotation')
             .linkLabel('type')
-            .linkDirectionalArrowLength(6)
-            .linkColor(link => typeToColorMap[link.type])
-            .onNodeClick(node => window.open(node.url, '_blank'))
-            .nodeThreeObject(node => doNodeThreeObject(node))
-            .onNodeHover(node => {
-                // no state change
-                if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
-
-                highlightNodes.clear();
-                highlightLinks.clear();
-                if (node) {
-                  highlightNodes.add(node);
-                  if (node.neighbors) {
-                    node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
-                    node.links.forEach(link => highlightLinks.add(link));
-                  }
-                }
-
-                hoverNode = node || null;
-
-                updateHighlight();
-              })
-              .onLinkHover(link => {
-                highlightNodes.clear();
-                highlightLinks.clear();
-
-                if (link) {
-                  highlightLinks.add(link);
-                  highlightNodes.add(link.source);
-                  highlightNodes.add(link.target);
-                }
-
-                updateHighlight();
-              });
+            .linkDirectionalArrowLength(3)
+            .linkColor("rgba(160, 85, 178, 0.9)")
+            .nodeThreeObject(node => { return doNodeThreeObject(node)})
         
 
         function updateHighlight() {
