@@ -96,6 +96,9 @@
 
         })
 
+
+
+
         function uniqByKeepFirst(a, key) {
           let seen = new Set();
           return a.filter((item) => {
@@ -136,6 +139,20 @@
       }
 
 
+      function doNodeThreeObject(node) {
+          return new THREE.Mesh(
+            // use logarithmic scale for node size
+            new THREE.SphereGeometry(Math.max(node.count/20,1)),
+              new THREE.MeshLambertMaterial({
+                color: node.color,
+                transparent: true,
+                opacity: 0.75
+              })
+            )
+        }
+
+
+
       async function render() {
         const networkData = await getData(url);
 
@@ -149,11 +166,11 @@
         )(elem)
           .graphData(networkData)
           .nodeLabel(node => `${node.type}: ${node.name}, ${node.count}`)
-          .linkOpacity(0.2)
+          .linkOpacity(0.1)
           .linkAutoColorBy('type')
           .linkDirectionalParticles('particles')
           .onNodeClick(node => window.open("https://api.llama.fi/protocol/" + node.slug, '_blank'))
-          .nodeColor(node.color)
+          .nodeThreeObject(node => { return doNodeThreeObject(node)})
       }
       render().then()
 

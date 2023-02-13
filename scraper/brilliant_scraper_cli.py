@@ -4,16 +4,14 @@ import json
 from pathlib import Path
 import time
 
+from utils import save_json
+
 def site_content_as_text(url):
     reqs = requests.get(url)
     return BeautifulSoup(reqs.text, 'html.parser')
 
 def create_full_link(partial_link):
     return f"https://brilliant.org{partial_link}"
-
-def save_json(content,file_path:Path):
-    with open(file_path, 'w') as f:
-        json.dump(content, f, indent=4)
 
 def main():
     url = 'https://brilliant.org/courses/'
