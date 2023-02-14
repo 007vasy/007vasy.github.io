@@ -22,6 +22,8 @@
           links: [],
         };
 
+        chain_tvl = {}
+        oracle_tvs = {}
         
 
         info_json.forEach(protocol => {
@@ -43,8 +45,15 @@
               // Creating Oracle Nodes
               let oracle_name = oracle
 
+
               if(oracle.toLowerCase() == "internal" ){
                 oracle_name += "_" + protocol.slug
+              }
+
+              if(oracle_name in oracle_tvs){
+                oracle_tvs[oracle_name] += protocol.tvl
+              } else {
+                oracle_tvs[oracle_name] = protocol.tvl
               }
 
               converted_info_json.nodes.push(
@@ -80,6 +89,8 @@
                   color: "orange"
                 }
               )
+              
+
               // Creating Protocol - Chain edges
               converted_info_json.links.push(
                 {
@@ -92,6 +103,34 @@
 
           
               })
+          }
+
+          if(protocol.hasOwnProperty('chainTvls')){
+            // iterate over chainTvls json
+            for (const [chain, chainTvl] of Object.entries(protocol.chainTvls)) {
+              if(chain in chain_tvl){
+                chain_tvl[chain] += chainTvl
+              } else {
+                chain_tvl[chain] = chainTvl
+              }
+            }
+          }
+
+          // iterate over converted_info_json.nodes
+          for( node in converted_info_json.nodes){
+            if(converted_info_json.nodes[node].type == "Chain"){
+              if(converted_info_json.nodes[node].id in chain_tvl){
+                converted_info_json.nodes[node].tvl = chain_tvl[converted_info_json.nodes[node].id]
+              } else {
+                converted_info_json.nodes[node].tvl = 0
+              }
+            } else if(converted_info_json.nodes[node].type == "Oracle"){
+              if(converted_info_json.nodes[node].id in oracle_tvs){
+                converted_info_json.nodes[node].tvl = oracle_tvs[converted_info_json.nodes[node].id]
+              } else {
+                converted_info_json.nodes[node].tvl = 0
+              }
+            }
           }
 
         })
@@ -142,7 +181,7 @@
       function doNodeThreeObject(node) {
           return new THREE.Mesh(
             // use logarithmic scale for node size
-            new THREE.SphereGeometry(Math.max(node.count/20,1)),
+            new THREE.SphereGeometry(Math.max(node.tvl,1)),
               new THREE.MeshLambertMaterial({
                 color: node.color,
                 transparent: true,
@@ -151,7 +190,12 @@
             )
         }
 
-
+      
+      const labelMap = {
+        'Protocol': 'TVL USD',
+        'Chain': 'Protocol SUM TVL USD',
+        'Oracle': 'TVS USD',
+      };
 
       async function render() {
         const networkData = await getData(url);
@@ -165,7 +209,7 @@
         // }
         )(elem)
           .graphData(networkData)
-          .nodeLabel(node => `${node.type}: ${node.name}, ${node.count}`)
+          .nodeLabel(node => `${node.type}: ${node.name}, ${node.tvl} ${labelMap[node.type]}`)
           .linkOpacity(0.1)
           .linkAutoColorBy('type')
           .linkDirectionalParticles('particles')
