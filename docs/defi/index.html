@@ -13,6 +13,7 @@
     <script>
       const url = 'https://api.llama.fi/protocols'
       
+      
       async function getData(url) {
         let resp = await fetch(url);
         let info_json = await resp.json();
@@ -133,6 +134,7 @@
             }
           }
 
+
         })
 
 
@@ -173,6 +175,19 @@
           
         })
 
+
+
+        const sizes = converted_info_json.nodes.map(node => node.tvl);
+
+        // Calculate the minimum and maximum sizes
+        const minSize = Math.min(...sizes);
+        const maxSize = Math.max(...sizes);
+
+        
+        for( node in converted_info_json.nodes){
+          converted_info_json.nodes[node].scaledsize = Math.max(((converted_info_json.nodes[node].tvl - minSize) / (maxSize - minSize))*10**2,1)
+        }
+
         return converted_info_json
 
       }
@@ -180,8 +195,8 @@
 
       function doNodeThreeObject(node) {
           return new THREE.Mesh(
-            // use logarithmic scale for node size
-            new THREE.SphereGeometry(Math.max(node.tvl,1)),
+
+            new THREE.SphereGeometry(node.scaledsize),
               new THREE.MeshLambertMaterial({
                 color: node.color,
                 transparent: true,
@@ -189,11 +204,14 @@
               })
             )
         }
+      
 
+
+      
       
       const labelMap = {
         'Protocol': 'TVL USD',
-        'Chain': 'Protocol SUM TVL USD',
+        'Chain': 'P. SUM TVL USD',
         'Oracle': 'TVS USD',
       };
 
@@ -209,7 +227,7 @@
         // }
         )(elem)
           .graphData(networkData)
-          .nodeLabel(node => `${node.type}: ${node.name}, ${node.tvl} ${labelMap[node.type]}`)
+          .nodeLabel(node => `${node.type}: ${node.name}, ${(node.tvl/10**6).toFixed(3)}m ${labelMap[node.type]}`)
           .linkOpacity(0.1)
           .linkAutoColorBy('type')
           .linkDirectionalParticles('particles')
