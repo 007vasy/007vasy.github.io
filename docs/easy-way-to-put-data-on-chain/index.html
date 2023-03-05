@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Put Data On Chain </title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  fetch("./easy-way-to-put-data-on-chain.md")      // The path to the raw Markdown file
+    .then(response => response.blob())  // Unwrap to a blob...
+    .then(blob => blob.text())          // ...then to raw text...
+    .then(markdown => {                 // ...then pass the raw text into marked.parse
+      document.getElementById("content").innerHTML = marked.parse(markdown);
+    });
+</script>
+</head>
+<body>
+  <header>
+  </header>
+    <main id="content">
+  </main>
+  <footer>
+    <p>Copyright XXXX</p>
+  </footer>
+</body>
+</html>
