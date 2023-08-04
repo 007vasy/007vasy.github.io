@@ -460,6 +460,19 @@
       "shape": "ortho"
     },
     {
+      "id": 7173,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 10000,
+      "toId": 10000,
+      "shape": "ortho"
+    },
+    {
       "id": 10665,
       "kind": "edge",
       "label": "",
@@ -745,19 +758,6 @@
       "weight": 5,
       "fromId": 10644,
       "toId": 10647,
-      "shape": "ortho"
-    },
-    {
-      "id": 7173,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 4816,
-      "toId": 4816,
       "shape": "ortho"
     },
     {
@@ -9734,7 +9734,8 @@
       "desc": "",
       "link": "",
       "tags": [],
-      "directed": false,
+      "stroke": "#16b591ff",
+      "directed": true,
       "weight": 5,
       "fromId": 13161,
       "toId": 13156,
@@ -9780,20 +9781,6 @@
       "weight": 5,
       "fromId": 12450,
       "toId": 13156,
-      "shape": "straight"
-    },
-    {
-      "id": 13169,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "strokeType": "dotted",
-      "directed": false,
-      "weight": 5,
-      "fromId": 12204,
-      "toId": 13154,
       "shape": "straight"
     },
     {
@@ -10053,175 +10040,6 @@
       "shape": "ortho"
     },
     {
-      "id": 13260,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13145,
-      "toId": 4816,
-      "shape": "ortho"
-    },
-    {
-      "id": 13261,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 4816,
-      "toId": 13151,
-      "shape": "ortho"
-    },
-    {
-      "id": 13264,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 12682,
-      "shape": "ortho"
-    },
-    {
-      "id": 13265,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 13135,
-      "shape": "ortho"
-    },
-    {
-      "id": 13266,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 6153,
-      "shape": "ortho"
-    },
-    {
-      "id": 13267,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 12683,
-      "shape": "ortho"
-    },
-    {
-      "id": 13268,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 12681,
-      "shape": "ortho"
-    },
-    {
-      "id": 13269,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 12684,
-      "shape": "ortho"
-    },
-    {
-      "id": 13270,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 13137,
-      "shape": "ortho"
-    },
-    {
-      "id": 13271,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13151,
-      "toId": 8994,
-      "shape": "ortho"
-    },
-    {
-      "id": 13272,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 13160,
-      "toId": 13151,
-      "shape": "straight"
-    },
-    {
-      "id": 13275,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 6153,
-      "toId": 12679,
-      "shape": "ortho"
-    },
-    {
-      "id": 13276,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": false,
-      "weight": 5,
-      "fromId": 6153,
-      "toId": 12680,
-      "shape": "ortho"
-    },
-    {
       "id": 13277,
       "kind": "edge",
       "label": "",
@@ -10232,6 +10050,599 @@
       "weight": 5,
       "fromId": 6153,
       "toId": 13274,
+      "shape": "ortho"
+    },
+    {
+      "id": 13299,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13298,
+      "toId": 12195,
+      "shape": "straight"
+    },
+    {
+      "id": 13301,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13300,
+      "toId": 10196,
+      "shape": "straight"
+    },
+    {
+      "id": 13303,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13302,
+      "toId": 12221,
+      "shape": "straight"
+    },
+    {
+      "id": 13305,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13304,
+      "toId": 12408,
+      "shape": "straight"
+    },
+    {
+      "id": 13307,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13306,
+      "toId": 12621,
+      "shape": "straight"
+    },
+    {
+      "id": 13309,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13308,
+      "toId": 12977,
+      "shape": "straight"
+    },
+    {
+      "id": 13311,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13310,
+      "toId": 10733,
+      "shape": "straight"
+    },
+    {
+      "id": 13317,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13228,
+      "toId": 1457,
+      "shape": "ortho"
+    },
+    {
+      "id": 13318,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13228,
+      "toId": 13254,
+      "shape": "ortho"
+    },
+    {
+      "id": 13319,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13228,
+      "toId": 2884,
+      "shape": "ortho"
+    },
+    {
+      "id": 13320,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13234,
+      "toId": 13254,
+      "shape": "ortho"
+    },
+    {
+      "id": 13321,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13234,
+      "toId": 2884,
+      "shape": "ortho"
+    },
+    {
+      "id": 13322,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13240,
+      "toId": 2884,
+      "shape": "ortho"
+    },
+    {
+      "id": 13323,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 13278,
+      "toId": 13153,
+      "shape": "straight"
+    },
+    {
+      "id": 13324,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 13160,
+      "toId": 13157,
+      "shape": "straight"
+    },
+    {
+      "id": 13325,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 12587,
+      "toId": 13157,
+      "shape": "straight"
+    },
+    {
+      "id": 13326,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 11956,
+      "toId": 13152,
+      "shape": "straight"
+    },
+    {
+      "id": 13327,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 11956,
+      "toId": 13153,
+      "shape": "straight"
+    },
+    {
+      "id": 13328,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 11956,
+      "toId": 13156,
+      "shape": "straight"
+    },
+    {
+      "id": 13329,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 11956,
+      "toId": 13155,
+      "shape": "straight"
+    },
+    {
+      "id": 13330,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "stroke": "#16b591ff",
+      "directed": true,
+      "weight": 5,
+      "fromId": 11956,
+      "toId": 13157,
+      "shape": "straight"
+    },
+    {
+      "id": 13331,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13152,
+      "toId": 12682,
+      "shape": "ortho"
+    },
+    {
+      "id": 13332,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13152,
+      "toId": 12684,
+      "shape": "ortho"
+    },
+    {
+      "id": 13333,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13152,
+      "toId": 12683,
+      "shape": "ortho"
+    },
+    {
+      "id": 13334,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13152,
+      "toId": 13135,
+      "shape": "ortho"
+    },
+    {
+      "id": 13335,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13152,
+      "toId": 12681,
+      "shape": "ortho"
+    },
+    {
+      "id": 13336,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13156,
+      "toId": 12681,
+      "shape": "ortho"
+    },
+    {
+      "id": 13337,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13156,
+      "toId": 13135,
+      "shape": "ortho"
+    },
+    {
+      "id": 13338,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13157,
+      "toId": 8994,
+      "shape": "ortho"
+    },
+    {
+      "id": 13339,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13153,
+      "toId": 13137,
+      "shape": "ortho"
+    },
+    {
+      "id": 13340,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13155,
+      "toId": 13137,
+      "shape": "ortho"
+    },
+    {
+      "id": 13341,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13153,
+      "toId": 6153,
+      "shape": "ortho"
+    },
+    {
+      "id": 13342,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 9285,
+      "toId": 12679,
+      "shape": "ortho"
+    },
+    {
+      "id": 13343,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 9285,
+      "toId": 12680,
+      "shape": "ortho"
+    },
+    {
+      "id": 13344,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13254,
+      "toId": 13156,
+      "shape": "ortho"
+    },
+    {
+      "id": 13345,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 1457,
+      "toId": 13152,
+      "shape": "ortho"
+    },
+    {
+      "id": 13346,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 1457,
+      "toId": 13156,
+      "shape": "ortho"
+    },
+    {
+      "id": 13347,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 1457,
+      "toId": 13153,
+      "shape": "ortho"
+    },
+    {
+      "id": 13348,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13254,
+      "toId": 13152,
+      "shape": "ortho"
+    },
+    {
+      "id": 13349,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 13254,
+      "toId": 13155,
+      "shape": "ortho"
+    },
+    {
+      "id": 13350,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 2884,
+      "toId": 13157,
+      "shape": "ortho"
+    },
+    {
+      "id": 13351,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 2884,
+      "toId": 13155,
+      "shape": "ortho"
+    },
+    {
+      "id": 13352,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 2884,
+      "toId": 13153,
+      "shape": "ortho"
+    },
+    {
+      "id": 13353,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 2884,
+      "toId": 13156,
+      "shape": "ortho"
+    },
+    {
+      "id": 13354,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": false,
+      "weight": 5,
+      "fromId": 2884,
+      "toId": 13152,
       "shape": "ortho"
     },
     {
@@ -10374,7 +10785,7 @@
       "kind": "node",
       "label": "Preserved Body",
       "notes": "",
-      "desc": "Cryonics is the low-temperature freezing (usually at −196 °C or −320.8 °F or 77.1 K) and storage of human remains, with the speculative hope that resurrection may be possible in the future.  Cryonics is regarded with skepticism within the mainstream scientific community.\n\nLabs:  \n[European Biostasis Foundation](https://ebf.foundation/)  \n[Nectome](https://nectome.com/)  \n[21st Century Medicine](https://www.21cm.com/)  \n[Advanced Neural Biosciences](https://cryonics.miraheze.org/wiki/Advanced_Neural_Biosciences)  \n\nCompanies:  \n[Alcor](https://www.alcor.org/)  \n[Tomorrow Biostasis](https://www.tomorrow.bio/)  \n[Cryonics Institute](https://cryonics.org/)  \n[Oregon Cryonics](http://www.oregoncryo.com/)  \n[Southern Cryonics](https://southerncryonics.com/)  ",
+      "desc": "Cryonics is the low-temperature freezing (usually at −196 °C or −320.8 °F or 77.1 K) and storage of human remains, with the speculative hope that resurrection may be possible in the future.  Cryonics is regarded with skepticism within the mainstream scientific community.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Cryonics)\n\nLabs:  \n[European Biostasis Foundation](https://ebf.foundation/)  \n[Nectome](https://nectome.com/)  \n[21st Century Medicine](https://www.21cm.com/)  \n[Advanced Neural Biosciences](https://cryonics.miraheze.org/wiki/Advanced_Neural_Biosciences)  \n\nCompanies:  \n[Alcor](https://www.alcor.org/)  \n[Tomorrow Biostasis](https://www.tomorrow.bio/)  \n[Cryonics Institute](https://cryonics.org/)  \n[Oregon Cryonics](http://www.oregoncryo.com/)  \n[Southern Cryonics](https://southerncryonics.com/)  ",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10386,6 +10797,7 @@
         "y": 12545.478637695312
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10414,7 +10826,7 @@
       "kind": "node",
       "label": "Parabiosis",
       "notes": "",
-      "desc": "Parabiosis is the surgical union of two organisms, developing a single, shared physiological system. Through surgically connecting two animals, it can be proven that a secreted factor in one animal impacts the physiology of a second animal through their shared circulatory system.\n\n[Parabiosis modeling: protocol, application and perspectives](\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC8175960/pdf/zr-42-3-253.pdf)\n\nLabs:\n[Wyss-Corey Lab]\n[Conboy Lab](https://conboylab.berkeley.edu/)  \n\nCompanies:  \n[Alkahest](https://www.alkahest.com/)  \n[Ambrosia](https://www.businessinsider.com/young-blood-transfusions-ambrosia-shut-down-2019-6) (shuttered)  \n\nSeminars:  \n[Tony Wyss-Corey](https://foresight.org/summary/tony-wyss-coray-young-blood-for-old-brains/)  \n[Irina Conboy](https://foresight.org/summary/tissue-rejuvenation-via-plasma-dilution-irina-conboy-uc-berkeley/)  ",
+      "desc": "Parabiosis is the surgical union of two organisms, developing a single, shared physiological system. Through surgically connecting two animals, it can be proven that a secreted factor in one animal impacts the physiology of a second animal through their shared circulatory system.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Parabiosis)\n\n[Parabiosis modeling: protocol, application and perspectives](\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC8175960/pdf/zr-42-3-253.pdf)\n\nLabs:\n[Wyss-Corey Lab]\n[Conboy Lab](https://conboylab.berkeley.edu/)  \n\nCompanies:  \n[Alkahest](https://www.alkahest.com/)  \n[Ambrosia](https://www.businessinsider.com/young-blood-transfusions-ambrosia-shut-down-2019-6) (shuttered)  \n\nSeminars:  \n[Tony Wyss-Corey](https://foresight.org/summary/tony-wyss-coray-young-blood-for-old-brains/)  \n[Irina Conboy](https://foresight.org/summary/tissue-rejuvenation-via-plasma-dilution-irina-conboy-uc-berkeley/)  ",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10426,6 +10838,7 @@
         "y": 6367.591796875
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10579,7 +10992,7 @@
       "kind": "node",
       "label": "Advanced Glycation Endproducts",
       "notes": "",
-      "desc": "Advanced glycation end products (AGEs) are proteins or lipids that become glycated as a result of exposure to sugars.  They are a bio-marker implicated in aging and the development, or worsening, of many degenerative diseases, such as diabetes, atherosclerosis, chronic kidney disease, and Alzheimer's disease.\n\nLabs:  \n[Tilman Grune](https://www.dife.de/en/person/tilman-grune/)  \n[Galligan Lab](https://www.galliganlab.com/methylglyoxal-metabolism-in-disease)  \n[Helen Vlassara](https://www.linkedin.com/in/helen-vlassara-3731025a/)  \n[Kapahi Lab](https://www.buckinstitute.org/lab/kapahi-lab/)  \n[Taylor Lab](https://gsbs.tufts.edu/facultyResearch/faculty/taylor-allen/research)  \n[Spiegel Lab](https://spiegellab.yale.edu/)  \n[Rabbani-Thornalley Lab](https://www.hbku.edu.qa/en/qbri/staff/dr-paul-j-thornalley)  \n[Turner Lab](https://medicine.musc.edu/departments/pathology/division-of-experimental-pathology/laboratories/turner)  \n[Anne Marie Schmidt](https://med.nyu.edu/faculty/ann-marie-schmidt)\n\nCompanies:  \n[Lento Bio](https://lentobio.com/)  \n[GlycanAge](https://glycanage.com/)  \n[Diagnoptics](https://www.diagnoptics.com/)  \n[AGE Scanner Mini](https://www.agescannermini.com/)  \n[Revel Pharmaceuticals](https://www.revelpharmaceuticals.com/)  \n[Juvify Bio](https://juvifyhealth.com/)  \n[Glocentrica Biosciences](https://glocentrica.com/our-expertise/)",
+      "desc": "Advanced glycation end products (AGEs) are proteins or lipids that become glycated as a result of exposure to sugars.  They are a bio-marker implicated in aging and the development, or worsening, of many degenerative diseases, such as diabetes, atherosclerosis, chronic kidney disease, and Alzheimer's disease.\n\n[Longevity Wiki Link](https://en.longevitywiki.org/wiki/Advanced_glycation_end_products_(AGEs))\n\nLabs:  \n[Tilman Grune](https://www.dife.de/en/person/tilman-grune/)  \n[Galligan Lab](https://www.galliganlab.com/methylglyoxal-metabolism-in-disease)  \n[Helen Vlassara](https://www.linkedin.com/in/helen-vlassara-3731025a/)  \n[Kapahi Lab](https://www.buckinstitute.org/lab/kapahi-lab/)  \n[Taylor Lab](https://gsbs.tufts.edu/facultyResearch/faculty/taylor-allen/research)  \n[Spiegel Lab](https://spiegellab.yale.edu/)  \n[Rabbani-Thornalley Lab](https://www.hbku.edu.qa/en/qbri/staff/dr-paul-j-thornalley)  \n[Turner Lab](https://medicine.musc.edu/departments/pathology/division-of-experimental-pathology/laboratories/turner)  \n[Anne Marie Schmidt](https://med.nyu.edu/faculty/ann-marie-schmidt)\n\nCompanies:  \n[Lento Bio](https://lentobio.com/)  \n[GlycanAge](https://glycanage.com/)  \n[Diagnoptics](https://www.diagnoptics.com/)  \n[AGE Scanner Mini](https://www.agescannermini.com/)  \n[Revel Pharmaceuticals](https://www.revelpharmaceuticals.com/)  \n[Juvify Bio](https://juvifyhealth.com/)  \n[Glocentrica Biosciences](https://glocentrica.com/our-expertise/)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10591,6 +11004,7 @@
         "y": 4276.427394747734
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10599,7 +11013,7 @@
       "kind": "node",
       "label": "Autophagy",
       "notes": "",
-      "desc": "Autophagy is the body’s way of cleaning out damaged cells, in order to regenerate newer, healthier cells. \n “Auto” means self and “phagy” means eat. So the literal meaning of autophagy is “self-eating.”\n\nLabs:  \n[Ana Maria Cuervo](https://einsteinmed.edu/faculty/8784/ana-maria-cuervo)  \n[Frank Madeo](https://molekularbiologie.uni-graz.at/en/ageing-cell-death-laboratory-frank-madeo/)  \n[Kroemer Lab](http://www.kroemerlab.com/)  \n[Davis Lab](https://jhdavislab.org/)  \n[Bratton Lab](https://www.mdanderson.org/research/departments-labs-institutes/labs/bratton-laboratory.html)  \n[Rubinzstein Lab](https://www.neuroscience.cam.ac.uk/directory/profile.php?dcr1000)  \n[Anna Simon](https://www.kennedy.ox.ac.uk/team/katja-simon)  \n[Hansen Lab](https://www.buckinstitute.org/lab/hansen-lab/)  \n[Walker Lab](https://www.ibp.ucla.edu/faculty/david-walker/)  \n\nCompanies:  \n[Amazentis](https://www.amazentis.com/)  \n[ResTORbio](https://www.restorbio.com/)  \n[Aeovian Pharmaceuticals](https://www.aeovian.com/)  \n[Samsara Therapeutics](https://www.samsaratherapeutics.com/)  \n[Refoxy Pharma](https://www.refoxy.com/)  \n[Cytegen](http://cytegen.com/)  \n[Casma](https://www.casmatx.com/)  \n[Biosens](https://biosens.org/)  \n[Navitor Pharmaceuticals](http://www.navitorpharma.com/)   \n[Biophytis](https://www.biophytis.com/en/)  \n\nSeminar:  \n[David Rubinzstein](https://foresight.org/summary/david-rubinsztein-cambridge-autophagy-and-neurodegeneration/)  ",
+      "desc": "Autophagy is the body’s way of cleaning out damaged cells, in order to regenerate newer, healthier cells. \n “Auto” means self and “phagy” means eat. So the literal meaning of autophagy is “self-eating.”\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Autophagy)\n\nLabs:  \n[Ana Maria Cuervo](https://einsteinmed.edu/faculty/8784/ana-maria-cuervo)  \n[Frank Madeo](https://molekularbiologie.uni-graz.at/en/ageing-cell-death-laboratory-frank-madeo/)  \n[Kroemer Lab](http://www.kroemerlab.com/)  \n[Davis Lab](https://jhdavislab.org/)  \n[Bratton Lab](https://www.mdanderson.org/research/departments-labs-institutes/labs/bratton-laboratory.html)  \n[Rubinzstein Lab](https://www.neuroscience.cam.ac.uk/directory/profile.php?dcr1000)  \n[Anna Simon](https://www.kennedy.ox.ac.uk/team/katja-simon)  \n[Hansen Lab](https://www.buckinstitute.org/lab/hansen-lab/)  \n[Walker Lab](https://www.ibp.ucla.edu/faculty/david-walker/)  \n\nCompanies:  \n[Amazentis](https://www.amazentis.com/)  \n[ResTORbio](https://www.restorbio.com/)  \n[Aeovian Pharmaceuticals](https://www.aeovian.com/)  \n[Samsara Therapeutics](https://www.samsaratherapeutics.com/)  \n[Refoxy Pharma](https://www.refoxy.com/)  \n[Cytegen](http://cytegen.com/)  \n[Casma](https://www.casmatx.com/)  \n[Biosens](https://biosens.org/)  \n[Navitor Pharmaceuticals](http://www.navitorpharma.com/)   \n[Biophytis](https://www.biophytis.com/en/)  \n\nSeminar:  \n[David Rubinzstein](https://foresight.org/summary/david-rubinsztein-cambridge-autophagy-and-neurodegeneration/)  ",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10611,6 +11025,7 @@
         "y": 6977.9095458984375
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10619,7 +11034,7 @@
       "kind": "node",
       "label": "Cold Shock Response",
       "notes": "",
-      "desc": "Cold exposure elicits the release of norepinephrine into the brain and may activate the cold shock protein RBM3. Some studies suggest that cold exposure may improve mood and cognition, decrease depression, and protect against neurodegenerative disease.\n\nLabs:  \n[Gorbunova Lab](http://www.sas.rochester.edu/bio/labs/Gorbunova/)  \n[Tipton Lab](https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/mike-tipton)  \n\nSeminar:  \n[Vera Gorbunova](https://foresight.org/summary/vera-gorbunova-mechanisms-of-longevity-lessons-from-long-lived-mammals/)  ",
+      "desc": "Cold exposure elicits the release of norepinephrine into the brain and may activate the cold shock protein RBM3. Some studies suggest that cold exposure may improve mood and cognition, decrease depression, and protect against neurodegenerative disease.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Cold-shock_response)\n\nLabs:  \n[Gorbunova Lab](http://www.sas.rochester.edu/bio/labs/Gorbunova/)  \n[Tipton Lab](https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/mike-tipton)  \n\nSeminar:  \n[Vera Gorbunova](https://foresight.org/summary/vera-gorbunova-mechanisms-of-longevity-lessons-from-long-lived-mammals/)  ",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10631,6 +11046,7 @@
         "y": 11435.953857421875
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10639,7 +11055,7 @@
       "kind": "node",
       "label": "Heat Shock Response",
       "notes": "",
-      "desc": "The heat shock response (HSR) is a cell stress response that increases the number of molecular chaperones to combat the negative effects on proteins caused by stressors such as increased temperatures, oxidative stress, and heavy metals.\n\nSeminar:  \n[Suresh Rattan](https://foresight.org/summary/suresh-rattan-hormesis-for-healthy-aging-and-longevity/)",
+      "desc": "The heat shock response (HSR) is a cell stress response that increases the number of molecular chaperones to combat the negative effects on proteins caused by stressors such as increased temperatures, oxidative stress, and heavy metals.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Heat-shock_response)\n\nSeminar:  \n[Suresh Rattan](https://foresight.org/summary/suresh-rattan-hormesis-for-healthy-aging-and-longevity/)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10651,6 +11067,7 @@
         "y": 7602.4439697265625
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10739,7 +11156,7 @@
       "kind": "node",
       "label": "Telomeres",
       "notes": "",
-      "desc": "A telomere is a region of repetitive DNA sequences at the end of a chromosome. Telomeres protect the ends of chromosomes from becoming frayed or tangled. Each time a cell divides, the telomeres become slightly shorter. Eventually, they become so short that the cell can no longer divide successfully, and the cell dies.\n\n[A unified model of dementias and age-related neurodegeneration](https://alz-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/alz.12012)\n\nLabs:  \n[Liu Lab](https://www.nia.nih.gov/research/labs/lmg/section-telomere-maintenance)  \n[Blackburn Lab](https://blackburnlab.ucsf.edu/)  \n[Blasco Lab](https://www.cnio.es/en/personas/maria-a-blasco-2/)  \n[Passos Lab](https://www.mayo.edu/research/labs/cell-molecular-aging/overview)  \n[Lansdorp Lab](https://www.bccrc.ca/dept/tfl/labs/lansdorp-lab)  \n\nCompanies:  \n[Telomere Diagnostics](https://telomeredx.com/company/)  \n[Life Length](https://lifelength.com/)  \n[Telocyte](https://telocyte.com/)  \n[Rejuveron](https://rejuveron.com/en/)  \n[Integrated Health Systems](https://www.integrated-health-systems.com/specialist-areas/telomerase/)  \n[Sierra Sciences](https://sierrasci.com/)  \n[Bioviva](https://bioviva-science.com/)  \n[Geron](https://www.geron.com/)  \n[TA Sciences](https://www.tasciences.com/)  \n[Rejuvenation Technologies](https://rejuvenationtech.com/)\n\nSeminar:  \n[Michael Fossel](https://foresight.org/summary/michael-fossel-aging-understanding-it-reversing-it/)",
+      "desc": "A telomere is a region of repetitive DNA sequences at the end of a chromosome. Telomeres protect the ends of chromosomes from becoming frayed or tangled. Each time a cell divides, the telomeres become slightly shorter. Eventually, they become so short that the cell can no longer divide successfully, and the cell dies.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Telomeres)\n\n[A unified model of dementias and age-related neurodegeneration](https://alz-journals.onlinelibrary.wiley.com/doi/epdf/10.1002/alz.12012)\n\nLabs:  \n[Liu Lab](https://www.nia.nih.gov/research/labs/lmg/section-telomere-maintenance)  \n[Blackburn Lab](https://blackburnlab.ucsf.edu/)  \n[Blasco Lab](https://www.cnio.es/en/personas/maria-a-blasco-2/)  \n[Passos Lab](https://www.mayo.edu/research/labs/cell-molecular-aging/overview)  \n[Lansdorp Lab](https://www.bccrc.ca/dept/tfl/labs/lansdorp-lab)  \n\nCompanies:  \n[Telomere Diagnostics](https://telomeredx.com/company/)  \n[Life Length](https://lifelength.com/)  \n[Telocyte](https://telocyte.com/)  \n[Rejuveron](https://rejuveron.com/en/)  \n[Integrated Health Systems](https://www.integrated-health-systems.com/specialist-areas/telomerase/)  \n[Sierra Sciences](https://sierrasci.com/)  \n[Bioviva](https://bioviva-science.com/)  \n[Geron](https://www.geron.com/)  \n[TA Sciences](https://www.tasciences.com/)  \n[Rejuvenation Technologies](https://rejuvenationtech.com/)\n\nSeminar:  \n[Michael Fossel](https://foresight.org/summary/michael-fossel-aging-understanding-it-reversing-it/)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10751,6 +11168,7 @@
         "y": 7859.00830078125
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10759,7 +11177,7 @@
       "kind": "node",
       "label": "Senescence",
       "notes": "",
-      "desc": "Senescence or biological aging is the gradual deterioration of functional characteristics in living organisms. The word senescence can refer to either cellular senescence or to senescence of the whole organism. Organismal senescence involves an increase in death rates and/or a decrease in fecundity with increasing age, at least in the latter part of an organism's life cycle.\n\nLabs:  \n[James Kirkland](https://www.mayo.edu/research/faculty/kirkland-james-l-m-d-ph-d/bio-00096544)  \n[Zhang Lab](https://www.umassmed.edu/zhang/)  \n[Bhushan Lab](https://bhushanlab.ucsf.edu/)  \n[Sempowski Lab](https://dhvi.duke.edu/sempowski-lab)  \n[Minamino Lab](https://en.juntendo.ac.jp/research/researcher-profiles/minamino_tohru.html)  \n[Laura Niedernhofer](https://med.umn.edu/bio/mstp-steering-committee/laura-niedernhofer)  \n[Berger Lab](https://bergerlab.med.upenn.edu/)  \n[John Sedivy](https://vivo.brown.edu/display/jsedivy)  \n[Campisi Lab](https://www.buckinstitute.org/lab/campisi-lab/)  \n[Cox Lab](https://coxlab.web.ox.ac.uk/)  \n[Manuel Serrano](https://altoslabs.com/team/principal-investigators-cambridge/manuel-serrano/)  \n[Jansen Durr](https://www.uibk.ac.at/iba/jansen-duerr/jansen-duerr-pidder/index.html.en)  \n[Robert and Arlene Kogod Center on Aging](https://www.mayo.edu/research/centers-programs/robert-arlene-kogod-center-aging/overview)  \n\nCompanies:  \n[Animal Bioscience](https://animalbioscience.com/)  \n[Atropos Therapeutics](https://www.atroposthera.com/)  \n[Unity Biotechnology](https://unitybiotechnology.com/)  \n[Senisca](https://www.senisca.com/)  \n[CellAge](http://www.cellage.org/)  \n[Fox Bio](https://www.juvlabs.com/organization/portfolio-company/foxbio-inc)  \n[Eternans](http://www.eternans.com/)  \n[5 Alarm Bio](http://www.fivealarmbio.com/)  \n[Rubedo Life](https://www.rubedolife.com/)  \n[Deciduous Therapeutics](https://www.deciduoustx.com/)  \n[Cleara](https://www.clearabiotech.com/)  \n[Rejuveron](https://rejuveron.com/en/)  \n[Alixia](https://www.alixia.com/)  \n[Biosens](https://biosens.org/)  \n[Oisin Bio](https://www.oisinbio.com/)  \n[Siwa Therapeutics](https://siwatherapeutics.com/home/)  \n[Dorian Therapeutics](https://www.doriantherapeutics.com/)  \n[Oncosence](https://www.oncosence.com/)  ",
+      "desc": "Senescence or biological aging is the gradual deterioration of functional characteristics in living organisms. The word senescence can refer to either cellular senescence or to senescence of the whole organism. Organismal senescence involves an increase in death rates and/or a decrease in fecundity with increasing age, at least in the latter part of an organism's life cycle.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Cellular_senescence)\n\nLabs:  \n[James Kirkland](https://www.mayo.edu/research/faculty/kirkland-james-l-m-d-ph-d/bio-00096544)  \n[Zhang Lab](https://www.umassmed.edu/zhang/)  \n[Bhushan Lab](https://bhushanlab.ucsf.edu/)  \n[Sempowski Lab](https://dhvi.duke.edu/sempowski-lab)  \n[Minamino Lab](https://en.juntendo.ac.jp/research/researcher-profiles/minamino_tohru.html)  \n[Laura Niedernhofer](https://med.umn.edu/bio/mstp-steering-committee/laura-niedernhofer)  \n[Berger Lab](https://bergerlab.med.upenn.edu/)  \n[John Sedivy](https://vivo.brown.edu/display/jsedivy)  \n[Campisi Lab](https://www.buckinstitute.org/lab/campisi-lab/)  \n[Cox Lab](https://coxlab.web.ox.ac.uk/)  \n[Manuel Serrano](https://altoslabs.com/team/principal-investigators-cambridge/manuel-serrano/)  \n[Jansen Durr](https://www.uibk.ac.at/iba/jansen-duerr/jansen-duerr-pidder/index.html.en)  \n[Robert and Arlene Kogod Center on Aging](https://www.mayo.edu/research/centers-programs/robert-arlene-kogod-center-aging/overview)  \n\nCompanies:  \n[Animal Bioscience](https://animalbioscience.com/)  \n[Atropos Therapeutics](https://www.atroposthera.com/)  \n[Unity Biotechnology](https://unitybiotechnology.com/)  \n[Senisca](https://www.senisca.com/)  \n[CellAge](http://www.cellage.org/)  \n[Fox Bio](https://www.juvlabs.com/organization/portfolio-company/foxbio-inc)  \n[Eternans](http://www.eternans.com/)  \n[5 Alarm Bio](http://www.fivealarmbio.com/)  \n[Rubedo Life](https://www.rubedolife.com/)  \n[Deciduous Therapeutics](https://www.deciduoustx.com/)  \n[Cleara](https://www.clearabiotech.com/)  \n[Rejuveron](https://rejuveron.com/en/)  \n[Alixia](https://www.alixia.com/)  \n[Biosens](https://biosens.org/)  \n[Oisin Bio](https://www.oisinbio.com/)  \n[Siwa Therapeutics](https://siwatherapeutics.com/home/)  \n[Dorian Therapeutics](https://www.doriantherapeutics.com/)  \n[Oncosence](https://www.oncosence.com/)  ",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10839,7 +11257,7 @@
       "kind": "node",
       "label": "Cellular Reprogramming",
       "notes": "",
-      "desc": "In order to turn adult cells back into pluripotent or embryonic-like stem cells, scientists use viruses to insert four genes – Sox2, Oct4, Klf4, and cMyc – into the cells. These reprogrammed cells, called induced pluripotent stem cells (iPS cells), have generated a huge amount of excitement in the field. However, because some of those genes and viral vectors used to insert them have the potential to cause cancer, iPS cell lines are not clinically useful.\n\nLabs:  \n[Goya Lab](https://www.researchgate.net/lab/Rodolfo-Goya-Lab)  \n[Sinclair Lab](https://sinclair.hms.harvard.edu/)  \n[Serrano Lab](https://www.irbbarcelona.org/en/research/manuel-serrano)  \n[Ocampo Lab](https://www.ocampolab.com/)  \n[Thomas Braun](https://www.mpg.de/369653/heart-lung-research-braun)  \n[Guarente Lab](http://web.mit.edu/biology/guarente/index.html)  \n[Belmonte Lab](https://belmonte.salk.edu/)  \n[Sebastiano Lab](https://med.stanford.edu/stemcell/institutefaculty/sebastiano.html)  \n[Reik Lab](https://www.sanger.ac.uk/group/reik-group/)  \n\nCompanies:  \n[Souvien Bio](https://www.juvlabs.com/organization/portfolio-company/souvien-therapeutics-ltd)  \n[Turn Bio](https://www.turn.bio/)  \n[Frequency Therapeutics](https://www.frequencytx.com/)  \n[Altos Labs](https://altoslabs.com/)  \n[Transquis](https://www.tranquis.com/)  \n[Youth Bio](https://youthbiotx.com/)  \n[AgeX Therapeutics](https://www.agexinc.com/)  \n[Life Biosciences](https://www.lifebiosciences.com/)  \n[TruMe](https://trumelabs.com/)  \n[Shift Bioscience](https://www.shiftbioscience.com/)  \n[NewLimit](https://www.newlimit.com/)  \n[Retro Biosciences](https://retro.bio/)  \n\nSeminar:  \n[Vittorio Sebastiano](https://foresight.org/summary/vittorio-sebastiano-epigenetic-reprogramming-of-aging/)",
+      "desc": "In order to turn adult cells back into pluripotent or embryonic-like stem cells, scientists use viruses to insert four genes – Sox2, Oct4, Klf4, and cMyc – into the cells. These reprogrammed cells, called induced pluripotent stem cells (iPS cells), have generated a huge amount of excitement in the field. However, because some of those genes and viral vectors used to insert them have the potential to cause cancer, iPS cell lines are not clinically useful.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Epigenetic_reprogramming#Methods_for_introducing_reprogramming_factors)\n\nLabs:  \n[Goya Lab](https://www.researchgate.net/lab/Rodolfo-Goya-Lab)  \n[Sinclair Lab](https://sinclair.hms.harvard.edu/)  \n[Serrano Lab](https://www.irbbarcelona.org/en/research/manuel-serrano)  \n[Ocampo Lab](https://www.ocampolab.com/)  \n[Thomas Braun](https://www.mpg.de/369653/heart-lung-research-braun)  \n[Guarente Lab](http://web.mit.edu/biology/guarente/index.html)  \n[Belmonte Lab](https://belmonte.salk.edu/)  \n[Sebastiano Lab](https://med.stanford.edu/stemcell/institutefaculty/sebastiano.html)  \n[Reik Lab](https://www.sanger.ac.uk/group/reik-group/)  \n\nCompanies:  \n[Souvien Bio](https://www.juvlabs.com/organization/portfolio-company/souvien-therapeutics-ltd)  \n[Turn Bio](https://www.turn.bio/)  \n[Frequency Therapeutics](https://www.frequencytx.com/)  \n[Altos Labs](https://altoslabs.com/)  \n[Transquis](https://www.tranquis.com/)  \n[Youth Bio](https://youthbiotx.com/)  \n[AgeX Therapeutics](https://www.agexinc.com/)  \n[Life Biosciences](https://www.lifebiosciences.com/)  \n[TruMe](https://trumelabs.com/)  \n[Shift Bioscience](https://www.shiftbioscience.com/)  \n[NewLimit](https://www.newlimit.com/)  \n[Retro Biosciences](https://retro.bio/)  \n\nSeminar:  \n[Vittorio Sebastiano](https://foresight.org/summary/vittorio-sebastiano-epigenetic-reprogramming-of-aging/)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10848,9 +11266,10 @@
       "parent": null,
       "pos": {
         "x": 3717.0682797976497,
-        "y": 10039.031061172485
+        "y": 9999.031061172485
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10899,7 +11318,7 @@
       "kind": "node",
       "label": "Epigenetics",
       "notes": "",
-      "desc": "Epigenetics is the study of how your behaviors and environment can cause changes that affect the way your genes work. Unlike genetic changes, epigenetic changes are reversible and do not change your DNA sequence, but they can change how your body reads a DNA sequence.\n\nLabs:  \n[Guallar Lab](https://www.usc.es/cimus/en/research/research-groups/epitranscriptomics-ageing)  \n[Church Lab](https://arep.med.harvard.edu/)  \n[Sinclair Lab](https://sinclair.hms.harvard.edu/)  \nHorvath Lab\n\nCompanies:  \n[Altos Labs](https://altoslabs.com/)  \n[Epimorphy](https://www.mydnage.com/)  \n[Agelabs](https://www.agelabs.com/)  \n[FOXO Technologies](https://foxotechnologies.com/)  \n[Mitra Bio](https://www.mitrabio.tech/)  \n\nSeminars:  \n[Diana Guallar](https://foresight.org/summary/diana-guallar-epitranscriptomics-as-novel-players-in-aging-and-rejuvenation/)  \n[George Church](https://foresight.org/summary/george-church-gene-cell-therapies-for-age-related-infectious-diseases/)  \n[Steve Horvath](https://foresight.org/summary/epigeneticclocks-whats-new-whats-missing-steve-horvath-ucla/)",
+      "desc": "Epigenetics is the study of how your behaviors and environment can cause changes that affect the way your genes work. Unlike genetic changes, epigenetic changes are reversible and do not change your DNA sequence, but they can change how your body reads a DNA sequence.\n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Epigenetic_clock)\n\nLabs:  \n[Guallar Lab](https://www.usc.es/cimus/en/research/research-groups/epitranscriptomics-ageing)  \n[Church Lab](https://arep.med.harvard.edu/)  \n[Sinclair Lab](https://sinclair.hms.harvard.edu/)  \nHorvath Lab\n\nCompanies:  \n[Altos Labs](https://altoslabs.com/)  \n[Epimorphy](https://www.mydnage.com/)  \n[Agelabs](https://www.agelabs.com/)  \n[FOXO Technologies](https://foxotechnologies.com/)  \n[Mitra Bio](https://www.mitrabio.tech/)  \n\nSeminars:  \n[Diana Guallar](https://foresight.org/summary/diana-guallar-epitranscriptomics-as-novel-players-in-aging-and-rejuvenation/)  \n[George Church](https://foresight.org/summary/george-church-gene-cell-therapies-for-age-related-infectious-diseases/)  \n[Steve Horvath](https://foresight.org/summary/epigeneticclocks-whats-new-whats-missing-steve-horvath-ucla/)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -10911,6 +11330,7 @@
         "y": 8100.30615234375
       },
       "fill": "#1d243cff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 80,
       "backgroundImageURL": null
     },
@@ -10946,8 +11366,8 @@
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": -284.6969347000122,
-        "y": 1875.4267706871033
+        "x": -1594.0094347000122,
+        "y": 1745.4267706871033
       },
       "fill": "#1d243cff",
       "nodelabelfontsize": 80,
@@ -11086,8 +11506,8 @@
       "is_collapsed": false,
       "parent": 1457,
       "pos": {
-        "x": -773.9453125,
-        "y": 2434.5
+        "x": -2056.8046875,
+        "y": 1254.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -11658,8 +12078,8 @@
       "is_collapsed": false,
       "parent": 2884,
       "pos": {
-        "x": -818.6328125,
-        "y": 1588.821268081665
+        "x": -2081.4921875,
+        "y": 2128.821268081665
       },
       "fill": "#dbdbdbff",
       "nodelabelfontsize": 24,
@@ -11678,8 +12098,8 @@
       "is_collapsed": false,
       "parent": 2884,
       "pos": {
-        "x": -733.5703125,
-        "y": 1835.792917251587
+        "x": -2072.849609375,
+        "y": 2382.085834503174
       },
       "fill": "#dbdbdbff",
       "nodelabelfontsize": 24,
@@ -11691,7 +12111,7 @@
       "kind": "node",
       "label": "Senolytics",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Senolytics)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -11702,6 +12122,7 @@
         "y": 6732.8231201171875
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -11743,9 +12164,9 @@
     {
       "id": 10124,
       "kind": "node",
-      "label": "Curing Cancer",
+      "label": "Cancer",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Aging_and_cancer)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -11756,6 +12177,7 @@
         "y": 6652.8231201171875
       },
       "fill": "#fdffb6ff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -12053,7 +12475,7 @@
       "kind": "node",
       "label": "Prevention of Senescence",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Negligible_senescence)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -12064,6 +12486,7 @@
         "y": 6492.8231201171875
       },
       "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -12149,60 +12572,44 @@
       "backgroundImageURL": null
     },
     {
-      "id": 1457,
+      "id": 13302,
       "kind": "node",
-      "label": "Proteoglycans",
+      "label": "ApoptoSENS",
       "notes": "",
-      "desc": "Proteoglycans contribute to the construction of ECM by hydrating cells and tissues with their heavily glycosylated hydrophilic properties. And experiments using knockout mice implicate proteoglycans to be the stabilizer in the collagen-elastin network (Danielson et al., 1997; Maccarana et al., 2009). Therefore, it is not surprising to find that connective tissue diseases attributed to the disruption in proteoglycan formation are caused by genetic mutations that affect the synthesis, structure, or degradation of proteoglycans. These mutations result in an abnormal composition of ECM, leading to a range of symptoms, including skeletal and cardiovascular anomalies, joint hypermobility, and skin fragility manifested in diseases such as Marfan, Ehlers-Danlos, Hunter, Morquio, and Sanfilippo syndromes (Batzios et al., 2013; Benetó et al., 2020; Byers and Murray, 2014; de la Fuente-Alonso et al., 2021; Iozzo and Schaefer, 2015; Järveläinen et al., 2009; Walimbe and Panitch, 2020).",
+      "desc": "",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
-      "parent": 4816,
+      "parent": 3878,
       "pos": {
-        "x": -762.078125,
-        "y": 2414.5
+        "x": 1572.3046875,
+        "y": 6739.5
       },
-      "fill": "#dbdbdbff",
-      "nodelabelfontsize": 24,
+      "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightTechTree/vitadao.png",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
       "backgroundImageURL": null
     },
     {
-      "id": 2884,
+      "id": 13304,
       "kind": "node",
-      "label": "Collagen",
+      "label": "Cellular Soap",
       "notes": "",
-      "desc": "It has been postulated that collagen is the most abundant protein in mammals, accounting for approximately one-third of their total protein content (Di Lullo et al., 2002). However, total collagen over total protein assessments in mice showed that collagens make up 12-17% of total protein (Tarnutzer et al., 2022). The collagen family comprises 29 distinct members, all of which possess a signature triple-helical domain structure (Owczarzy et al., 2020; Ricard-Blum, 2011; Shenoy et al., 2022) and has been extensively reviewed by Ricard-Blum and others (Owczarzy et al., 2020; Ricard-Blum, 2011; Shenoy et al., 2022). Quantitative ECM-enriched proteomics of entire mice revealed collagen type I as the most prevalent form of collagen (Tarnutzer et al., 2022).\n\nCollagen, a fibrous protein that forms long, thin fibers, imparts tensile strength and elasticity to the ECM, enabling it to withstand mechanical forces such as those generated by the movement and contraction of surrounding cells and tissues. Collagen is also a major component of the ECM of connective tissues, such as skin, tendons, and ligaments, where collagen fibers are organized into complex, regular patterns that give these tissues their characteristic mechanical properties (Mouw et al., 2014; Rozario and DeSimone, 2010). In addition to its structural role, collagen also plays a key role in the signaling and regulation of ECM functions. Collagen can interact with various molecules, such as growth factors, enzymes, and other ECM components, to modulate their activity and regulate their effects on surrounding cells (Bonnans et al., 2014; Lu et al., 2011). \n",
+      "desc": "",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
-      "parent": 4816,
+      "parent": 3878,
       "pos": {
-        "x": -730.4375,
-        "y": 1697.6464586257935
+        "x": 1412.3046875,
+        "y": 6579.5
       },
-      "fill": "#dbdbdbff",
-      "nodelabelfontsize": 36,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13254,
-      "kind": "node",
-      "label": "ECM Glycoproteins",
-      "notes": "",
-      "desc": "Glycoproteins are proteins with carbohydrate chains. They enable the ECM to regulate migration, differentiation, and proliferation by connecting structural molecules to cells and each other–forming a cohesive molecular network. \n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 4816,
-      "pos": {
-        "x": -846.193359375,
-        "y": 2164.5
-      },
-      "fill": "#dbdbdbff",
-      "nodelabelfontsize": 24,
+      "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightTechTree/vitadao.png",
+      "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
     },
@@ -13097,6 +13504,27 @@
       "backgroundImageURL": null
     },
     {
+      "id": 13308,
+      "kind": "node",
+      "label": "Turn Bio",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 9998,
+      "pos": {
+        "x": 1172.3046875,
+        "y": 7959.5
+      },
+      "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightTechTree/vitadao.png",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
       "id": 9285,
       "kind": "node",
       "label": "Lung Failure",
@@ -13108,8 +13536,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 809.4296875,
-        "y": 1648.207082748413
+        "x": -618.4296875,
+        "y": 1636.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13127,8 +13555,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 812.646484375,
-        "y": 1708.207082748413
+        "x": -615.212890625,
+        "y": 1696.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13146,8 +13574,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 808.955078125,
-        "y": 1588.207082748413
+        "x": -618.904296875,
+        "y": 1576.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13156,36 +13584,37 @@
     {
       "id": 6715,
       "kind": "node",
-      "label": "Cancer",
+      "label": "Cancer and Loss of Identity",
       "notes": "",
-      "desc": "Cancer is a group of diseases characterized by uncontrolled proliferation of abnormal cell growth. In 2020 alone, cancer affected approximately 18.1 million globally (WCRF International, 2022). The ECM plays a crucial role in the formation of the cancer microenvironment (Bissell and Hines, 2011). Increased ECM deposits and crosslinks have been linked to tumorigenesis and metastasis by providing the chemical and physical signals that are necessary for tumor development and invasion (Kim et al., 2011; Provenzano et al., 2008). Moreover, tumor cells have been found to influence the deposition of fibronectin, collagen, and tenascin C (Kii et al., 2010; Xiong and Xu, 2016), and a growing body of evidence suggests that ECM deposition promotes tumorigenesis and metastasis by helping cancer cells to proliferate and survive (Aoudjit and Vuori, 2012). ",
+      "desc": "Cancer is a group of diseases characterized by uncontrolled proliferation of abnormal cell growth. In 2020 alone, cancer affected approximately 18.1 million globally (WCRF International, 2022). The ECM plays a crucial role in the formation of the cancer microenvironment (Bissell and Hines, 2011). Increased ECM deposits and crosslinks have been linked to tumorigenesis and metastasis by providing the chemical and physical signals that are necessary for tumor development and invasion (Kim et al., 2011; Provenzano et al., 2008). Moreover, tumor cells have been found to influence the deposition of fibronectin, collagen, and tenascin C (Kii et al., 2010; Xiong and Xu, 2016), and a growing body of evidence suggests that ECM deposition promotes tumorigenesis and metastasis by helping cancer cells to proliferate and survive (Aoudjit and Vuori, 2012). \n\n[Longevity Wiki](https://en.longevitywiki.org/wiki/Aging_and_cancer)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 745.6328125,
-        "y": 2148.207082748413
+        "x": -512.9453125,
+        "y": 2304.5
       },
       "fill": "#fdffb6ff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": 24,
       "backgroundImageURL": null
     },
     {
       "id": 744,
       "kind": "node",
-      "label": "Loss of Identity",
+      "label": "Cellular Senescence",
       "notes": "",
-      "desc": "The loss of cellular identity is a phenomenon that occurs when cells lose their characteristic features and become more similar to each other (Yuan et al., 2019). This can happen during the development of cancer when cells undergo a process known as epithelial-to-mesenchymal transition (EMT) (Scott et al., 2019). During EMT, cells lose their epithelial characteristics and acquire mesenchymal traits, such as increased motility and invasiveness. This allows them to break away from the primary tumor and migrate to other parts of the body, where they can form secondary tumors or metastases (Ribatti et al., 2020). The ECM plays a crucial role in the loss of cellular identity during EMT (Kim et al., 2017). In the context of cancer, the ECM can provide the physical and chemical cues that are necessary for EMT to occur (Walker et al., 2018). For example, certain ECM molecules, such as fibronectin, can promote EMT by activating signaling pathways that drive the loss of epithelial characteristics and the acquisition of mesenchymal traits (Lamouille et al., 2014). Additionally, the ECM can provide mechanical cues that can drive EMT by stretching and deforming the cells, which can activate signaling pathways that promote the loss of cellular identity (Miller et al., 2020). However, more research is needed to fully understand the mechanisms by which tumor cells produce ECM and its role in remodeling the microenvironment in order to develop targeted cancer treatments (Venning et al., 2015).\n\nAs people age, the dermis also undergoes remodeling of the ECM and impaired cellularity (Badi, 2019; Tigges et al., 2014). However, it is unclear whether these changes are due to changes in fibroblasts. Salzer et al. studied whether different diets affected dermal fibroblasts in mice and their impact on lifespan. They found that as time passed, the definition of old fibroblasts became blurred, and even when present on the youthful dermis, fibroblasts were still indistinguishable. Old fibroblasts also showed decreased expression of genes involved in ECM formation (Salzer et al., 2018). Paradoxically, these old fibroblasts gained adipogenic traits similar to those in the neonatal state. When placed on a caloric restriction, these negative effects were either reversed or reduced. By contrast, a high-fat diet exacerbated the negative effects of aging. These results suggest that loss of cell identity may be one of the underlying mechanisms of aging (Fontana and Partridge, 2015; Salzer et al., 2018; Sedej, 2018).\n\nStiffened ECM can also drive the pathogenic expression of matricellular proteins by fibroblasts, leading to the conversion of muscle stem cells into fibrogenic cells. This process, known as a fibrogenic conversion, can contribute to sarcopenia, which is the age-related loss of muscle mass and strength. This occurs through the activation of the YAP/TAZ signaling pathway, which is triggered by the stiffened ECM. Overall, the ECM plays a key role in the loss of cellular identity during EMT, which is an essential step in the development of cancer and its metastasis, as well as in the development of sarcopenia (Stearns-Reider et al., 2017).\n",
+      "desc": "",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 744.46875,
-        "y": 2208.207082748413
+        "x": -526.427734375,
+        "y": 2364.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13203,8 +13632,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 751.25,
-        "y": 2268.207082748413
+        "x": -501.609375,
+        "y": 2424.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13222,8 +13651,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 760.109375,
-        "y": 2328.207082748413
+        "x": -512.75,
+        "y": 2484.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13241,8 +13670,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 757.9296875,
-        "y": 2388.207082748413
+        "x": -514.9296875,
+        "y": 2544.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13260,8 +13689,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 311.3046875,
-        "y": 2268.207082748413
+        "x": -1041.5546875,
+        "y": 2364.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13281,31 +13710,11 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 424.7421875,
-        "y": 1646.3535413742065
+        "x": -898.1171875,
+        "y": 1756.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 4816,
-      "kind": "node",
-      "label": "Core Matrisome",
-      "notes": "",
-      "desc": "The matrisome is the compendium of all extracellular proteins that make up the ECM. Changes in matrisome composition play a critical role in maintaining the structural integrity and functional properties of tissues and organs (Ewald, 2020; Hynes and Naba, 2012; Naba et al., 2014, 2012). The matrisome can be divided into the core matrisome, which forms the actual ECM, includes proteins such as collagens, laminins, and proteoglycans, and the associated matrisome, which includes proteins such as ECM remodelers or proteins that associate with the matrix (Ewald, 2020; Hynes and Naba, 2012; Sacher et al., 2021). ECM receptors, such as integrins, play a crucial role in cell-ECM interactions and are involved in cell adhesion, migration, and signaling (Hynes, 2002; Schwartz, 2010). ECM remodelers, such as matrix metalloproteinases (MMPs) and tissue inhibitors of metalloproteinases (TIMPs), are enzymes that modify the ECM by degrading or synthesizing ECM components (Bourboulia and Stetler-Stevenson, 2010; Brew and Nagase, 2010; Visse and Nagase, 2003). These proteins are important for ECM remodeling during tissue development, repair, and remodeling processes. Given these ECM functions, not surprisingly, there is evidence that changes in the expression and activity of ECM proteins and ECM remodelers may contribute to age-related changes in tissue structure and function (Ewald, 2020; Lofaro et al., 2021; Statzer et al., 2021; Teuscher et al., 2022).\n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "labelcolor": "#ffffffff",
-      "is_collapsed": false,
-      "parent": 10000,
-      "pos": {
-        "x": -727.6917667388916,
-        "y": 1940.860629081726
-      },
-      "fill": "#1d243cff",
-      "nodelabelfontsize": 36,
       "backgroundImageURL": null
     },
     {
@@ -13320,8 +13729,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 817.908203125,
-        "y": 1768.207082748413
+        "x": -609.951171875,
+        "y": 1756.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13340,8 +13749,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 812.5703125,
-        "y": 1364.5
+        "x": -1425.2890625,
+        "y": 1184.5
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 24,
@@ -13360,8 +13769,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 478.515625,
-        "y": 2564.5
+        "x": -1539.34375,
+        "y": 2524.5
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 24,
@@ -13380,8 +13789,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 815.03125,
-        "y": 1826.3535413742065
+        "x": -347.828125,
+        "y": 1576.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13400,8 +13809,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 803.2578125,
-        "y": 1886.3535413742065
+        "x": -359.6015625,
+        "y": 1636.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13420,8 +13829,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 317.5390625,
-        "y": 2088.207082748413
+        "x": -695.3203125,
+        "y": 1484.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13440,8 +13849,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 434.0390625,
-        "y": 1768.207082748413
+        "x": -813.8203125,
+        "y": 1056.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13460,8 +13869,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 314.515625,
-        "y": 2028.207082748413
+        "x": -813.34375,
+        "y": 1176.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13480,8 +13889,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 311.4921875,
-        "y": 2146.3535413742065
+        "x": -811.3671875,
+        "y": 1116.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13500,8 +13909,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 427.505859375,
-        "y": 1706.3535413742065
+        "x": -720.353515625,
+        "y": 1324.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13520,52 +13929,11 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 321.8203125,
-        "y": 2208.207082748413
+        "x": -1051.0390625,
+        "y": 2004.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13145,
-      "kind": "node",
-      "label": "Diagnostics",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "labelcolor": "#ffffffff",
-      "is_collapsed": false,
-      "parent": 10000,
-      "pos": {
-        "x": -1340.6015625,
-        "y": 1949.5
-      },
-      "fill": "#1d243cff",
-      "nodelabelfontsize": 36,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13151,
-      "kind": "node",
-      "label": "Age Related Changes",
-      "notes": "",
-      "desc": "The ECM appears to be affected by a large number of insults that degrade or stiffen it.  However, only one of these causes seems to be ‘native’ to the ECM category itself, all the others are a product of systemic issues upstream. ",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 10000,
-      "pos": {
-        "x": -183.4420680999756,
-        "y": 1948.207082748413
-      },
-      "fill": "#dbdbdbff",
-      "nodelabelfontsize": 36,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
     },
@@ -13581,8 +13949,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": -165.59375,
-        "y": 1528.207082748413
+        "x": -1558.453125,
+        "y": 2284.5
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 24,
@@ -13601,8 +13969,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 139.3125,
-        "y": 2408.207082748413
+        "x": -1493.546875,
+        "y": 1564.5
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 24,
@@ -13621,8 +13989,8 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 810.25,
-        "y": 1946.3535413742065
+        "x": -612.609375,
+        "y": 1816.3535413742065
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 24,
@@ -13641,10 +14009,248 @@
       "is_collapsed": false,
       "parent": 10000,
       "pos": {
-        "x": 310.1640625,
-        "y": 1459.5
+        "x": -1499.125,
+        "y": 1804.5
       },
       "fill": "#93c47dff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 2884,
+      "kind": "node",
+      "label": "Collagen",
+      "notes": "",
+      "desc": "It has been postulated that collagen is the most abundant protein in mammals, accounting for approximately one-third of their total protein content (Di Lullo et al., 2002). However, total collagen over total protein assessments in mice showed that collagens make up 12-17% of total protein (Tarnutzer et al., 2022). The collagen family comprises 29 distinct members, all of which possess a signature triple-helical domain structure (Owczarzy et al., 2020; Ricard-Blum, 2011; Shenoy et al., 2022) and has been extensively reviewed by Ricard-Blum and others (Owczarzy et al., 2020; Ricard-Blum, 2011; Shenoy et al., 2022). Quantitative ECM-enriched proteomics of entire mice revealed collagen type I as the most prevalent form of collagen (Tarnutzer et al., 2022).\n\nCollagen, a fibrous protein that forms long, thin fibers, imparts tensile strength and elasticity to the ECM, enabling it to withstand mechanical forces such as those generated by the movement and contraction of surrounding cells and tissues. Collagen is also a major component of the ECM of connective tissues, such as skin, tendons, and ligaments, where collagen fibers are organized into complex, regular patterns that give these tissues their characteristic mechanical properties (Mouw et al., 2014; Rozario and DeSimone, 2010). In addition to its structural role, collagen also plays a key role in the signaling and regulation of ECM functions. Collagen can interact with various molecules, such as growth factors, enzymes, and other ECM components, to modulate their activity and regulate their effects on surrounding cells (Bonnans et al., 2014; Lu et al., 2011). \n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -2048.296875,
+        "y": 2243.9393758773804
+      },
+      "fill": "#dbdbdbff",
+      "nodelabelfontsize": 36,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13254,
+      "kind": "node",
+      "label": "ECM Glycoproteins",
+      "notes": "",
+      "desc": "Glycoproteins are proteins with carbohydrate chains. They enable the ECM to regulate migration, differentiation, and proliferation by connecting structural molecules to cells and each other–forming a cohesive molecular network. \n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -2069.052734375,
+        "y": 1624.5
+      },
+      "fill": "#dbdbdbff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1457,
+      "kind": "node",
+      "label": "Proteoglycans",
+      "notes": "",
+      "desc": "Proteoglycans contribute to the construction of ECM by hydrating cells and tissues with their heavily glycosylated hydrophilic properties. And experiments using knockout mice implicate proteoglycans to be the stabilizer in the collagen-elastin network (Danielson et al., 1997; Maccarana et al., 2009). Therefore, it is not surprising to find that connective tissue diseases attributed to the disruption in proteoglycan formation are caused by genetic mutations that affect the synthesis, structure, or degradation of proteoglycans. These mutations result in an abnormal composition of ECM, leading to a range of symptoms, including skeletal and cardiovascular anomalies, joint hypermobility, and skin fragility manifested in diseases such as Marfan, Ehlers-Danlos, Hunter, Morquio, and Sanfilippo syndromes (Batzios et al., 2013; Benetó et al., 2020; Byers and Murray, 2014; de la Fuente-Alonso et al., 2021; Iozzo and Schaefer, 2015; Järveläinen et al., 2009; Walimbe and Panitch, 2020).",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -2044.9375,
+        "y": 1234.5
+      },
+      "fill": "#dbdbdbff",
+      "nodelabelfontsize": 24,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13228,
+      "kind": "node",
+      "label": "Matreotype - ECM composition changes",
+      "notes": "",
+      "desc": "The matreotype is a way to analyze and understand changes in the matrisome or ECM that occur with aging and disease (Ewald, 2020). The matreotype is defined as the molecular and structural signature of an ECM composition or snapshot associated or caused by a phenotype or cellular status (Ewald, 2020), and can be measured using techniques such as mass spectrometry or immunohistochemistry (Byron et al., 2013; Goddard et al., 2016; Liu and Modo, 2018). The ECM is a dynamic network of molecules that surrounds and supports cells in tissues and organs, and the matreotype concept recognizes it as a modular, heterogeneous system rather than a static entity. By measuring the levels of different ECM molecules and their spatial distribution, a \"fingerprint\" of the ECM can be generated to track changes over time (Ewald, 2020). The matreotype concept has several potential advantages, including being able to comprehensively characterize the ECM, detecting subtle changes, and applying it to a wide range of tissues and organs (Ewald, 2020). Research on the role of the matreotype in cancer, specifically ovarian high-grade serous carcinoma, suggests that understanding the matreotype may help in developing more effective cancer treatments (Pietilä et al., 2021). Further research is needed to fully realize the potential of the matreotype to develop reliable measurement methods.",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -2673.388671875,
+        "y": 1181.3535413742065
+      },
+      "fill": "#dbdbdbff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13231,
+      "kind": "node",
+      "label": "ECM Biomarkers",
+      "notes": "",
+      "desc": "Collagen fragments, specifically those derived from the ECM, have been investigated as potential biomarkers in various pathological conditions. The degradation of ECM collagen has been shown to be indicative of matrix remodeling, which is a hallmark of several pathological states, including cancer and fibrosis. The following are examples of such fragments. \n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -2668.5234375,
+        "y": 1516.3535413742065
+      },
+      "fill": "#dbdbdbff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13234,
+      "kind": "node",
+      "label": "ECM Post-translational changes",
+      "notes": "",
+      "desc": "Post-translational modifications of the ECM serve a vital role in regulating cellular behavior and maintaining tissue homeostasis—which may alter the physical and biological properties of the ECM and modulate their interactions with cells and other ECM components (Lu et al., 2011).\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -2698.2578125,
+        "y": 1963.207082748413
+      },
+      "fill": "#dbdbdbff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13240,
+      "kind": "node",
+      "label": "Pathological/Amorphous ECM Deposition",
+      "notes": "",
+      "desc": "Pathological ECM deposition is a process in which excessive quantities of ECM components, such as collagen, are deposited in a tissue, causing fibrosis and malfunction. This process is mediated by the activation and proliferation of fibroblasts, which create and deposit ECM proteins. The underlying causes of pathological ECM deposition are complicated and multifaceted, involving signaling pathway dysregulation and aberrant activation of inflammatory and immune cells. Furthermore, genetic and epigenetic variables play an important role in the regulation of pathogenic ECM deposition. This degenerative process is a characteristic of many chronic illnesses, including fibrotic disorders, cancer, and cardiovascular disease, and it leads to the gradual loss of organ function as well as the development of clinically significant morbidity and mortality. Methods for detecting a pathological ECM are discussed below.\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -2659.171875,
+        "y": 2426.3535413742065
+      },
+      "fill": "#dbdbdbff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13152,
+      "kind": "node",
+      "label": "Calcification/Mineralization",
+      "notes": "",
+      "desc": "Vascular calcification pathology is identified as abnormal calcification of elastic arteries or muscular vessel walls. The mechanism of vascular calcification is similar to bone metabolism. While the exact mechanism remains elusive, integrity maintenance of vascular ECM and calcification are correlated (Uto et al., 2021). Age-related pathologies such as type 2 diabetes, atherosclerosis, chronic kidney disease, and increased risk of cardiovascular events are all attributed in part to vascular calcification (Budoff et al., 2011; Ngai et al., 2018). Vascular intima diffuse calcification is associated with matrix vesicles. As part of the ECM component, matrix vesicles are derived from cell budding, cartilage cell, osteoblast, and odontoblast. Matrix vesicles also part from cells to initiate organelle self-governance. These ECM components provide adequate nucleation for calcium crystal formation, and network scaffolding for their calcium deposit is provided by elastins in its vascular walls (Wang et al., 2021).\n\nFurthermore, ECM elastin fibers participate in the calcification of arterial walls. Studies using histochemistry and electron microscopy have divulged two distinct calcification of elastic fiber in the plaques of human atherosclerosis. While structural changes were not detected in the type I calcification, type II showed significant structural changes in the elastin (Bobryshev, 2005). And Khavandgar et al. demonstrated that in matrix Gla protein (MGP)-deficient and ELN haploinsufficient (MGP–/–; ELN±) murine, calcification was found to be dependent upon the presence of elastin. This led to a significant reduction in arterial calcium deposition in the case of elastin haploinsufficiency (Khavandgar et al., 2014).",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -1348.03125,
+        "y": 1376.3535413742065
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13153,
+      "kind": "node",
+      "label": "Inflammation",
+      "notes": "",
+      "desc": "Inherent to many autoimmune diseases are chronically inflamed tissues (Sorokin, 2010). Damages to tissues generate inflammation, and the ECM undergoes degradation by proteases and cytokines that produce and direct functions by penetrating leukocytes (Agrawal et al., 2008; Metzemaekers et al., 2016; Nourshargh et al., 2010). \n\nUpregulation of Interferon-gamma (IFNγ) and Tumor necrosis factor (TNF) occur at the site of inflammation. These cytokines modify interstitial matrix synthesis and turnover. And the cytokines also induce matrix metalloproteinases (MMPs) secretion and or activation (Sorokin, 2010). As zinc-dependent endopeptidase, MMPs site-specifically cleave ECM and other proteins (Malemud, 2006; Yong, 2005). Hyaluronan fragmentation increases the activity of MMP during inflammation (Sugahara et al., 2003; Yong, 2005). MMPs increase due to the inflammation release of fragments of tenascin and sulfated proteoglycans--ECM-derived DAMPs (damage-associated molecular patterns) (Brule et al., 2006; Gaudet and Popovich, 2014), resulting in a vicious cycle that fragments ECM. Tissue-remodeling processes facilitated by anomalous ECM fragments are able to modify immune cells and their immune responses in chronically inflamed tissues (Gaudet and Popovich, 2014).",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -1433.265625,
+        "y": 1916.3535413742065
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13155,
+      "kind": "node",
+      "label": "UV Damage",
+      "notes": "",
+      "desc": "Ultraviolet radiation (UVR) is attributed to vitamin D production in humans and may assist in cardiovascular health through nitric oxide synthesis (Watson et al., 2014). While vitamin D halts pro-inflammatory programs of TH1 cells (Chauss et al., 2022; Minton, 2022), chronic UVR exposure can also increase the probability of photocarcinogenesis by incurring damage to fibroblasts and dermis and accelerating phenotypical aging (Budden et al., 2021; Gilchrest et al., 1999; Watson et al., 2014).\n\nThe quantity of available collagen in the ECM has been attributed to melanoma behavior modifications (Ahmadzadeh et al., 2017; Budden et al., 2021). And it has been shown that collagen-cleaving matrix metalloprotein-1 (MMP1) expression is upregulated by UVR-induced fibroblast damage (Levental et al., 2009). However, malignant behavior is also induced by the decreased deposition of collagen (Arnold et al., 2010), suggesting that collagen has a role in carcinogenesis beyond the scaffolding function normally associated with this protein (Budden et al., 2021).\n\nEven though remodeling of the compositional architecture of the ECM induced by prolonged UVR exposure has been attributed to premature skin aging, the exact pathway requires further investigation (Watson et al., 2014). In particular, photodegrading downstream effects of fibronectin and fibrillin and their induction on tissue homeostasis are less understood (Watson et al., 2014).\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -1420.357421875,
+        "y": 2076.3535413742065
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13156,
+      "kind": "node",
+      "label": "Advanced Glycation Endproducts",
+      "notes": "",
+      "desc": "Advanced Glycation End-products (AGEs) are non-enzymatically formed on proteins such as collagens and elastins. Lysine and arginine residues frequently become glycated after prolonged exposure to sugars causing age-dependent modifications (Schmidt et al., 1994; Vijg and Campisi, 2008). Matrix stiffening occurs as a result of cross-linking of these AGEs and the steric hinders of enzymatic cleavages required for remodeling. As a response, protease levels are increased, triggering yet another cascade of further damage to the ECM (Ewald, 2020) by causing unrestrained protease activity and collagen deposition (Fisher et al., 2009). Thus, AGE accumulations and their crosslinks modify the mechanical properties of the ECM with the procession of time and increase the risk of many diseases caused by oxidative stress and inflammation: diabetes, heart disease, high blood pressure, kidney failures, premature aging, Alzheimer's, and fibrosis (Ahmed, 2005; Gautieri et al., 2016; Glenn and Stitt, 2009; Pertyńska-Marczewska et al., 2009; Semba et al., 2009; Singh et al., 2010). \n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -1426.859375,
+        "y": 1684.5
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13157,
+      "kind": "node",
+      "label": "Loss of Proteolysis",
+      "notes": "",
+      "desc": "The breakdown of proteins (proteolysis) controls ECM assembly, modification, and endocytosis of superfluous ECM materials, bioactive fragments, and growth factors (Solomonov et al., 2016; Werb, 1997). Proteolysis is also critical in ECM structure reassembly, tissue repair, pathological processes, morphogenesis, and cell death (Solomonov et al., 2016; Werb, 1997). Hence, any changes made by proteolysis to the cell surface and ECM can have an immediate and irrevocable impact (Solomonov et al., 2016). \n\nMaintaining a homeostatic balance of proteolysis is critical in maintaining healthspan as either overproduction or deficiency can lead to disease progressions. The Matrix Metalloproteinases (MMPs) and their closely related A Disintegrin and Metalloproteinases (ADAMs) possess proteolytic properties and are critical contributing factors in various physiological processes and pathologies such as cancer progression and inflammation (Shimoda, 2019). For example, the key component of wound healing is the degradation of provisional ECM produced by the fibrin clot caused by the wound. Injury is repaired by the keratinocytes migration that produces Urokinase Plasminogen Activators (uPAs) and MMPs to close the wound through its interaction with dermal fibroblast. Mice lacking the plasminogen gene, keratinocytes are unable to migrate, and the wound is not healing, indicating the importance of proteolysis homeostasis (Bugge et al., 1996).\n\nAdditionally, Kuzuya et al. demonstrated loss of proteolysis is a consequence of the accumulation of crosslinks in the collagen, which is a common feature of aging by showing smooth muscle cells grown on collagen fibrils activated pro-MMP-2 and was accompanied by increased expression of MT1-MMP and suppressed production of TIMP-2. However, when the smooth muscle cells were grown on glycated collagen fibrils, MMP-2 activation was inhibited, and expression of MT1-MMP was reduced without affecting TIMP-2 production. This suggests that the suppression of MT1-MMP expression may be involved in inhibiting MMP-2 activation on glycated collagen fibrils. The inclusion of aminoguanidine, a cross-linking inhibitor, during collagen glycation restored MMP-2 activation, indicates that cross-links may play a role in the inhibition of MMP-2 activation (Kuzuya et al., 2001). Crosslinking reduces the flexibility and elasticity of collagen, making it more resistant to proteolytic degradation (Bourne et al., 2014; DeGroot et al., 2001; Kuzuya et al., 2001), leading to the accumulation of senescent ECM, which can impair tissue function and contribute to age-related diseases (Bourne et al., 2014; DeGroot et al., 2001). And Col1a1r/r mice, with their type I collagen resistance to collagenase cleavage, exhibited accelerated aging, a host of age-related pathologies, and a dramatic acceleration of senescent cell accumulation (Vafaie et al., 2014). Furthermore, Mmp24-deficient mice exhibit reduced levels of Aβ and APP and decreased glial reactivity and IL-1β levels, the pivotal function of MT5-MMP (MMP-24) in Alzheimer's disease progression, as evidenced by its capacity to cleave APP and regulate neuronal activity in the hippocampus (Freitas-Rodríguez et al., 2017; Willem et al., 2015)–highlighting the crucial role of proteolysis in regulating various age-related pathologies (Baranger et al., 2016; Freitas-Rodríguez et al., 2017). Therefore, maintaining a balance of proteolysis is crucial for maintaining the healthspan of tissues and preventing age-related diseases.\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10000,
+      "pos": {
+        "x": -1391.4375,
+        "y": 2364.5
+      },
+      "fill": "#f5a623ff",
       "nodelabelfontsize": 24,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -13672,7 +14278,7 @@
       "kind": "node",
       "label": "FOXO",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/FOXO_longevity_genes)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -13683,6 +14289,7 @@
         "y": 7006.319091796875
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -13970,17 +14577,18 @@
       "kind": "node",
       "label": "Sirtuins",
       "notes": "",
-      "desc": "https://www.sciencedirect.com/science/article/abs/pii/S0163725820302795\n",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Sirtuins)\n\n[Sirtuins' control of autophagy and mitophagy in cancer](https://www.sciencedirect.com/science/article/abs/pii/S0163725820302795)\n",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 10025,
       "pos": {
-        "x": 3887.98046875,
-        "y": 7086.319091796875
+        "x": 3883.7109375,
+        "y": 7079.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -14021,6 +14629,27 @@
         "y": 6886.319091796875
       },
       "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13300,
+      "kind": "node",
+      "label": "Korolchuk Lab",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10025,
+      "pos": {
+        "x": 2692.3046875,
+        "y": 7179.5
+      },
+      "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightTechTree/vitadao.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -14816,7 +15445,7 @@
       "kind": "node",
       "label": "Lipofuscin Accumulation",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Lipofuscin)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -14824,9 +15453,10 @@
       "parent": 10138,
       "pos": {
         "x": -123.328125,
-        "y": 7568.5166015625
+        "y": 7559.5
       },
       "fill": "#fdffb6ff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -14888,7 +15518,7 @@
       "kind": "node",
       "label": "Mitochondrial Dysfunction",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Mitochondrial_dysfunction)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -14899,6 +15529,7 @@
         "y": 7868.5166015625
       },
       "fill": "#fdffb6ff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -15265,7 +15896,7 @@
       "is_collapsed": false,
       "parent": 10186,
       "pos": {
-        "x": 736.472900390625,
+        "x": 730.26171875,
         "y": 5679.5
       },
       "fill": "#ffffffff",
@@ -15298,7 +15929,7 @@
       "kind": "node",
       "label": "Protein Restriction",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Protein_restriction)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -15309,6 +15940,7 @@
         "y": 5519.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -15460,7 +16092,7 @@
       "kind": "node",
       "label": "Intermittent Fasting",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Intermittent_fasting)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -15471,6 +16103,7 @@
         "y": 5879.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -15478,7 +16111,7 @@
       "kind": "node",
       "label": "Caloric Restriction",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Calorie_restriction)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -15489,6 +16122,7 @@
         "y": 5579.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "backgroundImageURL": null
     },
     {
@@ -15516,7 +16150,7 @@
       "kind": "node",
       "label": "Modulate FOXO",
       "notes": "",
-      "desc": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4783344/pdf/ACEL-15-196.pdf\n\nhttps://www.nature.com/articles/s41573-020-0088-2",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/FOXO_longevity_genes)\n\n[Long live FOXO: unraveling the role of FOXO proteins in aging\nand longevity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4783344/pdf/ACEL-15-196.pdf)\n\n[Therapeutic strategies targeting FOXO transcription factors](https://www.nature.com/articles/s41573-020-0088-2)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -15527,6 +16161,7 @@
         "y": 5779.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -15676,7 +16311,7 @@
       "kind": "node",
       "label": "Rapamycin",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Rapamycin)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -15687,6 +16322,7 @@
         "y": 5679.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -15696,17 +16332,18 @@
       "kind": "node",
       "label": "Metformin",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Metformin)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 10186,
       "pos": {
-        "x": 378.554931640625,
+        "x": 372.34375,
         "y": 5739.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -16294,7 +16931,7 @@
       "kind": "node",
       "label": "Metabolic Rates",
       "notes": "",
-      "desc": "",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Metabolic_flexibility)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -16305,6 +16942,7 @@
         "y": 11918.985084533691
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -16362,7 +17000,7 @@
       "parent": 10257,
       "pos": {
         "x": 4290.324059595299,
-        "y": 10019.5
+        "y": 9979.5
       },
       "fill": "#f5a623ff",
       "backgroundImageURL": null
@@ -16380,7 +17018,7 @@
       "parent": 10257,
       "pos": {
         "x": 3980.7928095952993,
-        "y": 10099.5
+        "y": 10059.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -16398,7 +17036,7 @@
       "parent": 10257,
       "pos": {
         "x": 3643.2381220952993,
-        "y": 10159.5
+        "y": 10119.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -16416,7 +17054,7 @@
       "parent": 10257,
       "pos": {
         "x": 4688.074059595299,
-        "y": 10108.56212234497
+        "y": 10068.56212234497
       },
       "fill": "#93c47dff",
       "backgroundImageURL": null
@@ -16434,7 +17072,7 @@
       "parent": 10257,
       "pos": {
         "x": 4986.206872095299,
-        "y": 10488.56212234497
+        "y": 10448.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16452,7 +17090,7 @@
       "parent": 10257,
       "pos": {
         "x": 4995.058434595299,
-        "y": 10428.56212234497
+        "y": 10388.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16470,7 +17108,7 @@
       "parent": 10257,
       "pos": {
         "x": 5002.870934595299,
-        "y": 10368.56212234497
+        "y": 10328.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16488,7 +17126,7 @@
       "parent": 10257,
       "pos": {
         "x": 4990.980309595299,
-        "y": 10308.56212234497
+        "y": 10268.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16506,7 +17144,7 @@
       "parent": 10257,
       "pos": {
         "x": 4991.050622095299,
-        "y": 10248.56212234497
+        "y": 10208.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16524,7 +17162,7 @@
       "parent": 10257,
       "pos": {
         "x": 4996.597497095299,
-        "y": 10188.56212234497
+        "y": 10148.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16542,7 +17180,7 @@
       "parent": 10257,
       "pos": {
         "x": 5005.585778345299,
-        "y": 10128.56212234497
+        "y": 10088.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16560,7 +17198,7 @@
       "parent": 10257,
       "pos": {
         "x": 4991.261559595299,
-        "y": 10068.56212234497
+        "y": 10028.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16578,7 +17216,7 @@
       "parent": 10257,
       "pos": {
         "x": 4999.027184595299,
-        "y": 10008.56212234497
+        "y": 9968.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16596,7 +17234,7 @@
       "parent": 10257,
       "pos": {
         "x": 4990.980309595299,
-        "y": 9948.56212234497
+        "y": 9908.56212234497
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -16614,7 +17252,7 @@
       "parent": 10257,
       "pos": {
         "x": 3656.5115595952993,
-        "y": 9939.5
+        "y": 9899.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -16632,7 +17270,7 @@
       "parent": 10257,
       "pos": {
         "x": 3653.4256220952993,
-        "y": 10019.5
+        "y": 9979.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -16650,7 +17288,7 @@
       "parent": 10257,
       "pos": {
         "x": 3038.4959345952993,
-        "y": 9868.56212234497
+        "y": 9828.56212234497
       },
       "fill": "#93c47dff",
       "backgroundImageURL": null
@@ -16668,7 +17306,7 @@
       "parent": 10257,
       "pos": {
         "x": 4274.777184595299,
-        "y": 9928.56212234497
+        "y": 9888.56212234497
       },
       "fill": "#f5a623ff",
       "backgroundImageURL": null
@@ -16686,7 +17324,7 @@
       "parent": 10257,
       "pos": {
         "x": 3027.1912470952993,
-        "y": 10219.5
+        "y": 10179.5
       },
       "fill": "#93c47dff",
       "backgroundImageURL": null
@@ -16704,7 +17342,7 @@
       "parent": 10257,
       "pos": {
         "x": 3659.3123408452993,
-        "y": 10288.56212234497
+        "y": 10248.56212234497
       },
       "fill": "#93c47dff",
       "backgroundImageURL": null
@@ -16722,7 +17360,7 @@
       "parent": 10257,
       "pos": {
         "x": 4227.105309595299,
-        "y": 10368.56212234497
+        "y": 10328.56212234497
       },
       "fill": "#93c47dff",
       "backgroundImageURL": null
@@ -16740,7 +17378,7 @@
       "parent": 10257,
       "pos": {
         "x": 3670.4412470952993,
-        "y": 10099.5
+        "y": 10059.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -16758,7 +17396,7 @@
       "parent": 10257,
       "pos": {
         "x": 3655.3631220952993,
-        "y": 10219.5
+        "y": 10179.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -16776,7 +17414,7 @@
       "parent": 10257,
       "pos": {
         "x": 2553.5779658452993,
-        "y": 10099.5
+        "y": 10059.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": null,
@@ -16796,7 +17434,7 @@
       "parent": 10257,
       "pos": {
         "x": 2739.7303095952993,
-        "y": 10099.5
+        "y": 10059.5
       },
       "fill": "#f5a623ff",
       "nodelabelfontsize": null,
@@ -16816,7 +17454,7 @@
       "parent": 10257,
       "pos": {
         "x": 3319.2771845952993,
-        "y": 10099.5
+        "y": 10059.5
       },
       "fill": "#f5a623ff",
       "nodelabelfontsize": null,
@@ -16836,7 +17474,7 @@
       "parent": 10257,
       "pos": {
         "x": 3034.7693720952993,
-        "y": 9979.5
+        "y": 9939.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": null,
@@ -16856,7 +17494,7 @@
       "parent": 10257,
       "pos": {
         "x": 3034.3553095952993,
-        "y": 10039.5
+        "y": 9999.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": null,
@@ -16876,7 +17514,7 @@
       "parent": 10257,
       "pos": {
         "x": 3037.0037470952993,
-        "y": 10099.5
+        "y": 10059.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": null,
@@ -16896,7 +17534,7 @@
       "parent": 10257,
       "pos": {
         "x": 4282.328125,
-        "y": 10088.56212234497
+        "y": 10048.56212234497
       },
       "fill": "#f5a623ff",
       "nodelabelfontsize": null,
@@ -16916,7 +17554,7 @@
       "parent": 10257,
       "pos": {
         "x": 4560.742028345299,
-        "y": 10228.56212234497
+        "y": 10188.56212234497
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": null,
@@ -16936,7 +17574,7 @@
       "parent": 10257,
       "pos": {
         "x": 4577.167809595299,
-        "y": 9868.56212234497
+        "y": 9828.56212234497
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": null,
@@ -16956,7 +17594,7 @@
       "parent": 10257,
       "pos": {
         "x": 4271.421875,
-        "y": 10168.56212234497
+        "y": 10128.56212234497
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": null,
@@ -17668,6 +18306,27 @@
       "backgroundImageURL": null
     },
     {
+      "id": 13298,
+      "kind": "node",
+      "label": "BE Corp",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10325,
+      "pos": {
+        "x": 2364.92578125,
+        "y": 1999.5
+      },
+      "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightTechTree/vitadao.png",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
       "id": 10736,
       "kind": "node",
       "label": "Universal IPS Cells",
@@ -18071,6 +18730,27 @@
         "y": 9037.126892089844
       },
       "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13310,
+      "kind": "node",
+      "label": "Repair Biotechnologies",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10326,
+      "pos": {
+        "x": -1087.6953125,
+        "y": 9099.5
+      },
+      "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightTechTree/vitadao.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -20179,6 +20859,27 @@
       "backgroundImageURL": null
     },
     {
+      "id": 13306,
+      "kind": "node",
+      "label": "Probing DNA Quadruplexes",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 10430,
+      "pos": {
+        "x": 2852.3046875,
+        "y": 8339.5
+      },
+      "fill": "#93c47dff",
+      "badge": "https://foresight.org/ext/ForesightTechTree/vitadao.png",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
       "id": 10450,
       "kind": "node",
       "label": "Discovery (1951)",
@@ -21170,8 +21871,8 @@
       "is_collapsed": false,
       "parent": 11198,
       "pos": {
-        "x": 663.25,
-        "y": 339.83973094820976
+        "x": 647.8046875,
+        "y": 339.5
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -21188,8 +21889,8 @@
       "is_collapsed": false,
       "parent": 11198,
       "pos": {
-        "x": 631.140625,
-        "y": 279.83973094820976
+        "x": 615.6953125,
+        "y": 279.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -21206,8 +21907,8 @@
       "is_collapsed": false,
       "parent": 11198,
       "pos": {
-        "x": 626.015625,
-        "y": 219.83973094820976
+        "x": 610.5703125,
+        "y": 219.5
       },
       "fill": "#f5a623ff",
       "backgroundImageURL": null
@@ -21224,8 +21925,8 @@
       "is_collapsed": false,
       "parent": 11198,
       "pos": {
-        "x": 618.8828125,
-        "y": 399.83973094820976
+        "x": 603.4375,
+        "y": 399.5
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": null,
@@ -21233,9 +21934,9 @@
       "backgroundImageURL": null
     },
     {
-      "id": 13172,
+      "id": 13297,
       "kind": "node",
-      "label": "Labs/Companies",
+      "label": "Nodes with Longevity Wiki link",
       "notes": "",
       "desc": "",
       "link": "",
@@ -21244,9 +21945,11 @@
       "is_collapsed": false,
       "parent": 11198,
       "pos": {
-        "x": 647.75,
-        "y": 459.83973094820976
+        "x": 673.703125,
+        "y": 459.5
       },
+      "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -21263,7 +21966,7 @@
       "is_collapsed": false,
       "parent": 11199,
       "pos": {
-        "x": 1030,
+        "x": 1040,
         "y": 329.5
       },
       "fill": "#ccccccff",
@@ -21300,8 +22003,8 @@
       "is_collapsed": false,
       "parent": 11199,
       "pos": {
-        "x": 350,
-        "y": 319.5
+        "x": 340,
+        "y": 299.5
       },
       "fill": "#ccccccff",
       "backgroundImageURL": null
@@ -21318,7 +22021,7 @@
       "is_collapsed": false,
       "parent": 11199,
       "pos": {
-        "x": 693.9757919311523,
+        "x": 688.9757919311523,
         "y": 324.6698654741049
       },
       "fill": "#ccccccff",
@@ -21338,7 +22041,7 @@
       "parent": 11199,
       "pos": {
         "x": 0,
-        "y": 294.5
+        "y": 274.5
       },
       "fill": "#ccccccff",
       "nodelabelfontsize": 24,
@@ -22336,7 +23039,7 @@
       "kind": "node",
       "label": "Albumin",
       "notes": "",
-      "desc": "Albumin in particular seems to be very important",
+      "desc": "[Longevity Wiki](https://en.longevitywiki.org/wiki/Albumin)",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -22347,6 +23050,7 @@
         "y": 6459.5
       },
       "fill": "#ffffffff",
+      "badge": "https://foresight.org/ext/ForesightAllTree/wiki.png",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -23484,186 +24188,6 @@
       "backgroundImageURL": null
     },
     {
-      "id": 13228,
-      "kind": "node",
-      "label": "Matreotype - ECM composition changes",
-      "notes": "",
-      "desc": "The matreotype is a way to analyze and understand changes in the matrisome or ECM that occur with aging and disease (Ewald, 2020). The matreotype is defined as the molecular and structural signature of an ECM composition or snapshot associated or caused by a phenotype or cellular status (Ewald, 2020), and can be measured using techniques such as mass spectrometry or immunohistochemistry (Byron et al., 2013; Goddard et al., 2016; Liu and Modo, 2018). The ECM is a dynamic network of molecules that surrounds and supports cells in tissues and organs, and the matreotype concept recognizes it as a modular, heterogeneous system rather than a static entity. By measuring the levels of different ECM molecules and their spatial distribution, a \"fingerprint\" of the ECM can be generated to track changes over time (Ewald, 2020). The matreotype concept has several potential advantages, including being able to comprehensively characterize the ECM, detecting subtle changes, and applying it to a wide range of tissues and organs (Ewald, 2020). Research on the role of the matreotype in cancer, specifically ovarian high-grade serous carcinoma, suggests that understanding the matreotype may help in developing more effective cancer treatments (Pietilä et al., 2021). Further research is needed to fully realize the potential of the matreotype to develop reliable measurement methods.",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13145,
-      "pos": {
-        "x": -1350.529296875,
-        "y": 1507.6464586257935
-      },
-      "fill": "#dbdbdbff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13234,
-      "kind": "node",
-      "label": "ECM Post-translational changes",
-      "notes": "",
-      "desc": "Post-translational modifications of the ECM serve a vital role in regulating cellular behavior and maintaining tissue homeostasis—which may alter the physical and biological properties of the ECM and modulate their interactions with cells and other ECM components (Lu et al., 2011).\n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13145,
-      "pos": {
-        "x": -1368.2578125,
-        "y": 1911.3535413742065
-      },
-      "fill": "#dbdbdbff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13240,
-      "kind": "node",
-      "label": "Pathological ECM Deposition",
-      "notes": "",
-      "desc": "Pathological ECM deposition is a process in which excessive quantities of ECM components, such as collagen, are deposited in a tissue, causing fibrosis and malfunction. This process is mediated by the activation and proliferation of fibroblasts, which create and deposit ECM proteins. The underlying causes of pathological ECM deposition are complicated and multifaceted, involving signaling pathway dysregulation and aberrant activation of inflammatory and immune cells. Furthermore, genetic and epigenetic variables play an important role in the regulation of pathogenic ECM deposition. This degenerative process is a characteristic of many chronic illnesses, including fibrotic disorders, cancer, and cardiovascular disease, and it leads to the gradual loss of organ function as well as the development of clinically significant morbidity and mortality. Methods for detecting a pathological ECM are discussed below.\n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13145,
-      "pos": {
-        "x": -1329.171875,
-        "y": 2354.5
-      },
-      "fill": "#dbdbdbff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13152,
-      "kind": "node",
-      "label": "Calcification/Mineralization",
-      "notes": "",
-      "desc": "Vascular calcification pathology is identified as abnormal calcification of elastic arteries or muscular vessel walls. The mechanism of vascular calcification is similar to bone metabolism. While the exact mechanism remains elusive, integrity maintenance of vascular ECM and calcification are correlated (Uto et al., 2021). Age-related pathologies such as type 2 diabetes, atherosclerosis, chronic kidney disease, and increased risk of cardiovascular events are all attributed in part to vascular calcification (Budoff et al., 2011; Ngai et al., 2018). Vascular intima diffuse calcification is associated with matrix vesicles. As part of the ECM component, matrix vesicles are derived from cell budding, cartilage cell, osteoblast, and odontoblast. Matrix vesicles also part from cells to initiate organelle self-governance. These ECM components provide adequate nucleation for calcium crystal formation, and network scaffolding for their calcium deposit is provided by elastins in its vascular walls (Wang et al., 2021).\n\nFurthermore, ECM elastin fibers participate in the calcification of arterial walls. Studies using histochemistry and electron microscopy have divulged two distinct calcification of elastic fiber in the plaques of human atherosclerosis. While structural changes were not detected in the type I calcification, type II showed significant structural changes in the elastin (Bobryshev, 2005). And Khavandgar et al. demonstrated that in matrix Gla protein (MGP)-deficient and ELN haploinsufficient (MGP–/–; ELN±) murine, calcification was found to be dependent upon the presence of elastin. This led to a significant reduction in arterial calcium deposition in the case of elastin haploinsufficiency (Khavandgar et al., 2014).",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13151,
-      "pos": {
-        "x": -204.05601119995117,
-        "y": 1808.207082748413
-      },
-      "fill": "#f5a623ff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13153,
-      "kind": "node",
-      "label": "Inflammation",
-      "notes": "",
-      "desc": "Inherent to many autoimmune diseases are chronically inflamed tissues (Sorokin, 2010). Damages to tissues generate inflammation, and the ECM undergoes degradation by proteases and cytokines that produce and direct functions by penetrating leukocytes (Agrawal et al., 2008; Metzemaekers et al., 2016; Nourshargh et al., 2010). \n\nUpregulation of Interferon-gamma (IFNγ) and Tumor necrosis factor (TNF) occur at the site of inflammation. These cytokines modify interstitial matrix synthesis and turnover. And the cytokines also induce matrix metalloproteinases (MMPs) secretion and or activation (Sorokin, 2010). As zinc-dependent endopeptidase, MMPs site-specifically cleave ECM and other proteins (Malemud, 2006; Yong, 2005). Hyaluronan fragmentation increases the activity of MMP during inflammation (Sugahara et al., 2003; Yong, 2005). MMPs increase due to the inflammation release of fragments of tenascin and sulfated proteoglycans--ECM-derived DAMPs (damage-associated molecular patterns) (Brule et al., 2006; Gaudet and Popovich, 2014), resulting in a vicious cycle that fragments ECM. Tissue-remodeling processes facilitated by anomalous ECM fragments are able to modify immune cells and their immune responses in chronically inflamed tissues (Gaudet and Popovich, 2014).",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13151,
-      "pos": {
-        "x": -269.2903861999512,
-        "y": 1868.207082748413
-      },
-      "fill": "#f5a623ff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13154,
-      "kind": "node",
-      "label": "Senescence",
-      "notes": "",
-      "desc": "Previously, senescence was defined as an end-point to stress, causing cells to lose their proliferative ability [Muñoz-Espín 2014]. Our understanding has since grown to include senescence as an ancillary to integrin-signaling complex components in C. elegans and D. melanogaster. Experiments have shown integrin-linked kinase (ILK) deletion to be fatal. However, a moderate reduction of ILK caused favorable function in increasing lifespan in these model organisms [Kumsta, Goddeeris]. In particular, C. elegans showed an increased lifespan while preserving cytoskeletal integrity [Kumsta]. Further investigation through RNAi screening found pat-4/ILK  pat-6/Parvin depletion to be responsible for its increase [Kumsta, Hansen]. In Drosophila, mortality and behavioral aging delay were observed in the loss-of-function myospheroid gene mutations that encode for β1-integrin--the binding partner of the ILK [Goddeeris]. Coronin-7 (Coro7), necessary for proper cytoskeletal functions, has been associated with prolonged lifespan in mice [Vitiello et al.]. Also, cytoskeleton remodeling has been known to be closely correlated to ECM remodeling. And, ECM remodeling has a critical role in mechanotransduction and improved health span [Ewald 2015, Ewald 2019, Statzer and Ewald 2020]. In addition, senescence was perforced by the β3 integrin via the transforming growth factor (TGF)–β pathway, and the converse held true with its knockdown besting senescence [Rapisarda]. These findings suggest improved targeting precision in the down-regulation of integrin signaling mechanisms as the potential therapy for senescence [Shin].\n\n- Cecilia Park",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13151,
-      "pos": {
-        "x": -275.0521049499512,
-        "y": 1928.207082748413
-      },
-      "fill": "#f5a623ff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13155,
-      "kind": "node",
-      "label": "UV Damage",
-      "notes": "",
-      "desc": "Ultraviolet radiation (UVR) is attributed to vitamin D production in humans and may assist in cardiovascular health through nitric oxide synthesis (Watson et al., 2014). While vitamin D halts pro-inflammatory programs of TH1 cells (Chauss et al., 2022; Minton, 2022), chronic UVR exposure can also increase the probability of photocarcinogenesis by incurring damage to fibroblasts and dermis and accelerating phenotypical aging (Budden et al., 2021; Gilchrest et al., 1999; Watson et al., 2014).\n\nThe quantity of available collagen in the ECM has been attributed to melanoma behavior modifications (Ahmadzadeh et al., 2017; Budden et al., 2021). And it has been shown that collagen-cleaving matrix metalloprotein-1 (MMP1) expression is upregulated by UVR-induced fibroblast damage (Levental et al., 2009). However, malignant behavior is also induced by the decreased deposition of collagen (Arnold et al., 2010), suggesting that collagen has a role in carcinogenesis beyond the scaffolding function normally associated with this protein (Budden et al., 2021).\n\nEven though remodeling of the compositional architecture of the ECM induced by prolonged UVR exposure has been attributed to premature skin aging, the exact pathway requires further investigation (Watson et al., 2014). In particular, photodegrading downstream effects of fibronectin and fibrillin and their induction on tissue homeostasis are less understood (Watson et al., 2014).\n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13151,
-      "pos": {
-        "x": -276.3821830749512,
-        "y": 1988.207082748413
-      },
-      "fill": "#f5a623ff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13156,
-      "kind": "node",
-      "label": "Advanced Glycation Endproducts",
-      "notes": "",
-      "desc": "Advanced Glycation End-products (AGEs) are non-enzymatically formed on proteins such as collagens and elastins. Lysine and arginine residues frequently become glycated after prolonged exposure to sugars causing age-dependent modifications (Schmidt et al., 1994; Vijg and Campisi, 2008). Matrix stiffening occurs as a result of cross-linking of these AGEs and the steric hinders of enzymatic cleavages required for remodeling. As a response, protease levels are increased, triggering yet another cascade of further damage to the ECM (Ewald, 2020) by causing unrestrained protease activity and collagen deposition (Fisher et al., 2009). Thus, AGE accumulations and their crosslinks modify the mechanical properties of the ECM with the procession of time and increase the risk of many diseases caused by oxidative stress and inflammation: diabetes, heart disease, high blood pressure, kidney failures, premature aging, Alzheimer's, and fibrosis (Ahmed, 2005; Gautieri et al., 2016; Glenn and Stitt, 2009; Pertyńska-Marczewska et al., 2009; Semba et al., 2009; Singh et al., 2010). \n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13151,
-      "pos": {
-        "x": -177.88413619995117,
-        "y": 2048.207082748413
-      },
-      "fill": "#f5a623ff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13157,
-      "kind": "node",
-      "label": "Loss of Proteolysis",
-      "notes": "",
-      "desc": "The breakdown of proteins (proteolysis) controls ECM assembly, modification, and endocytosis of superfluous ECM materials, bioactive fragments, and growth factors (Solomonov et al., 2016; Werb, 1997). Proteolysis is also critical in ECM structure reassembly, tissue repair, pathological processes, morphogenesis, and cell death (Solomonov et al., 2016; Werb, 1997). Hence, any changes made by proteolysis to the cell surface and ECM can have an immediate and irrevocable impact (Solomonov et al., 2016). \n\nMaintaining a homeostatic balance of proteolysis is critical in maintaining healthspan as either overproduction or deficiency can lead to disease progressions. The Matrix Metalloproteinases (MMPs) and their closely related A Disintegrin and Metalloproteinases (ADAMs) possess proteolytic properties and are critical contributing factors in various physiological processes and pathologies such as cancer progression and inflammation (Shimoda, 2019). For example, the key component of wound healing is the degradation of provisional ECM produced by the fibrin clot caused by the wound. Injury is repaired by the keratinocytes migration that produces Urokinase Plasminogen Activators (uPAs) and MMPs to close the wound through its interaction with dermal fibroblast. Mice lacking the plasminogen gene, keratinocytes are unable to migrate, and the wound is not healing, indicating the importance of proteolysis homeostasis (Bugge et al., 1996).\n\nAdditionally, Kuzuya et al. demonstrated loss of proteolysis is a consequence of the accumulation of crosslinks in the collagen, which is a common feature of aging by showing smooth muscle cells grown on collagen fibrils activated pro-MMP-2 and was accompanied by increased expression of MT1-MMP and suppressed production of TIMP-2. However, when the smooth muscle cells were grown on glycated collagen fibrils, MMP-2 activation was inhibited, and expression of MT1-MMP was reduced without affecting TIMP-2 production. This suggests that the suppression of MT1-MMP expression may be involved in inhibiting MMP-2 activation on glycated collagen fibrils. The inclusion of aminoguanidine, a cross-linking inhibitor, during collagen glycation restored MMP-2 activation, indicates that cross-links may play a role in the inhibition of MMP-2 activation (Kuzuya et al., 2001). Crosslinking reduces the flexibility and elasticity of collagen, making it more resistant to proteolytic degradation (Bourne et al., 2014; DeGroot et al., 2001; Kuzuya et al., 2001), leading to the accumulation of senescent ECM, which can impair tissue function and contribute to age-related diseases (Bourne et al., 2014; DeGroot et al., 2001). And Col1a1r/r mice, with their type I collagen resistance to collagenase cleavage, exhibited accelerated aging, a host of age-related pathologies, and a dramatic acceleration of senescent cell accumulation (Vafaie et al., 2014). Furthermore, Mmp24-deficient mice exhibit reduced levels of Aβ and APP and decreased glial reactivity and IL-1β levels, the pivotal function of MT5-MMP (MMP-24) in Alzheimer's disease progression, as evidenced by its capacity to cleave APP and regulate neuronal activity in the hippocampus (Freitas-Rodríguez et al., 2017; Willem et al., 2015)–highlighting the crucial role of proteolysis in regulating various age-related pathologies (Baranger et al., 2016; Freitas-Rodríguez et al., 2017). Therefore, maintaining a balance of proteolysis is crucial for maintaining the healthspan of tissues and preventing age-related diseases.\n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13151,
-      "pos": {
-        "x": -242.46226119995117,
-        "y": 2108.207082748413
-      },
-      "fill": "#f5a623ff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
       "id": 13229,
       "kind": "node",
       "label": "Herovici Staining",
@@ -23675,8 +24199,8 @@
       "is_collapsed": false,
       "parent": 13228,
       "pos": {
-        "x": -1443.90625,
-        "y": 1462.6464586257935
+        "x": -2771.765625,
+        "y": 1176.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23695,28 +24219,8 @@
       "is_collapsed": false,
       "parent": 13228,
       "pos": {
-        "x": -1401.375,
-        "y": 1402.6464586257935
-      },
-      "fill": "#ffffffff",
-      "nodelabelfontsize": 24,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 13231,
-      "kind": "node",
-      "label": "ECM Biomarkers",
-      "notes": "",
-      "desc": "Collagen fragments, specifically those derived from the ECM, have been investigated as potential biomarkers in various pathological conditions. The degradation of ECM collagen has been shown to be indicative of matrix remodeling, which is a hallmark of several pathological states, including cancer and fibrosis. The following are examples of such fragments. \n",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 13228,
-      "pos": {
-        "x": -1444.8984375,
-        "y": 1522.6464586257935
+        "x": -2729.234375,
+        "y": 1116.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23735,8 +24239,8 @@
       "is_collapsed": false,
       "parent": 13228,
       "pos": {
-        "x": -1458.515625,
-        "y": 1582.6464586257935
+        "x": -2786.375,
+        "y": 1236.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23755,8 +24259,88 @@
       "is_collapsed": false,
       "parent": 13228,
       "pos": {
-        "x": -1437.2734375,
-        "y": 1642.6464586257935
+        "x": -2765.1328125,
+        "y": 1296.3535413742065
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13313,
+      "kind": "node",
+      "label": "Collagen Marker for Skin Integrity",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 13231,
+      "pos": {
+        "x": -2695.2890625,
+        "y": 1496.3535413742065
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13314,
+      "kind": "node",
+      "label": "UPP",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 13231,
+      "pos": {
+        "x": -2830.1875,
+        "y": 1556.3535413742065
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13315,
+      "kind": "node",
+      "label": "Blood Collagen Fragments",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 13231,
+      "pos": {
+        "x": -2727.6875,
+        "y": 1436.3535413742065
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": 24,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 13316,
+      "kind": "node",
+      "label": "Centenarians",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 13231,
+      "pos": {
+        "x": -2788.6171875,
+        "y": 1616.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23775,8 +24359,8 @@
       "is_collapsed": false,
       "parent": 13234,
       "pos": {
-        "x": -1414.06640625,
-        "y": 1922.6464586257935
+        "x": -2741.92578125,
+        "y": 1936.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23795,8 +24379,8 @@
       "is_collapsed": false,
       "parent": 13234,
       "pos": {
-        "x": -1459.9921875,
-        "y": 2042.6464586257935
+        "x": -2787.8515625,
+        "y": 2056.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23815,8 +24399,8 @@
       "is_collapsed": false,
       "parent": 13234,
       "pos": {
-        "x": -1480.1640625,
-        "y": 1982.6464586257935
+        "x": -2808.0234375,
+        "y": 1996.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23835,8 +24419,8 @@
       "is_collapsed": false,
       "parent": 13234,
       "pos": {
-        "x": -1441.1484375,
-        "y": 1862.6464586257935
+        "x": -2769.0078125,
+        "y": 1876.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23855,8 +24439,8 @@
       "is_collapsed": false,
       "parent": 13234,
       "pos": {
-        "x": -1406.2421875,
-        "y": 1802.6464586257935
+        "x": -2734.1015625,
+        "y": 1816.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23864,19 +24448,19 @@
       "backgroundImageURL": null
     },
     {
-      "id": 13241,
+      "id": 13312,
       "kind": "node",
-      "label": "Amorphous Collagen Deposition",
+      "label": "Collagen Crosslinking",
       "notes": "",
-      "desc": "Amorphous collagen deposition, also known as diffuse collagenous fibrosis, is a pathological condition characterized by the disorganized accumulation of collagen within ECM in the absence of a defined fibrotic lesion (Bielajew et al., 2020; Teuscher et al., 2019). Methods for detecting amorphous collagen depositions include Herovici staining, Masson’s trichrome staining, and second harmonic generation imaging.  ",
+      "desc": "",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
-      "parent": 13240,
+      "parent": 13234,
       "pos": {
-        "x": -1372.796875,
-        "y": 2356.3535413742065
+        "x": -2749.7578125,
+        "y": 2116.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23895,8 +24479,8 @@
       "is_collapsed": false,
       "parent": 13240,
       "pos": {
-        "x": -1452.94921875,
-        "y": 2416.3535413742065
+        "x": -2780.80859375,
+        "y": 2436.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23906,7 +24490,7 @@
     {
       "id": 13243,
       "kind": "node",
-      "label": "Modified Sircol",
+      "label": "Modified Sircol Collagen Assay",
       "notes": "",
       "desc": "Since collagen is a prominent metabolic indicator, accurate determination of its content is essential for the creation of reproducible scaffolds and the investigation of tissue pathologies (Friess, 1998). There are numerous ways to determine collagen concentration, including radiolabeling, chromatography, and calorimetry, but none of them proved optimal (Lareu et al., 2010). The Sircol Collagen Assay (SCA) is based on the amino acid binding characteristic of Sirius Red (SR F3B; CI 35782), an anionic dye having sulfonated acid side-chain groups that react with the side-chain groups of basic amino acids (Constantine and Mowry, 1968; Sweat et al., 1964) and is frequently employed as a selective histochemical stain for collagen in normal and diseased tissue (Borges et al., 2007; Brotchie et al., 1999; Kratky et al., 1996). The SCA has almost exclusively been adopted as the quickest and most straightforward colorimetric method for determining collagen concentration in complex protein solutions (Lareu et al., 2010; Tarnutzer et al., 2022). \nDespite its prevalence, the SCA also dramatically overestimated collagen content by a factor anywhere from 3 to 24 folds—particularly grievous results arising in cell culture systems and tissue hydrates due to non-collagenous protein interference (Junqueira et al., 1979; Lareu et al., 2010). However, a purification technique including a pepsin digestion and column ultrafiltration step to accurately determine collagen content in various samples that eliminate these interfering proteins has been added to the current SCA approach to resolve this problem (Lareu et al., 2010). The modified Sircol Collagen Assay can therefore offer insight into the aging process and the efficacy of therapies through an accurate evaluation of collagen levels.\n",
       "link": "",
@@ -23915,8 +24499,8 @@
       "is_collapsed": false,
       "parent": 13240,
       "pos": {
-        "x": -1453.078125,
-        "y": 2296.3535413742065
+        "x": -2707.1953125,
+        "y": 2376.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23935,8 +24519,8 @@
       "is_collapsed": false,
       "parent": 13240,
       "pos": {
-        "x": -1392.1875,
-        "y": 2476.3535413742065
+        "x": -2720.046875,
+        "y": 2496.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23955,8 +24539,8 @@
       "is_collapsed": false,
       "parent": 13240,
       "pos": {
-        "x": -1343.59375,
-        "y": 2236.3535413742065
+        "x": -2671.453125,
+        "y": 2316.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23975,8 +24559,8 @@
       "is_collapsed": false,
       "parent": 13240,
       "pos": {
-        "x": -1381.203125,
-        "y": 2536.3535413742065
+        "x": -2709.0625,
+        "y": 2556.3535413742065
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -23995,8 +24579,8 @@
       "is_collapsed": false,
       "parent": 13247,
       "pos": {
-        "x": -851.8671875,
-        "y": 1630.792917251587
+        "x": -2114.7265625,
+        "y": 2170.792917251587
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24015,8 +24599,8 @@
       "is_collapsed": false,
       "parent": 13247,
       "pos": {
-        "x": -836.6953125,
-        "y": 1570.792917251587
+        "x": -2099.5546875,
+        "y": 2110.792917251587
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24035,8 +24619,8 @@
       "is_collapsed": false,
       "parent": 13248,
       "pos": {
-        "x": -860.66796875,
-        "y": 1790.792917251587
+        "x": -2111.978515625,
+        "y": 2330.792917251587
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24046,7 +24630,7 @@
     {
       "id": 13252,
       "kind": "node",
-      "label": "Lysyl Oxidase Family of Enzymes",
+      "label": "LOXs",
       "notes": "",
       "desc": "The lysyl oxidase family of enzymes is responsible for the formation of covalent bonds between the collagen fibers, which gives the ECM its strength and stability. The lysyl oxidase family of enzymes includes lysyl oxidase, lysyl oxidase-like (LOXL) 1 to 4 (Grau-Bové et al., 2015; Xiao and Ge, 2012).\n\nThe dysregulation of lysyl oxidase and other members of the lysyl oxidase family has been linked to a number of health issues. For example, over-expression of LOXL1 has been associated with the development of fibrosis in various tissues, including the lungs and liver (Zhao et al., 2018). Dysregulation of lysyl oxidase has also been linked to the development of aneurysms and hypertension (Remus et al., 2012). In addition, lysyl oxidase has been shown to play a role in cancer progression, as it has been observed to be upregulated in several types of cancer and has been linked to increased invasion and metastasis (Johnston and Lopez, 2018). Lysyl oxidase and the other members of the lysyl oxidase family are regulated by various factors, including hypoxia, oxidative stress, and inflammation (Martínez-Revelles et al., 2017). As such, there are drugs being developed that target LOXs for the treatment of various carcinomas and fibrosis, and there is evidence that increased levels of LOXs may contribute to neurodegeneration and metabolic dysfunction (Gilad et al., 2005). This makes LOXs and LOXs-mediated crosslinks a potential biomarker for a variety of diseases, and targeting these proteins may lead to new treatments for these conditions (Aronoff et al., 2021; Yang et al., 2020).",
       "link": "",
@@ -24055,8 +24639,8 @@
       "is_collapsed": false,
       "parent": 13248,
       "pos": {
-        "x": -732.5546875,
-        "y": 1850.792917251587
+        "x": -2112.498046875,
+        "y": 2390.792917251587
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24066,7 +24650,7 @@
     {
       "id": 13253,
       "kind": "node",
-      "label": "Transglutaminase",
+      "label": "TGases",
       "notes": "",
       "desc": "Transglutaminases (TGases) are a family of enzymes that catalyze the formation of covalent bonds between proteins through cross-linking. These enzymes play critical roles in various biological processes, including blood clotting, wound healing, and tissue remodeling (Griffin et al., 2002). Among the transglutaminase family members, Transglutaminase 2 (TG2), has been shown to form crosslinks between advanced glycation endproducts (AGEs) and other proteins (Collighan and Griffin, 2009; Marinucci et al., 2018; Rosenthal et al., 2009)  contributes to the development of age-related diseases such as cancer, diabetes, and atherosclerosis (Jones et al., 2006; Penumatsa et al., 2020). \n\nIn addition to its potential role in aging, some studies have suggested that inhibition of TG2 may negatively affect cell survival, highlighting the need for further investigation in this area (Tatsukawa and Hitomi, 2021). TG2 has also been linked to the development of tissue stiffness in obesity and metabolic syndrome (Penumatsa et al., 2020). The concept that a TG2-related pathway may be responsible for heart diastolic dysfunction is supported by the discovery of higher TG2 expression and activity in organs from both a rat model of obesity/metabolic syndrome and a mouse model of aging (Penumatsa et al., 2020). Furthermore, the inhibition of TG2 has been shown to delay early age-induced endothelial dysfunction and microscopic aortic abnormalities, suggesting that TG2 may be a target for the development of new anti-aging and disease-modifying therapies (Armstrong et al., 2018; Brandes et al., 2005; Toda, 2012). \n",
       "link": "",
@@ -24075,8 +24659,8 @@
       "is_collapsed": false,
       "parent": 13248,
       "pos": {
-        "x": -801.90234375,
-        "y": 1910.792917251587
+        "x": -2101.357421875,
+        "y": 2450.792917251587
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24095,8 +24679,8 @@
       "is_collapsed": false,
       "parent": 13254,
       "pos": {
-        "x": -865.859375,
-        "y": 2084.5
+        "x": -2088.71875,
+        "y": 1544.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24115,8 +24699,8 @@
       "is_collapsed": false,
       "parent": 13254,
       "pos": {
-        "x": -845,
-        "y": 2144.5
+        "x": -2067.859375,
+        "y": 1604.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24135,8 +24719,8 @@
       "is_collapsed": false,
       "parent": 13254,
       "pos": {
-        "x": -860.171875,
-        "y": 2204.5
+        "x": -2083.03125,
+        "y": 1664.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,
@@ -24155,8 +24739,8 @@
       "is_collapsed": false,
       "parent": 13254,
       "pos": {
-        "x": -855.4453125,
-        "y": 2264.5
+        "x": -2078.3046875,
+        "y": 1724.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 24,

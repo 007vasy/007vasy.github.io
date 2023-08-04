@@ -14,7 +14,7 @@
       "shape": "ortho"
     },
     {
-      "id": 1106,
+      "id": 1230,
       "kind": "edge",
       "label": "",
       "desc": "",
@@ -22,12 +22,12 @@
       "tags": [],
       "directed": true,
       "weight": 5,
-      "fromId": 839,
-      "toId": 1105,
+      "fromId": 1181,
+      "toId": 1101,
       "shape": "straight"
     },
     {
-      "id": 1108,
+      "id": 1231,
       "kind": "edge",
       "label": "",
       "desc": "",
@@ -35,12 +35,12 @@
       "tags": [],
       "directed": true,
       "weight": 5,
-      "fromId": 936,
-      "toId": 1107,
+      "fromId": 1181,
+      "toId": 1101,
       "shape": "straight"
     },
     {
-      "id": 1136,
+      "id": 1238,
       "kind": "edge",
       "label": "",
       "desc": "",
@@ -48,346 +48,8 @@
       "tags": [],
       "directed": true,
       "weight": 5,
-      "fromId": 829,
-      "toId": 1116,
-      "shape": "straight"
-    },
-    {
-      "id": 1137,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 914,
-      "toId": 1113,
-      "shape": "straight"
-    },
-    {
-      "id": 1138,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1101,
-      "toId": 1121,
-      "shape": "straight"
-    },
-    {
-      "id": 1141,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1115,
-      "shape": "straight"
-    },
-    {
-      "id": 1142,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 914,
-      "toId": 1112,
-      "shape": "straight"
-    },
-    {
-      "id": 1144,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 890,
-      "toId": 1111,
-      "shape": "straight"
-    },
-    {
-      "id": 1145,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1126,
-      "shape": "straight"
-    },
-    {
-      "id": 1146,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 277,
-      "toId": 1114,
-      "shape": "straight"
-    },
-    {
-      "id": 1147,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1101,
-      "toId": 1130,
-      "shape": "straight"
-    },
-    {
-      "id": 1148,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1131,
-      "shape": "straight"
-    },
-    {
-      "id": 1149,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1103,
-      "toId": 1132,
-      "shape": "straight"
-    },
-    {
-      "id": 1150,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1133,
-      "shape": "straight"
-    },
-    {
-      "id": 1151,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 278,
-      "toId": 1134,
-      "shape": "straight"
-    },
-    {
-      "id": 1152,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 914,
-      "toId": 1125,
-      "shape": "straight"
-    },
-    {
-      "id": 1153,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1119,
-      "shape": "straight"
-    },
-    {
-      "id": 1154,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1120,
-      "shape": "straight"
-    },
-    {
-      "id": 1155,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1129,
-      "shape": "straight"
-    },
-    {
-      "id": 1156,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 839,
-      "toId": 1118,
-      "shape": "straight"
-    },
-    {
-      "id": 1157,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 138,
-      "toId": 1122,
-      "shape": "straight"
-    },
-    {
-      "id": 1158,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 651,
-      "toId": 1109,
-      "shape": "straight"
-    },
-    {
-      "id": 1159,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 663,
-      "toId": 1127,
-      "shape": "straight"
-    },
-    {
-      "id": 1160,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1139,
-      "toId": 1117,
-      "shape": "straight"
-    },
-    {
-      "id": 1163,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1161,
-      "toId": 1110,
-      "shape": "straight"
-    },
-    {
-      "id": 1164,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 296,
-      "toId": 1124,
-      "shape": "straight"
-    },
-    {
-      "id": 1173,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1165,
-      "toId": 1135,
-      "shape": "straight"
-    },
-    {
-      "id": 1174,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1165,
-      "toId": 1123,
-      "shape": "straight"
-    },
-    {
-      "id": 1175,
-      "kind": "edge",
-      "label": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "directed": true,
-      "weight": 5,
-      "fromId": 1165,
-      "toId": 1128,
+      "fromId": 1234,
+      "toId": 1103,
       "shape": "straight"
     },
     {
@@ -3585,6 +3247,357 @@
       "shape": "ortho"
     },
     {
+      "id": 1189,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1187,
+      "toId": 1188,
+      "shape": "straight"
+    },
+    {
+      "id": 1192,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1190,
+      "toId": 1191,
+      "shape": "straight"
+    },
+    {
+      "id": 1194,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1190,
+      "toId": 1193,
+      "shape": "straight"
+    },
+    {
+      "id": 1196,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1190,
+      "toId": 1195,
+      "shape": "straight"
+    },
+    {
+      "id": 1198,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1190,
+      "toId": 1197,
+      "shape": "straight"
+    },
+    {
+      "id": 1200,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1190,
+      "toId": 1199,
+      "shape": "straight"
+    },
+    {
+      "id": 1202,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1185,
+      "toId": 1201,
+      "shape": "straight"
+    },
+    {
+      "id": 1204,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1201,
+      "toId": 1203,
+      "shape": "straight"
+    },
+    {
+      "id": 1206,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1184,
+      "toId": 1205,
+      "shape": "straight"
+    },
+    {
+      "id": 1208,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1205,
+      "toId": 1207,
+      "shape": "straight"
+    },
+    {
+      "id": 1210,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1205,
+      "toId": 1209,
+      "shape": "straight"
+    },
+    {
+      "id": 1212,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1186,
+      "toId": 1211,
+      "shape": "straight"
+    },
+    {
+      "id": 1214,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1186,
+      "toId": 1213,
+      "shape": "straight"
+    },
+    {
+      "id": 1216,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1211,
+      "toId": 1215,
+      "shape": "straight"
+    },
+    {
+      "id": 1217,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1213,
+      "toId": 1215,
+      "shape": "straight"
+    },
+    {
+      "id": 1219,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1180,
+      "toId": 1218,
+      "shape": "straight"
+    },
+    {
+      "id": 1221,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1180,
+      "toId": 1220,
+      "shape": "straight"
+    },
+    {
+      "id": 1226,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1181,
+      "toId": 1225,
+      "shape": "straight"
+    },
+    {
+      "id": 1228,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1181,
+      "toId": 1227,
+      "shape": "straight"
+    },
+    {
+      "id": 1233,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1181,
+      "toId": 1232,
+      "shape": "straight"
+    },
+    {
+      "id": 1239,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1234,
+      "toId": 1237,
+      "shape": "straight"
+    },
+    {
+      "id": 1240,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1234,
+      "toId": 1236,
+      "shape": "straight"
+    },
+    {
+      "id": 1244,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1242,
+      "toId": 1187,
+      "shape": "straight"
+    },
+    {
+      "id": 1245,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1243,
+      "toId": 1190,
+      "shape": "straight"
+    },
+    {
+      "id": 1248,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1187,
+      "toId": 1247,
+      "shape": "straight"
+    },
+    {
+      "id": 1251,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 1250,
+      "toId": 1249,
+      "shape": "straight"
+    },
+    {
+      "id": 1254,
+      "kind": "edge",
+      "label": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "directed": true,
+      "weight": 5,
+      "fromId": 829,
+      "toId": 1253,
+      "shape": "ortho"
+    },
+    {
       "id": 804,
       "kind": "edge",
       "label": "",
@@ -3606,13 +3619,14 @@
       "link": "https://books.google.com/books?hl=zh-CN&lr=&id=8WWNDwAAQBAJ&oi=fnd&pg=PR17&dq=Introduction+to+Reticular+Chemistry:+Metal-Organic+Frameworks+and+Covalent+Organic+Frameworks&ots=uep2oLib0D&sig=OGD4UNKVzmjh_CXeCvyiGPqyFXk#v=onepage&q=Introduction%20to%20Reticular%20Chemistry%3A%20Metal-Organic%20Frameworks%20and%20Covalent%20Organic%20Frameworks&f=false",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": 1678.2179554303875,
-        "y": 730.815673828125
+        "x": 6023.2179554303875,
+        "y": 4950.815673828125
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3622,17 +3636,18 @@
       "kind": "node",
       "label": "Biomimetics Molecular Machines",
       "notes": "",
-      "desc": "https://en.wikipedia.org/wiki/Biomimetics\n\nBiomimetics or biomimicry is the emulation of the models, systems, and elements of nature for the purpose of solving complex human problems. The terms \"biomimetics\" and \"biomimicry\" are derived from Ancient Greek: βίος (bios), life, and μίμησις (mīmēsis), imitation, from μιμεῖσθαι (mīmeisthai), to imitate, from μῖμος (mimos), actor. A closely related field is bionics.",
+      "desc": "Bio Inspired Approaches to Molecular Machines\nTed Kaehler, Ayusman Sen (Pennsylvania State University), Víctor García-López (Louisiana State University) & Alexander Lippert (Southern Methodist University)\n\nhttps://en.wikipedia.org/wiki/Biomimetics\nhttps://foresight.org/summary/t-kaehler-a-sen-v-garcia-lopez-a-lippert-bio-inspired-approaches-to-molecular-machines/\n\nBiomimetics or biomimicry is the emulation of the models, systems, and elements of nature for the purpose of solving complex human problems. The terms \"biomimetics\" and \"biomimicry\" are derived from Ancient Greek: βίος (bios), life, and μίμησις (mīmēsis), imitation, from μιμεῖσθαι (mīmeisthai), to imitate, from μῖμος (mimos), actor. A closely related field is bionics.",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
         "x": 1205.384765625,
-        "y": 3735.88134765625
+        "y": 3935.88134765625
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3650,7 +3665,7 @@
       "parent": null,
       "pos": {
         "x": 181.5001220703125,
-        "y": 978.2651519775391
+        "y": 997.7651519775391
       },
       "fill": "#ccccccff",
       "nodelabelfontsize": 48,
@@ -3666,13 +3681,14 @@
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
         "x": 1203.361328125,
-        "y": 1825.2507591247559
+        "y": 1865.2507591247559
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3689,30 +3705,11 @@
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": 642.8055877685547,
-        "y": 596.9931223392487
+        "x": 642.7914276123047,
+        "y": 635.9931223392487
       },
       "fill": "#f5a624ff",
       "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 880,
-      "kind": "node",
-      "label": "Welcome",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 179.7322769165039,
-        "y": 459.83518981933594
-      },
-      "nodelabelfontsize": 96,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
     },
@@ -3728,8 +3725,8 @@
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": 621.0034484863281,
-        "y": 993.9992218017578
+        "x": 626.0034484863281,
+        "y": 913.9992218017578
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 32,
@@ -3819,13 +3816,14 @@
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
         "x": 7396.2623291015625,
         "y": 2201.2527465820312
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3839,13 +3837,14 @@
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
         "x": 4089.1953125,
         "y": 3433.034866333008
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3859,13 +3858,14 @@
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
         "x": 1210.2588352465755,
-        "y": 2820
+        "y": 2905
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3874,7 +3874,7 @@
       "id": 1023,
       "kind": "node",
       "label": "Latest Update",
-      "notes": "2023.1.17",
+      "notes": "2023.6.28",
       "desc": "",
       "link": "",
       "tags": [],
@@ -3883,7 +3883,7 @@
       "parent": null,
       "pos": {
         "x": 640,
-        "y": 324.5
+        "y": 1143.5
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 42,
@@ -3899,13 +3899,14 @@
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
         "x": 4094.1012218796877,
         "y": 1421.3906860351562
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3915,17 +3916,18 @@
       "kind": "node",
       "label": "DNA Molecular Machines",
       "notes": "",
-      "desc": "",
+      "desc": "Molecular Detection via DNA Nanotech & Neural Nets\nWilliam Shih (Harvard University) & Lulu Qian (California Institute of Technology)\nhttps://foresight.org/summary/molecular-detection-via-dna-nanotech-neural-nets-william-shih-harvard-lulu-qian-caltech/\n\nFully addressable microstructures self-assembled from crisscrossed DNA-origami slats\nWilliam Shih (Harvard University)\nhttps://foresight.org/summary/william-shih-fully-addressable-microstructures-self-assembled-from-crisscrossed-dna-origami-slats/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": 444.7421875,
-        "y": 4503.22412109375
+        "x": 499,
+        "y": 4836.58935546875
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 100,
       "nodenotesfontsize": 30,
       "backgroundImageURL": null
@@ -3935,570 +3937,20 @@
       "kind": "node",
       "label": "Protein Molecular Machines",
       "notes": "",
-      "desc": "",
+      "desc": "Protein-based Assemblies and Molecular Machines\nDavid Baker (University of Washington)\nhttps://foresight.org/summary/protein-based-assemblies-and-molecular-machines-david-baker-university-of-washington/\n",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": 3133.03125,
-        "y": 4379.3583984375
+        "x": 1713.03125,
+        "y": 4645.10205078125
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 95,
       "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1105,
-      "kind": "node",
-      "label": "Computer Aided Design and Modeling for Nucleic Acid Nanotechnology",
-      "notes": "Petr Sulc | Arizona State University",
-      "desc": "https://foresight.org/summary/petr-sulc-computer-aided-design-and-modeling-for-nucleic-acid-nanotechnology/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -888.09765625,
-        "y": 2667.25
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1107,
-      "kind": "node",
-      "label": "Towards Computational Design of Self Assembling &Genetically Encodable Nanomachines",
-      "notes": "Alexis Courbet | University of Washington",
-      "desc": "https://foresight.org/summary/alexis-courbet-towards-computational-design-of-self-assembling-genetically-encodable-nanomachines/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -1080.203125,
-        "y": 2904
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1109,
-      "kind": "node",
-      "label": "Harnessing Photoinduced Phase Transition of Organic Materials for Energy Storage",
-      "notes": "Grace Han | Brandeis University",
-      "desc": "https://foresight.org/summary/grace-han-harnessing-photoinduced-phase-transition-of-organic-materials-for-energy-storage/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 10032.609375,
-        "y": 1667
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1110,
-      "kind": "node",
-      "label": "Molecular Ratchets",
-      "notes": "Stefan Borsley | University of Manchester",
-      "desc": "https://foresight.org/summary/stefan-borsley-molecular-ratchets/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 2293.671875,
-        "y": 4384
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1111,
-      "kind": "node",
-      "label": "Ready for Atomically Precise Manufacturing & Electron Microscopy",
-      "notes": "John Randall (Zyvex Labs) & Sergei Kalinin (Oak Ridge National Laboratory)",
-      "desc": "https://foresight.org/summary/john-randall-sergei-kalinin-ready-for-atomically-precise-manufacturing-electron-microscopy/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -829.1796875,
-        "y": 1418
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1112,
-      "kind": "node",
-      "label": "Chemical Bonds to Atoms Resolved by Subatomically Resolved Atomic Force Microscopy",
-      "notes": "Franz Giessibl | Universität Regensburg",
-      "desc": "https://foresight.org/summary/franz-giessibl-chemical-bonds-to-atoms-resolved-by-subatomically-resolved-atomic-force-microscopy/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -1053.0703125,
-        "y": 1964
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1113,
-      "kind": "node",
-      "label": "Single Molecule Focus",
-      "notes": "Damien Sluysmans | Université de Liège",
-      "desc": "https://foresight.org/summary/damien-sluysmans-single-molecule-focus/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -394.578125,
-        "y": 1124
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1114,
-      "kind": "node",
-      "label": "Bio Inspired Approaches to Molecular Machines",
-      "notes": "Ted Kaehler, Ayusman Sen (Pennsylvania State University), Víctor García-López (Louisiana State University) & Alexander Lippert (Southern Methodist University)",
-      "desc": "https://foresight.org/summary/t-kaehler-a-sen-v-garcia-lopez-a-lippert-bio-inspired-approaches-to-molecular-machines/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -662.625,
-        "y": 3537
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1115,
-      "kind": "node",
-      "label": "Silicon-Based Nanotechnology & Manipulating Single Molecules on Surfaces",
-      "notes": "Joe Lyding (UIUC) & Leonhard Grill (University of Graz)",
-      "desc": "https://foresight.org/summary/j-lyding-l-grill-silicon-based-nanotechnology-manipulating-single-molecules-on-surfaces/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 6467.3125,
-        "y": 4641
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1116,
-      "kind": "node",
-      "label": "The Dynamics of Molecular Gears",
-      "notes": "Ken Houk | UC Los Angeles",
-      "desc": "https://foresight.org/summary/ken-houk-the-dynamics-of-molecular-gears/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -523.6171875,
-        "y": 3130
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1117,
-      "kind": "node",
-      "label": "A Molecular Replication Process Drives Supramolecular Polymerization",
-      "notes": "Yuanning Feng | Northwestern University",
-      "desc": "https://foresight.org/summary/yuanning-feng-a-molecular-replication-process-drives-supramolecular-polymerization/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 6413.9921875,
-        "y": 4924
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1118,
-      "kind": "node",
-      "label": "Molecular Machines: Computing",
-      "notes": "Ravi Pandya (Microsoft Research) & Tad Hogg (Institute of Molecular Manufacturing)\n",
-      "desc": "https://foresight.org/summary/ravi-pandya-tad-hogg-molecular-machines-computing/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -496.5703125,
-        "y": 2352
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1119,
-      "kind": "node",
-      "label": "Molecular Machines: Materials",
-      "notes": "Guillame Vives (Sorbonne University) & Tom Schroeder (Harvard University)",
-      "desc": "https://foresight.org/summary/guillame-vives-tom-schroeder-molecular-machines-materials/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 7889.0234375,
-        "y": 4398
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1120,
-      "kind": "node",
-      "label": "Polymer-Controlled Crystal Growth and Heat Release",
-      "notes": "Tom Schroeder (Harvard University)",
-      "desc": "https://foresight.org/summary/tom-schroeder-polymer-controlled-crystal-growth-and-heat-release/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 8108.6640625,
-        "y": 4667
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1121,
-      "kind": "node",
-      "label": "Fully addressable microstructures self-assembled from crisscrossed DNA-origami slats",
-      "notes": "William Shih (Harvard University)",
-      "desc": "https://foresight.org/summary/william-shih-fully-addressable-microstructures-self-assembled-from-crisscrossed-dna-origami-slats/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 816.6796875,
-        "y": 4887
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1122,
-      "kind": "node",
-      "label": "Artificial Molecular Pumps from Solution to Surfaces",
-      "notes": "Liang Feng (Northwestern University) & Yunyan Qiu (Northwestern University)",
-      "desc": "https://foresight.org/summary/liang-feng-yunyan-qiu-artificial-molecular-pumps-from-solution-to-surfaces/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 1389.65625,
-        "y": 38
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1123,
-      "kind": "node",
-      "label": "Design and Applications of Self-Powered Chemical Nanobots",
-      "notes": "Ayusman Sen | Pennsylvania State University",
-      "desc": "https://foresight.org/summary/ayusman-sen-pen-state-university-design-and-applications-of-self-powered-chemical-nanobots/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 4389.6484375,
-        "y": 5064
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1124,
-      "kind": "node",
-      "label": "Regulating Molecular Assemblies with Chemical Reactions ",
-      "notes": "Job Boekhoven | Technological Universität München\n ",
-      "desc": "https://foresight.org/summary/job-boekhoven-tech-universitat-munchen-regulating-molecular-assemblies-with-chemical-reactions/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -773.15625,
-        "y": 4358
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1125,
-      "kind": "node",
-      "label": "Probing Synthetic Molecular Machines with AFM",
-      "notes": "Anne-Sophie Duwez | University of Liege",
-      "desc": "https://foresight.org/summary/probing-synthetic-molecular-machines-with-afm-anne-sophie-duwez-university-of-liege/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -654.59375,
-        "y": 1704
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1126,
-      "kind": "node",
-      "label": "Molecular 3D printer Parts and Systems Brainstorm",
-      "notes": "Adam Marblestone & Benjamin Reinhardt",
-      "desc": "https://foresight.org/summary/molecular-3d-printer-parts-and-systems-brainstorm-adam-marblestone-benjamin-reinhardt/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 6214.40625,
-        "y": 5167
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1127,
-      "kind": "node",
-      "label": "Controlling the Machinery of Life with Synthetic Photoswitches",
-      "notes": "Dirk Trauner | New York University",
-      "desc": "https://foresight.org/summary/controlling-the-machinery-of-life-with-synthetic-photoswitches-dirk-trauner-nyu/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 9830.0078125,
-        "y": 1447
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1128,
-      "kind": "node",
-      "label": "The First Programmable Turing Complete Chemical Computer",
-      "notes": "Lee Cronin | University of Glasgow",
-      "desc": "https://foresight.org/summary/the-first-programmable-turing-complete-chemical-computer-lee-cronin-university-of-glasgow/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 4394.3125,
-        "y": 5307
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1129,
-      "kind": "node",
-      "label": "NSF Division of Materials Research: Where Materials Begin and Society Benefits",
-      "notes": "Linda Sapochak | National Science Foundation",
-      "desc": "https://foresight.org/summary/nsf-division-of-materials-research-where-materials-begin-and-society-benefits-linda-sapochak-nsf/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 6501.7578125,
-        "y": 5644
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1130,
-      "kind": "node",
-      "label": "Molecular Detection via DNA Nanotech & Neural Nets",
-      "notes": "William Shih (Harvard University) & Lulu Qian (California Institute of Technology)",
-      "desc": "https://foresight.org/summary/molecular-detection-via-dna-nanotech-neural-nets-william-shih-harvard-lulu-qian-caltech/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 471.5859375,
-        "y": 5175
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1131,
-      "kind": "node",
-      "label": "AMO’s Program in Atomically Precise Manufacturing and Nanocarbon Metals",
-      "notes": "Tina Kaarsberg (Department of Energy)",
-      "desc": "https://foresight.org/summary/amos-program-in-atomically-precise-manufacturing-and-nanocarbon-metals-tina-kaarsberg-doe/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 6466.03125,
-        "y": 5387
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1132,
-      "kind": "node",
-      "label": "Protein-based Assemblies and Molecular Machines",
-      "notes": "David Baker (University of Washington)",
-      "desc": "https://foresight.org/summary/protein-based-assemblies-and-molecular-machines-david-baker-university-of-washington/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 4293.8984375,
-        "y": 4344
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1133,
-      "kind": "node",
-      "label": "Enabling Applications of Nano/Micro Machines",
-      "notes": "Ayusman Sen (Pennsylvania State University), Amar Flood (Indiana University Bloomington), Marty Edelstein (Agua Via Ltd) & Gayle Pegamit",
-      "desc": "https://foresight.org/summary/enabling-applications-of-nano-micro-machines-ayusman-sen-amar-flood-gayle-pegamit/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 8048.5,
-        "y": 5023
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1134,
-      "kind": "node",
-      "label": "Molecular Machines: Applied in Medicine & Across Scales",
-      "notes": "James Tour (Rice University) & Nicolas Giuseppone (University of Strasbourg)",
-      "desc": "https://foresight.org/summary/molecular-machines-applied-in-medicine-across-scales-j-tour-rice-n-giuseppone-strasbourg/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": -759.9296875,
-        "y": 4015
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1135,
-      "kind": "node",
-      "label": "The Advent of Artificial Molecular Machines",
-      "notes": "David Leigh (University of Manchester), Dean Astumian (University of Maine) & Alberto Credi (Università di Bologna)",
-      "desc": "https://foresight.org/summary/david-leigh-raymond-astumian-alberto-credi-the-advent-of-artificial-molecular-machines/",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": null,
-      "pos": {
-        "x": 4221.203125,
-        "y": 4706
-      },
-      "nodelabelfontsize": 50,
-      "nodenotesfontsize": 30,
       "backgroundImageURL": null
     },
     {
@@ -4506,17 +3958,18 @@
       "kind": "node",
       "label": "Dynamic Materials",
       "notes": "",
-      "desc": "",
+      "desc": "Molecular Machines: Materials\nGuillame Vives (Sorbonne University) & Tom Schroeder (Harvard University)\nhttps://foresight.org/summary/guillame-vives-tom-schroeder-molecular-machines-materials/\n\nNSF Division of Materials Research: Where Materials Begin and Society Benefits\nLinda Sapochak | National Science Foundation\nhttps://foresight.org/summary/nsf-division-of-materials-research-where-materials-begin-and-society-benefits-linda-sapochak-nsf/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": 6053.078125,
-        "y": 4352.6328125
+        "x": 1670.5458984375,
+        "y": 742.1875
       },
-      "fill": "#888888ff",
+      "fill": "#1d243cff",
       "nodelabelfontsize": 95,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -4526,6 +3979,27 @@
       "kind": "node",
       "label": "Intelligent Cooperation ",
       "notes": "",
+      "desc": "The Advent of Artificial Molecular Machines\nDavid Leigh (University of Manchester), Dean Astumian (University of Maine) & Alberto Credi (Università di Bologna)\nhttps://foresight.org/summary/david-leigh-raymond-astumian-alberto-credi-the-advent-of-artificial-molecular-machines/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "labelcolor": "#ffffffff",
+      "is_collapsed": false,
+      "parent": null,
+      "pos": {
+        "x": 1719.546875,
+        "y": 5051.384765625
+      },
+      "fill": "#1d243cff",
+      "nodelabelfontsize": 100,
+      "nodenotesfontsize": 30,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1258,
+      "kind": "node",
+      "label": "Foresight Molecular Machines Tech Tree",
+      "notes": "The Foresight Molecular Machines Tech Tree is an effort to map out the frontier of the nanotechnology. Our team hopes more scientists and engineers in the related fields, especially biological macromolecular (DNA and protein) machines, can join us to add more nodes to the tree.",
       "desc": "",
       "link": "",
       "tags": [],
@@ -4533,12 +4007,32 @@
       "is_collapsed": false,
       "parent": null,
       "pos": {
-        "x": 3059.546875,
-        "y": 4755.0146484375
+        "x": 131.71875,
+        "y": 363
       },
-      "fill": "#888888ff",
-      "nodelabelfontsize": 100,
-      "nodenotesfontsize": 30,
+      "fill": "#ccccccff",
+      "nodelabelfontsize": 36,
+      "nodenotesfontsize": 28,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1259,
+      "kind": "node",
+      "label": "Navigation",
+      "notes": "Click and drag on the black background to pan the camera.  \nScroll the mousewheel to zoom.  Click on nodes to open a side panel with more information.  Some nodes can be collapsed by clicking the triangle in the top right corner.",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": null,
+      "pos": {
+        "x": 640,
+        "y": 347.5
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
       "backgroundImageURL": null
     },
     {
@@ -4870,7 +4364,7 @@
       "kind": "node",
       "label": "Smart Biointerfaces for Mimicking Time-Varying Biological Systems",
       "notes": "",
-      "desc": "",
+      "desc": "Controlling the Machinery of Life with Synthetic Photoswitches\nDirk Trauner | New York University\nhttps://foresight.org/summary/controlling-the-machinery-of-life-with-synthetic-photoswitches-dirk-trauner-nyu/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -7738,15 +7232,15 @@
       "kind": "node",
       "label": "Molecular Ratchet",
       "notes": "",
-      "desc": "",
+      "desc": "Molecular Ratchets\nStefan Borsley | University of Manchester\nhttps://foresight.org/summary/stefan-borsley-molecular-ratchets/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 125,
       "pos": {
-        "x": 3770.359375,
-        "y": 3046.5
+        "x": 3765.6328125,
+        "y": 3047.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": null,
@@ -7765,8 +7259,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1492.578125,
-        "y": 444.13134765625
+        "x": 5837.578125,
+        "y": 4664.13134765625
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -7785,8 +7279,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1068.2421875,
-        "y": 904.13134765625
+        "x": 5413.2421875,
+        "y": 5124.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7803,8 +7297,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1412.1953125,
-        "y": 804.13134765625
+        "x": 5757.1953125,
+        "y": 5024.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7821,8 +7315,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1414.140625,
-        "y": 904.13134765625
+        "x": 5759.140625,
+        "y": 5124.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7839,8 +7333,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1494.0703125,
-        "y": 564.13134765625
+        "x": 5839.0703125,
+        "y": 4784.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7857,8 +7351,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 2118.203125,
-        "y": 1124.13134765625
+        "x": 6463.203125,
+        "y": 5344.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7868,15 +7362,15 @@
       "kind": "node",
       "label": "Metal-Organic Framework",
       "notes": "",
-      "desc": "Porous crystalline materials interlinked through metal nodes and organic linkers",
+      "desc": "Porous crystalline materials interlinked through metal nodes and organic linkers\nArtificial Molecular Pumps from Solution to Surfaces\nLiang Feng (Northwestern University) & Yunyan Qiu (Northwestern University)\nhttps://foresight.org/summary/liang-feng-yunyan-qiu-artificial-molecular-pumps-from-solution-to-surfaces/",
       "link": "https://www.science.org/doi/abs/10.1126/science.1230444",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1034.6171875,
-        "y": 504.13134765625
+        "x": 5374.6171875,
+        "y": 4727.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7893,8 +7387,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1038.8671875,
-        "y": 604.13134765625
+        "x": 5383.8671875,
+        "y": 4824.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7911,8 +7405,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1052.109375,
-        "y": 704.13134765625
+        "x": 5397.109375,
+        "y": 4924.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -7929,8 +7423,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1462.8125,
-        "y": 704.13134765625
+        "x": 5807.8125,
+        "y": 4924.13134765625
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -7949,8 +7443,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1860.5859375,
-        "y": 727.5
+        "x": 6205.5859375,
+        "y": 4947.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -7969,8 +7463,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1892.46875,
-        "y": 484.13134765625
+        "x": 6237.46875,
+        "y": 4704.13134765625
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -7989,8 +7483,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1858.359375,
-        "y": 344.13134765625
+        "x": 6203.359375,
+        "y": 4564.13134765625
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -8009,8 +7503,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1861.765625,
-        "y": 424.13134765625
+        "x": 6206.765625,
+        "y": 4644.13134765625
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -8029,8 +7523,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1853.390625,
-        "y": 564.13134765625
+        "x": 6198.390625,
+        "y": 4784.13134765625
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -8049,8 +7543,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1855.8046875,
-        "y": 644.13134765625
+        "x": 6200.8046875,
+        "y": 4864.13134765625
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -8069,8 +7563,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 2392.8515625,
-        "y": 1164.13134765625
+        "x": 6737.8515625,
+        "y": 5384.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8087,8 +7581,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 2392.8515625,
-        "y": 1064.13134765625
+        "x": 6737.8515625,
+        "y": 5284.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8105,8 +7599,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1847.9140625,
-        "y": 984.13134765625
+        "x": 6192.9140625,
+        "y": 5204.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8123,8 +7617,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1839.6796875,
-        "y": 884.13134765625
+        "x": 6184.6796875,
+        "y": 5104.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8141,8 +7635,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1416.7421875,
-        "y": 1064.13134765625
+        "x": 5761.7421875,
+        "y": 5284.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8159,8 +7653,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1420.53125,
-        "y": 1144.13134765625
+        "x": 5765.53125,
+        "y": 5364.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8177,8 +7671,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1857.2265625,
-        "y": 1144.13134765625
+        "x": 6202.2265625,
+        "y": 5364.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8195,8 +7689,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1849.953125,
-        "y": 1064.13134765625
+        "x": 6194.953125,
+        "y": 5284.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8213,8 +7707,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1071.796875,
-        "y": 1104.13134765625
+        "x": 5416.796875,
+        "y": 5324.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8231,8 +7725,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1410.1875,
-        "y": 984.13134765625
+        "x": 5755.1875,
+        "y": 5204.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8249,8 +7743,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 1848.1953125,
-        "y": 804.13134765625
+        "x": 6193.1953125,
+        "y": 5024.13134765625
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8267,8 +7761,8 @@
       "is_collapsed": false,
       "parent": 137,
       "pos": {
-        "x": 2310.834588051075,
-        "y": 622.78076171875
+        "x": 6655.834588051075,
+        "y": 4842.78076171875
       },
       "fill": "#ccccccff",
       "nodelabelfontsize": null,
@@ -8324,7 +7818,7 @@
       "parent": 277,
       "pos": {
         "x": 1699.8223787841353,
-        "y": 3437.7572021484375
+        "y": 3637.7572021484375
       },
       "fill": "#f5a623ff",
       "backgroundImageURL": null
@@ -8342,7 +7836,7 @@
       "parent": 277,
       "pos": {
         "x": 2088.370183614031,
-        "y": 3865.427001953125
+        "y": 4065.427001953125
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -8360,7 +7854,7 @@
       "parent": 277,
       "pos": {
         "x": 2008.869140625,
-        "y": 4094.2626953125
+        "y": 4294.2626953125
       },
       "fill": "#93c47dff",
       "backgroundImageURL": null
@@ -8378,7 +7872,7 @@
       "parent": 277,
       "pos": {
         "x": 1500,
-        "y": 4086.5
+        "y": 4286.5
       },
       "fill": "#f5a623ff",
       "nodenotesfontsize": 16,
@@ -8397,7 +7891,7 @@
       "parent": 277,
       "pos": {
         "x": 2001.2581787109375,
-        "y": 4024.46826171875
+        "y": 4224.46826171875
       },
       "fill": "#fdffb6ff",
       "backgroundImageURL": null
@@ -8415,7 +7909,7 @@
       "parent": 277,
       "pos": {
         "x": 1015.751953125,
-        "y": 3994.2626953125
+        "y": 4194.2626953125
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8433,7 +7927,7 @@
       "parent": 277,
       "pos": {
         "x": 1469.595703125,
-        "y": 3954.2626953125
+        "y": 4154.2626953125
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8451,7 +7945,7 @@
       "parent": 277,
       "pos": {
         "x": 1467.884765625,
-        "y": 3854.2626953125
+        "y": 4054.2626953125
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8461,7 +7955,7 @@
       "kind": "node",
       "label": "Biological Motors",
       "notes": "",
-      "desc": "https://pubs.acs.org/doi/10.1021/acs.chemrev.9b00249\n\nBiological molecular motors (or biomolecular motors for short) are nature’s solution to the efficient conversion of chemical energy to mechanical movement. In biological systems, these fascinating molecules are responsible for movement of molecules, organelles, cells, and whole animals. In engineered systems, these motors can potentially be used to power actuators and engines, shuttle cargo to sensors, and enable new computing paradigms.",
+      "desc": "Molecular Machines: Applied in Medicine & Across Scales\nJames Tour (Rice University) & Nicolas Giuseppone (University of Strasbourg)\nhttps://foresight.org/summary/molecular-machines-applied-in-medicine-across-scales-j-tour-rice-n-giuseppone-strasbourg/\n\nhttps://pubs.acs.org/doi/10.1021/acs.chemrev.9b00249\n\nBiological molecular motors (or biomolecular motors for short) are nature’s solution to the efficient conversion of chemical energy to mechanical movement. In biological systems, these fascinating molecules are responsible for movement of molecules, organelles, cells, and whole animals. In engineered systems, these motors can potentially be used to power actuators and engines, shuttle cargo to sensors, and enable new computing paradigms.",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -8469,7 +7963,7 @@
       "parent": 277,
       "pos": {
         "x": 121.28125,
-        "y": 3926.5
+        "y": 4127.5
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8487,7 +7981,7 @@
       "parent": 277,
       "pos": {
         "x": 455.900390625,
-        "y": 3754.2626953125
+        "y": 3954.2626953125
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8505,7 +7999,7 @@
       "parent": 277,
       "pos": {
         "x": 582.501953125,
-        "y": 3447.5
+        "y": 3647.5
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8523,7 +8017,7 @@
       "parent": 277,
       "pos": {
         "x": 87.751953125,
-        "y": 3607.5
+        "y": 3807.5
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8541,7 +8035,7 @@
       "parent": 277,
       "pos": {
         "x": 112.033203125,
-        "y": 3754.2626953125
+        "y": 3954.2626953125
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8559,7 +8053,7 @@
       "parent": 277,
       "pos": {
         "x": 75.666015625,
-        "y": 3447.5
+        "y": 3647.5
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8577,7 +8071,7 @@
       "parent": 277,
       "pos": {
         "x": 2293.9365234375,
-        "y": 3518.04736328125
+        "y": 3718.04736328125
       },
       "fill": "#ccccccff",
       "nodelabelfontsize": 26,
@@ -8597,7 +8091,7 @@
       "parent": 277,
       "pos": {
         "x": 1222.546875,
-        "y": 3647.5
+        "y": 3847.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8615,7 +8109,7 @@
       "parent": 277,
       "pos": {
         "x": 1216.392578125,
-        "y": 3567.5
+        "y": 3767.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8633,7 +8127,7 @@
       "parent": 277,
       "pos": {
         "x": 982.994140625,
-        "y": 3894.2626953125
+        "y": 4094.2626953125
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -8653,7 +8147,7 @@
       "parent": 277,
       "pos": {
         "x": 552.986328125,
-        "y": 3894.2626953125
+        "y": 4094.2626953125
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8663,7 +8157,7 @@
       "kind": "node",
       "label": "Molecular Assembly Line",
       "notes": "",
-      "desc": "https://www.nature.com/articles/nature13711\n\nMolecular ‘assembly lines’, in which organic molecules undergo iterative processes such as chain elongation and functional group manipulation, are found in many natural systems, including polyketide biosynthesis.",
+      "desc": "Regulating Molecular Assemblies with Chemical Reactions \nJob Boekhoven | Technological Universität München\nhttps://foresight.org/summary/job-boekhoven-tech-universitat-munchen-regulating-molecular-assemblies-with-chemical-reactions/\n\nhttps://www.nature.com/articles/nature13711\n\nMolecular ‘assembly lines’, in which organic molecules undergo iterative processes such as chain elongation and functional group manipulation, are found in many natural systems, including polyketide biosynthesis.",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -8671,7 +8165,7 @@
       "parent": 277,
       "pos": {
         "x": 557.056640625,
-        "y": 3994.2626953125
+        "y": 4194.2626953125
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8689,7 +8183,7 @@
       "parent": 277,
       "pos": {
         "x": 444.376953125,
-        "y": 3587.5
+        "y": 3787.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8707,7 +8201,7 @@
       "parent": 277,
       "pos": {
         "x": 452.095703125,
-        "y": 3674.2626953125
+        "y": 3874.2626953125
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8725,7 +8219,7 @@
       "parent": 277,
       "pos": {
         "x": 1218.923828125,
-        "y": 3487.5
+        "y": 3687.5
       },
       "fill": "#ffffffff",
       "backgroundImageURL": null
@@ -8742,8 +8236,8 @@
       "is_collapsed": false,
       "parent": 277,
       "pos": {
-        "x": 1109.103515625,
-        "y": 3744.2626953125
+        "x": 1077,
+        "y": 3957.5
       },
       "fill": "#f5a623ff",
       "nodelabelfontsize": 30,
@@ -8763,7 +8257,7 @@
       "parent": 299,
       "pos": {
         "x": 1701.4181950682705,
-        "y": 3479.014404296875
+        "y": 3679.014404296875
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8781,7 +8275,7 @@
       "parent": 299,
       "pos": {
         "x": 1700.3530095213955,
-        "y": 3428.9144287109375
+        "y": 3628.9144287109375
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8799,7 +8293,7 @@
       "parent": 317,
       "pos": {
         "x": 2090.1953125,
-        "y": 3927.5
+        "y": 4127.5
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8817,7 +8311,7 @@
       "parent": 317,
       "pos": {
         "x": 2086.0221055093116,
-        "y": 3854.952880859375
+        "y": 4054.952880859375
       },
       "fill": "#ffffff",
       "backgroundImageURL": null
@@ -8951,7 +8445,7 @@
       "parent": 773,
       "pos": {
         "x": 2218.119140625,
-        "y": 3527.5
+        "y": 3727.5
       },
       "nodelabelfontsize": 30,
       "nodenotesfontsize": null,
@@ -8970,7 +8464,7 @@
       "parent": 773,
       "pos": {
         "x": 2212.541015625,
-        "y": 3587.5
+        "y": 3787.5
       },
       "nodelabelfontsize": 30,
       "nodenotesfontsize": null,
@@ -8989,7 +8483,7 @@
       "parent": 773,
       "pos": {
         "x": 2224.220703125,
-        "y": 3467.5
+        "y": 3667.5
       },
       "nodelabelfontsize": 30,
       "nodenotesfontsize": null,
@@ -9008,7 +8502,7 @@
       "parent": 773,
       "pos": {
         "x": 2288.173828125,
-        "y": 3647.5
+        "y": 3847.5
       },
       "nodelabelfontsize": 30,
       "nodenotesfontsize": null,
@@ -9027,7 +8521,7 @@
       "parent": 773,
       "pos": {
         "x": 2256.791015625,
-        "y": 3407.5
+        "y": 3607.5
       },
       "nodelabelfontsize": 30,
       "nodenotesfontsize": null,
@@ -9046,7 +8540,7 @@
       "parent": 779,
       "pos": {
         "x": 79.84375,
-        "y": 927.5303039550781
+        "y": 947.0303039550781
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 48,
@@ -9066,7 +8560,7 @@
       "parent": 779,
       "pos": {
         "x": 67.4140625,
-        "y": 1007.5303039550781
+        "y": 1027.0303039550781
       },
       "fill": "#f5a623ff",
       "nodelabelfontsize": 48,
@@ -9086,7 +8580,7 @@
       "parent": 779,
       "pos": {
         "x": 35.3046875,
-        "y": 1087.5303039550781
+        "y": 1107.0303039550781
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 48,
@@ -9106,7 +8600,7 @@
       "parent": 779,
       "pos": {
         "x": 88.328125,
-        "y": 847.5303039550781
+        "y": 867.0303039550781
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 48,
@@ -9126,7 +8620,7 @@
       "parent": 779,
       "pos": {
         "x": 172.75,
-        "y": 1167.5303039550781
+        "y": 1187.0303039550781
       },
       "nodelabelfontsize": 48,
       "nodenotesfontsize": null,
@@ -9145,7 +8639,7 @@
       "parent": 783,
       "pos": {
         "x": 1933.392578125,
-        "y": 1803.683334350586
+        "y": 1843.683334350586
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 30,
@@ -9165,7 +8659,7 @@
       "parent": 783,
       "pos": {
         "x": 1471.5478191834336,
-        "y": 1553.9592208862305
+        "y": 1593.9592208862305
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -9185,7 +8679,7 @@
       "parent": 783,
       "pos": {
         "x": 172.134765625,
-        "y": 1545
+        "y": 1585
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 26,
@@ -9205,7 +8699,7 @@
       "parent": 783,
       "pos": {
         "x": 182.197265625,
-        "y": 1965
+        "y": 2005
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 26,
@@ -9225,7 +8719,7 @@
       "parent": 783,
       "pos": {
         "x": 155.74609375,
-        "y": 2250.5015182495117
+        "y": 2290.5015182495117
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 26,
@@ -9237,7 +8731,7 @@
       "kind": "node",
       "label": "Electronic Microscopy (EM)",
       "notes": "",
-      "desc": "",
+      "desc": "Ready for Atomically Precise Manufacturing & Electron Microscopy\nJohn Randall (Zyvex Labs) & Sergei Kalinin (Oak Ridge National Laboratory)\nhttps://foresight.org/summary/john-randall-sergei-kalinin-ready-for-atomically-precise-manufacturing-electron-microscopy/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -9245,7 +8739,7 @@
       "parent": 783,
       "pos": {
         "x": 519.0546875,
-        "y": 1546.5
+        "y": 1587.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9265,7 +8759,7 @@
       "parent": 783,
       "pos": {
         "x": 992.666015625,
-        "y": 1427.5
+        "y": 1467.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9285,7 +8779,7 @@
       "parent": 783,
       "pos": {
         "x": 1017.126953125,
-        "y": 1547.5
+        "y": 1587.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9305,7 +8799,7 @@
       "parent": 783,
       "pos": {
         "x": 996.939453125,
-        "y": 1667.5
+        "y": 1707.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9325,7 +8819,7 @@
       "parent": 783,
       "pos": {
         "x": 597.541015625,
-        "y": 1987.5
+        "y": 2027.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9345,7 +8839,7 @@
       "parent": 783,
       "pos": {
         "x": 1123.892578125,
-        "y": 1847.5
+        "y": 1887.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9365,7 +8859,7 @@
       "parent": 783,
       "pos": {
         "x": 1090.908203125,
-        "y": 1987.5
+        "y": 2027.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9385,7 +8879,7 @@
       "parent": 783,
       "pos": {
         "x": 1126.87890625,
-        "y": 2073.0015182495117
+        "y": 2113.0015182495117
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9405,7 +8899,7 @@
       "parent": 783,
       "pos": {
         "x": 580.12890625,
-        "y": 2253.0015182495117
+        "y": 2293.0015182495117
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9425,7 +8919,7 @@
       "parent": 783,
       "pos": {
         "x": 1306.05859375,
-        "y": 2173.0015182495117
+        "y": 2213.0015182495117
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9445,7 +8939,7 @@
       "parent": 783,
       "pos": {
         "x": 1442.35546875,
-        "y": 2253.0015182495117
+        "y": 2293.0015182495117
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9465,7 +8959,7 @@
       "parent": 783,
       "pos": {
         "x": 1316.84765625,
-        "y": 2333.0015182495117
+        "y": 2373.0015182495117
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9477,7 +8971,7 @@
       "kind": "node",
       "label": "Atomic Force Microscopy (AFM)",
       "notes": "",
-      "desc": "https://en.wikipedia.org/wiki/Atomic_force_microscopy\n\nAtomic force microscopy (AFM) or scanning force microscopy (SFM) is a very-high-resolution type of scanning probe microscopy (SPM), with demonstrated resolution on the order of fractions of a nanometer, more than 1000 times better than the optical diffraction limit.",
+      "desc": "Single Molecule Focus\nDamien Sluysmans | Université de Liège\nhttps://foresight.org/summary/damien-sluysmans-single-molecule-focus/\nProbing Synthetic Molecular Machines with AFM\nAnne-Sophie Duwez | University of Liege\nhttps://foresight.org/summary/probing-synthetic-molecular-machines-with-afm-anne-sophie-duwez-university-of-liege/\nChemical Bonds to Atoms Resolved by Subatomically Resolved Atomic Force Microscopy\nFranz Giessibl | Universität Regensburg\nhttps://foresight.org/summary/franz-giessibl-chemical-bonds-to-atoms-resolved-by-subatomically-resolved-atomic-force-microscopy/\n\nhttps://en.wikipedia.org/wiki/Atomic_force_microscopy\n\nAtomic force microscopy (AFM) or scanning force microscopy (SFM) is a very-high-resolution type of scanning probe microscopy (SPM), with demonstrated resolution on the order of fractions of a nanometer, more than 1000 times better than the optical diffraction limit.",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -9485,7 +8979,7 @@
       "parent": 783,
       "pos": {
         "x": 586.671875,
-        "y": 1826.5
+        "y": 1867.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9505,7 +8999,7 @@
       "parent": 783,
       "pos": {
         "x": 590.017578125,
-        "y": 2147.5
+        "y": 2187.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9525,7 +9019,7 @@
       "parent": 783,
       "pos": {
         "x": 1673.955078125,
-        "y": 1987.5
+        "y": 2027.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9545,7 +9039,7 @@
       "parent": 783,
       "pos": {
         "x": 2226.416015625,
-        "y": 1987.5
+        "y": 2027.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -9565,7 +9059,7 @@
       "parent": 783,
       "pos": {
         "x": 2314.20703125,
-        "y": 1508.328125
+        "y": 1548.328125
       },
       "fill": "#ccccccff",
       "nodelabelfontsize": 30,
@@ -9585,7 +9079,7 @@
       "parent": 793,
       "pos": {
         "x": 1475.0922203981172,
-        "y": 1513.0015182495117
+        "y": 1553.0015182495117
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9605,7 +9099,7 @@
       "parent": 793,
       "pos": {
         "x": 1471.3297692262422,
-        "y": 1564.7643356323242
+        "y": 1604.7643356323242
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9625,7 +9119,7 @@
       "parent": 793,
       "pos": {
         "x": 1472.5839196168672,
-        "y": 1620.8973922729492
+        "y": 1660.8973922729492
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9644,8 +9138,8 @@
       "is_collapsed": false,
       "parent": 798,
       "pos": {
-        "x": 2073.4215145111084,
-        "y": 2828.5
+        "x": 2069.1090145111084,
+        "y": 2932.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9664,8 +9158,8 @@
       "is_collapsed": false,
       "parent": 798,
       "pos": {
-        "x": 2054.140625,
-        "y": 2901.8599853515625
+        "x": 2049.828125,
+        "y": 3005.8599853515625
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9685,7 +9179,7 @@
       "parent": 814,
       "pos": {
         "x": 1938.7718053349708,
-        "y": 1792.6873168945312
+        "y": 1832.6873168945312
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9705,7 +9199,7 @@
       "parent": 814,
       "pos": {
         "x": 1938.7718053349708,
-        "y": 1849.8666687011719
+        "y": 1889.8666687011719
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9724,8 +9218,8 @@
       "is_collapsed": false,
       "parent": 828,
       "pos": {
-        "x": 2066.3883425054937,
-        "y": 2857.7241821289062
+        "x": 2062.0758425054937,
+        "y": 2961.7241821289062
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 30,
@@ -9737,7 +9231,7 @@
       "kind": "node",
       "label": "Macromolecular Simulation Software",
       "notes": "",
-      "desc": "",
+      "desc": "Computer Aided Design and Modeling for Nucleic Acid Nanotechnology\nPetr Sulc | Arizona State University\nhttps://foresight.org/summary/petr-sulc-computer-aided-design-and-modeling-for-nucleic-acid-nanotechnology/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -9745,7 +9239,7 @@
       "parent": 828,
       "pos": {
         "x": 1715.109375,
-        "y": 2687.5
+        "y": 2772.5
       },
       "fill": "#93c47dff",
       "nodelabelfontsize": 30,
@@ -9765,7 +9259,7 @@
       "parent": 828,
       "pos": {
         "x": 123.0859375,
-        "y": 2608.5
+        "y": 2693.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9777,7 +9271,7 @@
       "kind": "node",
       "label": "Molecular Dynamics",
       "notes": "",
-      "desc": "https://en.wikipedia.org/wiki/Molecular_dynamics\n\nMolecular dynamics (MD) is a computer simulation method for analyzing the physical movements of atoms and molecules. The atoms and molecules are allowed to interact for a fixed period of time, giving a view of the dynamic \"evolution\" of the system. In the most common version, the trajectories of atoms and molecules are determined by numerically solving Newton's equations of motion for a system of interacting particles, where forces between the particles and their potential energies are often calculated using interatomic potentials or molecular mechanics force fields. The method is applied mostly in chemical physics, materials science, and biophysics.",
+      "desc": "The Dynamics of Molecular Gears\nKen Houk | UC Los Angeles\nhttps://foresight.org/summary/ken-houk-the-dynamics-of-molecular-gears/\n\nhttps://en.wikipedia.org/wiki/Molecular_dynamics\n\nMolecular dynamics (MD) is a computer simulation method for analyzing the physical movements of atoms and molecules. The atoms and molecules are allowed to interact for a fixed period of time, giving a view of the dynamic \"evolution\" of the system. In the most common version, the trajectories of atoms and molecules are determined by numerically solving Newton's equations of motion for a system of interacting particles, where forces between the particles and their potential energies are often calculated using interatomic potentials or molecular mechanics force fields. The method is applied mostly in chemical physics, materials science, and biophysics.",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -9785,7 +9279,7 @@
       "parent": 828,
       "pos": {
         "x": 82.9375,
-        "y": 3103
+        "y": 3188
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9797,7 +9291,7 @@
       "kind": "node",
       "label": "Density Functional Theory (DFT)",
       "notes": "",
-      "desc": "https://en.wikipedia.org/wiki/Density_functional_theory\n\nDensity-functional theory (DFT) is a computational quantum mechanical modelling method used in physics, chemistry and materials science to investigate the electronic structure (or nuclear structure) (principally the ground state) of many-body systems, in particular atoms, molecules, and the condensed phases. Using this theory, the properties of a many-electron system can be determined by using functionals, i.e. functions of another function.",
+      "desc": "Molecular and Brownian Dynamics Simulations of Rotatory Catalysis in Molecular Motors\nAbhishek Singharoy | Arizona State University\nhttps://foresight.org/summary/a-singharoy-molecular-and-brownian-dynamics-simulations-of-rotatory-catalysis-in-molecular-motors/\n\nhttps://en.wikipedia.org/wiki/Density_functional_theory\n\nDensity-functional theory (DFT) is a computational quantum mechanical modelling method used in physics, chemistry and materials science to investigate the electronic structure (or nuclear structure) (principally the ground state) of many-body systems, in particular atoms, molecules, and the condensed phases. Using this theory, the properties of a many-electron system can be determined by using functionals, i.e. functions of another function.",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
@@ -9805,7 +9299,7 @@
       "parent": 828,
       "pos": {
         "x": 166.97983310302516,
-        "y": 2847.5
+        "y": 2932.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 0,
@@ -9825,7 +9319,7 @@
       "parent": 828,
       "pos": {
         "x": 739.2298331030252,
-        "y": 2767.5
+        "y": 2852.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9845,7 +9339,7 @@
       "parent": 828,
       "pos": {
         "x": 739.8157706030252,
-        "y": 2927.5
+        "y": 3012.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9865,7 +9359,7 @@
       "parent": 828,
       "pos": {
         "x": 553.265625,
-        "y": 3048.5
+        "y": 3133.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9885,7 +9379,7 @@
       "parent": 828,
       "pos": {
         "x": 553.5703125,
-        "y": 3148.5
+        "y": 3233.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9905,7 +9399,7 @@
       "parent": 828,
       "pos": {
         "x": 1200.4453125,
-        "y": 3048.5
+        "y": 3133.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9925,7 +9419,7 @@
       "parent": 828,
       "pos": {
         "x": 1184.203125,
-        "y": 3148.5
+        "y": 3233.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9945,7 +9439,7 @@
       "parent": 828,
       "pos": {
         "x": 1588.53125,
-        "y": 3048.5
+        "y": 3133.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9965,7 +9459,7 @@
       "parent": 828,
       "pos": {
         "x": 1654.59375,
-        "y": 3148.5
+        "y": 3233.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -9977,15 +9471,15 @@
       "kind": "node",
       "label": "New Therapeutic Proteins",
       "notes": "",
-      "desc": "",
+      "desc": "Towards Computational Design of Self Assembling &Genetically Encodable Nanomachines\nAlexis Courbet | University of Washington\nhttps://foresight.org/summary/alexis-courbet-towards-computational-design-of-self-assembling-genetically-encodable-nanomachines/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 828,
       "pos": {
-        "x": 2088.65625,
-        "y": 3148.5
+        "x": 2089.34375,
+        "y": 3232.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -10005,7 +9499,7 @@
       "parent": 828,
       "pos": {
         "x": 2056.546875,
-        "y": 3048.5
+        "y": 3133.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -10025,7 +9519,7 @@
       "parent": 828,
       "pos": {
         "x": 1314.2890625,
-        "y": 2848.5
+        "y": 2933.5
       },
       "fill": "#f5a623ff",
       "nodelabelfontsize": 30,
@@ -10045,7 +9539,7 @@
       "parent": 828,
       "pos": {
         "x": 667.515625,
-        "y": 2608.5
+        "y": 2693.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -10065,7 +9559,7 @@
       "parent": 828,
       "pos": {
         "x": 1331.7734375,
-        "y": 2608.5
+        "y": 2693.5
       },
       "fill": "#fdffb6ff",
       "nodelabelfontsize": 30,
@@ -10085,10 +9579,30 @@
       "parent": 828,
       "pos": {
         "x": 2250.819064298088,
-        "y": 2598.5
+        "y": 2683.5
       },
       "fill": "#ccccccff",
       "nodelabelfontsize": 30,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1253,
+      "kind": "node",
+      "label": "Liquid Crystal Amplification",
+      "notes": "",
+      "desc": "Liquid Crystal Amplification of Molecular Motor Dynamics to Tangible Dynamics\nDick Broer\nhttps://foresight.org/summary/dick-broer-liquid-crystal-amplification-of-molecular-motor-dynamics-to-tangible-dynamics/\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 828,
+      "pos": {
+        "x": 558.90625,
+        "y": 3332.5
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
     },
@@ -10180,8 +9694,8 @@
       "is_collapsed": false,
       "parent": 871,
       "pos": {
-        "x": 644.6751403808594,
-        "y": 560.4862446784973
+        "x": 644.6609802246094,
+        "y": 599.4862446784973
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -10200,8 +9714,8 @@
       "is_collapsed": false,
       "parent": 871,
       "pos": {
-        "x": 648.4798278808594,
-        "y": 677.9862446784973
+        "x": 648.4656677246094,
+        "y": 716.9862446784973
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 26,
@@ -10220,8 +9734,8 @@
       "is_collapsed": false,
       "parent": 874,
       "pos": {
-        "x": 621.4600219726562,
-        "y": 847.5
+        "x": 620.546875,
+        "y": 887.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
@@ -10240,262 +9754,11 @@
       "is_collapsed": false,
       "parent": 874,
       "pos": {
-        "x": 618.1943969726562,
-        "y": 907.5
+        "x": 617.28125,
+        "y": 947.5
       },
       "fill": "#ffffffff",
       "nodelabelfontsize": 30,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1176,
-      "kind": "node",
-      "label": "Fellow 3",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 874,
-      "pos": {
-        "x": 594.1006469726562,
-        "y": 967.5
-      },
-      "fill": "#ffffffff",
-      "nodelabelfontsize": null,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1177,
-      "kind": "node",
-      "label": "Fellow 4",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 874,
-      "pos": {
-        "x": 594.1006469726562,
-        "y": 1027.5
-      },
-      "fill": "#ffffffff",
-      "nodelabelfontsize": null,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1178,
-      "kind": "node",
-      "label": "Fellow 5",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 874,
-      "pos": {
-        "x": 594.1006469726562,
-        "y": 1087.5
-      },
-      "fill": "#ffffffff",
-      "nodelabelfontsize": null,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 1179,
-      "kind": "node",
-      "label": "Fellow 6",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 874,
-      "pos": {
-        "x": 594.1006469726562,
-        "y": 1147.5
-      },
-      "fill": "#ffffffff",
-      "nodelabelfontsize": null,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 881,
-      "kind": "node",
-      "label": "To",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": -14.5859375,
-        "y": 439
-      },
-      "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 883,
-      "kind": "node",
-      "label": "Machines",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": 309.9765625,
-        "y": 439
-      },
-      "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 884,
-      "kind": "node",
-      "label": "Tech",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": -5.1640625,
-        "y": 530.6703796386719
-      },
-      "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 885,
-      "kind": "node",
-      "label": "Tree",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": 132.078125,
-        "y": 530.6703796386719
-      },
-      "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 886,
-      "kind": "node",
-      "label": "By",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": 240.265625,
-        "y": 530.6703796386719
-      },
-      "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 887,
-      "kind": "node",
-      "label": "The",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": 348.3515625,
-        "y": 530.6703796386719
-      },
-      "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 889,
-      "kind": "node",
-      "label": "Institute",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": 316.59375,
-        "y": 630.6703796386719
-      },
-      "nodelabelfontsize": 48,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 882,
-      "kind": "node",
-      "label": "Molecular",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": 131.1953125,
-        "y": 439
-      },
-      "nodelabelfontsize": 32,
-      "nodenotesfontsize": null,
-      "backgroundImageURL": null
-    },
-    {
-      "id": 888,
-      "kind": "node",
-      "label": "Foresight",
-      "notes": "",
-      "desc": "",
-      "link": "",
-      "tags": [],
-      "has_dynamic_notes": false,
-      "is_collapsed": false,
-      "parent": 880,
-      "pos": {
-        "x": 67.25,
-        "y": 630.6703796386719
-      },
-      "nodelabelfontsize": 48,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
     },
@@ -10512,7 +9775,7 @@
       "parent": 1020,
       "pos": {
         "x": 2282.70703125,
-        "y": 1499.15625
+        "y": 1539.15625
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10531,7 +9794,7 @@
       "parent": 1020,
       "pos": {
         "x": 2314.41796875,
-        "y": 1559.15625
+        "y": 1599.15625
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10550,7 +9813,7 @@
       "parent": 1020,
       "pos": {
         "x": 2306.72265625,
-        "y": 1447.4140625
+        "y": 1487.4140625
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10569,7 +9832,7 @@
       "parent": 1020,
       "pos": {
         "x": 2286.52734375,
-        "y": 1619.15625
+        "y": 1659.15625
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10588,7 +9851,7 @@
       "parent": 1021,
       "pos": {
         "x": 2147.409520603025,
-        "y": 2547.5
+        "y": 2632.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10607,7 +9870,7 @@
       "parent": 1021,
       "pos": {
         "x": 2180.401708103025,
-        "y": 2607.5
+        "y": 2692.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10626,7 +9889,7 @@
       "parent": 1021,
       "pos": {
         "x": 2244.9284162060503,
-        "y": 2667.5859375
+        "y": 2752.5859375
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10644,8 +9907,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2314.607785860775,
-        "y": 787.5
+        "x": 6659.607785860775,
+        "y": 5007.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10663,8 +9926,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2281.076535860775,
-        "y": 847.5
+        "x": 6626.076535860775,
+        "y": 5067.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10682,8 +9945,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2286.842160860775,
-        "y": 547.5
+        "x": 6631.842160860775,
+        "y": 4767.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10701,8 +9964,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2269.474973360775,
-        "y": 607.5
+        "x": 6614.474973360775,
+        "y": 4827.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10720,8 +9983,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2251.420285860775,
-        "y": 907.5
+        "x": 6596.420285860775,
+        "y": 5127.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10739,8 +10002,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2255.053098360775,
-        "y": 367.5
+        "x": 6600.053098360775,
+        "y": 4587.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10758,8 +10021,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2274.451535860775,
-        "y": 487.5
+        "x": 6619.451535860775,
+        "y": 4707.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10777,8 +10040,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2260.717160860775,
-        "y": 427.5
+        "x": 6605.717160860775,
+        "y": 4647.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10796,8 +10059,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2264.842160860775,
-        "y": 667.5
+        "x": 6609.842160860775,
+        "y": 4887.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10815,8 +10078,8 @@
       "is_collapsed": false,
       "parent": 1072,
       "pos": {
-        "x": 2255.998410860775,
-        "y": 727.5
+        "x": 6600.998410860775,
+        "y": 4947.5
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10834,10 +10097,170 @@
       "is_collapsed": false,
       "parent": 1101,
       "pos": {
-        "x": 769.21484375,
-        "y": 4583.9658203125
+        "x": 889.52734375,
+        "y": 4772.14453125
       },
       "fill": "#ccccccff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1180,
+      "kind": "node",
+      "label": "DNA Origami",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 75.3125,
+        "y": 4715.6787109375
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1181,
+      "kind": "node",
+      "label": "Artificial Machines",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 300.765625,
+        "y": 4985.6787109375
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1218,
+      "kind": "node",
+      "label": "Mammalian Cell Expression",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 481.09375,
+        "y": 4675.6787109375
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1220,
+      "kind": "node",
+      "label": "Rotary Ratchet Motor",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 484.578125,
+        "y": 4775.6787109375
+      },
+      "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1225,
+      "kind": "node",
+      "label": "Control Over Reaction Pathways",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 846.65625,
+        "y": 4955.6787109375
+      },
+      "fill": "#b8e986ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1227,
+      "kind": "node",
+      "label": "Biomolecular Factory",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 903.3046875,
+        "y": 5035.6787109375
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1232,
+      "kind": "node",
+      "label": "Biocomputing",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 940.6953125,
+        "y": 5167.5
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1256,
+      "kind": "node",
+      "label": " DNA Electromotors",
+      "notes": "",
+      "desc": "DNA Electromotors\nAleksei Aksimentiev\nhttps://foresight.org/summary/aleksei-aksimentiev-dna-electromotors/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1101,
+      "pos": {
+        "x": 91.484375,
+        "y": 4627.5
+      },
+      "fill": "#ffffffff",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -10854,8 +10277,8 @@
       "is_collapsed": false,
       "parent": 1102,
       "pos": {
-        "x": 776.0338134765625,
-        "y": 4598.9482421875
+        "x": 896.3463134765625,
+        "y": 4787.126953125
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10873,8 +10296,8 @@
       "is_collapsed": false,
       "parent": 1102,
       "pos": {
-        "x": 777.265625,
-        "y": 4530.431640625
+        "x": 897.578125,
+        "y": 4718.6103515625
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10892,8 +10315,8 @@
       "is_collapsed": false,
       "parent": 1102,
       "pos": {
-        "x": 777.265625,
-        "y": 4670.431640625
+        "x": 897.578125,
+        "y": 4858.6103515625
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10911,10 +10334,90 @@
       "is_collapsed": false,
       "parent": 1103,
       "pos": {
-        "x": 3489.0501708984375,
-        "y": 4426.64453125
+        "x": 2061.795654296875,
+        "y": 4667.2763671875
       },
       "fill": "#ccccccff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1234,
+      "kind": "node",
+      "label": "Tiny Axles",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1103,
+      "pos": {
+        "x": 1276.96875,
+        "y": 4692.7041015625
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1235,
+      "kind": "node",
+      "label": "Rotors",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1103,
+      "pos": {
+        "x": 1276.430908203125,
+        "y": 4787.5
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1236,
+      "kind": "node",
+      "label": "Unclog Arteries",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1103,
+      "pos": {
+        "x": 1729.3515625,
+        "y": 4792.7041015625
+      },
+      "fill": "#b8e986ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1237,
+      "kind": "node",
+      "label": "Repair Damaged Cells",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1103,
+      "pos": {
+        "x": 1727.828125,
+        "y": 4672.7041015625
+      },
+      "fill": "#b8e986ff",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -10931,8 +10434,8 @@
       "is_collapsed": false,
       "parent": 1104,
       "pos": {
-        "x": 3497.2911376953125,
-        "y": 4451.216796875
+        "x": 2070.03662109375,
+        "y": 4691.8486328125
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -10950,10 +10453,569 @@
       "is_collapsed": false,
       "parent": 1139,
       "pos": {
-        "x": 6238.30419921875,
-        "y": 4427.765625
+        "x": 2373.71728515625,
+        "y": 456.6953125
       },
       "fill": "#ccccccff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1184,
+      "kind": "node",
+      "label": "Adaptive & Malleable",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 992.5068359375,
+        "y": 806.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1185,
+      "kind": "node",
+      "label": "Self-Healing",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1021.4755859375,
+        "y": 1006.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1186,
+      "kind": "node",
+      "label": "Active & Autonomous",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1036.0302734375,
+        "y": 546.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1187,
+      "kind": "node",
+      "label": "On-Off Dynamic Polymer",
+      "notes": "",
+      "desc": "Polymer-Controlled Crystal Growth and Heat Release\nTom Schroeder (Harvard University)\nhttps://foresight.org/summary/tom-schroeder-polymer-controlled-crystal-growth-and-heat-release/\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1533.9990234375,
+        "y": 1126.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1188,
+      "kind": "node",
+      "label": "Cell Scaffold Engineering",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1976.4912109375,
+        "y": 1206.875
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1190,
+      "kind": "node",
+      "label": "4D-Printing",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1939.7421875,
+        "y": 626.875
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1191,
+      "kind": "node",
+      "label": "Tissue Engineering",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 2325.1015625,
+        "y": 606.875
+      },
+      "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1193,
+      "kind": "node",
+      "label": "Drug Delivery (Tumors)",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 2288.3125,
+        "y": 706.875
+      },
+      "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1195,
+      "kind": "node",
+      "label": "Sensors",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 2362.125,
+        "y": 786.875
+      },
+      "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1197,
+      "kind": "node",
+      "label": "Scaffolds",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 2350.1640625,
+        "y": 886.875
+      },
+      "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1199,
+      "kind": "node",
+      "label": "Gastric Devices",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 2345.0703125,
+        "y": 966.875
+      },
+      "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1201,
+      "kind": "node",
+      "label": "Reparation After Mechanical Damage",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1447.6005859375,
+        "y": 1006.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1203,
+      "kind": "node",
+      "label": "Better Energy Efficiency",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1967.9521484375,
+        "y": 1006.875
+      },
+      "fill": "#b8e986ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1205,
+      "kind": "node",
+      "label": "Crosslinked Thermosets",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1491.9365234375,
+        "y": 806.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1207,
+      "kind": "node",
+      "label": "Recyclability",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1947.515625,
+        "y": 846.875
+      },
+      "fill": "#fdffb6ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1209,
+      "kind": "node",
+      "label": "Solvent Resistance",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1925.3046875,
+        "y": 746.875
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1211,
+      "kind": "node",
+      "label": "Feedback-Controlled Materials",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1448.2412109375,
+        "y": 486.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1213,
+      "kind": "node",
+      "label": "Non-Equilibrium Materials",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1461.4990234375,
+        "y": 566.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1215,
+      "kind": "node",
+      "label": "Transient Structure Formation",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1945.3349609375,
+        "y": 526.875
+      },
+      "fill": "#f5a623ff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1241,
+      "kind": "node",
+      "label": "Single Molecules on Surfaces",
+      "notes": "",
+      "desc": "Silicon-Based Nanotechnology & Manipulating Single Molecules on Surfaces\nJoe Lyding (UIUC) & Leonhard Grill (University of Graz)\nhttps://foresight.org/summary/j-lyding-l-grill-silicon-based-nanotechnology-manipulating-single-molecules-on-surfaces/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1086.0234375,
+        "y": 686.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1242,
+      "kind": "node",
+      "label": "Polymeric Materials",
+      "notes": "",
+      "desc": "A Molecular Replication Process Drives Supramolecular Polymerization\nYuanning Feng | Northwestern University\nhttps://foresight.org/summary/yuanning-feng-a-molecular-replication-process-drives-supramolecular-polymerization/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1046.3818359375,
+        "y": 1106.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1243,
+      "kind": "node",
+      "label": "Molecular 3D Printing",
+      "notes": "",
+      "desc": "Molecular 3D printer Parts and Systems Brainstorm\nAdam Marblestone & Benjamin Reinhardt\nhttps://foresight.org/summary/molecular-3d-printer-parts-and-systems-brainstorm-adam-marblestone-benjamin-reinhardt/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1496.3193359375,
+        "y": 686.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1246,
+      "kind": "node",
+      "label": "Nanocarbon Metals",
+      "notes": "",
+      "desc": "AMO’s Program in Atomically Precise Manufacturing and Nanocarbon Metals\nTina Kaarsberg (Department of Energy)\nhttps://foresight.org/summary/amos-program-in-atomically-precise-manufacturing-and-nanocarbon-metals-tina-kaarsberg-doe/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1328.875,
+        "y": 406.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1247,
+      "kind": "node",
+      "label": "Energy Havesting",
+      "notes": "",
+      "desc": "Harnessing Photoinduced Phase Transition of Organic Materials for Energy Storage\nGrace Han | Brandeis University\nhttps://foresight.org/summary/grace-han-harnessing-photoinduced-phase-transition-of-organic-materials-for-energy-storage/\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1992.2412109375,
+        "y": 1106.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1249,
+      "kind": "node",
+      "label": "Nano to Micro Machines",
+      "notes": "",
+      "desc": "Enabling Applications of Nano/Micro Machines\nAyusman Sen (Pennsylvania State University), Amar Flood (Indiana University Bloomington), Marty Edelstein (Agua Via Ltd) & Gayle Pegamit\nhttps://foresight.org/summary/enabling-applications-of-nano-micro-machines-ayusman-sen-amar-flood-gayle-pegamit/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1596.7109375,
+        "y": 906.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1250,
+      "kind": "node",
+      "label": "Bottom-up Molecular Nanotechnology",
+      "notes": "",
+      "desc": "Hardware and Software of a Critical Path to Bottom-up Molecular Nanotechnology\nChristian Schafmeister | Temple University\nhttps://foresight.org/summary/c-schafmeister-hardware-and-software-of-a-critical-path-to-bottom-up-molecular-nanotechnology/\n",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 1095.0390625,
+        "y": 906.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1255,
+      "kind": "node",
+      "label": "Lipid Bilayer",
+      "notes": "",
+      "desc": "Artificial Molecular Machines Operating in the Lipid Bilayer\nSander Wezenberg | Leiden University\nhttps://foresight.org/summary/sander-wezenberg-artificial-molecular-machines-operating-in-the-lipid-bilayer/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1139,
+      "pos": {
+        "x": 985.1328125,
+        "y": 406.875
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1183,
+      "kind": "node",
+      "label": "Zhibin Guan",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1140,
+      "pos": {
+        "x": 2365.9912109375,
+        "y": 476.515625
+      },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -10970,10 +11032,50 @@
       "is_collapsed": false,
       "parent": 1165,
       "pos": {
-        "x": 3380.1275634765625,
-        "y": 4814.27197265625
+        "x": 1885.8619384765625,
+        "y": 5102.12744140625
       },
       "fill": "#ccccccff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1252,
+      "kind": "node",
+      "label": "Biomolecular Computations",
+      "notes": "",
+      "desc": "Designing De Novo Interactomes for Biomolecular Computations\nBasile Wicky | University of Washington\nhttps://foresight.org/summary/basile-wicky-designing-de-novo-interactomes-for-biomolecular-computations/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1165,
+      "pos": {
+        "x": 1521.5,
+        "y": 5038.9853515625
+      },
+      "fill": "#ffffffff",
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1257,
+      "kind": "node",
+      "label": "Molecular Design",
+      "notes": "",
+      "desc": "Recent Developments in Integrated Molecular Design\nStephane Redon | OneAngstrom https://foresight.org/summary/stephane-redon-recent-developments-in-integrated-molecular-design/",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1165,
+      "pos": {
+        "x": 1540.5234375,
+        "y": 5167.5
+      },
+      "fill": "#ffffffff",
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
       "backgroundImageURL": null
@@ -10983,15 +11085,15 @@
       "kind": "node",
       "label": "Lee Cronin",
       "notes": "",
-      "desc": "",
+      "desc": "The First Programmable Turing Complete Chemical Computer\nLee Cronin | University of Glasgow\nhttps://foresight.org/summary/the-first-programmable-turing-complete-chemical-computer-lee-cronin-university-of-glasgow/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 1166,
       "pos": {
-        "x": 3369.528564453125,
-        "y": 4802.529296875
+        "x": 1875.262939453125,
+        "y": 5090.384765625
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
@@ -11002,15 +11104,72 @@
       "kind": "node",
       "label": "Ayusman Sen",
       "notes": "",
-      "desc": "",
+      "desc": "Design and Applications of Self-Powered Chemical Nanobots\nAyusman Sen | Pennsylvania State University\nhttps://foresight.org/summary/ayusman-sen-pen-state-university-design-and-applications-of-self-powered-chemical-nanobots/",
       "link": "",
       "tags": [],
       "has_dynamic_notes": false,
       "is_collapsed": false,
       "parent": 1166,
       "pos": {
-        "x": 3378.223876953125,
-        "y": 4862.529296875
+        "x": 1883.984375,
+        "y": 5155.26953125
+      },
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1222,
+      "kind": "node",
+      "label": "Double-Stranded DNA",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1181,
+      "pos": {
+        "x": 315.25,
+        "y": 5005.6787109375
+      },
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1223,
+      "kind": "node",
+      "label": "Functional Nucleic Acids",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1181,
+      "pos": {
+        "x": 313.28125,
+        "y": 5085.6787109375
+      },
+      "nodelabelfontsize": null,
+      "nodenotesfontsize": null,
+      "backgroundImageURL": null
+    },
+    {
+      "id": 1224,
+      "kind": "node",
+      "label": "DNA Framework",
+      "notes": "",
+      "desc": "",
+      "link": "",
+      "tags": [],
+      "has_dynamic_notes": false,
+      "is_collapsed": false,
+      "parent": 1181,
+      "pos": {
+        "x": 305,
+        "y": 4925.6787109375
       },
       "nodelabelfontsize": null,
       "nodenotesfontsize": null,
