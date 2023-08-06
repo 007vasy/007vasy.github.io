@@ -1,0 +1,158 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Dyson Swarm",
+      "type": "EndGoal",
+      "outDegree": 0
+    },
+    {
+      "id": 1,
+      "name": "Autonomous Mining",
+      "type": "Milestone"
+    },
+    {
+      "id": 2,
+      "name": "Reuseable Rockets",
+      "type": "Milestone"
+    },
+    {
+      "id": 3,
+      "name": "Asteroid Mining",
+      "type": "Milestone"
+    },
+    {
+      "id": 4,
+      "name": "Space Manufacturing",
+      "type": "Milestone"
+    },
+    {
+      "id": 5,
+      "name": "Solar Energy Harvesting",
+      "type": "Milestone"
+    },
+    {
+      "id": 6,
+      "name": "SpaceX",
+      "type": "Company"
+    },
+    {
+      "id": 7,
+      "name": "Tesla",
+      "type": "Company"
+    },
+    {
+      "id": 8,
+      "name": "Boring Company",
+      "type": "Company"
+    },
+    {
+      "id": 9,
+      "name": "Autonomous Construction",
+      "type": "Milestone"
+    },
+    {
+        "id": 10,
+        "name": "Multi-Planetary Species",
+        "type": "EndGoal",
+        "outDegree": 0
+    },
+    {
+        "id": 11,
+        "name": "RocketLab",
+        "type": "Company"
+    }
+  ],
+  "links": [
+    {
+      "id": "n0",
+      "type": "Needed_For",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "id": "n1",
+      "type": "Needed_For",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "id": "n2",
+      "type": "Needed_For",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "id": "n3",
+      "type": "Needed_For",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "id": "n4",
+      "type": "Needed_For",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "id": "n5",
+      "type": "Working_On",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "id": "n6",
+      "type": "Working_On",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "id": "n7",
+      "type": "Working_On",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "id": "n8",
+      "type": "Needed_For",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "id": "n9",
+      "type": "Working_On",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "id": "n10",
+      "type": "Needed_For",
+      "source": 2,
+      "target": 10
+    },
+    {
+        "id": "n11",
+        "type": "Enhances",
+        "source": 1,
+        "target": 10
+    },
+    {
+        "id": "n11",
+        "type": "Enhances",
+        "source": 5,
+        "target": 10
+    },
+    {
+        "id": "n12",
+        "type": "Enhances",
+        "source": 9,
+        "target": 10
+    },
+    {
+        "id": "n13",
+        "type": "Working_On",
+        "source": 11,
+        "target": 2
+    }
+  ]
+}
