@@ -61,7 +61,13 @@
         "id": 11,
         "name": "RocketLab",
         "type": "Company"
+    },
+    {
+        "id": 12,
+        "name": "Varda Space Industries",
+        "type": "Company"
     }
+
   ],
   "links": [
     {
@@ -153,6 +159,24 @@
         "type": "Working_On",
         "source": 11,
         "target": 2
+    },
+    {
+        "id": "n14",
+        "type": "Working_On",
+        "source": 12,
+        "target": 1
+    },
+    {
+        "id": "n14",
+        "type": "Working_On",
+        "source": 12,
+        "target": 3
+    }
+    {
+        "id": "n14",
+        "type": "Working_On",
+        "source": 12,
+        "target": 9
     }
   ]
 }
