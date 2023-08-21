@@ -52,15 +52,20 @@
       "type": "Milestone"
     },
     {
-        "id": 10,
-        "name": "Multi-Planetary Species",
-        "type": "EndGoal",
-        "outDegree": 0
+      "id": 10,
+      "name": "Multi-Planetary Species",
+      "type": "EndGoal",
+      "outDegree": 0
     },
     {
-        "id": 11,
-        "name": "RocketLab",
-        "type": "Company"
+      "id": 11,
+      "name": "RocketLab",
+      "type": "Company"
+    },
+    {
+      "id": 12,
+      "name": "Varda Space Industries",
+      "type": "Company"
     }
   ],
   "links": [
@@ -131,28 +136,46 @@
       "target": 10
     },
     {
-        "id": "n11",
-        "type": "Enhances",
-        "source": 1,
-        "target": 10
+      "id": "n11",
+      "type": "Enhances",
+      "source": 1,
+      "target": 10
     },
     {
-        "id": "n11",
-        "type": "Enhances",
-        "source": 5,
-        "target": 10
+      "id": "n11",
+      "type": "Enhances",
+      "source": 5,
+      "target": 10
     },
     {
-        "id": "n12",
-        "type": "Enhances",
-        "source": 9,
-        "target": 10
+      "id": "n12",
+      "type": "Enhances",
+      "source": 9,
+      "target": 10
     },
     {
-        "id": "n13",
-        "type": "Working_On",
-        "source": 11,
-        "target": 2
+      "id": "n13",
+      "type": "Working_On",
+      "source": 11,
+      "target": 2
+    },
+    {
+      "id": "n14",
+      "type": "Working_On",
+      "source": 12,
+      "target": 1
+    },
+    {
+      "id": "n14",
+      "type": "Working_On",
+      "source": 12,
+      "target": 3
+    },
+    {
+      "id": "n14",
+      "type": "Working_On",
+      "source": 12,
+      "target": 9
     }
   ]
 }
