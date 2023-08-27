@@ -27,10 +27,10 @@ from tqdm import tqdm
 #     },
 #   ]
 # }
-def add_user_to_force_3d_graph_json(user, force_3d_graph):
+def add_user_to_force_3d_graph_json(id, user, force_3d_graph):
 
     force_3d_graph['nodes'].append({
-        "id": user,
+        "id": id,
         "name": user,
         "type": "User",
     })
@@ -43,8 +43,8 @@ def cosmo_csv_to_force_3d_graph_json(file):
         "nodes": [],
         "links": []
     }
-
-    users = set()
+    
+    users = {}
 
     with open(file, 'r') as f:
         reader = csv.reader(f)
@@ -61,22 +61,22 @@ def cosmo_csv_to_force_3d_graph_json(file):
                 continue
 
             if source not in users:
-                users.add(source)
-                force_3d_graph = add_user_to_force_3d_graph_json(source, force_3d_graph)
+                users[source] = users.__len__()
+                force_3d_graph = add_user_to_force_3d_graph_json(users[source], source, force_3d_graph)
             
             if target not in users:
-                users.add(target)
-                force_3d_graph = add_user_to_force_3d_graph_json(target, force_3d_graph)
+                users[target] = users.__len__()
+                force_3d_graph = add_user_to_force_3d_graph_json(users[target], target, force_3d_graph)
 
             # Add link
             force_3d_graph['links'].append({
-                "source": source,
-                "target": target,
+                "source": users[source],
+                "target": users[target],
                 "type": "Follows",
                 "time": time,
             })
 
-    with open('cosmo_test.json', 'w') as f:
+    with open('../docs/banteg-friend-tech-3d/cosmo_test.json', 'w') as f:
         json.dump(force_3d_graph, f, indent=4)
 
 
