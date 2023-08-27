@@ -32,7 +32,7 @@ def add_user_to_force_3d_graph_json(id, user, force_3d_graph):
     force_3d_graph['nodes'].append({
         "id": id,
         "name": user,
-        "type": "User",
+        # "type": "User",
     })
 
     return force_3d_graph
@@ -72,7 +72,7 @@ def cosmo_csv_to_force_3d_graph_json(file):
             force_3d_graph['links'].append({
                 "source": users[source],
                 "target": users[target],
-                "type": "Follows",
+                # "type": "Follows",
                 "time": time,
             })
 
