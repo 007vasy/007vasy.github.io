@@ -18,7 +18,7 @@
     <div id="3d-graph"></div>
     <script>
       async function loadJson(){
-          const res = await fetch('./brilliant_courses.json');
+          const res = await fetch('./cosmo_test.json');
           const json = await res.json();
           return json;
       }
@@ -26,23 +26,8 @@
     <script>
 
       const typeToColorMap = {
-        "Algebra":"rgba(200, 50, 1, 0.9)",
-        "Mathematical Thinking": "rgba(255, 165, 100, 0.9)",
-        "Geometry": "rgba(0, 128, 0, 0.9)",
-        "Statistics and Probability": "rgba(0, 0, 255, 0.9)",
-        "Logic and Deduction": "rgba(128, 0, 128, 0.9)",
-        "Contest Math": "rgba(255, 192, 203, 0.9)",
-        "Road to Calculus": "rgba(255, 215, 0, 0.9)",
-        "Advanced Mathematics": "rgba(139, 0, 139, 0.9)",
-        "Contributing Authors - Math": "rgba(128, 128, 128, 0.9)",
-        "Scientific Thinking": "rgba(0, 100, 0, 0.9)",
-        "Advanced Physics": "rgba(165, 42, 42, 0.9)",
-        "Contributing Authors - Science": "rgba(255, 182, 193, 0.9)",
-        "Foundational Computer Science": "rgba(176, 196, 222, 0.9)",
-        "Applied Computer Science": "rgba(65, 105, 225, 0.9)",
-        "Contributing Authors - CS": "rgba(95, 158, 160, 0.9)",
-        "NextStep": "rgba(95, 160, 178, 0.9)",
-        "PreReqOf": "rgba(160, 85, 178, 0.9)",
+        "User":"rgba(200, 50, 1, 0.9)",
+        "Follows": "rgba(95, 160, 178, 0.9)",
       }
 
       const highlightNodes = new Set();
