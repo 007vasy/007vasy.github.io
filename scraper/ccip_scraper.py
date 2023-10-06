@@ -37,9 +37,31 @@ def extract_ccip_info(url):
                 "name": f"{lane_source} -->> {lane_target}",
                 "url": f"https://docs.chain.link/ccip/supported-networks/#{lane_source}--{lane_target}-lane",
                 "curvature": 0.2,
-                "rotation": 0.5
+                "rotation": 0.5,
+                "type": "lane"
             }
             )
+        
+    # add testnet mainnet pair links
+    for id, node in enumerate(nodes):
+        print(node)
+        if not node.endswith("-mainnet"):
+            mainnet_node = node.split("-")[0] + "-mainnet"
+            print(" "+ mainnet_node)
+            if mainnet_node == "bnb-mainnet":
+                mainnet_node = "bnb-chain-mainnet"
+            if mainnet_node in nodes:
+                data["links"].append(
+                    {
+                        "source": id,
+                        "target": nodes.index(mainnet_node),
+                        "name": f"{node} related to {mainnet_node}",
+                        "url": f"https://docs.chain.link/ccip/supported-networks/",
+                        "curvature": 0,
+                        "rotation": 0,
+                        "type": "testnet-mainnet"
+                    }
+                )
 
     with open('ccip_info.json', 'w') as f:
         json.dump(data, f, indent=2)
