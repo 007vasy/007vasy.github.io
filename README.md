@@ -29,6 +29,10 @@ https://api.llama.fi/protocol/:slug
 
 WIP 3d viz of the great Brian Sanderson's fantasy universe
 
+## /ccip
+
+visulisation of CCIP lanes, go for https://docs.chain.link/ccip/supported-networks for up-to-date information
+
 ## Local dev
 ```bash
 nodemon index.js
