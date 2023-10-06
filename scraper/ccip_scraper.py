@@ -44,8 +44,12 @@ def extract_ccip_info(url):
         
     # add testnet mainnet pair links
     for id, node in enumerate(nodes):
-        if not node.endswith("mainnet"):
-            mainnet_node = node.split("-")[-1] + "-mainnet"
+        print(node)
+        if not node.endswith("-mainnet"):
+            mainnet_node = node.split("-")[0] + "-mainnet"
+            print(" "+ mainnet_node)
+            if mainnet_node == "bnb-mainnet":
+                mainnet_node = "bnb-chain-mainnet"
             if mainnet_node in nodes:
                 data["links"].append(
                     {
