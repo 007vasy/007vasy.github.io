@@ -30,7 +30,16 @@ def extract_ccip_info(url):
     for lane_source, lane_target in raw_lanes:
         source = nodes.index(lane_source)
         target = nodes.index(lane_target)
-        data["links"].append({"source": source, "target": target, "name": f"{lane_source} > {lane_target}", "url": f"https://docs.chain.link/ccip/supported-networks/#{lane_source}--{lane_target}-lane"})
+        data["links"].append(
+            {
+                "source": source,
+                "target": target,
+                "name": f"{lane_source} -->> {lane_target}",
+                "url": f"https://docs.chain.link/ccip/supported-networks/#{lane_source}--{lane_target}-lane",
+                "curvature": 0.2,
+                "rotation": 0.5
+            }
+            )
 
     with open('ccip_info.json', 'w') as f:
         json.dump(data, f, indent=2)
