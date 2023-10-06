@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "ethereum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-mainnet"
+    },
+    {
+      "id": 1,
+      "name": "optimism-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#optimism-mainnet"
+    },
+    {
+      "id": 2,
+      "name": "polygon-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#polygon-mainnet"
+    },
+    {
+      "id": 3,
+      "name": "avalanche-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#avalanche-mainnet"
+    },
+    {
+      "id": 4,
+      "name": "arbitrum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#arbitrum-mainnet"
+    },
+    {
+      "id": 5,
+      "name": "bnb-chain-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#bnb-chain-mainnet"
+    },
+    {
+      "id": 6,
+      "name": "base-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#base-mainnet"
+    },
+    {
+      "id": 7,
+      "name": "ethereum-sepolia",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-sepolia"
+    },
+    {
+      "id": 8,
+      "name": "optimism-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#optimism-goerli"
+    },
+    {
+      "id": 9,
+      "name": "arbitrum-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#arbitrum-goerli"
+    },
+    {
+      "id": 10,
+      "name": "avalanche-fuji",
+      "url": "https://docs.chain.link/ccip/supported-networks/#avalanche-fuji"
+    },
+    {
+      "id": 11,
+      "name": "polygon-mumbai",
+      "url": "https://docs.chain.link/ccip/supported-networks/#polygon-mumbai"
+    },
+    {
+      "id": 12,
+      "name": "bnb-chain-testnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#bnb-chain-testnet"
+    },
+    {
+      "id": 13,
+      "name": "base-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#base-goerli"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "name": "ethereum-mainnet > optimism-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-mainnet--optimism-mainnet-lane"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "name": "ethereum-mainnet > polygon-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-mainnet--polygon-mainnet-lane"
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "name": "ethereum-mainnet > avalanche-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-mainnet--avalanche-mainnet-lane"
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "name": "ethereum-mainnet > arbitrum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-mainnet--arbitrum-mainnet-lane"
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "name": "ethereum-mainnet > bnb-chain-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-mainnet--bnb-chain-mainnet-lane"
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "name": "ethereum-mainnet > base-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-mainnet--base-mainnet-lane"
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "name": "ethereum-sepolia > optimism-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-sepolia--optimism-goerli-lane"
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "name": "ethereum-sepolia > arbitrum-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-sepolia--arbitrum-goerli-lane"
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "name": "ethereum-sepolia > avalanche-fuji",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-sepolia--avalanche-fuji-lane"
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "name": "ethereum-sepolia > polygon-mumbai",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-sepolia--polygon-mumbai-lane"
+    },
+    {
+      "source": 7,
+      "target": 12,
+      "name": "ethereum-sepolia > bnb-chain-testnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-sepolia--bnb-chain-testnet-lane"
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "name": "ethereum-sepolia > base-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#ethereum-sepolia--base-goerli-lane"
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "name": "optimism-mainnet > ethereum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#optimism-mainnet--ethereum-mainnet-lane"
+    },
+    {
+      "source": 8,
+      "target": 7,
+      "name": "optimism-goerli > ethereum-sepolia",
+      "url": "https://docs.chain.link/ccip/supported-networks/#optimism-goerli--ethereum-sepolia-lane"
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "name": "optimism-goerli > arbitrum-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#optimism-goerli--arbitrum-goerli-lane"
+    },
+    {
+      "source": 8,
+      "target": 10,
+      "name": "optimism-goerli > avalanche-fuji",
+      "url": "https://docs.chain.link/ccip/supported-networks/#optimism-goerli--avalanche-fuji-lane"
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "name": "avalanche-mainnet > ethereum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#avalanche-mainnet--ethereum-mainnet-lane"
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "name": "avalanche-mainnet > polygon-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#avalanche-mainnet--polygon-mainnet-lane"
+    },
+    {
+      "source": 10,
+      "target": 7,
+      "name": "avalanche-fuji > ethereum-sepolia",
+      "url": "https://docs.chain.link/ccip/supported-networks/#avalanche-fuji--ethereum-sepolia-lane"
+    },
+    {
+      "source": 10,
+      "target": 8,
+      "name": "avalanche-fuji > optimism-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#avalanche-fuji--optimism-goerli-lane"
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "name": "avalanche-fuji > polygon-mumbai",
+      "url": "https://docs.chain.link/ccip/supported-networks/#avalanche-fuji--polygon-mumbai-lane"
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "name": "arbitrum-mainnet > ethereum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#arbitrum-mainnet--ethereum-mainnet-lane"
+    },
+    {
+      "source": 9,
+      "target": 7,
+      "name": "arbitrum-goerli > ethereum-sepolia",
+      "url": "https://docs.chain.link/ccip/supported-networks/#arbitrum-goerli--ethereum-sepolia-lane"
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "name": "arbitrum-goerli > optimism-goerli",
+      "url": "https://docs.chain.link/ccip/supported-networks/#arbitrum-goerli--optimism-goerli-lane"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "name": "polygon-mainnet > ethereum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#polygon-mainnet--ethereum-mainnet-lane"
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "name": "polygon-mainnet > avalanche-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#polygon-mainnet--avalanche-mainnet-lane"
+    },
+    {
+      "source": 11,
+      "target": 7,
+      "name": "polygon-mumbai > ethereum-sepolia",
+      "url": "https://docs.chain.link/ccip/supported-networks/#polygon-mumbai--ethereum-sepolia-lane"
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "name": "polygon-mumbai > avalanche-fuji",
+      "url": "https://docs.chain.link/ccip/supported-networks/#polygon-mumbai--avalanche-fuji-lane"
+    },
+    {
+      "source": 5,
+      "target": 0,
+      "name": "bnb-chain-mainnet > ethereum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#bnb-chain-mainnet--ethereum-mainnet-lane"
+    },
+    {
+      "source": 12,
+      "target": 7,
+      "name": "bnb-chain-testnet > ethereum-sepolia",
+      "url": "https://docs.chain.link/ccip/supported-networks/#bnb-chain-testnet--ethereum-sepolia-lane"
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "name": "base-mainnet > ethereum-mainnet",
+      "url": "https://docs.chain.link/ccip/supported-networks/#base-mainnet--ethereum-mainnet-lane"
+    },
+    {
+      "source": 13,
+      "target": 7,
+      "name": "base-goerli > ethereum-sepolia",
+      "url": "https://docs.chain.link/ccip/supported-networks/#base-goerli--ethereum-sepolia-lane"
+    }
+  ]
+}
