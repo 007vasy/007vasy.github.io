@@ -2,5 +2,6 @@ DevNotes.md
 node_modules/
 
 scraper/*.json
+scraper/*.csv
 
 __pycache__/*

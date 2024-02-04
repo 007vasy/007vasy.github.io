@@ -1,0 +1,29 @@
+<head>
+  <style> body { margin: 0; } </style>
+  <title>Friend.Tech 3D</title>
+
+  <script src="//unpkg.com/3d-force-graph"></script>
+<!--  <script src="../../dist/3d-force-graph.js"></script>-->
+</head>
+
+<body>
+
+  <div id="3d-graph"></div>
+
+  <script>
+    const elem = document.getElementById('3d-graph');
+
+    const Graph = ForceGraph3D()(elem)
+      .jsonUrl('./cosmo_test.json')
+      // .nodeAutoColorBy('name')
+      // .linkAutoColorBy('time')
+      // TODO
+      // turn link creating time into a gradient
+      .linkColor(link => "rgba(0, 0, 255, 0.9)")
+      .linkWidth(0.05)
+      .linkOpacity(0.05)
+      .nodeSize(0.25)
+      .nodeLabel(node => `${node.name}`)
+      //.onNodeClick(node => window.open(`https://bl.ocks.org/${node.user}/${node.id}`, '_blank'));
+  </script>
+</body>
