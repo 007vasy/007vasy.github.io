@@ -4,3 +4,4 @@ node_modules/
 scraper/*.json
 
 __pycache__/*
+docs/gh_private
