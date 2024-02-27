@@ -1,7 +1,6 @@
 <head>
     <title>Defi Universe</title>
     <style> body { margin: 0; } </style>
-    <script src="//unpkg.com/three"></script>
     <script src="https://unpkg.com/3d-force-graph"></script>
   <!--  <script src="../../dist/3d-force-graph.js"></script>-->
   </head>
@@ -10,7 +9,8 @@
   
     <div id="3d-graph"></div>
     <p>Loading...</p>
-    <script>
+    <script type="module">
+      import * as THREE from '//unpkg.com/three/build/three.module.js';
       const url = 'https://api.llama.fi/protocols'
       
       
@@ -23,8 +23,8 @@
           links: [],
         };
 
-        chain_tvl = {}
-        oracle_tvs = {}
+        let chain_tvl = {}
+        let oracle_tvs = {}
         
 
         info_json.forEach(protocol => {
@@ -118,7 +118,7 @@
           }
 
           // iterate over converted_info_json.nodes
-          for( node in converted_info_json.nodes){
+          for( let node in converted_info_json.nodes){
             if(converted_info_json.nodes[node].type == "Chain"){
               if(converted_info_json.nodes[node].id in chain_tvl){
                 converted_info_json.nodes[node].tvl = chain_tvl[converted_info_json.nodes[node].id]
@@ -184,7 +184,7 @@
         const maxSize = Math.max(...sizes);
 
         
-        for( node in converted_info_json.nodes){
+        for( let node in converted_info_json.nodes){
           converted_info_json.nodes[node].scaledsize = Math.max(((converted_info_json.nodes[node].tvl - minSize) / (maxSize - minSize))*10**2,1)
         }
 
