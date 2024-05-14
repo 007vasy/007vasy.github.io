@@ -14,7 +14,7 @@ based on the https://foresight.org/tech-tree/
 ### pre processing code in the /scraper folder
 
 ## /defi
-visualise the defi universe based on the defillama endpoint 
+visualise the defi universe based on the defillama endpoint
 
 ### Defillama endpoint used
 
