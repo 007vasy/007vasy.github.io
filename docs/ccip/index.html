@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html>
+<!-- <!DOCTYPE html>
+<html> 
 
 <head>
     <title>Chainlink CCIP</title>
     <style> body { margin: 0; } </style>
-    <script src="//unpkg.com/three"></script>
-    <script src="//unpkg.com/three-spritetext"></script>
-    <script src="//unpkg.com/3d-force-graph"></script>
-    <!-- <script src="//unpkg.com/d3-dsv"></script>
-    <script src="//unpkg.com/dat.gui"></script>
-    <script src="//unpkg.com/d3-octree"></script>
-    <script src="//unpkg.com/d3-force-3d"></script> -->
-    <!--<script src="../../dist/3d-force-graph.js"></script>-->
+    <script src="https://unpkg.com/3d-force-graph"></script>
   </head>
   
   <body>
@@ -178,3 +171,34 @@
   </body>
   
 </html>
+-->
+
+<head></head>
+  <style> body { margin: 0; } </style>
+
+  <script src="//unpkg.com/3d-force-graph"></script>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+  <script>
+    async function loadJson(){
+        const res = await fetch('./ccip_info.json');
+        const json = await res.json();
+        return json;
+    }
+  </script>
+  <script>
+
+    loadJson().then(gData => {
+
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+          .nodeAutoColorBy('name')
+          .linkAutoColorBy(d => gData.nodes[d.source].group)
+          .linkOpacity(0.5)
+          .graphData(gData);
+    });
+  </script>
+</body>
