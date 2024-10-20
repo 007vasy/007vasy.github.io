@@ -1,180 +1,29 @@
-<!DOCTYPE html>
-<html>
+<head></head>
+  <style> body { margin: 0; } </style>
 
-<head>
-    <title>Chainlink CCIP</title>
-    <style> body { margin: 0; } </style>
-    <script src="//unpkg.com/three"></script>
-    <script src="//unpkg.com/three-spritetext"></script>
-    <script src="//unpkg.com/3d-force-graph"></script>
-    <!-- <script src="//unpkg.com/d3-dsv"></script>
-    <script src="//unpkg.com/dat.gui"></script>
-    <script src="//unpkg.com/d3-octree"></script>
-    <script src="//unpkg.com/d3-force-3d"></script> -->
-    <!--<script src="../../dist/3d-force-graph.js"></script>-->
-  </head>
-  
-  <body>
-    <div id="3d-graph"></div>
-    <script>
-      async function loadJson(){
-          const res = await fetch('./ccip_info.json');
-          const json = await res.json();
-          return json;
-      }
-    </script>
-    <script>
+  <script src="//unpkg.com/3d-force-graph"></script>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+</head>
 
-      const typeToColorMap = {
-
-        // node colors
-        "ethereum-mainnet": "rgba(128, 0, 128, 0.9)",
-        "optimism-mainnet": "rgba(255, 192, 203, 0.9)",
-        "polygon-mainnet": "rgba(255, 215, 0, 0.9)",
-        "avalanche-mainnet": "rgba(139, 0, 139, 0.9)",
-        "arbitrum-mainnet": "rgba(128, 128, 128, 0.9)",
-        "bnb-chain-mainnet": "rgba(0, 100, 0, 0.9)",
-        "base-mainnet": "rgba(165, 42, 42, 0.9)",
-        "ethereum-sepolia": "rgba(255, 142, 93, 0.9)",
-        "optimism-goerli": "rgba(176, 196, 222, 0.9)",
-        "arbitrum-goerli": "rgba(65, 105, 225, 0.9)",
-        "avalanche-fuji": "rgba(95, 160, 178, 0.9)",
-        "polygon-mumbai": "rgba(160, 85, 178, 0.9)",
-        "bnb-chain-testnet": "rgba(255, 182, 193, 0.9)",
-        "base-goerli": "rgba(0, 0, 255, 0.9)",
-
-        // link colors
-        "Org":"rgba(200, 50, 1, 0.9)",
-        "lane": "rgba(255, 165, 100, 0.9)",
-        "testnet-mainnet": "rgba(0, 128, 0, 0.9)",
-      }
-
-      const highlightNodes = new Set();
-      const highlightLinks = new Set();
-
-      let hoverNode = null;
-      loadJson().then(gData => {
-        
-        gData.nodes.forEach(node => {
-
-        })
-
-        gData.links.forEach(link => {
-          const a = gData.nodes[link.source];
-          const b = gData.nodes[link.target];
-          if(!('neighbors' in a)) {
-            a['neighbors'] = []
-          };
-
-          if(!('neighbors' in b)) {
-            b['neighbors'] = []
-          };
-
-          !a.neighbors && (a.neighbors = []);
-          !b.neighbors && (b.neighbors = []);
-          a.neighbors.push(b);
-          b.neighbors.push(a);
-
-          !a.links && (a.links = []);
-          !b.links && (b.links = []);
-          a.links.push(link);
-          b.links.push(link);
-        });
-
-        function getGeometry(node) {
-          let geometry = new THREE.SphereGeometry(5)
-
-          if(node.inDegree === 0 && node.outDegree != 0) {
-            geometry = new THREE.TorusKnotGeometry(5, 1, 9);
-          }
-
-          if(node.outDegree === 0 && node.inDegree != 0) {
-            geometry = new THREE.TorusKnotGeometry(5, 1)
-          }
-
-          return geometry;
-
-        }
-
-        function doNodeThreeObject(node) {
-          return new THREE.Mesh(
-              // show name label
-                
-              getGeometry(node),
-              new THREE.MeshLambertMaterial({
-                color: highlightNodes.has(node) ? node === hoverNode ? 'rgb(255,0,0,1)' : 'rgba(255,160,0,0.8)' : typeToColorMap[node.name],
-                transparent: true,
-                opacity: 0.75
-              })
-            )
-        }
-
-        const Graph = ForceGraph3D()
-          (document.getElementById('3d-graph'))
-            .graphData(gData)
-            .nodeLabel('name')
-            .linkWidth(link => highlightLinks.has(link) ? 4 : 1)
-            .linkDirectionalParticles(link => highlightLinks.has(link) ? 4 : 1)
-            .linkDirectionalParticleWidth(link => highlightLinks.has(link) ? 4 : 1)
-            .linkDirectionalParticles(5)
-            .onNodeClick(node => window.open(node.url, '_blank'))
-            .onLinkClick(link => window.open(link.url, '_blank'))
-            .linkDirectionalParticleSpeed(0.005)
-            .linkCurvature('curvature')
-            .linkOpacity(0.2)
-            .linkCurveRotation('rotation')
-            .linkLabel('name')
-            .linkDirectionalArrowLength(6)
-            .linkColor(link => typeToColorMap[link.type])
-            .onNodeClick(node => window.open(node.url, '_blank'))
-            .nodeThreeObject(node => doNodeThreeObject(node))
-            .onNodeHover(node => {
-                // no state change
-                if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
-
-                highlightNodes.clear();
-                highlightLinks.clear();
-                if (node) {
-                  highlightNodes.add(node);
-                  if (node.neighbors) {
-                    node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
-                    node.links.forEach(link => highlightLinks.add(link));
-                  }
-                }
-
-                hoverNode = node || null;
-
-                updateHighlight();
-              })
-              .onLinkHover(link => {
-                highlightNodes.clear();
-                highlightLinks.clear();
-
-                if (link) {
-                  highlightLinks.add(link);
-                  highlightNodes.add(link.source);
-                  highlightNodes.add(link.target);
-                }
-
-                updateHighlight();
-              });
-        
-
-        function updateHighlight() {
-        // trigger update of highlighted objects in scene
-        Graph
-          .nodeThreeObject(node => doNodeThreeObject(node))
-          .linkWidth(Graph.linkWidth())
-          .linkDirectionalParticles(Graph.linkDirectionalParticles());
-        }
-
-      });
+<body>
+  <div id="3d-graph"></div>
+  <script>
 
 
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+          .backgroundColor('#000003')
+          .jsonUrl('./ccip_info.json')
+          .nodeAutoColorBy('name')
+          .linkAutoColorBy('name')
+          .linkOpacity(0.2)
+          .onNodeClick(node => window.open(node.url, '_blank'))
+          .linkCurvature(0.5)
+          .linkCurveRotation(0.4)
+          .linkDirectionalArrowLength(2)
+          .linkDirectionalParticles(2)
+          .linkDirectionalParticleSpeed(4 * 0.001)
+          .graphData(gData);
 
-
-      
-    </script>
-  </body>
-  
-</html>
+  </script>
+</body>
