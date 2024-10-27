@@ -1,0 +1,31 @@
+<head></head>
+  <style> body { margin: 0; } </style>
+
+  <script src="//unpkg.com/aframe"></script>
+  <script src="//unpkg.com/@ar-js-org/ar.js"></script>
+
+  <script src="//unpkg.com/3d-force-graph-ar"></script>
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+  <script>
+
+
+      const Graph = ForceGraphAR()
+        (document.getElementById('3d-graph'))
+          .backgroundColor('#000003')
+          .jsonUrl('../ccip/ccip_info_new.json')
+          .nodeAutoColorBy('name')
+          .linkAutoColorBy('name')
+          .linkOpacity(0.2)
+          .onNodeClick(node => window.open(node.url, '_blank'))
+          .linkCurvature(0.5)
+          .linkCurveRotation(0.4)
+          .linkDirectionalArrowLength(2)
+          .linkDirectionalParticles(2)
+          .linkDirectionalParticleSpeed(4 * 0.001)
+          .graphData(gData);
+
+  </script>
+</body>
