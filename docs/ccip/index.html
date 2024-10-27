@@ -84,7 +84,7 @@
               updateHighlight();
             })
             .nodeThreeObject(({ img }) => {
-              const imgTexture = new THREE.TextureLoader().load(img);
+              const imgTexture = new THREE.TextureLoader().load(`../images/${img}`);
               imgTexture.colorSpace = THREE.SRGBColorSpace;
               const material = new THREE.SpriteMaterial({ map: imgTexture });
               const sprite = new THREE.Sprite(material);
