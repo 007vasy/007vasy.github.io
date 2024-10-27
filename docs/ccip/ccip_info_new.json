@@ -4,103 +4,103 @@
             "id": 0,
             "name": "Blast mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#blast-mainnet",
-            "img": "https://docs.chain.link/assets/chains/blast.svg"
+            "img": "Blast_mainnet.svg"
         },
         {
             "id": 1,
             "name": "Mode mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#mode-mainnet",
-            "img": "https://docs.chain.link/assets/chains/mode.svg"
+            "img": "Mode_mainnet.svg"
         },
         {
             "id": 2,
             "name": "Linea mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#linea-mainnet",
-            "img": "https://docs.chain.link/assets/chains/linea.svg"
+            "img": "Linea_mainnet.svg"
         },
         {
             "id": 3,
             "name": "Metis mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#metis-mainnet",
-            "img": "https://docs.chain.link/assets/chains/metis.svg"
+            "img": "Metis_mainnet.svg"
         },
         {
             "id": 4,
             "name": "Ethereum mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#ethereum-mainnet",
-            "img": "https://docs.chain.link/assets/chains/ethereum.svg"
+            "img": "Ethereum_mainnet.svg"
         },
         {
             "id": 5,
             "name": "Base mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#base-mainnet",
-            "img": "https://docs.chain.link/assets/chains/base.svg"
+            "img":  "Base_mainnet.svg"
         },
         {
             "id": 6,
             "name": "Avalanche mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#avalanche-mainnet",
-            "img": "https://docs.chain.link/assets/chains/avalanche.svg"
+            "img": "Avalanche_mainnet.svg"
         },
         {
             "id": 7,
             "name": "Optimism mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#optimism-mainnet",
-            "img": "https://docs.chain.link/assets/chains/optimism.svg"
+            "img": "Optimism_mainnet.svg"
         },
         {
             "id": 8,
             "name": "Wemix mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#wemix-mainnet",
-            "img": "https://docs.chain.link/assets/chains/wemix.svg"
+            "img": "Wemix_mainnet.svg"
         },
         {
             "id": 9,
             "name": "Scroll mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#scroll-mainnet",
-            "img": "https://pbs.twimg.com/profile_images/1696531511519150080/Fq5O0LeN_400x400.jpg"
+            "img": "Scroll_mainnet.jpg"
         },
         {
             "id": 10,
             "name": "Kroma mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#kroma-mainnet",
-            "img": "https://docs.chain.link/assets/chains/kroma.svg"
+            "img": "Kroma_mainnet.svg"
         },
         {
             "id": 11,
             "name": "Arbitrum mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#arbitrum-mainnet",
-            "img": "https://docs.chain.link/assets/chains/arbitrum.svg"
+            "img": "Arbitrum_mainnet.svg"
         },
         {
             "id": 12,
             "name": "Celo mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#celo-mainnet",
-            "img": "https://docs.chain.link/assets/chains/celo.svg"
+            "img": "Celo_mainnet.svg"
         },
         {
             "id": 13,
             "name": "BNB Chain mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#bnb-chain-mainnet",
-            "img": "https://docs.chain.link/assets/chains/bnb-chain.svg"
+            "img": "BNB_Chain_mainnet.svg"
         },
         {
             "id": 14,
             "name": "Polygon mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#polygon-mainnet",
-            "img": "https://docs.chain.link/assets/chains/polygon.svg"
+            "img": "Polygon_mainnet.svg"
         },
         {
             "id": 15,
             "name": "ZKsync mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#zksync-mainnet",
-            "img": "https://docs.chain.link/assets/chains/zksync.svg"
+            "img": "ZKsync_mainnet.svg"
         },
         {
             "id": 16,
             "name": "Gnosis Chain mainnet",
             "url": "https://docs.chain.link/ccip/supported-networks/v1_2_0/mainnet#gnosis-chain-mainnet",
-            "img": "https://docs.chain.link/assets/chains/gnosis-chain.svg"
+            "img": "Gnosis_Chain_mainnet.svg"
         }
     ],
     "links": [
