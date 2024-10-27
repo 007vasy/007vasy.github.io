@@ -2,28 +2,108 @@
   <style> body { margin: 0; } </style>
 
   <script src="//unpkg.com/3d-force-graph"></script>
+  <script type="importmap">{ "imports": { "three": "https://unpkg.com/three/build/three.module.js" }}</script>
   <!--<script src="../../dist/3d-force-graph.js"></script>-->
 </head>
 
 <body>
   <div id="3d-graph"></div>
-  <script>
+  <script type="module">
+      import * as THREE from '//unpkg.com/three/build/three.module.js';
+     
+      let gData;
+
+      fetch('./ccip_info_new.json')
+        .then(response => response.json())
+        .then(data => {
+          gData = data;
+
+          // cross-link node objects
+          gData.links.forEach(link => {
+            const a = gData.nodes[link.source];
+            const b = gData.nodes[link.target];
+            !a.neighbors && (a.neighbors = []);
+            !b.neighbors && (b.neighbors = []);
+            a.neighbors.push(b);
+            b.neighbors.push(a);
+
+            !a.links && (a.links = []);
+            !b.links && (b.links = []);
+            a.links.push(link);
+            b.links.push(link);
+          });
+
+          const highlightNodes = new Set();
+          const highlightLinks = new Set();
+          let hoverNode = null;
+
+          const Graph = ForceGraph3D()
+            (document.getElementById('3d-graph'))
+            .cooldownTicks(10)
+            .backgroundColor('#000003')
+            .graphData(gData)  // use gData here instead of jsonUrl
+            .nodeAutoColorBy('name')
+            .linkAutoColorBy('name')
+            .linkOpacity(0.2)
+            .onNodeClick(node => window.open(node.url, '_blank'))
+            .linkCurvature(0.5)
+            .linkCurveRotation(0.4)
+            .linkDirectionalArrowLength(2)
+            .linkDirectionalParticles(2)
+            .linkDirectionalParticleSpeed(4 * 0.001)
+            .nodeColor(node => highlightNodes.has(node) ? node === hoverNode ? 'rgb(255,0,0,1)' : 'rgba(255,160,0,0.8)' : 'rgba(0,255,255,0.6)')
+            .linkWidth(link => highlightLinks.has(link) ? 1 : 0.05)
+            .linkDirectionalParticles(link => highlightLinks.has(link) ? 4 : 0)
+            .linkDirectionalParticleWidth(1)
+            .onNodeHover(node => {
+              // no state change
+              if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
+
+              highlightNodes.clear();
+              highlightLinks.clear();
+              if (node) {
+                highlightNodes.add(node);
+                node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+                node.links.forEach(link => highlightLinks.add(link));
+              }
+
+              hoverNode = node || null;
+
+              updateHighlight();
+            })
+            .onLinkHover(link => {
+              highlightNodes.clear();
+              highlightLinks.clear();
+
+              if (link) {
+                highlightLinks.add(link);
+                highlightNodes.add(link.source);
+                highlightNodes.add(link.target);
+              }
+
+              updateHighlight();
+            })
+            .nodeThreeObject(({ img }) => {
+              const imgTexture = new THREE.TextureLoader().load(img);
+              imgTexture.colorSpace = THREE.SRGBColorSpace;
+              const material = new THREE.SpriteMaterial({ map: imgTexture });
+              const sprite = new THREE.Sprite(material);
+              sprite.scale.set(5, 6);
+              return sprite;
+            })
 
 
-      const Graph = ForceGraph3D()
-        (document.getElementById('3d-graph'))
-          .backgroundColor('#000003')
-          .jsonUrl('./ccip_info_new.json')
-          .nodeAutoColorBy('name')
-          .linkAutoColorBy('name')
-          .linkOpacity(0.2)
-          .onNodeClick(node => window.open(node.url, '_blank'))
-          .linkCurvature(0.5)
-          .linkCurveRotation(0.4)
-          .linkDirectionalArrowLength(2)
-          .linkDirectionalParticles(2)
-          .linkDirectionalParticleSpeed(4 * 0.001)
-          .graphData(gData);
+          function updateHighlight() {
+            // trigger update of highlighted objects in scene
+            Graph
+              .nodeColor(Graph.nodeColor())
+              .linkWidth(Graph.linkWidth())
+              .linkDirectionalParticles(Graph.linkDirectionalParticles());
+          }
 
+          // fit to canvas when engine stops
+          Graph.onEngineStop(() => Graph.zoomToFit(300));
+        })
+        .catch(error => console.error('Error loading JSON:', error));
   </script>
 </body>
