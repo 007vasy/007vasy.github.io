@@ -13,15 +13,79 @@
      
       let gData;
 
-      fetch('./ccip_info_new.json')
-        .then(response => response.json())
-        .then(data => {
-          gData = data;
+      // Fetch and transform the data
+      const chainsUrl = 'https://raw.githubusercontent.com/smartcontractkit/documentation/refs/heads/main/src/config/data/chains.json';
+      const lanesUrl = 'https://raw.githubusercontent.com/smartcontractkit/documentation/refs/heads/main/src/config/data/ccip/v1_2_0/mainnet/lanes.json';
 
+      Promise.all([
+        fetch(chainsUrl).then(r => r.json()),
+        fetch(lanesUrl).then(r => r.json())
+      ])
+        .then(([chainsData, lanesData]) => {
+          // Transform chains data for lookup
+          const chainImageMap = Object.entries(chainsData).reduce((acc, [_, chain]) => {
+            acc[chain.title.toLowerCase()] = "https://docs.chain.link" + chain.icon;
+            return acc;
+          }, {});
+
+          // Get unique chain names from lanes data
+          const uniqueChains = new Set();
+          Object.entries(lanesData).forEach(([source, destinations]) => {
+            uniqueChains.add(source);
+            Object.keys(destinations).forEach(target => uniqueChains.add(target));
+          });
+
+          // Create nodes with integer IDs
+          const chainToId = {};
+            const nodes = Array.from(uniqueChains).map((chain, index) => {
+            chainToId[chain] = index;
+            let lookupName = chain.toLowerCase()
+              .replace('ethereum-mainnet-', '')
+              .replace('-1', '')
+              .replace('-mainnet', '')
+              .replace('mainnet-', '')
+              .replace('mainnet', 'ethereum')
+              .replace('bsc', 'bnb chain')
+              .replace('xdai', 'gnosis')
+              .replace('polkadot-astar', 'astar')
+              .replace('matic', 'polygon')
+              .replace('andromeda', 'metis');
+            return {
+              id: index,
+              name: chain,
+              img: chainImageMap[lookupName] || '',
+              // img: "https://icons.llamao.fi/icons/chains/rsz_scroll.jpg",
+              url: 'https://docs.chain.link/ccip/directory/mainnet/chain/' + chain // You might want to update this based on your requirements
+            };
+          });
+
+          // Transform lanes data into links using integer IDs
+          const links = [];
+          Object.entries(lanesData).forEach(([source, destinations]) => {
+            Object.keys(destinations).forEach(target => {
+              links.push({
+                source: chainToId[source],
+                target: chainToId[target],
+                name: `${source} -> ${target}`,
+                tokens: Object.keys(destinations[target].supportedTokens || {})
+              });
+            });
+          });
+
+          gData = {
+            nodes: nodes,
+            links: links
+          };
+          console.log(chainImageMap);
+          console.log(gData);
+          // Create a mapping from node id to node object
+          const nodeById = Object.fromEntries(gData.nodes.map(node => [node.id, node]));
+          // create empty array of neighbors if it doesn't exist for each node
+          gData.nodes.forEach(node => !node.neighbors && (node.neighbors = []));
           // cross-link node objects
           gData.links.forEach(link => {
-            const a = gData.nodes[link.source];
-            const b = gData.nodes[link.target];
+            const a = nodeById[link.source];
+            const b = nodeById[link.target];
             !a.neighbors && (a.neighbors = []);
             !b.neighbors && (b.neighbors = []);
             a.neighbors.push(b);
@@ -84,7 +148,9 @@
               updateHighlight();
             })
             .nodeThreeObject(({ img }) => {
-              const imgTexture = new THREE.TextureLoader().load(`../images/${img}`);
+              const loader = new THREE.TextureLoader();
+              loader.crossOrigin = 'anonymous';
+              const imgTexture = loader.load(img);
               imgTexture.colorSpace = THREE.SRGBColorSpace;
               const material = new THREE.SpriteMaterial({ map: imgTexture });
               const sprite = new THREE.Sprite(material);
