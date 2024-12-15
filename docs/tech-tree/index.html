@@ -4,17 +4,13 @@
 <head>
     <title>Tech Tree</title>
     <style> body { margin: 0; } </style>
-    <script src="//unpkg.com/three"></script>
-    <script src="//unpkg.com/three-spritetext"></script>
-    <script src="//unpkg.com/3d-force-graph"></script>
-    <!-- <script src="//unpkg.com/d3-dsv"></script>
-    <script src="//unpkg.com/dat.gui"></script>
-    <script src="//unpkg.com/d3-octree"></script>
-    <script src="//unpkg.com/d3-force-3d"></script> -->
-    <!--<script src="../../dist/3d-force-graph.js"></script>-->
-  </head>
+    <!-- Updated script tags with explicit https protocol -->
+    <script src="https://unpkg.com/three"></script>
+    <script src="https://unpkg.com/three-spritetext"></script>
+    <script src="https://unpkg.com/3d-force-graph"></script>
+</head>
   
-  <body>
+<body>
     <div id="3d-graph"></div>
     <script>
       async function loadJson(){
@@ -24,26 +20,13 @@
       }
     </script>
     <script>
-
-
       const highlightNodes = new Set();
       const highlightLinks = new Set();
-
       let hoverNode = null;
       loadJson().then(gData => {
         
-       
         function getGeometry(node) {
-          // spacetree
-          // nanotech
-          // intcoop
-          // neurotech
-          // longevity
-
-          // map a geometry to each subtree type
-
-          size = Math.max(node.degree/5,4)
-
+          let size = Math.max(node.degree/5,4); // Ensure size is defined with let or const
           let geometry = new THREE.SphereGeometry(size);
 
           if(node.subtree === 'spacetree') {
@@ -51,7 +34,7 @@
           }
 
           if(node.subtree === 'nanotech') {
-            geometry = new THREE.TorusKnotGeometry(size, size)
+            geometry = new THREE.TorusKnotGeometry(size, size);
           }
 
           if(node.subtree === 'intcoop') {
@@ -67,7 +50,6 @@
           }
 
           return geometry;
-
         }
 
         function doNodeThreeObject(node) {
@@ -78,7 +60,7 @@
                 transparent: true,
                 opacity: 0.75
               })
-            )
+            );
         }
 
         const Graph = ForceGraph3D()
@@ -95,24 +77,17 @@
             .linkLabel('type')
             .linkDirectionalArrowLength(3)
             .linkColor("rgba(160, 85, 178, 0.9)")
-            .nodeThreeObject(node => { return doNodeThreeObject(node)})
-        
+            .nodeThreeObject(node => doNodeThreeObject(node));
 
         function updateHighlight() {
-        // trigger update of highlighted objects in scene
-        Graph
-          .nodeThreeObject(node => doNodeThreeObject(node))
-          .linkWidth(Graph.linkWidth())
-          .linkDirectionalParticles(Graph.linkDirectionalParticles());
+          // trigger update of highlighted objects in scene
+          Graph
+            .nodeThreeObject(node => doNodeThreeObject(node))
+            .linkWidth(Graph.linkWidth())
+            .linkDirectionalParticles(Graph.linkDirectionalParticles());
         }
-
       });
-
-
-
-
-      
     </script>
-  </body>
+</body>
   
 </html>
