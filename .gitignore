@@ -5,3 +5,5 @@ scraper/*.json
 
 __pycache__/*
 docs/gh_private
+
+list_to_nodes_and_links.py
