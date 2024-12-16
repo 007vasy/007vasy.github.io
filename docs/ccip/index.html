@@ -24,7 +24,18 @@
         .then(([chainsData, lanesData]) => {
           // Transform chains data for lookup
           const chainImageMap = Object.entries(chainsData).reduce((acc, [_, chain]) => {
-            acc[chain.title.toLowerCase()] = "https://docs.chain.link" + chain.icon;
+            let filename = chain.icon.split('/').pop();
+            let chainName = chain.title.toLowerCase()
+
+            // for mode and scroll use "https://d2f70xi62kby8n.cloudfront.net/bridge/icons/networks/" + filename
+            // for the other use https://docs.chain.link/ + chain.icon
+
+            if (chainName === 'mantle' || chainName === 'scroll') {
+              acc[chainName] = "https://d2f70xi62kby8n.cloudfront.net/bridge/icons/networks/" + filename;
+            } else {
+              acc[chainName] = "https://docs.chain.link" + chain.icon;
+            }
+
             return acc;
           }, {});
 
@@ -54,7 +65,7 @@
               id: index,
               name: chain,
               img: chainImageMap[lookupName] || '',
-              // img: "https://icons.llamao.fi/icons/chains/rsz_scroll.jpg",
+              //img: "https://d2f70xi62kby8n.cloudfront.net/bridge/icons/networks/scroll.svg",
               url: 'https://docs.chain.link/ccip/directory/mainnet/chain/' + chain // You might want to update this based on your requirements
             };
           });
@@ -110,8 +121,8 @@
             .linkAutoColorBy('name')
             .linkOpacity(0.2)
             .onNodeClick(node => window.open(node.url, '_blank'))
-            .linkCurvature(0.5)
-            .linkCurveRotation(0.4)
+            .linkCurvature(0.01)
+            .linkCurveRotation(0.04)
             .linkDirectionalArrowLength(2)
             .linkDirectionalParticles(2)
             .linkDirectionalParticleSpeed(4 * 0.001)
