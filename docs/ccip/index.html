@@ -60,7 +60,8 @@
               .replace('xdai', 'gnosis')
               .replace('polkadot-astar', 'astar')
               .replace('matic', 'polygon')
-              .replace('andromeda', 'metis');
+              .replace('andromeda', 'metis')
+              .replace('bitcoin-bsquared','b²');
             return {
               id: index,
               name: chain,
@@ -87,8 +88,10 @@
             nodes: nodes,
             links: links
           };
-          console.log(chainImageMap);
-          console.log(gData);
+          // ! Only for debugging
+          // console.log(chainImageMap);
+          // console.log(gData);
+          
           // Create a mapping from node id to node object
           const nodeById = Object.fromEntries(gData.nodes.map(node => [node.id, node]));
           // create empty array of neighbors if it doesn't exist for each node
