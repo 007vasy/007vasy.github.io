@@ -124,8 +124,8 @@
             .linkAutoColorBy('name')
             .linkOpacity(0.2)
             .onNodeClick(node => window.open(node.url, '_blank'))
-            .linkCurvature(0.01)
-            .linkCurveRotation(0.04)
+            // .linkCurvature(0.01)
+            // .linkCurveRotation(0.04)
             .linkDirectionalArrowLength(2)
             .linkDirectionalParticles(2)
             .linkDirectionalParticleSpeed(4 * 0.001)
@@ -171,7 +171,11 @@
               sprite.scale.set(5, 6);
               return sprite;
             })
-
+            .onNodeDragEnd(node => {
+              node.fx = node.x;
+              node.fy = node.y;
+              node.fz = node.z;
+            });
 
           function updateHighlight() {
             // trigger update of highlighted objects in scene
@@ -181,8 +185,16 @@
               .linkDirectionalParticles(Graph.linkDirectionalParticles());
           }
 
-          // fit to canvas when engine stops
-          Graph.onEngineStop(() => Graph.zoomToFit(300));
+          // // fit to canvas when engine stops
+          let firstTime = true;
+          Graph.onEngineStop(() => 
+            {
+              if (firstTime) {
+                firstTime = false;
+                Graph.zoomToFit(300);
+              }
+            }
+          );
         })
         .catch(error => console.error('Error loading JSON:', error));
   </script>
