@@ -25,7 +25,7 @@
           // Transform chains data for lookup
           const chainImageMap = Object.entries(chainsData).reduce((acc, [_, chain]) => {
             let filename = chain.icon.split('/').pop();
-            let chainName = chain.title.toLowerCase()
+            let chainName = chain.title.toLowerCase().replace(' ', '');
 
             // for mode and scroll use "https://d2f70xi62kby8n.cloudfront.net/bridge/icons/networks/" + filename
             // for the other use https://docs.chain.link/ + chain.icon
@@ -38,7 +38,7 @@
 
             return acc;
           }, {});
-
+          console.log(chainImageMap);
           // Get unique chain names from lanes data
           const uniqueChains = new Set();
           Object.entries(lanesData).forEach(([source, destinations]) => {
@@ -61,7 +61,10 @@
               .replace('polkadot-astar', 'astar')
               .replace('matic', 'polygon')
               .replace('andromeda', 'metis')
-              .replace('bitcoin-bsquared','b²');
+              .replace('bitcoin-bsquared','b²')
+              .replace('bitcoin-bob','bob')
+              .replace(" ", "");
+            console.log(lookupName);
             return {
               id: index,
               name: chain,
@@ -118,7 +121,8 @@
           const Graph = ForceGraph3D()
             (document.getElementById('3d-graph'))
             .cooldownTicks(10)
-            .backgroundColor('#000003')
+            //.backgroundColor('#464b54')
+            .backgroundColor("#1d2229")
             .graphData(gData)  // use gData here instead of jsonUrl
             .nodeAutoColorBy('name')
             .linkAutoColorBy('name')
