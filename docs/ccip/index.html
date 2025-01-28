@@ -62,7 +62,8 @@
               .replace('matic', 'polygon')
               .replace('andromeda', 'metis')
               .replace('bitcoin-bsquared','b²')
-              .replace('bitcoin-bob','bob')
+              .replace('bitcoin-','')
+              .replace('-','')
               .replace(" ", "");
             console.log(lookupName);
             return {
