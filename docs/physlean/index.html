@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PhysLean Repository Structure</title>
+    <style> 
+        body { 
+            margin: 0; 
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 100;
+            background: rgba(0,0,0,0.8);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+    <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
+</head>
+  
+<body>
+    <div id="info">
+        <h3>PhysLean Repository Structure</h3>
+        <p>Interactive 3D visualization of the PhysLean repository</p>
+        <p><strong>Node Types:</strong></p>
+        <ul>
+            <li>🗂️ Directories (blue)</li>
+            <li>📄 Files (green)</li>
+            <li>📦 Namespaces (yellow)</li>
+            <li>🔗 Abbreviations (pink)</li>
+            <li>🏗️ Structures (gray)</li>
+            <li>📥 Imports (orange)</li>
+            <li>🔓 Opens (purple)</li>
+        </ul>
+    </div>
+    <div id="3d-graph"></div>
+    
+    <script type="module">
+        import * as THREE from 'https://esm.sh/three';
+        
+        async function loadJson(){
+            const res = await fetch('./physlean_graph.json');
+            const json = await res.json();
+            return json;
+        }
+
+        const typeToColorMap = {
+            "directory": "rgba(100, 150, 255, 0.9)",
+            "file": "rgba(100, 255, 100, 0.9)",
+            "namespace": "rgba(255, 255, 100, 0.9)",
+            "abbrev": "rgba(255, 100, 255, 0.9)",
+            "structure": "rgba(200, 200, 200, 0.9)",
+            "import": "rgba(255, 165, 0, 0.9)",
+            "open": "rgba(160, 32, 240, 0.9)"
+        };
+
+        const linkTypeToColorMap = {
+            "contains": "rgba(100, 100, 100, 0.6)",
+            "defines": "rgba(0, 255, 0, 0.8)",
+            "imports": "rgba(255, 165, 0, 0.8)",
+            "opens": "rgba(160, 32, 240, 0.8)"
+        };
+
+        const highlightNodes = new Set();
+        const highlightLinks = new Set();
+        let hoverNode = null;
+
+        loadJson().then(gData => {
+            // Add neighbors and links to nodes for highlighting
+            gData.nodes.forEach(node => {
+                node.neighbors = [];
+                node.links = [];
+            });
+
+            gData.links.forEach(link => {
+                const a = gData.nodes.find(n => n.id === link.source);
+                const b = gData.nodes.find(n => n.id === link.target);
+                if (a && b) {
+                    a.neighbors.push(b);
+                    b.neighbors.push(a);
+                    a.links.push(link);
+                    b.links.push(link);
+                }
+            });
+
+            function getNodeSize(node) {
+                const baseSize = 2;
+                const sizeMultiplier = {
+                    "directory": 3,
+                    "file": 2,
+                    "namespace": 1.5,
+                    "abbrev": 1.2,
+                    "structure": 1.5,
+                    "import": 1,
+                    "open": 1
+                };
+                return baseSize * (sizeMultiplier[node.type] || 1);
+            }
+
+            function doNodeThreeObject(node) {
+                const size = getNodeSize(node);
+                let geometry;
+                
+                switch(node.type) {
+                    case 'directory':
+                        geometry = new THREE.BoxGeometry(size, size, size);
+                        break;
+                    case 'file':
+                        geometry = new THREE.CylinderGeometry(size/2, size/2, size);
+                        break;
+                    case 'namespace':
+                        geometry = new THREE.SphereGeometry(size/2);
+                        break;
+                    case 'abbrev':
+                        geometry = new THREE.OctahedronGeometry(size/2);
+                        break;
+                    case 'structure':
+                        geometry = new THREE.DodecahedronGeometry(size/2);
+                        break;
+                    case 'import':
+                        geometry = new THREE.TetrahedronGeometry(size/2);
+                        break;
+                    case 'open':
+                        geometry = new THREE.IcosahedronGeometry(size/2);
+                        break;
+                    default:
+                        geometry = new THREE.SphereGeometry(size/2);
+                }
+
+                return new THREE.Mesh(
+                    geometry,
+                    new THREE.MeshLambertMaterial({
+                        color: typeToColorMap[node.type] || "rgba(128, 128, 128, 0.9)",
+                        transparent: true,
+                        opacity: highlightNodes.has(node) ? 1.0 : 0.7
+                    })
+                );
+            }
+
+            const Graph = ForceGraph3D()
+                (document.getElementById('3d-graph'))
+                .graphData(gData)
+                .nodeLabel(node => `${node.type}: ${node.name}${node.parent ? ` (in ${node.parent})` : ''}`)
+                .linkWidth(link => highlightLinks.has(link) ? 4 : 1)
+                .linkDirectionalParticles(link => highlightLinks.has(link) ? 4 : 1)
+                .linkDirectionalParticleWidth(link => highlightLinks.has(link) ? 4 : 1)
+                .linkDirectionalParticles(2)
+                .linkDirectionalParticleSpeed(0.005)
+                .linkCurvature('curvature')
+                .linkOpacity(0.3)
+                .linkCurveRotation('rotation')
+                .linkLabel('type')
+                .linkDirectionalArrowLength(3)
+                .linkColor(link => linkTypeToColorMap[link.type] || "rgba(128, 128, 128, 0.6)")
+                .nodeThreeObject(node => doNodeThreeObject(node))
+                .onNodeHover(node => {
+                    // no state change
+                    if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
+
+                    highlightNodes.clear();
+                    highlightLinks.clear();
+                    if (node) {
+                        highlightNodes.add(node);
+                        if (node.neighbors) {
+                            node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+                            node.links.forEach(link => highlightLinks.add(link));
+                        }
+                    }
+
+                    hoverNode = node || null;
+                    updateHighlight();
+                })
+                .onLinkHover(link => {
+                    highlightNodes.clear();
+                    highlightLinks.clear();
+
+                    if (link) {
+                        highlightLinks.add(link);
+                        const sourceNode = gData.nodes.find(n => n.id === link.source);
+                        const targetNode = gData.nodes.find(n => n.id === link.target);
+                        if (sourceNode) highlightNodes.add(sourceNode);
+                        if (targetNode) highlightNodes.add(targetNode);
+                    }
+
+                    updateHighlight();
+                });
+
+            function updateHighlight() {
+                // trigger update of highlighted objects in scene
+                Graph
+                    .nodeThreeObject(node => doNodeThreeObject(node))
+                    .linkWidth(Graph.linkWidth())
+                    .linkDirectionalParticles(Graph.linkDirectionalParticles());
+            }
+
+            // Fit to canvas when engine stops
+            let firstTime = true;
+            Graph.onEngineStop(() => {
+                if (firstTime) {
+                    firstTime = false;
+                    Graph.zoomToFit(400);
+                }
+            });
+        });
+    </script>
+</body>
+  
+</html> 
