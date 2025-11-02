@@ -1,0 +1,134 @@
+<head>
+  <style> body { margin: 0; } footer { position: fixed; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: #fff; font: 12px sans-serif; padding: 6px 10px; } a { color: #9cf; } </style>
+  <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+  <footer>
+    Data sourced from <a href="https://ballpit.fandom.com/wiki/Ball_X_Pit_Wiki" target="_blank" rel="noopener">Ball X Pit Wiki</a> (Fandom). Community content is available under CC‑BY‑SA unless otherwise noted.
+  </footer>
+
+  <script type="module">
+    import * as THREE from 'https://esm.sh/three';
+
+    async function loadGraph() {
+      const res = await fetch('./graph.json');
+      return await res.json();
+    }
+
+    function transform(schema) {
+      const idToNode = new Map();
+      const nodes = (schema.nodes || []).map((n, idx) => {
+        const out = {
+          id: n.id,
+          name: n.caption || (n.properties && n.properties.name) || n.id,
+          label: (n.labels && n.labels[0]) || 'Node',
+          img: (n.properties && n.properties.imagePath) || '',
+          url: (n.properties && n.properties.url) || ''
+        };
+        idToNode.set(n.id, out);
+        return out;
+      });
+
+      const links = (schema.relationships || []).map((r) => ({
+        source: r.fromId,
+        target: r.toId,
+        type: r.type || 'related'
+      }));
+
+      // Cross-links
+      const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
+      nodes.forEach(n => { n.neighbors = []; n.links = []; });
+      links.forEach(l => {
+        const a = nodeById[l.source];
+        const b = nodeById[l.target];
+        if (a && b) {
+          a.neighbors.push(b); b.neighbors.push(a);
+          a.links.push(l); b.links.push(l);
+        }
+      });
+
+      return { nodes, links };
+    }
+
+    const labelColor = {
+      'Character': 'rgba(0, 200, 100, 0.9)',
+      'Ball': 'rgba(0, 255, 255, 0.9)',
+      'Passive': 'rgba(255, 215, 0, 0.9)'
+    };
+
+    function nodeObject(node) {
+      if (node.img) {
+        const loader = new THREE.TextureLoader();
+        loader.crossOrigin = 'anonymous';
+        const imgTexture = loader.load(node.img);
+        imgTexture.colorSpace = THREE.SRGBColorSpace;
+        const material = new THREE.SpriteMaterial({ map: imgTexture });
+        const sprite = new THREE.Sprite(material);
+        sprite.scale.set(6, 6);
+        return sprite;
+      }
+      return new THREE.Mesh(
+        new THREE.SphereGeometry(3),
+        new THREE.MeshLambertMaterial({ color: labelColor[node.label] || 'rgba(180, 180, 255, 0.9)', transparent: true, opacity: 0.85 })
+      );
+    }
+
+    loadGraph().then(schema => {
+      const gData = transform(schema);
+
+      const highlightNodes = new Set();
+      const highlightLinks = new Set();
+      let hoverNode = null;
+
+      const Graph = ForceGraph3D()(document.getElementById('3d-graph'))
+        .backgroundColor('#1d2229')
+        .graphData(gData)
+        .nodeLabel(n => `${n.label}: ${n.name}`)
+        .linkLabel('type')
+        .linkOpacity(0.2)
+        .linkDirectionalArrowLength(2)
+        .linkDirectionalParticles(2)
+        .linkDirectionalParticleSpeed(0.004)
+        .nodeThreeObject(nodeObject)
+        .onNodeClick(node => { if (node.url) window.open(node.url, '_blank'); })
+        .onNodeHover(node => {
+          if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
+          highlightNodes.clear();
+          highlightLinks.clear();
+          if (node) {
+            highlightNodes.add(node);
+            node.neighbors.forEach(nei => highlightNodes.add(nei));
+            node.links.forEach(l => highlightLinks.add(l));
+          }
+          hoverNode = node || null;
+          updateHighlight();
+        })
+        .onLinkHover(link => {
+          highlightNodes.clear();
+          highlightLinks.clear();
+          if (link) {
+            highlightLinks.add(link);
+            highlightNodes.add(link.source);
+            highlightNodes.add(link.target);
+          }
+          updateHighlight();
+        });
+
+      function updateHighlight() {
+        Graph
+          .linkWidth(l => highlightLinks.has(l) ? 1 : 0.05)
+          .linkDirectionalParticles(l => highlightLinks.has(l) ? 4 : 0)
+          .nodeColor(n => highlightNodes.has(n) ? (n === hoverNode ? 'rgb(255,0,0)' : 'rgba(255,160,0,0.9)') : (labelColor[n.label] || 'rgba(180,180,255,0.8)'));
+      }
+
+      let first = true;
+      Graph.onEngineStop(() => {
+        if (first) { first = false; Graph.zoomToFit(400); }
+      });
+    });
+  </script>
+</body>
+
+
