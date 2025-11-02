@@ -66,7 +66,7 @@
         imgTexture.colorSpace = THREE.SRGBColorSpace;
         const material = new THREE.SpriteMaterial({ map: imgTexture });
         const sprite = new THREE.Sprite(material);
-        sprite.scale.set(6, 6);
+        sprite.scale.set(15, 15);
         return sprite;
       }
       return new THREE.Mesh(
@@ -88,8 +88,9 @@
         .nodeLabel(n => `${n.label}: ${n.name}`)
         .linkLabel('type')
         .linkOpacity(0.2)
-        .linkDirectionalArrowLength(2)
-        .linkDirectionalParticles(2)
+        .linkWidth(0.1)
+        .linkDirectionalArrowLength(5)
+        .linkDirectionalParticles(5)
         .linkDirectionalParticleSpeed(0.004)
         .nodeThreeObject(nodeObject)
         .onNodeClick(node => { if (node.url) window.open(node.url, '_blank'); })
@@ -118,7 +119,7 @@
 
       function updateHighlight() {
         Graph
-          .linkWidth(l => highlightLinks.has(l) ? 1 : 0.05)
+          .linkWidth(l => highlightLinks.has(l) ? 1 : 0.1)
           .linkDirectionalParticles(l => highlightLinks.has(l) ? 4 : 0)
           .nodeColor(n => highlightNodes.has(n) ? (n === hoverNode ? 'rgb(255,0,0)' : 'rgba(255,160,0,0.9)') : (labelColor[n.label] || 'rgba(180,180,255,0.8)'));
       }
