@@ -365,6 +365,7 @@ def build_graph() -> Dict:
             # evolution-like columns
             evol_indices = [i for i, h in enumerate(headers) if 'evol' in h]
             combination_idx = headers.index('combination') if 'combination' in headers else None
+            requirement_idx = headers.index('requirement') if 'requirement' in headers else None
             rows: List[Dict[str, str]] = []
             for tr in table.select('tr')[1:]:
                 tds = tr.find_all('td')
@@ -431,7 +432,32 @@ def build_graph() -> Dict:
                         if '+' in txt:
                             lines = [txt]
                     if lines:
-                        val['combinations'] = lines
+                        val.setdefault('combinations', [])
+                        val['combinations'].extend(lines)
+                # collect combinations from requirement column for passives if multiple wiki links present
+                if requirement_idx is not None and requirement_idx < len(tds):
+                    req_cell = tds[requirement_idx]
+                    # preserve lines
+                    for br in req_cell.find_all(['br']):
+                        br.replace_with('\n')
+                    raw = req_cell.get_text('\n', strip=True)
+                    line_texts = [l.strip() for l in raw.split('\n') if l.strip()]
+                    # group anchors by line
+                    req_html_lines = (str(req_cell)).split('<br') if '<br' in str(req_cell) else [str(req_cell)]
+                    combos_from_links: List[str] = []
+                    for seg in req_html_lines:
+                        seg_soup = BeautifulSoup(seg, 'lxml')
+                        titles = []
+                        for a in seg_soup.select('a[href^="/wiki/"]'):
+                            href = a.get('href') or ''
+                            t = href.split('/wiki/')[-1].replace('_', ' ').strip()
+                            if t and t not in titles:
+                                titles.append(t)
+                        if len(titles) >= 2:
+                            combos_from_links.append(' + '.join(titles))
+                    if combos_from_links:
+                        val.setdefault('combinations', [])
+                        val['combinations'].extend(combos_from_links)
                 if val['name']:
                     rows.append(val)
             if rows:
@@ -583,6 +609,40 @@ def build_graph() -> Dict:
                     icon = None
             get_or_create_node(passive_name, 'Passive', page_url, icon)
             schema_get_or_create(passive_name, 'Passive', page_url, icon)
+            # Passive combinations -> evolution nodes analogous to balls
+            combos = row.get('combinations') or []
+            for combo_line in combos:
+                parts = [p.strip() for p in re.split(r"\+|,| and ", combo_line) if p.strip()]
+                if len(parts) >= 2:
+                    evo_node_name = f"Evolution: {' + '.join(parts)}"
+                    # runtime nodes/edges
+                    get_or_create_node(evo_node_name, 'Evolution', '', None)
+                    get_or_create_node(passive_name, 'Passive', page_url, icon)
+                    for comp in parts:
+                        get_or_create_node(comp, 'Passive', BASE_WIKI_URL + 'Passives', None)
+                        relationships.append({
+                            "id": f"r{len(relationships)}",
+                            "type": 'HAS Evolution',
+                            "style": {},
+                            "properties": {},
+                            "fromId": title_to_node_id[comp],
+                            "toId": title_to_node_id[evo_node_name]
+                        })
+                    relationships.append({
+                        "id": f"r{len(relationships)}",
+                        "type": '',
+                        "style": {},
+                        "properties": {},
+                        "fromId": title_to_node_id[evo_node_name],
+                        "toId": title_to_node_id[passive_name]
+                    })
+                    # schema mirror
+                    schema_get_or_create(evo_node_name, 'Evolution', '', None)
+                    schema_get_or_create(passive_name, 'Passive', page_url, icon)
+                    for comp in parts:
+                        schema_get_or_create(comp, 'Passive', BASE_WIKI_URL + 'Passives', None)
+                        schema_add_rel(comp, evo_node_name, 'HAS Evolution')
+                    schema_add_rel(evo_node_name, passive_name, '')
     except Exception:
         pass
 

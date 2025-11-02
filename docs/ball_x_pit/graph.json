@@ -2186,6 +2186,18 @@
     },
     {
       "id": "n182",
+      "caption": "Evolution: Baby Rattle + War Horn",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n183",
       "caption": "Gracious Impaler",
       "labels": [
         "Passive"
@@ -2197,7 +2209,19 @@
       "style": {}
     },
     {
-      "id": "n183",
+      "id": "n184",
+      "caption": "Evolution: Reacher's Spear + Deadeye's Amulet",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n185",
       "caption": "Odiferous Shell",
       "labels": [
         "Passive"
@@ -2209,7 +2233,19 @@
       "style": {}
     },
     {
-      "id": "n184",
+      "id": "n186",
+      "caption": "Evolution: Wretched Onion + Breastplate",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n187",
       "caption": "Phantom Regalia",
       "labels": [
         "Passive"
@@ -2221,7 +2257,19 @@
       "style": {}
     },
     {
-      "id": "n185",
+      "id": "n188",
+      "caption": "Evolution: Ghostly Corset + Ethereal Cloak",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n189",
       "caption": "Soul Reaver",
       "labels": [
         "Passive"
@@ -2233,7 +2281,19 @@
       "style": {}
     },
     {
-      "id": "n186",
+      "id": "n190",
+      "caption": "Evolution: Vampiric Sword + Everflowing Goblet",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n191",
       "caption": "Tormenters Mask",
       "labels": [
         "Passive"
@@ -2245,7 +2305,19 @@
       "style": {}
     },
     {
-      "id": "n187",
+      "id": "n192",
+      "caption": "Evolution: Spiked Collar + Crown of Thorns",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n193",
       "caption": "Wings of the Anointed",
       "labels": [
         "Passive"
@@ -2257,7 +2329,19 @@
       "style": {}
     },
     {
-      "id": "n188",
+      "id": "n194",
+      "caption": "Evolution: Radiant Feather + Fleet Feet",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n195",
       "caption": "Deadeye's Cross",
       "labels": [
         "Passive"
@@ -2265,6 +2349,18 @@
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
         "imagePath": "/images/ball_x_pit/passives/deadeyes_cross.jpg"
+      },
+      "style": {}
+    },
+    {
+      "id": "n196",
+      "caption": "Evolution: Diamond Hilted Dagger + Sapphire Hilted Dagger + Ruby Hilted Dagger + Emerald Hilted Dagger",
+      "labels": [
+        "Evolution"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": ""
       },
       "style": {}
     }
@@ -3701,6 +3797,214 @@
       "properties": {},
       "fromId": "n129",
       "toId": "n128"
+    },
+    {
+      "id": "r179",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n132",
+      "toId": "n182"
+    },
+    {
+      "id": "r180",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n179",
+      "toId": "n182"
+    },
+    {
+      "id": "r181",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n182",
+      "toId": "n181"
+    },
+    {
+      "id": "r182",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n163",
+      "toId": "n184"
+    },
+    {
+      "id": "r183",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n138",
+      "toId": "n184"
+    },
+    {
+      "id": "r184",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n184",
+      "toId": "n183"
+    },
+    {
+      "id": "r185",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n180",
+      "toId": "n186"
+    },
+    {
+      "id": "r186",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n135",
+      "toId": "n186"
+    },
+    {
+      "id": "r187",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n186",
+      "toId": "n185"
+    },
+    {
+      "id": "r188",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n148",
+      "toId": "n188"
+    },
+    {
+      "id": "r189",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n142",
+      "toId": "n188"
+    },
+    {
+      "id": "r190",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n188",
+      "toId": "n187"
+    },
+    {
+      "id": "r191",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n176",
+      "toId": "n190"
+    },
+    {
+      "id": "r192",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n143",
+      "toId": "n190"
+    },
+    {
+      "id": "r193",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n190",
+      "toId": "n189"
+    },
+    {
+      "id": "r194",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n171",
+      "toId": "n192"
+    },
+    {
+      "id": "r195",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n136",
+      "toId": "n192"
+    },
+    {
+      "id": "r196",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n192",
+      "toId": "n191"
+    },
+    {
+      "id": "r197",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n162",
+      "toId": "n194"
+    },
+    {
+      "id": "r198",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n145",
+      "toId": "n194"
+    },
+    {
+      "id": "r199",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n194",
+      "toId": "n193"
+    },
+    {
+      "id": "r200",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n139",
+      "toId": "n196"
+    },
+    {
+      "id": "r201",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n166",
+      "toId": "n196"
+    },
+    {
+      "id": "r202",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n165",
+      "toId": "n196"
+    },
+    {
+      "id": "r203",
+      "type": "HAS Evolution",
+      "style": {},
+      "properties": {},
+      "fromId": "n141",
+      "toId": "n196"
+    },
+    {
+      "id": "r204",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n196",
+      "toId": "n195"
     }
   ]
 }
