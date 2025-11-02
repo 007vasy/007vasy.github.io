@@ -532,7 +532,7 @@ def build_graph() -> Dict:
             # If the table lists evolutions, add HAS Evolution edges
             for evo in row.get('evolutions', []) or []:
                 # runtime graph: insert evolution node between source and target
-                evo_node_name = f"Evolution: {ball_name} -> {evo}"
+                evo_node_name = f"{ball_name} -> {evo}"
                 # create runtime nodes if missing
                 get_or_create_node(evo, 'Ball', BASE_WIKI_URL + 'Balls', None)
                 get_or_create_node(evo_node_name, 'Evolution', '', None)
@@ -563,7 +563,7 @@ def build_graph() -> Dict:
             for combo_line in combos:
                 parts = [p.strip() for p in re.split(r"\+|,| and ", combo_line) if p.strip()]
                 # runtime: components -> evolution node -> result ball
-                evo_node_name = f"Evolution: {' + '.join(parts)}"
+                evo_node_name = f"{' + '.join(parts)}"
                 get_or_create_node(evo_node_name, 'Evolution', '', None)
                 get_or_create_node(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
                 for comp in parts:
@@ -614,7 +614,7 @@ def build_graph() -> Dict:
             for combo_line in combos:
                 parts = [p.strip() for p in re.split(r"\+|,| and ", combo_line) if p.strip()]
                 if len(parts) >= 2:
-                    evo_node_name = f"Evolution: {' + '.join(parts)}"
+                    evo_node_name = f"{' + '.join(parts)}"
                     # runtime nodes/edges
                     get_or_create_node(evo_node_name, 'Evolution', '', None)
                     get_or_create_node(passive_name, 'Passive', page_url, icon)

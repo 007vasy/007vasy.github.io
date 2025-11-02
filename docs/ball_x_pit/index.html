@@ -75,6 +75,28 @@
       );
     }
 
+    // Edge color based on relationship and node label types
+    function linkColor(link) {
+      const s = link.source && link.source.label ? link.source : null;
+      const t = link.target && link.target.label ? link.target : null;
+      const type = link.type || '';
+      const sl = s ? s.label : '';
+      const tl = t ? t.label : '';
+      // Character -> Ball (Starts With)
+      if (type === 'Starts With' && sl === 'Character' && tl === 'Ball') return '#4caf50';
+      // Ball -> Evolution (components)
+      if (type === 'HAS Evolution' && sl === 'Ball' && tl === 'Evolution') return '#2196f3';
+      // Evolution -> Ball (result)
+      if (type === '' && sl === 'Evolution' && tl === 'Ball') return '#ff9800';
+      // Passive -> Evolution (components)
+      if (type === 'HAS Evolution' && sl === 'Passive' && tl === 'Evolution') return '#9c27b0';
+      // Evolution -> Passive (result)
+      if (type === '' && sl === 'Evolution' && tl === 'Passive') return '#e91e63';
+      // Ball -> Passive (optional)
+      if (type === 'HAS Passive' && sl === 'Ball' && tl === 'Passive') return '#00bcd4';
+      return 'rgba(200,200,200,0.6)';
+    }
+
     loadGraph().then(schema => {
       const gData = transform(schema);
 
@@ -89,6 +111,7 @@
         .linkLabel('type')
         .linkOpacity(0.2)
         .linkWidth(0.1)
+        .linkColor(linkColor)
         .linkDirectionalArrowLength(5)
         .linkDirectionalParticles(5)
         .linkDirectionalParticleSpeed(0.004)
@@ -120,6 +143,7 @@
       function updateHighlight() {
         Graph
           .linkWidth(l => highlightLinks.has(l) ? 1 : 0.1)
+          .linkColor(Graph.linkColor())
           .linkDirectionalParticles(l => highlightLinks.has(l) ? 4 : 0)
           .nodeColor(n => highlightNodes.has(n) ? (n === hoverNode ? 'rgb(255,0,0)' : 'rgba(255,160,0,0.9)') : (labelColor[n.label] || 'rgba(180,180,255,0.8)'));
       }

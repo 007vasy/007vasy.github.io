@@ -422,7 +422,7 @@
     },
     {
       "id": "n35",
-      "caption": "Evolution: Iron + Ghost",
+      "caption": "Iron + Ghost",
       "labels": [
         "Evolution"
       ],
@@ -434,7 +434,7 @@
     },
     {
       "id": "n36",
-      "caption": "Evolution: Iron + Dark",
+      "caption": "Iron + Dark",
       "labels": [
         "Evolution"
       ],
@@ -458,7 +458,7 @@
     },
     {
       "id": "n38",
-      "caption": "Evolution: Charm + Bleed",
+      "caption": "Charm + Bleed",
       "labels": [
         "Evolution"
       ],
@@ -470,7 +470,7 @@
     },
     {
       "id": "n39",
-      "caption": "Evolution: Charm + Burn",
+      "caption": "Charm + Burn",
       "labels": [
         "Evolution"
       ],
@@ -494,7 +494,7 @@
     },
     {
       "id": "n41",
-      "caption": "Evolution: Dark + Sun",
+      "caption": "Dark + Sun",
       "labels": [
         "Evolution"
       ],
@@ -530,7 +530,7 @@
     },
     {
       "id": "n44",
-      "caption": "Evolution: Freeze + Wind",
+      "caption": "Freeze + Wind",
       "labels": [
         "Evolution"
       ],
@@ -542,7 +542,7 @@
     },
     {
       "id": "n45",
-      "caption": "Evolution: Freeze + Lightning",
+      "caption": "Freeze + Lightning",
       "labels": [
         "Evolution"
       ],
@@ -566,7 +566,7 @@
     },
     {
       "id": "n47",
-      "caption": "Evolution: Burn + Iron",
+      "caption": "Burn + Iron",
       "labels": [
         "Evolution"
       ],
@@ -590,7 +590,7 @@
     },
     {
       "id": "n49",
-      "caption": "Evolution: Lightning + Light",
+      "caption": "Lightning + Light",
       "labels": [
         "Evolution"
       ],
@@ -614,7 +614,7 @@
     },
     {
       "id": "n51",
-      "caption": "Evolution: Light + Dark",
+      "caption": "Light + Dark",
       "labels": [
         "Evolution"
       ],
@@ -638,7 +638,7 @@
     },
     {
       "id": "n53",
-      "caption": "Evolution: Freeze + Laser (Horizontal)",
+      "caption": "Freeze + Laser (Horizontal)",
       "labels": [
         "Evolution"
       ],
@@ -650,7 +650,7 @@
     },
     {
       "id": "n54",
-      "caption": "Evolution: Freeze + Laser (Vertical)",
+      "caption": "Freeze + Laser (Vertical)",
       "labels": [
         "Evolution"
       ],
@@ -674,7 +674,7 @@
     },
     {
       "id": "n56",
-      "caption": "Evolution: Burn + Freeze",
+      "caption": "Burn + Freeze",
       "labels": [
         "Evolution"
       ],
@@ -698,7 +698,7 @@
     },
     {
       "id": "n58",
-      "caption": "Evolution: Freeze + Earthquake",
+      "caption": "Freeze + Earthquake",
       "labels": [
         "Evolution"
       ],
@@ -722,7 +722,7 @@
     },
     {
       "id": "n60",
-      "caption": "Evolution: Bleed + Iron",
+      "caption": "Bleed + Iron",
       "labels": [
         "Evolution"
       ],
@@ -746,7 +746,7 @@
     },
     {
       "id": "n62",
-      "caption": "Evolution: Laser (Horizontal) + Laser (Vertical)",
+      "caption": "Laser (Horizontal) + Laser (Vertical)",
       "labels": [
         "Evolution"
       ],
@@ -770,7 +770,7 @@
     },
     {
       "id": "n64",
-      "caption": "Evolution: Charm + Dark",
+      "caption": "Charm + Dark",
       "labels": [
         "Evolution"
       ],
@@ -794,7 +794,7 @@
     },
     {
       "id": "n66",
-      "caption": "Evolution: Burn + Wind",
+      "caption": "Burn + Wind",
       "labels": [
         "Evolution"
       ],
@@ -818,7 +818,7 @@
     },
     {
       "id": "n68",
-      "caption": "Evolution: Light + Laser (Horizontal)",
+      "caption": "Light + Laser (Horizontal)",
       "labels": [
         "Evolution"
       ],
@@ -830,7 +830,7 @@
     },
     {
       "id": "n69",
-      "caption": "Evolution: Light + Laser (Vertical)",
+      "caption": "Light + Laser (Vertical)",
       "labels": [
         "Evolution"
       ],
@@ -854,7 +854,7 @@
     },
     {
       "id": "n71",
-      "caption": "Evolution: Brood Mother + Bleed",
+      "caption": "Brood Mother + Bleed",
       "labels": [
         "Evolution"
       ],
@@ -878,7 +878,7 @@
     },
     {
       "id": "n73",
-      "caption": "Evolution: Lightning + Iron",
+      "caption": "Lightning + Iron",
       "labels": [
         "Evolution"
       ],
@@ -902,7 +902,7 @@
     },
     {
       "id": "n75",
-      "caption": "Evolution: Charm + Light",
+      "caption": "Charm + Light",
       "labels": [
         "Evolution"
       ],
@@ -914,7 +914,7 @@
     },
     {
       "id": "n76",
-      "caption": "Evolution: Charm + Lightning",
+      "caption": "Charm + Lightning",
       "labels": [
         "Evolution"
       ],
@@ -938,7 +938,7 @@
     },
     {
       "id": "n78",
-      "caption": "Evolution: Brood Mother + Cell",
+      "caption": "Brood Mother + Cell",
       "labels": [
         "Evolution"
       ],
@@ -962,7 +962,7 @@
     },
     {
       "id": "n80",
-      "caption": "Evolution: Burn + Earthquake",
+      "caption": "Burn + Earthquake",
       "labels": [
         "Evolution"
       ],
@@ -986,7 +986,7 @@
     },
     {
       "id": "n82",
-      "caption": "Evolution: Vampire + Brood Mother",
+      "caption": "Vampire + Brood Mother",
       "labels": [
         "Evolution"
       ],
@@ -1010,7 +1010,7 @@
     },
     {
       "id": "n84",
-      "caption": "Evolution: Vampire + Egg Sac",
+      "caption": "Vampire + Egg Sac",
       "labels": [
         "Evolution"
       ],
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "n86",
-      "caption": "Evolution: Poison + Wind",
+      "caption": "Poison + Wind",
       "labels": [
         "Evolution"
       ],
@@ -1046,7 +1046,7 @@
     },
     {
       "id": "n87",
-      "caption": "Evolution: Dark + Wind",
+      "caption": "Dark + Wind",
       "labels": [
         "Evolution"
       ],
@@ -1070,7 +1070,7 @@
     },
     {
       "id": "n89",
-      "caption": "Evolution: Bomb + Poison",
+      "caption": "Bomb + Poison",
       "labels": [
         "Evolution"
       ],
@@ -1094,7 +1094,7 @@
     },
     {
       "id": "n91",
-      "caption": "Evolution: Earthquake + Cell",
+      "caption": "Earthquake + Cell",
       "labels": [
         "Evolution"
       ],
@@ -1118,7 +1118,7 @@
     },
     {
       "id": "n93",
-      "caption": "Evolution: Dark + Ghost",
+      "caption": "Dark + Ghost",
       "labels": [
         "Evolution"
       ],
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "n95",
-      "caption": "Evolution: Laser (Horizontal) + Poison",
+      "caption": "Laser (Horizontal) + Poison",
       "labels": [
         "Evolution"
       ],
@@ -1154,7 +1154,7 @@
     },
     {
       "id": "n96",
-      "caption": "Evolution: Laser (Horizontal) + Cell",
+      "caption": "Laser (Horizontal) + Cell",
       "labels": [
         "Evolution"
       ],
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "n97",
-      "caption": "Evolution: Laser (Vertical) + Poison",
+      "caption": "Laser (Vertical) + Poison",
       "labels": [
         "Evolution"
       ],
@@ -1178,7 +1178,7 @@
     },
     {
       "id": "n98",
-      "caption": "Evolution: Laser (Vertical) + Cell",
+      "caption": "Laser (Vertical) + Cell",
       "labels": [
         "Evolution"
       ],
@@ -1202,7 +1202,7 @@
     },
     {
       "id": "n100",
-      "caption": "Evolution: Bleed + Dark",
+      "caption": "Bleed + Dark",
       "labels": [
         "Evolution"
       ],
@@ -1226,7 +1226,7 @@
     },
     {
       "id": "n102",
-      "caption": "Evolution: Earthquake + Wind",
+      "caption": "Earthquake + Wind",
       "labels": [
         "Evolution"
       ],
@@ -1250,7 +1250,7 @@
     },
     {
       "id": "n104",
-      "caption": "Evolution: Incubus + Succubus",
+      "caption": "Incubus + Succubus",
       "labels": [
         "Evolution"
       ],
@@ -1286,7 +1286,7 @@
     },
     {
       "id": "n107",
-      "caption": "Evolution: Iron + Egg Sac",
+      "caption": "Iron + Egg Sac",
       "labels": [
         "Evolution"
       ],
@@ -1310,7 +1310,7 @@
     },
     {
       "id": "n109",
-      "caption": "Evolution: Vampire + Ghost",
+      "caption": "Vampire + Ghost",
       "labels": [
         "Evolution"
       ],
@@ -1334,7 +1334,7 @@
     },
     {
       "id": "n111",
-      "caption": "Evolution: Brood Mother + Egg Sac",
+      "caption": "Brood Mother + Egg Sac",
       "labels": [
         "Evolution"
       ],
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "n113",
-      "caption": "Evolution: Lightning + Wind",
+      "caption": "Lightning + Wind",
       "labels": [
         "Evolution"
       ],
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "n114",
-      "caption": "Evolution: Charm + Vampire",
+      "caption": "Charm + Vampire",
       "labels": [
         "Evolution"
       ],
@@ -1382,7 +1382,7 @@
     },
     {
       "id": "n115",
-      "caption": "Evolution: Burn + Light",
+      "caption": "Burn + Light",
       "labels": [
         "Evolution"
       ],
@@ -1406,7 +1406,7 @@
     },
     {
       "id": "n117",
-      "caption": "Evolution: Poison + Earthquake",
+      "caption": "Poison + Earthquake",
       "labels": [
         "Evolution"
       ],
@@ -1430,7 +1430,7 @@
     },
     {
       "id": "n119",
-      "caption": "Evolution: Vampire + Bleed",
+      "caption": "Vampire + Bleed",
       "labels": [
         "Evolution"
       ],
@@ -1442,7 +1442,7 @@
     },
     {
       "id": "n120",
-      "caption": "Evolution: Vampire + Dark",
+      "caption": "Vampire + Dark",
       "labels": [
         "Evolution"
       ],
@@ -1466,7 +1466,7 @@
     },
     {
       "id": "n122",
-      "caption": "Evolution: Poison + Ghost",
+      "caption": "Poison + Ghost",
       "labels": [
         "Evolution"
       ],
@@ -1478,7 +1478,7 @@
     },
     {
       "id": "n123",
-      "caption": "Evolution: Poison + Cell",
+      "caption": "Poison + Cell",
       "labels": [
         "Evolution"
       ],
@@ -1502,7 +1502,7 @@
     },
     {
       "id": "n125",
-      "caption": "Evolution: Egg Sac + Cell",
+      "caption": "Egg Sac + Cell",
       "labels": [
         "Evolution"
       ],
@@ -1526,7 +1526,7 @@
     },
     {
       "id": "n127",
-      "caption": "Evolution: Freeze + Ghost",
+      "caption": "Freeze + Ghost",
       "labels": [
         "Evolution"
       ],
@@ -1550,7 +1550,7 @@
     },
     {
       "id": "n129",
-      "caption": "Evolution: Vampire Lord + Spider Queen + Mosquito King",
+      "caption": "Vampire Lord + Spider Queen + Mosquito King",
       "labels": [
         "Evolution"
       ],
@@ -2186,7 +2186,7 @@
     },
     {
       "id": "n182",
-      "caption": "Evolution: Baby Rattle + War Horn",
+      "caption": "Baby Rattle + War Horn",
       "labels": [
         "Evolution"
       ],
@@ -2210,7 +2210,7 @@
     },
     {
       "id": "n184",
-      "caption": "Evolution: Reacher's Spear + Deadeye's Amulet",
+      "caption": "Reacher's Spear + Deadeye's Amulet",
       "labels": [
         "Evolution"
       ],
@@ -2234,7 +2234,7 @@
     },
     {
       "id": "n186",
-      "caption": "Evolution: Wretched Onion + Breastplate",
+      "caption": "Wretched Onion + Breastplate",
       "labels": [
         "Evolution"
       ],
@@ -2258,7 +2258,7 @@
     },
     {
       "id": "n188",
-      "caption": "Evolution: Ghostly Corset + Ethereal Cloak",
+      "caption": "Ghostly Corset + Ethereal Cloak",
       "labels": [
         "Evolution"
       ],
@@ -2282,7 +2282,7 @@
     },
     {
       "id": "n190",
-      "caption": "Evolution: Vampiric Sword + Everflowing Goblet",
+      "caption": "Vampiric Sword + Everflowing Goblet",
       "labels": [
         "Evolution"
       ],
@@ -2306,7 +2306,7 @@
     },
     {
       "id": "n192",
-      "caption": "Evolution: Spiked Collar + Crown of Thorns",
+      "caption": "Spiked Collar + Crown of Thorns",
       "labels": [
         "Evolution"
       ],
@@ -2330,7 +2330,7 @@
     },
     {
       "id": "n194",
-      "caption": "Evolution: Radiant Feather + Fleet Feet",
+      "caption": "Radiant Feather + Fleet Feet",
       "labels": [
         "Evolution"
       ],
@@ -2354,7 +2354,7 @@
     },
     {
       "id": "n196",
-      "caption": "Evolution: Diamond Hilted Dagger + Sapphire Hilted Dagger + Ruby Hilted Dagger + Emerald Hilted Dagger",
+      "caption": "Diamond Hilted Dagger + Sapphire Hilted Dagger + Ruby Hilted Dagger + Emerald Hilted Dagger",
       "labels": [
         "Evolution"
       ],
