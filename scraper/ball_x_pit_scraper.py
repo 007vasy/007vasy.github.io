@@ -2,6 +2,7 @@ import os
 import re
 import time
 import json
+import csv
 import pathlib
 from typing import Dict, List, Tuple, Optional
 
@@ -12,8 +13,8 @@ from bs4 import BeautifulSoup
 API_ENDPOINT = "https://ballpit.fandom.com/api.php"
 BASE_WIKI_URL = "https://ballpit.fandom.com/wiki/"
 
-OUTPUT_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "ball-x-pit"
-IMAGES_BASE = pathlib.Path(__file__).resolve().parents[1] / "docs" / "images" / "ball-x-pit"
+OUTPUT_DIR = pathlib.Path(__file__).resolve().parents[1] / "docs" / "ball_x_pit"
+IMAGES_BASE = pathlib.Path(__file__).resolve().parents[1] / "docs" / "images" / "ball_x_pit"
 
 HEADERS = {
     "User-Agent": "007vasy.github.io-scraper/1.0 (+https://github.com/007vasy/007vasy.github.io)"
@@ -152,18 +153,38 @@ def find_infobox_image(soup: BeautifulSoup) -> Optional[str]:
     return None
 
 
+def pick_best_img_src(img_tag) -> Optional[str]:
+    if img_tag is None:
+        return None
+    # Prefer data-src if present and looks like a URL
+    data_src = img_tag.get('data-src') or img_tag.get('data-original')
+    if data_src and data_src.startswith(('http://', 'https://')):
+        return data_src
+    # Try srcset (pick first URL)
+    srcset = img_tag.get('srcset')
+    if srcset:
+        first = srcset.split(',')[0].strip().split(' ')[0]
+        if first.startswith(('http://', 'https://')):
+            return first
+    # Fallback to src if it's not a 1x1 gif/data uri
+    src = img_tag.get('src')
+    if src and src.startswith(('http://', 'https://')) and 'data:image/gif' not in src:
+        return src
+    return None
+
+
 def download_image(url: str, dest_path: pathlib.Path) -> Optional[str]:
     try:
         if dest_path.exists():
-            return str(dest_path.relative_to(OUTPUT_DIR.parents[0]))
+            return "/" + str(dest_path.relative_to(OUTPUT_DIR.parents[0]))
         with requests.get(url, headers=HEADERS, timeout=60, stream=True) as r:
             r.raise_for_status()
             with open(dest_path, "wb") as f:
                 for chunk in r.iter_content(chunk_size=8192):
                     if chunk:
                         f.write(chunk)
-        # return web path relative to docs/
-        return str(dest_path.relative_to(OUTPUT_DIR.parents[0]))
+        # return web path relative to docs/ with leading slash so it resolves from site root
+        return "/" + str(dest_path.relative_to(OUTPUT_DIR.parents[0]))
     except Exception:
         return None
 
@@ -197,175 +218,378 @@ def collect_section_links(soup: BeautifulSoup, header_keywords: List[str]) -> Li
 def build_graph() -> Dict:
     ensure_dirs()
 
-    # 1) Discover pages: use categories if present; otherwise, fall back to all pages and classify by categories
-    label_to_titles: Dict[str, List[str]] = {label: [] for label in CATEGORIES}
-
-    # Try categories first
-    for label, cats in CATEGORIES.items():
-        for cat in cats:
-            members = list_category_members(cat)
-            for m in members:
-                title = m.get("title", "").strip()
-                if title and title not in label_to_titles[label]:
-                    label_to_titles[label].append(title)
-            time.sleep(0.2)
-
-    if not any(label_to_titles.values()):
-        # Fallback: list all pages and then classify via prop=categories
-        all_titles = list_all_pages()
-        info_map = get_page_info(all_titles)
-        for title, info in info_map.items():
-            cats = [c.split(":", 1)[-1] for c in info.get("categories", [])]
-            for label, need_cats in CATEGORIES.items():
-                if any(c in need_cats for c in cats):
-                    label_to_titles[label].append(title)
-        # De-dup
-        for k, v in list(label_to_titles.items()):
-            label_to_titles[k] = list(dict.fromkeys(v))
-        title_info = info_map
-
-    # If still empty, parse index pages directly to harvest item links
-    if not any(label_to_titles.values()):
-        index_pages = {
-            "Ball": "Balls",
-            "Character": "Characters",
-            "Passive": "Passives",
-        }
-        for label, page in index_pages.items():
-            try:
-                soup = fetch_html(page)
-            except Exception:
-                continue
-            # Collect wiki links in main content
-            candidates: List[str] = []
-            for a in soup.select('.mw-parser-output a[href^="/wiki/"]'):
-                href = a.get('href') or ''
-                title = href.split('/wiki/')[-1].replace('_', ' ')
-                # skip generic or index pages, files, special namespaces
-                if any(title.startswith(ns) for ns in ["Category:", "File:", "Special:", "Talk:", "Template:"]):
-                    continue
-                # skip section anchors
-                if '#' in title:
-                    continue
-                if title in {"Main Page", "Ball X Pit Wiki", page}:
-                    continue
-                candidates.append(title)
-            # unique preserve order
-            candidates = list(dict.fromkeys(candidates))
-            if candidates:
-                # Filter candidates by categories to match intended label (if available)
-                info_subset = get_page_info(candidates)
-                for t, inf in info_subset.items():
-                    cats = [c.split(":", 1)[-1] for c in inf.get("categories", [])]
-                    if any(c in CATEGORIES.get(label, []) for c in cats):
-                        if t not in label_to_titles[label]:
-                            label_to_titles[label].append(t)
-
-        # Recompute title_info for any found titles
-        if any(label_to_titles.values()):
-            all_titles = sorted({t for ts in label_to_titles.values() for t in ts})
-            ti2 = get_page_info(all_titles)
-            title_info.update(ti2)
-    else:
-        # Resolve page info (urls + images + categories) for discovered titles
-        all_titles = sorted({t for ts in label_to_titles.values() for t in ts})
-        title_info = get_page_info(all_titles)
-
-    # 3) Create nodes
+    # Build primarily by parsing the tables on Characters, Balls, and Passives pages
     nodes: List[Dict] = []
-    title_to_node_id: Dict[str, str] = {}
-    image_web_paths: Dict[str, str] = {}
-
-    for label, titles in label_to_titles.items():
-        for t in titles:
-            info = title_info.get(t, {"fullurl": f"{BASE_WIKI_URL}{t.replace(' ', '_')}", "image": None})
-            img_url = info.get("image")
-            if not img_url:
-                # fetch HTML and try to detect infobox image
-                soup = fetch_html(t)
-                img_url = find_infobox_image(soup)
-                time.sleep(0.2)
-
-            local_img_dir = {
-                "Ball": IMAGES_BASE / "balls",
-                "Character": IMAGES_BASE / "characters",
-                "Passive": IMAGES_BASE / "passives",
-            }.get(label, IMAGES_BASE)
-
-            image_path_rel: Optional[str] = None
-            if img_url:
-                ext = os.path.splitext(img_url.split("?")[0].split("/")[-1])[1] or ".jpg"
-                dest = local_img_dir / f"{safe_slug(t)}{ext}"
-                image_path_rel = download_image(img_url, dest)
-                time.sleep(0.15)
-
-            node_id = f"n{len(nodes)}"
-            title_to_node_id[t] = node_id
-            if image_path_rel:
-                image_web_paths[t] = image_path_rel
-
-            nodes.append(
-                {
-                    "id": node_id,
-                    "caption": t,
-                    "labels": [label],
-                    "properties": {
-                        "url": info.get("fullurl"),
-                        "imagePath": image_path_rel or "",
-                    },
-                    "style": {},
-                }
-            )
-
-    # 4) Relationships
     relationships: List[Dict] = []
+    title_to_node_id: Dict[str, str] = {}
+    # For schema output (nodes with Evolution type)
+    schema_nodes: List[Dict] = []
+    schema_rels: List[Dict] = []
+    schema_title_to_id: Dict[str, str] = {}
 
-    # Helper: only consider links that point to known titles
-    known_titles = set(title_to_node_id.keys())
+    def get_or_create_node(name: str, label: str, page_url: str, icon_url: Optional[str]) -> str:
+        if name in title_to_node_id:
+            # Try to upgrade existing node with missing image/url
+            node_id = title_to_node_id[name]
+            for idx, n in enumerate(nodes):
+                if n["id"] == node_id:
+                    # fill url if empty
+                    if page_url and not n.get("properties", {}).get("url"):
+                        n["properties"]["url"] = page_url
+                    # fill image if empty and we have an icon
+                    if icon_url and not n.get("properties", {}).get("imagePath"):
+                        local_img_dir = {
+                            "Ball": IMAGES_BASE / "balls",
+                            "Character": IMAGES_BASE / "characters",
+                            "Passive": IMAGES_BASE / "passives",
+                        }.get(label, IMAGES_BASE)
+                        ext = os.path.splitext(icon_url.split("?")[0].split("/")[-1])[1] or ".jpg"
+                        dest = local_img_dir / f"{safe_slug(name)}{ext}"
+                        image_path_rel = download_image(icon_url, dest)
+                        if image_path_rel:
+                            n["properties"]["imagePath"] = image_path_rel
+                    break
+            return node_id
+        local_img_dir = {
+            "Ball": IMAGES_BASE / "balls",
+            "Character": IMAGES_BASE / "characters",
+            "Passive": IMAGES_BASE / "passives",
+        }.get(label, IMAGES_BASE)
+        image_path_rel: Optional[str] = None
+        if icon_url:
+            ext = os.path.splitext(icon_url.split("?")[0].split("/")[-1])[1] or ".jpg"
+            dest = local_img_dir / f"{safe_slug(name)}{ext}"
+            image_path_rel = download_image(icon_url, dest)
+            time.sleep(0.05)
+        node_id = f"n{len(nodes)}"
+        title_to_node_id[name] = node_id
+        nodes.append({
+            "id": node_id,
+            "caption": name,
+            "labels": [label],
+            "properties": {"url": page_url, "imagePath": image_path_rel or ""},
+            "style": {},
+        })
+        return node_id
 
-    def add_rel(from_title: str, to_title: str, rel_type: str) -> None:
-        if from_title not in known_titles or to_title not in known_titles:
+    def schema_get_or_create(name: str, label: str, page_url: str, icon_url: Optional[str]) -> str:
+        if name in schema_title_to_id:
+            node_id = schema_title_to_id[name]
+            for idx, n in enumerate(schema_nodes):
+                if n["id"] == node_id:
+                    if page_url and not n.get("properties", {}).get("url"):
+                        n["properties"]["url"] = page_url
+                    if icon_url and not n.get("properties", {}).get("imagePath"):
+                        local_img_dir = {
+                            "Ball": IMAGES_BASE / "balls",
+                            "Character": IMAGES_BASE / "characters",
+                            "Passive": IMAGES_BASE / "passives",
+                        }.get(label, IMAGES_BASE)
+                        ext = os.path.splitext(icon_url.split("?")[0].split("/")[-1])[1] or ".jpg"
+                        dest = local_img_dir / f"{safe_slug(name)}{ext}"
+                        image_path_rel = download_image(icon_url, dest)
+                        if image_path_rel:
+                            n["properties"]["imagePath"] = image_path_rel
+                    break
+            return node_id
+        # reuse downloaded path if we already created the runtime node
+        # try to map to runtime node id and copy properties
+        # but simplest: compute image path same as above
+        local_img_dir = {
+            "Ball": IMAGES_BASE / "balls",
+            "Character": IMAGES_BASE / "characters",
+            "Passive": IMAGES_BASE / "passives",
+        }.get(label, IMAGES_BASE)
+        image_path_rel: Optional[str] = None
+        if icon_url:
+            ext = os.path.splitext(icon_url.split("?")[0].split("/")[-1])[1] or ".jpg"
+            dest = local_img_dir / f"{safe_slug(name)}{ext}"
+            image_path_rel = download_image(icon_url, dest)
+        node_id = f"n{len(schema_nodes)}"
+        schema_title_to_id[name] = node_id
+        schema_nodes.append({
+            "id": node_id,
+            "position": {"x": 0, "y": 0},
+            "caption": name,
+            "style": {},
+            "labels": [label],
+            "properties": {"url": page_url, "imagePath": image_path_rel or ""}
+        })
+        return node_id
+
+    def schema_add_rel(from_name: str, to_name: str, rel_type: str):
+        if from_name not in schema_title_to_id or to_name not in schema_title_to_id:
             return
-        relationships.append(
-            {
-                "id": f"r{len(relationships)}",
-                "type": rel_type,
-                "style": {},
-                "properties": {},
-                "fromId": title_to_node_id[from_title],
-                "toId": title_to_node_id[to_title],
-            }
-        )
+        schema_rels.append({
+            "id": f"r{len(schema_rels)}",
+            "type": rel_type,
+            "style": {},
+            "properties": {},
+            "fromId": schema_title_to_id[from_name],
+            "toId": schema_title_to_id[to_name]
+        })
 
-    # Character -> Ball (Starts With)
-    for title in label_to_titles.get("Character", []):
-        soup = fetch_html(title)
-        # prioritize sections named Starts, Starter
-        links = collect_section_links(soup, ["Starts With", "Starter", "Starter Ball", "Starting Ball"])
-        # fallback: any ball links on the page (broad)
-        if not links:
-            links = [t for t in {a.get("href", "") for a in soup.select("a[href]")} if t.startswith("/wiki/")]
-            links = [l.split("/wiki/")[-1].replace("_", " ") for l in links]
-        for tgt in links:
-            if tgt in label_to_titles.get("Ball", []):
-                add_rel(title, tgt, "Starts With")
-        time.sleep(0.15)
+    def add_edge(from_name: str, to_name: str, rel_type: str):
+        if from_name not in title_to_node_id or to_name not in title_to_node_id:
+            return
+        relationships.append({
+            "id": f"r{len(relationships)}",
+            "type": rel_type,
+            "style": {},
+            "properties": {},
+            "fromId": title_to_node_id[from_name],
+            "toId": title_to_node_id[to_name],
+        })
 
-    # Ball -> Passive (HAS Passive) and Ball -> Ball (HAS Evolution)
-    for title in label_to_titles.get("Ball", []):
-        soup = fetch_html(title)
-        # Passives section
-        passive_links = collect_section_links(soup, ["Passive", "Passives"]) or []
-        for tgt in passive_links:
-            if tgt in label_to_titles.get("Passive", []):
-                add_rel(title, tgt, "HAS Passive")
+    def parse_table(page_title: str) -> List[Dict[str, str]]:
+        soup = fetch_html(page_title)
+        # find table with Name column
+        all_rows: List[Dict[str, str]] = []
+        for table in soup.select('.mw-parser-output table'):  # tables include class wikitable usually
+            # build header
+            headers = [th.get_text(" ", strip=True).lower() for th in table.select('tr th')]
+            if not headers:
+                # try first row
+                first = table.find('tr')
+                if first:
+                    headers = [th.get_text(" ", strip=True).lower() for th in first.find_all('th')]
+            if not headers or all(h == '' for h in headers):
+                continue
+            if 'name' not in headers:
+                continue
+            name_idx = headers.index('name')
+            # optional known columns
+            icon_idx = headers.index('icon') if 'icon' in headers else None
+            ball_idx = headers.index('ball') if 'ball' in headers else None
+            passive_idx = headers.index('passive') if 'passive' in headers else None
+            # evolution-like columns
+            evol_indices = [i for i, h in enumerate(headers) if 'evol' in h]
+            combination_idx = headers.index('combination') if 'combination' in headers else None
+            rows: List[Dict[str, str]] = []
+            for tr in table.select('tr')[1:]:
+                tds = tr.find_all('td')
+                if not tds or len(tds) <= name_idx:
+                    continue
+                name_cell = tds[name_idx]
+                link_el = name_cell.select_one('a[href^="/wiki/"]')
+                link_title = None
+                page_url = None
+                if link_el:
+                    href = link_el.get('href') or ''
+                    link_title = href.split('/wiki/')[-1].replace('_', ' ')
+                    page_url = BASE_WIKI_URL + href.split('/wiki/')[-1]
+                val = {
+                    'name': name_cell.get_text(" ", strip=True),
+                }
+                if link_title:
+                    val['link_title'] = link_title
+                if page_url:
+                    val['page_url'] = page_url
+                if icon_idx is not None and icon_idx < len(tds):
+                    img = tds[icon_idx].select_one('img')
+                    chosen = pick_best_img_src(img)
+                    if not chosen and img is not None:
+                        # last resort: try parent anchor style background-image
+                        parent = img.parent
+                        style = parent.get('style') if parent else None
+                        if style and 'background-image' in style:
+                            m = re.search(r"url\(['\"]?(.*?)['\"]?\)", style)
+                            if m:
+                                chosen = m.group(1)
+                    if chosen:
+                        val['icon'] = chosen
+                if ball_idx is not None and ball_idx < len(tds):
+                    val['ball'] = tds[ball_idx].get_text(" ", strip=True)
+                if passive_idx is not None and passive_idx < len(tds):
+                    val['passive'] = tds[passive_idx].get_text(" ", strip=True)
+                # collect evolutions from any evolution-like columns (as linked titles)
+                evols: List[str] = []
+                for idx in evol_indices:
+                    if idx < len(tds):
+                        for a in tds[idx].select('a[href^="/wiki/"]'):
+                            href = a.get('href') or ''
+                            t = href.split('/wiki/')[-1].replace('_', ' ')
+                            if t:
+                                evols.append(t)
+                if evols:
+                    # de-dupe preserve order
+                    val['evolutions'] = list(dict.fromkeys(evols))
+                # collect combinations for evolved balls (each line like "Iron + Ghost")
+                if combination_idx is not None and combination_idx < len(tds):
+                    combo_cell = tds[combination_idx]
+                    # split by <br> or newlines
+                    lines: List[str] = []
+                    # get text with line breaks represented
+                    for br in combo_cell.find_all(['br']):
+                        br.replace_with('\n')
+                    raw = combo_cell.get_text('\n', strip=True)
+                    for line in [l.strip() for l in raw.split('\n') if l.strip()]:
+                        lines.append(line)
+                    # fallback: if anchors exist with plus signs between, also construct from anchors
+                    if not lines:
+                        txt = combo_cell.get_text(' ', strip=True)
+                        if '+' in txt:
+                            lines = [txt]
+                    if lines:
+                        val['combinations'] = lines
+                if val['name']:
+                    rows.append(val)
+            if rows:
+                all_rows.extend(rows)
+        return all_rows
 
-        # Evolution section: Evolves, Evolution
-        evo_links = collect_section_links(soup, ["Evolve", "Evolves", "Evolution"]) or []
-        for tgt in evo_links:
-            if tgt in label_to_titles.get("Ball", []):
-                add_rel(title, tgt, "HAS Evolution")
-        time.sleep(0.15)
+    def dump_rows_to_csv(page_title: str, rows: List[Dict[str, str]]):
+        if not rows:
+            return
+        tables_dir = OUTPUT_DIR / 'tables'
+        tables_dir.mkdir(parents=True, exist_ok=True)
+        csv_path = tables_dir / f"{safe_slug(page_title)}.csv"
+        # normalize fields
+        fieldnames = ['name', 'page_url', 'icon', 'ball', 'passive', 'evolutions', 'combinations']
+        with open(csv_path, 'w', newline='', encoding='utf-8') as f:
+            w = csv.DictWriter(f, fieldnames=fieldnames)
+            w.writeheader()
+            for r in rows:
+                row = {k: r.get(k, '') for k in fieldnames}
+                if isinstance(row.get('evolutions'), list):
+                    row['evolutions'] = '; '.join(row['evolutions'])
+                if isinstance(row.get('combinations'), list):
+                    row['combinations'] = '; '.join(row['combinations'])
+                w.writerow(row)
+
+    # Parse Characters
+    try:
+        char_rows = parse_table('Characters')
+        dump_rows_to_csv('Characters', char_rows)
+        for row in char_rows:
+            char_name = row.get('name')
+            icon = row.get('icon')
+            page_url = row.get('page_url') or (BASE_WIKI_URL + 'Characters')
+            # try fallback icon from character page if missing
+            if not icon and row.get('link_title'):
+                try:
+                    icon = find_infobox_image(fetch_html(row['link_title']))
+                except Exception:
+                    icon = None
+            char_id = get_or_create_node(char_name, 'Character', page_url, icon)
+            schema_get_or_create(char_name, 'Character', page_url, icon)
+            ball_name = (row.get('ball') or '').strip()
+            if ball_name:
+                ball_id = get_or_create_node(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                add_edge(char_name, ball_name, 'Starts With')
+                # schema
+                schema_get_or_create(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                schema_add_rel(char_name, ball_name, 'Starts With')
+    except Exception:
+        pass
+
+    # Parse Balls
+    try:
+        ball_rows = parse_table('Balls')
+        dump_rows_to_csv('Balls', ball_rows)
+        for row in ball_rows:
+            ball_name = row.get('name')
+            icon = row.get('icon')
+            page_url = row.get('page_url') or (BASE_WIKI_URL + 'Balls')
+            if not icon and row.get('link_title'):
+                try:
+                    icon = find_infobox_image(fetch_html(row['link_title']))
+                except Exception:
+                    icon = None
+            get_or_create_node(ball_name, 'Ball', page_url, icon)
+            schema_get_or_create(ball_name, 'Ball', page_url, icon)
+            # If the table lists a passive column value, add relationship
+            passive_name = (row.get('passive') or '').strip()
+            if passive_name:
+                get_or_create_node(passive_name, 'Passive', BASE_WIKI_URL + 'Passives', None)
+                add_edge(ball_name, passive_name, 'HAS Passive')
+            # If the table lists evolutions, add HAS Evolution edges
+            for evo in row.get('evolutions', []) or []:
+                # runtime graph: insert evolution node between source and target
+                evo_node_name = f"Evolution: {ball_name} -> {evo}"
+                # create runtime nodes if missing
+                get_or_create_node(evo, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                get_or_create_node(evo_node_name, 'Evolution', '', None)
+                # runtime relationships
+                relationships.append({
+                    "id": f"r{len(relationships)}",
+                    "type": 'HAS Evolution',
+                    "style": {},
+                    "properties": {},
+                    "fromId": title_to_node_id[ball_name],
+                    "toId": title_to_node_id[evo_node_name]
+                })
+                relationships.append({
+                    "id": f"r{len(relationships)}",
+                    "type": '',
+                    "style": {},
+                    "properties": {},
+                    "fromId": title_to_node_id[evo_node_name],
+                    "toId": title_to_node_id[evo]
+                })
+                # schema mirror
+                schema_get_or_create(evo, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                schema_get_or_create(evo_node_name, 'Evolution', '', None)
+                schema_add_rel(ball_name, evo_node_name, 'HAS Evolution')
+                schema_add_rel(evo_node_name, evo, '')
+            # If the table lists combinations, add edges from components -> evolved ball
+            combos = row.get('combinations') or []
+            for combo_line in combos:
+                parts = [p.strip() for p in re.split(r"\+|,| and ", combo_line) if p.strip()]
+                # runtime: components -> evolution node -> result ball
+                evo_node_name = f"Evolution: {' + '.join(parts)}"
+                get_or_create_node(evo_node_name, 'Evolution', '', None)
+                get_or_create_node(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                for comp in parts:
+                    get_or_create_node(comp, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                    relationships.append({
+                        "id": f"r{len(relationships)}",
+                        "type": 'HAS Evolution',
+                        "style": {},
+                        "properties": {},
+                        "fromId": title_to_node_id[comp],
+                        "toId": title_to_node_id[evo_node_name]
+                    })
+                relationships.append({
+                    "id": f"r{len(relationships)}",
+                    "type": '',
+                    "style": {},
+                    "properties": {},
+                    "fromId": title_to_node_id[evo_node_name],
+                    "toId": title_to_node_id[ball_name]
+                })
+                # schema mirror
+                schema_get_or_create(evo_node_name, 'Evolution', '', None)
+                schema_get_or_create(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                for comp in parts:
+                    schema_get_or_create(comp, 'Ball', BASE_WIKI_URL + 'Balls', None)
+                    schema_add_rel(comp, evo_node_name, 'HAS Evolution')
+                schema_add_rel(evo_node_name, ball_name, '')
+    except Exception:
+        pass
+
+    # Parse Passives
+    try:
+        passive_rows = parse_table('Passives')
+        dump_rows_to_csv('Passives', passive_rows)
+        for row in passive_rows:
+            passive_name = row.get('name')
+            icon = row.get('icon')
+            page_url = row.get('page_url') or (BASE_WIKI_URL + 'Passives')
+            if not icon and row.get('link_title'):
+                try:
+                    icon = find_infobox_image(fetch_html(row['link_title']))
+                except Exception:
+                    icon = None
+            get_or_create_node(passive_name, 'Passive', page_url, icon)
+            schema_get_or_create(passive_name, 'Passive', page_url, icon)
+    except Exception:
+        pass
+
+    # Write secondary output in schema
+    schema_graph = {"nodes": schema_nodes, "relationships": schema_rels}
+    with open((OUTPUT_DIR / 'graph_schema.json'), 'w', encoding='utf-8') as f:
+        json.dump(schema_graph, f, indent=2, ensure_ascii=False)
 
     graph = {"nodes": nodes, "relationships": relationships}
     return graph
