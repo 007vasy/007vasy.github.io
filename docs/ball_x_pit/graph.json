@@ -8,7 +8,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_warrior.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_warrior.jpg",
+        "description": "A wandering warrior",
+        "requirement": ""
       },
       "style": {}
     },
@@ -20,7 +22,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/bleed.jpg"
+        "imagePath": "/images/ball_x_pit/balls/bleed.jpg",
+        "description": "Inflicts 2 stacks of bleed. Bleeding enemies receive 1 damage per stack when hit by a ball (max 8 stacks).",
+        "requirement": ""
       },
       "style": {}
     },
@@ -32,7 +36,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_itchy_finger.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_itchy_finger.jpg",
+        "description": "A disgraced deputy",
+        "requirement": ""
       },
       "style": {}
     },
@@ -44,7 +50,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/burn.jpg"
+        "imagePath": "/images/ball_x_pit/balls/burn.jpg",
+        "description": "Add 1 stack of burn on hit for 3 seconds (max 3 stacks). Burnt units are dealt 4-8 damage per stack per second.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -56,7 +64,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_repentant.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_repentant.jpg",
+        "description": "A sorrowful specimen, filled with regret",
+        "requirement": ""
       },
       "style": {}
     },
@@ -68,7 +78,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/freeze.jpg"
+        "imagePath": "/images/ball_x_pit/balls/freeze.jpg",
+        "description": "Has a 4% chance to freeze enemies for 5.0 seconds. Frozen enemies receive 25% more damage.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -80,7 +92,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_cohabitants.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_cohabitants.jpg",
+        "description": "A couple with many many children",
+        "requirement": ""
       },
       "style": {}
     },
@@ -92,7 +106,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/brood_mother.jpg"
+        "imagePath": "/images/ball_x_pit/balls/brood_mother.jpg",
+        "description": "Has a 25% chance of birthing a baby ball each time it hits an enemy.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -104,7 +120,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_cogitator.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_cogitator.jpg",
+        "description": "A brilliant philosopher, lost in thought",
+        "requirement": ""
       },
       "style": {}
     },
@@ -116,7 +134,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/laser_vertical.jpg"
+        "imagePath": "/images/ball_x_pit/balls/laser_vertical.jpg",
+        "description": "Deals 9-18 damage to all enemies in the same column.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -128,7 +148,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_embedded.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_embedded.jpg",
+        "description": "Marked by countless battles, he awaits his next assignment",
+        "requirement": ""
       },
       "style": {}
     },
@@ -140,7 +162,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/poison.jpg"
+        "imagePath": "/images/ball_x_pit/balls/poison.jpg",
+        "description": "Applies 1 stack of poison on hit (max 5 stacks). Poison lasts for 6 seconds and each stack deals 1-4 damage per second.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -152,7 +176,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_shade.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_shade.jpg",
+        "description": "A killer for hire",
+        "requirement": ""
       },
       "style": {}
     },
@@ -164,7 +190,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/dark.jpg"
+        "imagePath": "/images/ball_x_pit/balls/dark.jpg",
+        "description": "Deals 3.0x damage but destroys itself after hitting an enemy. Has a 3 second cooldown before it can be shot again.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -176,7 +204,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_shieldbearer.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_shieldbearer.jpg",
+        "description": "The front line's first defense",
+        "requirement": ""
       },
       "style": {}
     },
@@ -188,7 +218,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/iron.jpg"
+        "imagePath": "/images/ball_x_pit/balls/iron.jpg",
+        "description": "Deals double damage but moves 40% slower.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -200,7 +232,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_spendthrift.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_spendthrift.jpg",
+        "description": "A wealthy merchant, living a life of extravagance",
+        "requirement": ""
       },
       "style": {}
     },
@@ -212,7 +246,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/vampire.jpg"
+        "imagePath": "/images/ball_x_pit/balls/vampire.jpg",
+        "description": "Each hit has a 4.5% chance of healing 1 health.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -224,7 +260,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_juggler.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_juggler.jpg",
+        "description": "A street performer, flourishes abound",
+        "requirement": ""
       },
       "style": {}
     },
@@ -236,7 +274,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/lightning.jpg"
+        "imagePath": "/images/ball_x_pit/balls/lightning.jpg",
+        "description": "Deals 1-20 damage to up to 3 nearby enemies.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -248,7 +288,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_empty_nester.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_empty_nester.jpg",
+        "description": "Finally, some peace and quiet",
+        "requirement": ""
       },
       "style": {}
     },
@@ -260,7 +302,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/ghost.jpg"
+        "imagePath": "/images/ball_x_pit/balls/ghost.jpg",
+        "description": "Passes through enemies.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -272,7 +316,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_flagellant.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_flagellant.jpg",
+        "description": "Just your average flagellant",
+        "requirement": ""
       },
       "style": {}
     },
@@ -284,7 +330,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/egg_sac.jpg"
+        "imagePath": "/images/ball_x_pit/balls/egg_sac.jpg",
+        "description": "Explodes into 2-4 baby balls on hitting an enemy. Has a 3 second cooldown before it can be shot again.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -296,7 +344,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_makeshift_sisyphus.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_makeshift_sisyphus.jpg",
+        "description": "A former king, tormented by time",
+        "requirement": ""
       },
       "style": {}
     },
@@ -308,7 +358,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/earthquake.jpg"
+        "imagePath": "/images/ball_x_pit/balls/earthquake.jpg",
+        "description": "Deals 5-13 damage to nearby units in a 3x3 tile square.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -320,7 +372,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_physicist.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_physicist.jpg",
+        "description": "A pioneer of the field",
+        "requirement": ""
       },
       "style": {}
     },
@@ -332,7 +386,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/light.jpg"
+        "imagePath": "/images/ball_x_pit/balls/light.jpg",
+        "description": "Blinds enemies on hit for 3 seconds. Blinded units have a hard time detecting you and have a 50% chance of missing when they attack.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -344,7 +400,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_tactician.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_tactician.jpg",
+        "description": "A retired general, experienced beyond belief",
+        "requirement": ""
       },
       "style": {}
     },
@@ -356,7 +414,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Characters",
-        "imagePath": "/images/ball_x_pit/characters/the_radical.jpg"
+        "imagePath": "/images/ball_x_pit/characters/the_radical.jpg",
+        "description": "Radicalized by years of solitude",
+        "requirement": ""
       },
       "style": {}
     },
@@ -368,7 +428,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/wind.jpg"
+        "imagePath": "/images/ball_x_pit/balls/wind.jpg",
+        "description": "Passes through enemies and slows them down by 30% for 5 seconds, but deals 25% less damage.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -380,7 +442,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/cell.jpg"
+        "imagePath": "/images/ball_x_pit/balls/cell.jpg",
+        "description": "Splits into a clone on hit 2 times.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -392,7 +456,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/charm.jpg"
+        "imagePath": "/images/ball_x_pit/balls/charm.jpg",
+        "description": "Each hit has a 4% chance of charming the enemy for 5 seconds. Charmed units walk up the board and attack enemies.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -404,7 +470,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/laser_horizontal.jpg"
+        "imagePath": "/images/ball_x_pit/balls/laser_horizontal.jpg",
+        "description": "Deals 9-18 damage to all enemies in the same row.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -416,7 +484,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/assassin.jpg"
+        "imagePath": "/images/ball_x_pit/balls/assassin.jpg",
+        "description": "Passes through the front of enemies, but not the back. Backstabs deal 30% bonus damage.",
+        "requirement": ""
       },
       "style": {}
     },
@@ -428,7 +498,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -440,7 +512,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -452,7 +526,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/berserk.jpg"
+        "imagePath": "/images/ball_x_pit/balls/berserk.jpg",
+        "description": "Each hit has a 30% chance of causing enemies to go berserk for 6 seconds. Berserk enemies deal 15-24 damage to adjacent enemies every second",
+        "requirement": ""
       },
       "style": {}
     },
@@ -464,7 +540,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -476,7 +554,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -488,7 +568,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/black_hole.jpg"
+        "imagePath": "/images/ball_x_pit/balls/black_hole.jpg",
+        "description": "Instantly kills the first non-boss enemy that it hits, but destroys itself afterwards. Has a 7 second cooldown before it can be shot again",
+        "requirement": ""
       },
       "style": {}
     },
@@ -500,7 +582,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -512,7 +596,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/sun.jpg"
+        "imagePath": "/images/ball_x_pit/balls/sun.jpg",
+        "description": "Blind all enemies in view and add 1 stack of burn every second (max 5 stacks). Burn lasts for 6 seconds and deals 6-12 damage per stack per second",
+        "requirement": ""
       },
       "style": {}
     },
@@ -524,7 +610,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/blizzard.jpg"
+        "imagePath": "/images/ball_x_pit/balls/blizzard.jpg",
+        "description": "Freezes all enemies within a 2 tile radius for 0.8 seconds, dealing 1-50 damage",
+        "requirement": ""
       },
       "style": {}
     },
@@ -536,7 +624,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -548,7 +638,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -560,7 +652,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/bomb.jpg"
+        "imagePath": "/images/ball_x_pit/balls/bomb.jpg",
+        "description": "Explodes when hitting an enemy, dealing 150-300 damage to nearby enemies. Has a 3 second cooldown before it can be shot again",
+        "requirement": ""
       },
       "style": {}
     },
@@ -572,7 +666,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -584,7 +680,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/flash.jpg"
+        "imagePath": "/images/ball_x_pit/balls/flash.jpg",
+        "description": "Damage all enemies on screen for 1-3 damage after hitting an enemy and blind them for 2 seconds",
+        "requirement": ""
       },
       "style": {}
     },
@@ -596,7 +694,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -608,7 +708,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/flicker.jpg"
+        "imagePath": "/images/ball_x_pit/balls/flicker.jpg",
+        "description": "Deals 1-7 damage to every enemy on screen every 1.4 seconds",
+        "requirement": ""
       },
       "style": {}
     },
@@ -620,7 +722,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -632,7 +736,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/freeze_ray.jpg"
+        "imagePath": "/images/ball_x_pit/balls/freeze_ray.jpg",
+        "description": "Emits a freeze ray when hitting an enemy, dealing 20-50 to all enemies in its path, with a 10% chance of freezing them for 10.0 seconds",
+        "requirement": ""
       },
       "style": {}
     },
@@ -644,7 +750,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -656,7 +764,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -668,7 +778,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/frozen_flame.jpg"
+        "imagePath": "/images/ball_x_pit/balls/frozen_flame.jpg",
+        "description": "Add 1 stack of frostburn on hit for 20 seconds (max 4 stacks). Frostburnt units are dealt 8-12 damage per stack per second and receive 25% more damage from other sources",
+        "requirement": ""
       },
       "style": {}
     },
@@ -680,7 +792,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -692,7 +806,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/glacier.jpg"
+        "imagePath": "/images/ball_x_pit/balls/glacier.jpg",
+        "description": "Releases glacial spikes over time that deal 15-30 to enemies that touch them and freeze them for 2.0 seconds. This ball and its glacial spikes also deal 6-12 damage to nearby units",
+        "requirement": ""
       },
       "style": {}
     },
@@ -704,7 +820,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -716,7 +834,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/hemorrhage.jpg"
+        "imagePath": "/images/ball_x_pit/balls/hemorrhage.jpg",
+        "description": "Inflicts 3 stacks of bleed. When hitting an enemy with 12 stacks of bleed or more, consumes all stacks of bleed to deal 20% of their current health",
+        "requirement": ""
       },
       "style": {}
     },
@@ -728,7 +848,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -740,7 +862,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/holy_laser.jpg"
+        "imagePath": "/images/ball_x_pit/balls/holy_laser.jpg",
+        "description": "Deals 24-36 damage to all enemies in the same row and column",
+        "requirement": ""
       },
       "style": {}
     },
@@ -752,7 +876,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -764,7 +890,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/incubus.jpg"
+        "imagePath": "/images/ball_x_pit/balls/incubus.jpg",
+        "description": "Each hit has a 4% chance of charming the enemy for 9 seconds. Charmed enemies curse nearby enemies. Cursed enemies are dealt 100-200 after being hit 5 times",
+        "requirement": ""
       },
       "style": {}
     },
@@ -776,7 +904,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -788,7 +918,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/inferno.jpg"
+        "imagePath": "/images/ball_x_pit/balls/inferno.jpg",
+        "description": "Applies 1 stack of burn every second to all enemies within a 2 tile radius. Burn lasts for 6 seconds, dealing 3-7 damage per stack per seconds",
+        "requirement": ""
       },
       "style": {}
     },
@@ -800,7 +932,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -812,7 +946,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/laser_beam.jpg"
+        "imagePath": "/images/ball_x_pit/balls/laser_beam.jpg",
+        "description": "Emit a laser beam on hit that deals 30-42 damage and blinds enemies for 8 seconds",
+        "requirement": ""
       },
       "style": {}
     },
@@ -824,7 +960,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -836,7 +974,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -848,7 +988,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/leech.jpg"
+        "imagePath": "/images/ball_x_pit/balls/leech.jpg",
+        "description": "Attaches up to 1 leech onto enemies it hits, which add 2 stacks of bleed per seconds (max 24 stacks)",
+        "requirement": ""
       },
       "style": {}
     },
@@ -860,7 +1002,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -872,7 +1016,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/lightning_rod.jpg"
+        "imagePath": "/images/ball_x_pit/balls/lightning_rod.jpg",
+        "description": "Plants a lightning rod into enemies it hits. These enemies are struck by lightning every 3.0 seconds, dealing 1-30 damage to up to 8 nearby enemies",
+        "requirement": ""
       },
       "style": {}
     },
@@ -884,7 +1030,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -896,7 +1044,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/lovestruck.jpg"
+        "imagePath": "/images/ball_x_pit/balls/lovestruck.jpg",
+        "description": "Inflicts lovestruck on hit enemies for 20 seconds. Lovestruck units have a 50% chance of healing you for 5 health when they attack",
+        "requirement": ""
       },
       "style": {}
     },
@@ -908,7 +1058,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -920,7 +1072,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -932,7 +1086,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/maggot.jpg"
+        "imagePath": "/images/ball_x_pit/balls/maggot.jpg",
+        "description": "Infest enemies on hit with maggots. When they dies, they explode into 1-2 baby balls",
+        "requirement": ""
       },
       "style": {}
     },
@@ -944,7 +1100,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -956,7 +1114,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/magma.jpg"
+        "imagePath": "/images/ball_x_pit/balls/magma.jpg",
+        "description": "Emits lava blobs over time. Enemies who walk into lava blobs are dealt 15-30 damage and gain 1 stack of burn (max 3 stacks). Burn lasts for 3 seconds, dealing 3-8 damage per stack per second. This ball and its lava blobs also deal 6-12 damage to nearby units",
+        "requirement": ""
       },
       "style": {}
     },
@@ -968,7 +1128,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -980,7 +1142,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/mosquito_king.jpg"
+        "imagePath": "/images/ball_x_pit/balls/mosquito_king.jpg",
+        "description": "Spawns a mosquito each time it hits an enemy. Mosquitos attack a random enemy, dealing 80-120 damage each. If a mosquito kills an enemy, they steal 1 health",
+        "requirement": ""
       },
       "style": {}
     },
@@ -992,7 +1156,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1004,7 +1170,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/mosquito_swarm.jpg"
+        "imagePath": "/images/ball_x_pit/balls/mosquito_swarm.jpg",
+        "description": "Explodes into 3-6 mosquitos. Mosquitos attack random enemies, dealing 80-120 damage each. If a mosquito kills an enemy, they steal 1 health",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1016,7 +1184,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1028,7 +1198,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/noxious.jpg"
+        "imagePath": "/images/ball_x_pit/balls/noxious.jpg",
+        "description": "Passes through enemies and applies 3 stacks of poison to nearby enemies within a 2 tile radius. Poison lasts for 4 seconds and each stack deals 1-3 damage per second",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1040,7 +1212,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1052,7 +1226,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1064,7 +1240,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/nuclear_bomb.jpg"
+        "imagePath": "/images/ball_x_pit/balls/nuclear_bomb.jpg",
+        "description": "Explodes when hitting an enemy, dealing 300-500 damage to nearby enemies and applying 1 stack of radiation to everyone present indefinitely (max 5 stacks). Each stack of radiation increases damage received by 10%. Has a 3 second cooldown",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1076,7 +1254,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1088,7 +1268,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/overgrowth.jpg"
+        "imagePath": "/images/ball_x_pit/balls/overgrowth.jpg",
+        "description": "Applies 1 stack of overgrowth. Upon reaching 3, consume all stacks and deal 150-200 damage to all enemies in a 3x3 tile square",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1100,7 +1282,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1112,7 +1296,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/phantom.jpg"
+        "imagePath": "/images/ball_x_pit/balls/phantom.jpg",
+        "description": "Curse enemies on hit. Cursed enemies are dealt 100-200 damage after being hit 5 times",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1124,7 +1310,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1136,7 +1324,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/radiation_beam.jpg"
+        "imagePath": "/images/ball_x_pit/balls/radiation_beam.jpg",
+        "description": "Emit a radiation beam on hit that deals 24-48 damage and applies 1 stack of radiation (max 5 stacks). Radiation lasts for 15 seconds and cause enemies to receive 10% more damage from all sources per stack",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1148,7 +1338,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1160,7 +1352,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1172,7 +1366,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1184,7 +1380,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1196,7 +1394,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/sacrifice.jpg"
+        "imagePath": "/images/ball_x_pit/balls/sacrifice.jpg",
+        "description": "Inflicts 4 stacks of bleed (max 15 stacks) and applies curse to hit enemies. Cursed enemies are dealt 50-100 after being hit 5 times",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1208,7 +1408,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1220,7 +1422,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/sandstorm.jpg"
+        "imagePath": "/images/ball_x_pit/balls/sandstorm.jpg",
+        "description": "Goes through enemies and is surrounded by a raging storm dealing 10-20 damage per second and blinding nearby enemies for 3 seconds",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1232,7 +1436,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1244,7 +1450,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/satan.jpg"
+        "imagePath": "/images/ball_x_pit/balls/satan.jpg",
+        "description": "While active, add 1 stack of burn to all active enemies per second (max 5 stacks), dealing 10-20 damage per stack per second and make them go berserk, dealing 15-24 damage to adjacent enemies every second",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1256,7 +1464,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1268,7 +1478,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/succubus.jpg"
+        "imagePath": "/images/ball_x_pit/balls/succubus.jpg",
+        "description": "Each hit has a 4% chance of charming the enemy for 9 seconds. Heals 1 when hitting a charmed enemy",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1280,7 +1492,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/shotgun.jpg"
+        "imagePath": "/images/ball_x_pit/balls/shotgun.jpg",
+        "description": "Shoots 3-7 iron baby balls after hitting a wall. Iron baby balls move at 200% speed but are destroyed upon hitting anything",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1292,7 +1506,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1304,7 +1520,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/soul_sucker.jpg"
+        "imagePath": "/images/ball_x_pit/balls/soul_sucker.jpg",
+        "description": "Passes through enemies and saps them, with a 30% chance of stealing 1 health and reducing their attack damage by 20%. Lifesteal chance only applies once per enemy",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1316,7 +1534,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1328,7 +1548,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/spider_queen.jpg"
+        "imagePath": "/images/ball_x_pit/balls/spider_queen.jpg",
+        "description": "Has a 25% chance of birthing an Egg Sac each time it hits an enemy",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1340,7 +1562,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1352,7 +1576,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/storm.jpg"
+        "imagePath": "/images/ball_x_pit/balls/storm.jpg",
+        "description": "Emits lightning to strike nearby enemies every second, dealing 1-40 damage",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1364,7 +1590,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1376,7 +1604,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1388,7 +1618,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1400,7 +1632,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/swamp.jpg"
+        "imagePath": "/images/ball_x_pit/balls/swamp.jpg",
+        "description": "Leaves behind tar blobs over time. Enemies who walk into tar blobs are dealt 15-30, are slowed by 50% for 7 seconds and gain 1 stack of poison (max 8 stacks). Each stack of poison deals 1-3 damage per second. This ball and its tar blobs also deal 6-12 damage to nearby units",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1412,7 +1646,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1424,7 +1660,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/vampire_lord.jpg"
+        "imagePath": "/images/ball_x_pit/balls/vampire_lord.jpg",
+        "description": "Each hit inflicts 3 stacks of bleed. Heals 1 health and consumes all stacks when hitting an enemy with at least 10 stacks of bleed",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1436,7 +1674,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1448,7 +1688,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1460,7 +1702,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/virus.jpg"
+        "imagePath": "/images/ball_x_pit/balls/virus.jpg",
+        "description": "Applies 1 stack of disease to units it hits (max 8 stacks). Disease lasts for 6 seconds. Each stack of disease deals 3-6 damage per second and diseased units have a 15% chance of passing a stack to undiseased nearby enemies each second",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1472,7 +1716,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1484,7 +1730,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1496,7 +1744,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/voluptuous_egg_sac.jpg"
+        "imagePath": "/images/ball_x_pit/balls/voluptuous_egg_sac.jpg",
+        "description": "Explodes into 2-3 egg sacs on hitting an enemy. Has a 3 second cooldown before it can be shot again",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1508,7 +1758,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1520,7 +1772,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/wraith.jpg"
+        "imagePath": "/images/ball_x_pit/balls/wraith.jpg",
+        "description": "Freezes any enemy it passes through for 0.8 seconds",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1532,7 +1786,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1544,7 +1800,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Balls",
-        "imagePath": "/images/ball_x_pit/balls/nosferatu.jpg"
+        "imagePath": "/images/ball_x_pit/balls/nosferatu.jpg",
+        "description": "Spawns a vampire bat each bounce. Vampire bats fly towards a random enemy, dealing 132-176 damage on hit, turning into a Vampire Lord",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1556,7 +1814,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -1568,7 +1828,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/archers_effigy.jpg"
+        "imagePath": "/images/ball_x_pit/passives/archers_effigy.jpg",
+        "description": "Every 7-12 rows, spawn a stone archer with 160 health on your side. Stone archers are immune to ball damage and shoot arrows at enemies, dealing 10-20 each",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1580,7 +1842,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/artificial_heart.jpg"
+        "imagePath": "/images/ball_x_pit/passives/artificial_heart.jpg",
+        "description": "Friendly pieces gain 100% more health",
+        "requirement": "The player needs to have at least one other passive that gives them \"friendly pieces\" (e.g. Archer's Effigy)"
       },
       "style": {}
     },
@@ -1592,7 +1856,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/baby_rattle.jpg"
+        "imagePath": "/images/ball_x_pit/passives/baby_rattle.jpg",
+        "description": "Gain 1.5x baby balls, but your aim becomes scattered",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1604,7 +1870,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/bandage_roll.jpg"
+        "imagePath": "/images/ball_x_pit/passives/bandage_roll.jpg",
+        "description": "Shoot 1-2 baby balls each time you're healed",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1616,7 +1884,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/bottled_tornado.jpg"
+        "imagePath": "/images/ball_x_pit/passives/bottled_tornado.jpg",
+        "description": "When you catch a special ball, automatically shoot 1-3 new baby balls in random directions",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1628,7 +1898,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/breastplate.jpg"
+        "imagePath": "/images/ball_x_pit/passives/breastplate.jpg",
+        "description": "Decrease damage taken by 10%",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1640,7 +1912,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/crown_of_thorns.jpg"
+        "imagePath": "/images/ball_x_pit/passives/crown_of_thorns.jpg",
+        "description": "Destroy the 2 nearest enemies when you are hit from close range",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1652,7 +1926,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/cursed_elixir.jpg"
+        "imagePath": "/images/ball_x_pit/passives/cursed_elixir.jpg",
+        "description": "When a poisoned enemy dies, 10% chance for them to come back as a zombie with 240 health that moves up the board and fights enemies",
+        "requirement": "The player needs to have a ball that applies Poison"
       },
       "style": {}
     },
@@ -1664,7 +1940,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/deadeyes_amulet.jpg"
+        "imagePath": "/images/ball_x_pit/passives/deadeyes_amulet.jpg",
+        "description": "Critical hits deal 10-15 bonus damage",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1676,7 +1954,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/diamond_hilted_dagger.jpg"
+        "imagePath": "/images/ball_x_pit/passives/diamond_hilted_dagger.jpg",
+        "description": "Increase crit chance to 20% when hitting enemies in the front",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1688,7 +1968,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/dynamite.jpg"
+        "imagePath": "/images/ball_x_pit/passives/dynamite.jpg",
+        "description": "Every 5-10 rows, spawn an enemy with dynamite attached to them. Destroying them will deal 200-500 damage to nearby enemies",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1700,7 +1982,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/emerald_hilted_dagger.jpg"
+        "imagePath": "/images/ball_x_pit/passives/emerald_hilted_dagger.jpg",
+        "description": "Increase crit chance to 20% when hitting enemies on their right side",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1712,7 +1996,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/ethereal_cloak.jpg"
+        "imagePath": "/images/ball_x_pit/passives/ethereal_cloak.jpg",
+        "description": "Balls go through enemies and deal 25% bonus damage until they hit the back of the field",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1724,7 +2010,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/everflowing_goblet.jpg"
+        "imagePath": "/images/ball_x_pit/passives/everflowing_goblet.jpg",
+        "description": "You can heal past your max health at 20% efficiency",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1736,7 +2024,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/eye_of_the_beholder.jpg"
+        "imagePath": "/images/ball_x_pit/passives/eye_of_the_beholder.jpg",
+        "description": "10% chance to dodge incoming attacks",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1748,7 +2038,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/fleet_feet.jpg"
+        "imagePath": "/images/ball_x_pit/passives/fleet_feet.jpg",
+        "description": "Increase movement speed by 10% and move at full speed while shooting",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1760,7 +2052,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/frozen_spike.jpg"
+        "imagePath": "/images/ball_x_pit/passives/frozen_spike.jpg",
+        "description": "When an enemy is frozen, they emit a chill to nearby enemies that deals 10-20 damage",
+        "requirement": "The player needs to have a ball that applies Freeze"
       },
       "style": {}
     },
@@ -1772,7 +2066,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/gemspring.jpg"
+        "imagePath": "/images/ball_x_pit/passives/gemspring.jpg",
+        "description": "Every 7-11 rows, spawn a Gemspring. Dealing damage to them causes them to drop an increasing amount of XP gems",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1784,7 +2080,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/ghostly_corset.jpg"
+        "imagePath": "/images/ball_x_pit/passives/ghostly_corset.jpg",
+        "description": "Balls go through enemies and deal 20% bonus damage when hitting them from the side",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1796,7 +2094,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/ghostly_shield.jpg"
+        "imagePath": "/images/ball_x_pit/passives/ghostly_shield.jpg",
+        "description": "Balls go through allies and heal them for 2 health",
+        "requirement": "The player needs to have at least one other passive that gives them \"allies\" (e.g. Archer's Effigy)"
       },
       "style": {}
     },
@@ -1808,7 +2108,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/golden_bull.jpg"
+        "imagePath": "/images/ball_x_pit/passives/golden_bull.jpg",
+        "description": "Every 7-11 rows, spawn a golden bull with 400 health on your side. Golden bulls accrue 10 gold per minute. They also move up the field, blocking and attacking enemies in the way",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1820,7 +2122,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/hand_fan.jpg"
+        "imagePath": "/images/ball_x_pit/passives/hand_fan.jpg",
+        "description": "Slow down enemies in the same column as you by 50%",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1832,7 +2136,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/hand_mirror.jpg"
+        "imagePath": "/images/ball_x_pit/passives/hand_mirror.jpg",
+        "description": "Projectiles have a 50% chance to reflect upon hitting you, dealing 20-40 damage if they hit an enemy",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1844,7 +2150,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/healers_effigy.jpg"
+        "imagePath": "/images/ball_x_pit/passives/healers_effigy.jpg",
+        "description": "Every 7-12 rows, spawn a stone healer with 100 health on your side, which heals you 10 health per minute while it's on the field. Healers are immune to ball damage and move up the field, blocking and attacking enemies in the way",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1856,7 +2164,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/hourglass.jpg"
+        "imagePath": "/images/ball_x_pit/passives/hourglass.jpg",
+        "description": "Balls deal 150% damage, but damage decays by 30% each time they bounce (minimum 50%)",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1868,7 +2178,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/kiss_of_death.jpg"
+        "imagePath": "/images/ball_x_pit/passives/kiss_of_death.jpg",
+        "description": "Charmed enemies have a 10% chance of dying after recovering",
+        "requirement": "The player needs to have a ball that applies Charm"
       },
       "style": {}
     },
@@ -1880,7 +2192,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/lovers_quiver.jpg"
+        "imagePath": "/images/ball_x_pit/passives/lovers_quiver.jpg",
+        "description": "Projectiles have a 40% chance to heal you for 1 health instead of hurting you",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1892,7 +2206,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/magic_staff.jpg"
+        "imagePath": "/images/ball_x_pit/passives/magic_staff.jpg",
+        "description": "Increase area-of-effect damage (such as earthquake, laser, and lightning) by 20%",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1904,7 +2220,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/magnet.jpg"
+        "imagePath": "/images/ball_x_pit/passives/magnet.jpg",
+        "description": "Increase range at which you pick up items and catch balls by 1.0 tiles",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1916,7 +2234,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/midnight_oil.jpg"
+        "imagePath": "/images/ball_x_pit/passives/midnight_oil.jpg",
+        "description": "Balls that hit flaming enemies light on fire and deal 10-20 bonus fire damage on the next hit",
+        "requirement": "The player needs to have a ball that applies Burn"
       },
       "style": {}
     },
@@ -1928,7 +2248,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/pressure_valve.jpg"
+        "imagePath": "/images/ball_x_pit/passives/pressure_valve.jpg",
+        "description": "Enemies explode on death, dealing 20-30 damage to adjacent enemies",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1940,7 +2262,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/protective_charm.jpg"
+        "imagePath": "/images/ball_x_pit/passives/protective_charm.jpg",
+        "description": "Gain a shield that blocks the next damage you would receive. Recharges after 60 seconds",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1952,7 +2276,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/radiant_feather.jpg"
+        "imagePath": "/images/ball_x_pit/passives/radiant_feather.jpg",
+        "description": "Increases ball launch speed by 20%, but get knocked back a little each time you shoot a ball",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1964,7 +2290,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/reachers_spear.jpg"
+        "imagePath": "/images/ball_x_pit/passives/reachers_spear.jpg",
+        "description": "Increase crit chance to 20% when hitting enemies in the same column as you",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1976,7 +2304,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/rubber_headband.jpg"
+        "imagePath": "/images/ball_x_pit/passives/rubber_headband.jpg",
+        "description": "Balls start off at 70% speed but increase by 20% each bounce (max 200%)",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -1988,7 +2318,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/ruby_hilted_dagger.jpg"
+        "imagePath": "/images/ball_x_pit/passives/ruby_hilted_dagger.jpg",
+        "description": "Increase crit chance to 15% when hitting enemies in the back",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2000,7 +2332,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/sapphire_hilted_dagger.jpg"
+        "imagePath": "/images/ball_x_pit/passives/sapphire_hilted_dagger.jpg",
+        "description": "Increase crit chance to 30% when hitting enemies on their left side",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2012,7 +2346,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/shortbow.jpg"
+        "imagePath": "/images/ball_x_pit/passives/shortbow.jpg",
+        "description": "Increase fire rate by 15%",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2024,7 +2360,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/silver_blindfold.jpg"
+        "imagePath": "/images/ball_x_pit/passives/silver_blindfold.jpg",
+        "description": "Increase crit chance to 20% when hitting blinded enemies",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2036,7 +2374,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/silver_bullet.jpg"
+        "imagePath": "/images/ball_x_pit/passives/silver_bullet.jpg",
+        "description": "Balls deal 20% bonus damage until they hit a wall",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2048,7 +2388,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/slingshot.jpg"
+        "imagePath": "/images/ball_x_pit/passives/slingshot.jpg",
+        "description": "25% chance to launch a baby ball when you pick up a gem",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2060,7 +2402,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/spiked_collar.jpg"
+        "imagePath": "/images/ball_x_pit/passives/spiked_collar.jpg",
+        "description": "Deal 30-50 to enemies the first time you get into their melee attack range",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2072,7 +2416,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/stone_effigy.jpg"
+        "imagePath": "/images/ball_x_pit/passives/stone_effigy.jpg",
+        "description": "Every 7-12 rows, spawn a stone soldier with 200 health on your side. Stone soldiers are immune to ball damage and move up the field, blocking and attacking enemies in the way",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2084,7 +2430,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/traitors_cowl.jpg"
+        "imagePath": "/images/ball_x_pit/passives/traitors_cowl.jpg",
+        "description": "Stone allies can now be damaged by your balls, but you heal 2 health when a ball hits one",
+        "requirement": "The player needs to have at least one other passive that gives them \"stone allies\" (e.g. Archer's Effigy)"
       },
       "style": {}
     },
@@ -2096,7 +2444,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/turret.jpg"
+        "imagePath": "/images/ball_x_pit/passives/turret.jpg",
+        "description": "Floats around your character and shoots a baby ball at enemies every 2.0 seconds",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2108,7 +2458,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/upturned_hatchet.jpg"
+        "imagePath": "/images/ball_x_pit/passives/upturned_hatchet.jpg",
+        "description": "Balls deal 80% more damage after hitting the back of the field, otherwise damage is reduced by 20%",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2120,7 +2472,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/vampiric_sword.jpg"
+        "imagePath": "/images/ball_x_pit/passives/vampiric_sword.jpg",
+        "description": "Each kill heals you by 5, but each shot you take deals 2 damage to you",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2132,7 +2486,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/voodoo_doll.jpg"
+        "imagePath": "/images/ball_x_pit/passives/voodoo_doll.jpg",
+        "description": "Curse has a 10% chance of killing enemies",
+        "requirement": "The player needs to have a ball that applies Curse"
       },
       "style": {}
     },
@@ -2144,7 +2500,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/wagon_wheel.jpg"
+        "imagePath": "/images/ball_x_pit/passives/wagon_wheel.jpg",
+        "description": "Each time a ball hits a wall, it deals 30% extra damage on the next hit",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2156,7 +2514,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/war_horn.jpg"
+        "imagePath": "/images/ball_x_pit/passives/war_horn.jpg",
+        "description": "All baby balls deal 20% more damage",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2168,7 +2528,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/wretched_onion.jpg"
+        "imagePath": "/images/ball_x_pit/passives/wretched_onion.jpg",
+        "description": "Deal 6-12 per second to enemies within 2 tiles",
+        "requirement": "N/A"
       },
       "style": {}
     },
@@ -2180,7 +2542,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/cornucopia.jpg"
+        "imagePath": "/images/ball_x_pit/passives/cornucopia.jpg",
+        "description": "Each time baby balls are created, spawn 0-1 additional baby balls",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2192,7 +2556,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2204,7 +2570,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/gracious_impaler.jpg"
+        "imagePath": "/images/ball_x_pit/passives/gracious_impaler.jpg",
+        "description": "Critical hits have a 5% chance to instantly kill enemies",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2216,7 +2584,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2228,7 +2598,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/odiferous_shell.jpg"
+        "imagePath": "/images/ball_x_pit/passives/odiferous_shell.jpg",
+        "description": "When you touch enemies, they have a 50% chance of instantly dying",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2240,7 +2612,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2252,7 +2626,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/phantom_regalia.jpg"
+        "imagePath": "/images/ball_x_pit/passives/phantom_regalia.jpg",
+        "description": "Balls go through enemies until they hit the back wall. Balls deal 50% more damage when going through enemies",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2264,7 +2640,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2276,7 +2654,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/soul_reaver.jpg"
+        "imagePath": "/images/ball_x_pit/passives/soul_reaver.jpg",
+        "description": "Each kill heals you by 1 and you can heal past your max health at 30% efficiency",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2288,7 +2668,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2300,7 +2682,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/tormenters_mask.jpg"
+        "imagePath": "/images/ball_x_pit/passives/tormenters_mask.jpg",
+        "description": "Enemies have a 10% chance of dying immediately the first time they detect you",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2312,7 +2696,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2324,7 +2710,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/wings_of_the_anointed.jpg"
+        "imagePath": "/images/ball_x_pit/passives/wings_of_the_anointed.jpg",
+        "description": "Balls move 40% faster and you move 20% faster. You no longer are affected by environmental hazards on the ground",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2336,7 +2724,9 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2348,7 +2738,9 @@
       ],
       "properties": {
         "url": "https://ballpit.fandom.com/wiki/Passives",
-        "imagePath": "/images/ball_x_pit/passives/deadeyes_cross.jpg"
+        "imagePath": "/images/ball_x_pit/passives/deadeyes_cross.jpg",
+        "description": "Increase critical hit chance to 60%",
+        "requirement": ""
       },
       "style": {}
     },
@@ -2360,7 +2752,191 @@
       ],
       "properties": {
         "url": "",
-        "imagePath": ""
+        "imagePath": "",
+        "description": "",
+        "requirement": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n197",
+      "caption": "Ble",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n198",
+      "caption": "Baby Ball",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n199",
+      "caption": "Burn",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n200",
+      "caption": "Charm",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n201",
+      "caption": "Freeze",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n202",
+      "caption": "Blind",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n203",
+      "caption": "Poison",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n204",
+      "caption": "Frostburn",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n205",
+      "caption": "Curse",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n206",
+      "caption": "Radiation",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n207",
+      "caption": "Overgrowth",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n208",
+      "caption": "Disease",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n209",
+      "caption": "Critical Chance",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
+      },
+      "style": {}
+    },
+    {
+      "id": "n210",
+      "caption": "Allie",
+      "labels": [
+        "Effect"
+      ],
+      "properties": {
+        "url": "",
+        "imagePath": "",
+        "description": ""
       },
       "style": {}
     }
@@ -4005,6 +4581,710 @@
       "properties": {},
       "fromId": "n196",
       "toId": "n195"
+    },
+    {
+      "id": "r205",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n197"
+    },
+    {
+      "id": "r206",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n197"
+    },
+    {
+      "id": "r207",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n7",
+      "toId": "n198"
+    },
+    {
+      "id": "r208",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n199"
+    },
+    {
+      "id": "r209",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n199"
+    },
+    {
+      "id": "r210",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n32",
+      "toId": "n200"
+    },
+    {
+      "id": "r211",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n23",
+      "toId": "n198"
+    },
+    {
+      "id": "r212",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n201"
+    },
+    {
+      "id": "r213",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n27",
+      "toId": "n202"
+    },
+    {
+      "id": "r214",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n11",
+      "toId": "n203"
+    },
+    {
+      "id": "r215",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n11",
+      "toId": "n203"
+    },
+    {
+      "id": "r216",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n43",
+      "toId": "n201"
+    },
+    {
+      "id": "r217",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n48",
+      "toId": "n202"
+    },
+    {
+      "id": "r218",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n52",
+      "toId": "n201"
+    },
+    {
+      "id": "r219",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n55",
+      "toId": "n204"
+    },
+    {
+      "id": "r220",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n55",
+      "toId": "n199"
+    },
+    {
+      "id": "r221",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n57",
+      "toId": "n201"
+    },
+    {
+      "id": "r222",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n59",
+      "toId": "n197"
+    },
+    {
+      "id": "r223",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n59",
+      "toId": "n197"
+    },
+    {
+      "id": "r224",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n59",
+      "toId": "n197"
+    },
+    {
+      "id": "r225",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n59",
+      "toId": "n197"
+    },
+    {
+      "id": "r226",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n63",
+      "toId": "n200"
+    },
+    {
+      "id": "r227",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n63",
+      "toId": "n205"
+    },
+    {
+      "id": "r228",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n65",
+      "toId": "n199"
+    },
+    {
+      "id": "r229",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n65",
+      "toId": "n199"
+    },
+    {
+      "id": "r230",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n67",
+      "toId": "n202"
+    },
+    {
+      "id": "r231",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n70",
+      "toId": "n197"
+    },
+    {
+      "id": "r232",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n70",
+      "toId": "n197"
+    },
+    {
+      "id": "r233",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n77",
+      "toId": "n198"
+    },
+    {
+      "id": "r234",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n79",
+      "toId": "n199"
+    },
+    {
+      "id": "r235",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n79",
+      "toId": "n199"
+    },
+    {
+      "id": "r236",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n85",
+      "toId": "n203"
+    },
+    {
+      "id": "r237",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n85",
+      "toId": "n203"
+    },
+    {
+      "id": "r238",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n88",
+      "toId": "n206"
+    },
+    {
+      "id": "r239",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n88",
+      "toId": "n206"
+    },
+    {
+      "id": "r240",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n88",
+      "toId": "n206"
+    },
+    {
+      "id": "r241",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n90",
+      "toId": "n207"
+    },
+    {
+      "id": "r242",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n90",
+      "toId": "n207"
+    },
+    {
+      "id": "r243",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n92",
+      "toId": "n205"
+    },
+    {
+      "id": "r244",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n94",
+      "toId": "n206"
+    },
+    {
+      "id": "r245",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n94",
+      "toId": "n206"
+    },
+    {
+      "id": "r246",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n99",
+      "toId": "n197"
+    },
+    {
+      "id": "r247",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n99",
+      "toId": "n205"
+    },
+    {
+      "id": "r248",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n99",
+      "toId": "n197"
+    },
+    {
+      "id": "r249",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n101",
+      "toId": "n202"
+    },
+    {
+      "id": "r250",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n103",
+      "toId": "n199"
+    },
+    {
+      "id": "r251",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n103",
+      "toId": "n199"
+    },
+    {
+      "id": "r252",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n106",
+      "toId": "n198"
+    },
+    {
+      "id": "r253",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n105",
+      "toId": "n200"
+    },
+    {
+      "id": "r254",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n42",
+      "toId": "n199"
+    },
+    {
+      "id": "r255",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n42",
+      "toId": "n202"
+    },
+    {
+      "id": "r256",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n42",
+      "toId": "n199"
+    },
+    {
+      "id": "r257",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n116",
+      "toId": "n203"
+    },
+    {
+      "id": "r258",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n116",
+      "toId": "n203"
+    },
+    {
+      "id": "r259",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n116",
+      "toId": "n203"
+    },
+    {
+      "id": "r260",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n118",
+      "toId": "n197"
+    },
+    {
+      "id": "r261",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n118",
+      "toId": "n197"
+    },
+    {
+      "id": "r262",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n118",
+      "toId": "n197"
+    },
+    {
+      "id": "r263",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n121",
+      "toId": "n208"
+    },
+    {
+      "id": "r264",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n121",
+      "toId": "n208"
+    },
+    {
+      "id": "r265",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n121",
+      "toId": "n208"
+    },
+    {
+      "id": "r266",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n126",
+      "toId": "n201"
+    },
+    {
+      "id": "r267",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n131",
+      "toId": "n130"
+    },
+    {
+      "id": "r268",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n137",
+      "toId": "n203"
+    },
+    {
+      "id": "r269",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n137",
+      "toId": "n203"
+    },
+    {
+      "id": "r270",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n138",
+      "toId": "n209"
+    },
+    {
+      "id": "r271",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n139",
+      "toId": "n209"
+    },
+    {
+      "id": "r272",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n141",
+      "toId": "n209"
+    },
+    {
+      "id": "r273",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n146",
+      "toId": "n201"
+    },
+    {
+      "id": "r274",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n149",
+      "toId": "n210"
+    },
+    {
+      "id": "r275",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n149",
+      "toId": "n130"
+    },
+    {
+      "id": "r276",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n155",
+      "toId": "n200"
+    },
+    {
+      "id": "r277",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n155",
+      "toId": "n200"
+    },
+    {
+      "id": "r278",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n159",
+      "toId": "n199"
+    },
+    {
+      "id": "r279",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n163",
+      "toId": "n209"
+    },
+    {
+      "id": "r280",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n165",
+      "toId": "n209"
+    },
+    {
+      "id": "r281",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n166",
+      "toId": "n209"
+    },
+    {
+      "id": "r282",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n168",
+      "toId": "n209"
+    },
+    {
+      "id": "r283",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n168",
+      "toId": "n202"
+    },
+    {
+      "id": "r284",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n173",
+      "toId": "n210"
+    },
+    {
+      "id": "r285",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n173",
+      "toId": "n153"
+    },
+    {
+      "id": "r286",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n173",
+      "toId": "n172"
+    },
+    {
+      "id": "r287",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n173",
+      "toId": "n130"
+    },
+    {
+      "id": "r288",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n173",
+      "toId": "n130"
+    },
+    {
+      "id": "r289",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n177",
+      "toId": "n205"
+    },
+    {
+      "id": "r290",
+      "type": "REQUIRES",
+      "style": {},
+      "properties": {},
+      "fromId": "n177",
+      "toId": "n205"
+    },
+    {
+      "id": "r291",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n183",
+      "toId": "n209"
+    },
+    {
+      "id": "r292",
+      "type": "HAS Effect",
+      "style": {},
+      "properties": {},
+      "fromId": "n195",
+      "toId": "n209"
     }
   ]
 }

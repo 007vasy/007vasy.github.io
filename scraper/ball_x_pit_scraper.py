@@ -173,6 +173,23 @@ def pick_best_img_src(img_tag) -> Optional[str]:
     return None
 
 
+def extract_description_from_page(title_or_url: str) -> Optional[str]:
+    try:
+        if title_or_url.startswith('http://') or title_or_url.startswith('https://'):
+            r = requests.get(title_or_url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, 'lxml')
+        else:
+            soup = fetch_html(title_or_url)
+        for p in soup.select('.mw-parser-output > p'):
+            txt = p.get_text(' ', strip=True)
+            if txt and len(txt) > 20:
+                return txt
+    except Exception:
+        return None
+    return None
+
+
 def download_image(url: str, dest_path: pathlib.Path) -> Optional[str]:
     try:
         if dest_path.exists():
@@ -227,7 +244,7 @@ def build_graph() -> Dict:
     schema_rels: List[Dict] = []
     schema_title_to_id: Dict[str, str] = {}
 
-    def get_or_create_node(name: str, label: str, page_url: str, icon_url: Optional[str]) -> str:
+    def get_or_create_node(name: str, label: str, page_url: str, icon_url: Optional[str], description: Optional[str] = None, requirement: Optional[str] = None) -> str:
         if name in title_to_node_id:
             # Try to upgrade existing node with missing image/url
             node_id = title_to_node_id[name]
@@ -248,6 +265,12 @@ def build_graph() -> Dict:
                         image_path_rel = download_image(icon_url, dest)
                         if image_path_rel:
                             n["properties"]["imagePath"] = image_path_rel
+                    # fill description if empty
+                    if description and not n.get("properties", {}).get("description"):
+                        n["properties"]["description"] = description
+                    # fill requirement if empty (for passives)
+                    if requirement and not n.get("properties", {}).get("requirement"):
+                        n["properties"]["requirement"] = requirement
                     break
             return node_id
         local_img_dir = {
@@ -267,12 +290,12 @@ def build_graph() -> Dict:
             "id": node_id,
             "caption": name,
             "labels": [label],
-            "properties": {"url": page_url, "imagePath": image_path_rel or ""},
+            "properties": {"url": page_url, "imagePath": image_path_rel or "", "description": description or "", "requirement": requirement or ""},
             "style": {},
         })
         return node_id
 
-    def schema_get_or_create(name: str, label: str, page_url: str, icon_url: Optional[str]) -> str:
+    def schema_get_or_create(name: str, label: str, page_url: str, icon_url: Optional[str], description: Optional[str] = None, requirement: Optional[str] = None) -> str:
         if name in schema_title_to_id:
             node_id = schema_title_to_id[name]
             for idx, n in enumerate(schema_nodes):
@@ -290,6 +313,10 @@ def build_graph() -> Dict:
                         image_path_rel = download_image(icon_url, dest)
                         if image_path_rel:
                             n["properties"]["imagePath"] = image_path_rel
+                    if description and not n.get("properties", {}).get("description"):
+                        n["properties"]["description"] = description
+                    if requirement and not n.get("properties", {}).get("requirement"):
+                        n["properties"]["requirement"] = requirement
                     break
             return node_id
         # reuse downloaded path if we already created the runtime node
@@ -313,7 +340,7 @@ def build_graph() -> Dict:
             "caption": name,
             "style": {},
             "labels": [label],
-            "properties": {"url": page_url, "imagePath": image_path_rel or ""}
+            "properties": {"url": page_url, "imagePath": image_path_rel or "", "description": description or "", "requirement": requirement or ""}
         })
         return node_id
 
@@ -360,6 +387,7 @@ def build_graph() -> Dict:
             name_idx = headers.index('name')
             # optional known columns
             icon_idx = headers.index('icon') if 'icon' in headers else None
+            description_idx = headers.index('description') if 'description' in headers else None
             ball_idx = headers.index('ball') if 'ball' in headers else None
             passive_idx = headers.index('passive') if 'passive' in headers else None
             # evolution-like columns
@@ -399,6 +427,10 @@ def build_graph() -> Dict:
                                 chosen = m.group(1)
                     if chosen:
                         val['icon'] = chosen
+                if description_idx is not None and description_idx < len(tds):
+                    desc_txt = tds[description_idx].get_text(" ", strip=True)
+                    if desc_txt:
+                        val['description'] = desc_txt
                 if ball_idx is not None and ball_idx < len(tds):
                     val['ball'] = tds[ball_idx].get_text(" ", strip=True)
                 if passive_idx is not None and passive_idx < len(tds):
@@ -442,7 +474,7 @@ def build_graph() -> Dict:
                         br.replace_with('\n')
                     raw = req_cell.get_text('\n', strip=True)
                     line_texts = [l.strip() for l in raw.split('\n') if l.strip()]
-                    # group anchors by line
+            # group anchors by line
                     req_html_lines = (str(req_cell)).split('<br') if '<br' in str(req_cell) else [str(req_cell)]
                     combos_from_links: List[str] = []
                     for seg in req_html_lines:
@@ -458,6 +490,9 @@ def build_graph() -> Dict:
                     if combos_from_links:
                         val.setdefault('combinations', [])
                         val['combinations'].extend(combos_from_links)
+                    # store raw requirement text for node property/CSV
+                    if raw:
+                        val['requirement'] = raw
                 if val['name']:
                     rows.append(val)
             if rows:
@@ -471,7 +506,7 @@ def build_graph() -> Dict:
         tables_dir.mkdir(parents=True, exist_ok=True)
         csv_path = tables_dir / f"{safe_slug(page_title)}.csv"
         # normalize fields
-        fieldnames = ['name', 'page_url', 'icon', 'ball', 'passive', 'evolutions', 'combinations']
+        fieldnames = ['name', 'page_url', 'icon', 'description', 'requirement', 'ball', 'passive', 'evolutions', 'combinations']
         with open(csv_path, 'w', newline='', encoding='utf-8') as f:
             w = csv.DictWriter(f, fieldnames=fieldnames)
             w.writeheader()
@@ -491,14 +526,17 @@ def build_graph() -> Dict:
             char_name = row.get('name')
             icon = row.get('icon')
             page_url = row.get('page_url') or (BASE_WIKI_URL + 'Characters')
+            description = row.get('description')
             # try fallback icon from character page if missing
             if not icon and row.get('link_title'):
                 try:
                     icon = find_infobox_image(fetch_html(row['link_title']))
                 except Exception:
                     icon = None
-            char_id = get_or_create_node(char_name, 'Character', page_url, icon)
-            schema_get_or_create(char_name, 'Character', page_url, icon)
+            if not description and row.get('link_title'):
+                description = extract_description_from_page(row['link_title'])
+            char_id = get_or_create_node(char_name, 'Character', page_url, icon, description, None)
+            schema_get_or_create(char_name, 'Character', page_url, icon, description, None)
             ball_name = (row.get('ball') or '').strip()
             if ball_name:
                 ball_id = get_or_create_node(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
@@ -517,13 +555,16 @@ def build_graph() -> Dict:
             ball_name = row.get('name')
             icon = row.get('icon')
             page_url = row.get('page_url') or (BASE_WIKI_URL + 'Balls')
+            description = row.get('description')
             if not icon and row.get('link_title'):
                 try:
                     icon = find_infobox_image(fetch_html(row['link_title']))
                 except Exception:
                     icon = None
-            get_or_create_node(ball_name, 'Ball', page_url, icon)
-            schema_get_or_create(ball_name, 'Ball', page_url, icon)
+            if not description and row.get('link_title'):
+                description = extract_description_from_page(row['link_title'])
+            get_or_create_node(ball_name, 'Ball', page_url, icon, description, None)
+            schema_get_or_create(ball_name, 'Ball', page_url, icon, description, None)
             # If the table lists a passive column value, add relationship
             passive_name = (row.get('passive') or '').strip()
             if passive_name:
@@ -602,13 +643,17 @@ def build_graph() -> Dict:
             passive_name = row.get('name')
             icon = row.get('icon')
             page_url = row.get('page_url') or (BASE_WIKI_URL + 'Passives')
+            description = row.get('description')
             if not icon and row.get('link_title'):
                 try:
                     icon = find_infobox_image(fetch_html(row['link_title']))
                 except Exception:
                     icon = None
-            get_or_create_node(passive_name, 'Passive', page_url, icon)
-            schema_get_or_create(passive_name, 'Passive', page_url, icon)
+            if not description and row.get('link_title'):
+                description = extract_description_from_page(row['link_title'])
+            req_text = row.get('requirement')
+            get_or_create_node(passive_name, 'Passive', page_url, icon, description, req_text)
+            schema_get_or_create(passive_name, 'Passive', page_url, icon, description, req_text)
             # Passive combinations -> evolution nodes analogous to balls
             combos = row.get('combinations') or []
             for combo_line in combos:
@@ -645,6 +690,168 @@ def build_graph() -> Dict:
                     schema_add_rel(evo_node_name, passive_name, '')
     except Exception:
         pass
+
+    # Re-load from CSVs to drive effect/requirement extraction (authoritative rows)
+    def load_csv_rows(page_title: str) -> List[Dict[str, str]]:
+        csv_path = OUTPUT_DIR / 'tables' / f"{safe_slug(page_title)}.csv"
+        rows: List[Dict[str, str]] = []
+        if not csv_path.exists():
+            return rows
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for r in reader:
+                rows.append(r)
+        return rows
+
+    char_rows = load_csv_rows('Characters')
+    ball_rows = load_csv_rows('Balls')
+    passive_rows = load_csv_rows('Passives')
+
+    # Effects extraction utilities
+    def normalize_effect(raw: str) -> Optional[str]:
+        if not raw:
+            return None
+        s = raw.strip().lower()
+        # simple stemming
+        s = re.sub(r"[.,()\[\]{}!?:;'\"]+", '', s)
+        s = re.sub(r"ing$|ed$|s$", '', s)  # crude
+        # map common roots
+        replacements = {
+            'bleeding': 'bleed', 'bleed': 'bleed',
+            'burnt': 'burn', 'burn': 'burn',
+            'freez': 'freeze', 'frozen': 'freeze', 'freeze': 'freeze',
+            'poison': 'poison', 'poisoned': 'poison',
+            'charm': 'charm', 'charmed': 'charm',
+            'curse': 'curse', 'cursed': 'curse',
+            'overgrowth': 'overgrowth', 'overgrown': 'overgrowth',
+            'disease': 'disease', 'diseased': 'disease',
+            'radiation': 'radiation',
+            'blind': 'blind', 'blinded': 'blind', 'blindness': 'blind',
+            'crit': 'critical chance', 'critical': 'critical chance'
+        }
+        for k, v in replacements.items():
+            if s.startswith(k):
+                return v.title()
+        return s.title()
+
+    effect_title_to_id: Dict[str, str] = {}
+
+    def get_or_create_effect(effect_name: str) -> str:
+        effect_name = effect_name.strip()
+        if not effect_name:
+            return ''
+        if effect_name in effect_title_to_id:
+            return effect_title_to_id[effect_name]
+        node_id = f"n{len(nodes)}"
+        effect_title_to_id[effect_name] = node_id
+        nodes.append({
+            "id": node_id,
+            "caption": effect_name,
+            "labels": ["Effect"],
+            "properties": {"url": "", "imagePath": "", "description": ""},
+            "style": {},
+        })
+        return node_id
+
+    def connect_has_effect(from_name: str, effect_name: str):
+        norm = normalize_effect(effect_name)
+        if not norm:
+            return
+        eff_id = get_or_create_effect(norm)
+        # ensure from node exists
+        if from_name not in title_to_node_id:
+            return
+        relationships.append({
+            "id": f"r{len(relationships)}",
+            "type": 'HAS Effect',
+            "style": {},
+            "properties": {},
+            "fromId": title_to_node_id[from_name],
+            "toId": eff_id
+        })
+
+    def connect_requires_effect(from_name: str, effect_name: str):
+        norm = normalize_effect(effect_name)
+        if not norm:
+            return
+        eff_id = get_or_create_effect(norm)
+        if from_name not in title_to_node_id:
+            return
+        relationships.append({
+            "id": f"r{len(relationships)}",
+            "type": 'REQUIRES',
+            "style": {},
+            "properties": {},
+            "fromId": title_to_node_id[from_name],
+            "toId": eff_id
+        })
+
+    # 1) Ball effects from descriptions
+    for row in ball_rows:
+        name = row.get('name') or ''
+        desc = (row.get('description') or '').lower()
+        if not name:
+            continue
+        # stacks of X
+        for m in re.finditer(r"stack[s]? of\s+([a-z\-]+)", desc):
+            connect_has_effect(name, m.group(1))
+        # keywords (minimal hardcoding)
+        for kw in ['freeze', 'blind', 'charm', 'curse', 'overgrowth', 'disease', 'radiation', 'burn', 'bleed', 'poison']:
+            if kw in desc:
+                connect_has_effect(name, kw)
+        # baby balls
+        if 'baby ball' in desc:
+            connect_has_effect(name, 'baby balls')
+
+    # 2) Passive requirements/effects
+    effigy_passives = {r.get('name') for r in passive_rows if r.get('name') and 'effigy' in (r.get('name') or '').lower()}
+    for row in passive_rows:
+        pname = row.get('name') or ''
+        desc = (row.get('description') or '').lower()
+        req = (row.get('requirement') or '').lower()
+        if not pname:
+            continue
+        # HAS Effect from description
+        for m in re.finditer(r"stack[s]? of\s+([a-z\-]+)", desc):
+            connect_has_effect(pname, m.group(1))
+        if 'crit' in desc or 'critical' in desc:
+            connect_has_effect(pname, 'critical chance')
+        for kw in ['freeze', 'blind', 'charm', 'curse', 'overgrowth', 'disease', 'radiation', 'burn', 'bleed', 'poison']:
+            if kw in desc:
+                connect_has_effect(pname, kw)
+        # REQUIRES effects from requirement
+        for m in re.finditer(r"(stack[s]? of\s+([a-z\-]+))", req):
+            connect_requires_effect(pname, m.group(2))
+        if 'crit' in req or 'critical' in req:
+            connect_requires_effect(pname, 'critical chance')
+        for kw in ['freeze', 'blind', 'charm', 'curse', 'overgrowth', 'disease', 'radiation', 'burn', 'bleed', 'poison', 'ally', 'allies']:
+            if kw in req:
+                connect_requires_effect(pname, kw)
+        # Special case: stone allies → connect to effigy passives
+        if 'stone allies' in req or 'stone ally' in req:
+            for eff in effigy_passives:
+                if eff in title_to_node_id and pname in title_to_node_id:
+                    relationships.append({
+                        "id": f"r{len(relationships)}",
+                        "type": 'REQUIRES',
+                        "style": {},
+                        "properties": {},
+                        "fromId": title_to_node_id[pname],
+                        "toId": title_to_node_id[eff]
+                    })
+        # Also parse explicit e.g. ... names in requirement
+        for a in re.findall(r"\((?:e\.g\.|eg)\.?\s*([^\)]+)\)", row.get('requirement') or '', flags=re.IGNORECASE):
+            for part in re.split(r",|;| and ", a):
+                nm = part.strip().strip('"\'')
+                if nm in title_to_node_id:
+                    relationships.append({
+                        "id": f"r{len(relationships)}",
+                        "type": 'REQUIRES',
+                        "style": {},
+                        "properties": {},
+                        "fromId": title_to_node_id[pname],
+                        "toId": title_to_node_id[nm]
+                    })
 
     # Write secondary output in schema
     schema_graph = {"nodes": schema_nodes, "relationships": schema_rels}
