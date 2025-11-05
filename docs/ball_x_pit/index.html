@@ -59,7 +59,8 @@
       'Ball': 'rgba(0, 188, 212, 0.95)',
       'Passive': 'rgba(255, 193, 7, 0.95)',
       'Evolution': 'rgba(255, 152, 0, 0.95)',
-      'Effect': 'rgba(233, 30, 99, 0.95)'
+      'Effect': 'rgba(233, 30, 99, 0.95)',
+      'Interaction': 'rgba(121, 134, 203, 0.95)'
     };
 
     function nodeObject(node) {
@@ -98,6 +99,8 @@
       if (type === '' && sl === 'Evolution' && tl === 'Passive') return '#ec407a';
       // Ball -> Passive (optional)
       if (type === 'HAS Passive' && sl === 'Ball' && tl === 'Passive') return '#26c6da';
+      // HAS Interaction (to Interaction)
+      if (type === 'HAS Interaction' && tl === 'Interaction') return '#7e57c2';
       // HAS Effect (Ball/Passive -> Effect)
       if (type === 'HAS Effect' && tl === 'Effect') return '#ef5350';
       // REQUIRES (Passive -> Effect/Passive)
