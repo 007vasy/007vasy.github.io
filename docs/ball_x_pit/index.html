@@ -44,6 +44,8 @@
         const a = nodeById[l.source];
         const b = nodeById[l.target];
         if (a && b) {
+          // cache labels for coloring before library mutates source/target
+          l._sl = a.label; l._tl = b.label;
           a.neighbors.push(b); b.neighbors.push(a);
           a.links.push(l); b.links.push(l);
         }
@@ -53,9 +55,12 @@
     }
 
     const labelColor = {
-      'Character': 'rgba(0, 200, 100, 0.9)',
-      'Ball': 'rgba(0, 255, 255, 0.9)',
-      'Passive': 'rgba(255, 215, 0, 0.9)'
+      'Character': 'rgba(76, 175, 80, 0.95)',
+      'Ball': 'rgba(0, 188, 212, 0.95)',
+      'Passive': 'rgba(255, 193, 7, 0.95)',
+      'Evolution': 'rgba(255, 152, 0, 0.95)',
+      'Effect': 'rgba(233, 30, 99, 0.95)',
+      'Interaction': 'rgba(121, 134, 203, 0.95)'
     };
 
     function nodeObject(node) {
@@ -77,23 +82,29 @@
 
     // Edge color based on relationship and node label types
     function linkColor(link) {
-      const s = link.source && link.source.label ? link.source : null;
-      const t = link.target && link.target.label ? link.target : null;
+      const s = (link.source && link.source.label) ? link.source : null;
+      const t = (link.target && link.target.label) ? link.target : null;
       const type = link.type || '';
-      const sl = s ? s.label : '';
-      const tl = t ? t.label : '';
+      const sl = s ? s.label : (link._sl || '');
+      const tl = t ? t.label : (link._tl || '');
       // Character -> Ball (Starts With)
-      if (type === 'Starts With' && sl === 'Character' && tl === 'Ball') return '#4caf50';
+      if (type === 'Starts With' && sl === 'Character' && tl === 'Ball') return '#66bb6a';
       // Ball -> Evolution (components)
-      if (type === 'HAS Evolution' && sl === 'Ball' && tl === 'Evolution') return '#2196f3';
+      if (type === 'HAS Evolution' && sl === 'Ball' && tl === 'Evolution') return '#42a5f5';
       // Evolution -> Ball (result)
-      if (type === '' && sl === 'Evolution' && tl === 'Ball') return '#ff9800';
+      if (type === '' && sl === 'Evolution' && tl === 'Ball') return '#ffa726';
       // Passive -> Evolution (components)
-      if (type === 'HAS Evolution' && sl === 'Passive' && tl === 'Evolution') return '#9c27b0';
+      if (type === 'HAS Evolution' && sl === 'Passive' && tl === 'Evolution') return '#ab47bc';
       // Evolution -> Passive (result)
-      if (type === '' && sl === 'Evolution' && tl === 'Passive') return '#e91e63';
+      if (type === '' && sl === 'Evolution' && tl === 'Passive') return '#ec407a';
       // Ball -> Passive (optional)
-      if (type === 'HAS Passive' && sl === 'Ball' && tl === 'Passive') return '#00bcd4';
+      if (type === 'HAS Passive' && sl === 'Ball' && tl === 'Passive') return '#26c6da';
+      // HAS Interaction (to Interaction)
+      if (type === 'HAS Interaction' && tl === 'Interaction') return '#7e57c2';
+      // HAS Effect (Ball/Passive -> Effect)
+      if (type === 'HAS Effect' && tl === 'Effect') return '#ef5350';
+      // REQUIRES (Passive -> Effect/Passive)
+      if (type === 'REQUIRES') return '#8d6e63';
       return 'rgba(200,200,200,0.6)';
     }
 
@@ -109,7 +120,7 @@
         .graphData(gData)
         .nodeLabel(n => `${n.label}: ${n.name}`)
         .linkLabel('type')
-        .linkOpacity(0.2)
+        .linkOpacity(0.35)
         .linkWidth(0.1)
         .linkColor(linkColor)
         .linkDirectionalArrowLength(5)
@@ -148,10 +159,7 @@
           .nodeColor(n => highlightNodes.has(n) ? (n === hoverNode ? 'rgb(255,0,0)' : 'rgba(255,160,0,0.9)') : (labelColor[n.label] || 'rgba(180,180,255,0.8)'));
       }
 
-      let first = true;
-      Graph.onEngineStop(() => {
-        if (first) { first = false; Graph.zoomToFit(400); }
-      });
+      // Remove auto refocus/zoom to fit to prevent refocusing
     });
   </script>
 </body>

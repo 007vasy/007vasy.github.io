@@ -173,6 +173,23 @@ def pick_best_img_src(img_tag) -> Optional[str]:
     return None
 
 
+def extract_description_from_page(title_or_url: str) -> Optional[str]:
+    try:
+        if title_or_url.startswith('http://') or title_or_url.startswith('https://'):
+            r = requests.get(title_or_url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, 'lxml')
+        else:
+            soup = fetch_html(title_or_url)
+        for p in soup.select('.mw-parser-output > p'):
+            txt = p.get_text(' ', strip=True)
+            if txt and len(txt) > 20:
+                return txt
+    except Exception:
+        return None
+    return None
+
+
 def download_image(url: str, dest_path: pathlib.Path) -> Optional[str]:
     try:
         if dest_path.exists():
@@ -227,7 +244,7 @@ def build_graph() -> Dict:
     schema_rels: List[Dict] = []
     schema_title_to_id: Dict[str, str] = {}
 
-    def get_or_create_node(name: str, label: str, page_url: str, icon_url: Optional[str]) -> str:
+    def get_or_create_node(name: str, label: str, page_url: str, icon_url: Optional[str], description: Optional[str] = None, requirement: Optional[str] = None, unlock: Optional[str] = None, ability: Optional[str] = None) -> str:
         if name in title_to_node_id:
             # Try to upgrade existing node with missing image/url
             node_id = title_to_node_id[name]
@@ -248,6 +265,17 @@ def build_graph() -> Dict:
                         image_path_rel = download_image(icon_url, dest)
                         if image_path_rel:
                             n["properties"]["imagePath"] = image_path_rel
+                    # fill description if empty
+                    if description and not n.get("properties", {}).get("description"):
+                        n["properties"]["description"] = description
+                    # fill requirement if empty (for passives)
+                    if requirement and not n.get("properties", {}).get("requirement"):
+                        n["properties"]["requirement"] = requirement
+                    # fill unlock/ability for characters
+                    if unlock and not n.get("properties", {}).get("unlock"):
+                        n["properties"]["unlock"] = unlock
+                    if ability and not n.get("properties", {}).get("ability"):
+                        n["properties"]["ability"] = ability
                     break
             return node_id
         local_img_dir = {
@@ -267,12 +295,12 @@ def build_graph() -> Dict:
             "id": node_id,
             "caption": name,
             "labels": [label],
-            "properties": {"url": page_url, "imagePath": image_path_rel or ""},
+            "properties": {"url": page_url, "imagePath": image_path_rel or "", "description": description or "", "requirement": requirement or "", "unlock": unlock or "", "ability": ability or ""},
             "style": {},
         })
         return node_id
 
-    def schema_get_or_create(name: str, label: str, page_url: str, icon_url: Optional[str]) -> str:
+    def schema_get_or_create(name: str, label: str, page_url: str, icon_url: Optional[str], description: Optional[str] = None, requirement: Optional[str] = None, unlock: Optional[str] = None, ability: Optional[str] = None) -> str:
         if name in schema_title_to_id:
             node_id = schema_title_to_id[name]
             for idx, n in enumerate(schema_nodes):
@@ -290,6 +318,14 @@ def build_graph() -> Dict:
                         image_path_rel = download_image(icon_url, dest)
                         if image_path_rel:
                             n["properties"]["imagePath"] = image_path_rel
+                    if description and not n.get("properties", {}).get("description"):
+                        n["properties"]["description"] = description
+                    if requirement and not n.get("properties", {}).get("requirement"):
+                        n["properties"]["requirement"] = requirement
+                    if unlock and not n.get("properties", {}).get("unlock"):
+                        n["properties"]["unlock"] = unlock
+                    if ability and not n.get("properties", {}).get("ability"):
+                        n["properties"]["ability"] = ability
                     break
             return node_id
         # reuse downloaded path if we already created the runtime node
@@ -313,7 +349,7 @@ def build_graph() -> Dict:
             "caption": name,
             "style": {},
             "labels": [label],
-            "properties": {"url": page_url, "imagePath": image_path_rel or ""}
+            "properties": {"url": page_url, "imagePath": image_path_rel or "", "description": description or "", "requirement": requirement or "", "unlock": unlock or "", "ability": ability or ""}
         })
         return node_id
 
@@ -360,6 +396,9 @@ def build_graph() -> Dict:
             name_idx = headers.index('name')
             # optional known columns
             icon_idx = headers.index('icon') if 'icon' in headers else None
+            description_idx = headers.index('description') if 'description' in headers else None
+            unlock_idx = headers.index('unlock') if 'unlock' in headers else None
+            ability_idx = headers.index('ability') if 'ability' in headers else None
             ball_idx = headers.index('ball') if 'ball' in headers else None
             passive_idx = headers.index('passive') if 'passive' in headers else None
             # evolution-like columns
@@ -399,6 +438,18 @@ def build_graph() -> Dict:
                                 chosen = m.group(1)
                     if chosen:
                         val['icon'] = chosen
+                if description_idx is not None and description_idx < len(tds):
+                    desc_txt = tds[description_idx].get_text(" ", strip=True)
+                    if desc_txt:
+                        val['description'] = desc_txt
+                if unlock_idx is not None and unlock_idx < len(tds):
+                    unlock_txt = tds[unlock_idx].get_text(" ", strip=True)
+                    if unlock_txt:
+                        val['unlock'] = unlock_txt
+                if ability_idx is not None and ability_idx < len(tds):
+                    ability_txt = tds[ability_idx].get_text(" ", strip=True)
+                    if ability_txt:
+                        val['ability'] = ability_txt
                 if ball_idx is not None and ball_idx < len(tds):
                     val['ball'] = tds[ball_idx].get_text(" ", strip=True)
                 if passive_idx is not None and passive_idx < len(tds):
@@ -442,7 +493,7 @@ def build_graph() -> Dict:
                         br.replace_with('\n')
                     raw = req_cell.get_text('\n', strip=True)
                     line_texts = [l.strip() for l in raw.split('\n') if l.strip()]
-                    # group anchors by line
+            # group anchors by line
                     req_html_lines = (str(req_cell)).split('<br') if '<br' in str(req_cell) else [str(req_cell)]
                     combos_from_links: List[str] = []
                     for seg in req_html_lines:
@@ -458,6 +509,9 @@ def build_graph() -> Dict:
                     if combos_from_links:
                         val.setdefault('combinations', [])
                         val['combinations'].extend(combos_from_links)
+                    # store raw requirement text for node property/CSV
+                    if raw:
+                        val['requirement'] = raw
                 if val['name']:
                     rows.append(val)
             if rows:
@@ -471,7 +525,7 @@ def build_graph() -> Dict:
         tables_dir.mkdir(parents=True, exist_ok=True)
         csv_path = tables_dir / f"{safe_slug(page_title)}.csv"
         # normalize fields
-        fieldnames = ['name', 'page_url', 'icon', 'ball', 'passive', 'evolutions', 'combinations']
+        fieldnames = ['name', 'page_url', 'icon', 'description', 'unlock', 'ability', 'requirement', 'ball', 'passive', 'evolutions', 'combinations']
         with open(csv_path, 'w', newline='', encoding='utf-8') as f:
             w = csv.DictWriter(f, fieldnames=fieldnames)
             w.writeheader()
@@ -491,14 +545,19 @@ def build_graph() -> Dict:
             char_name = row.get('name')
             icon = row.get('icon')
             page_url = row.get('page_url') or (BASE_WIKI_URL + 'Characters')
+            description = row.get('description')
+            unlock = row.get('unlock')
+            ability = row.get('ability')
             # try fallback icon from character page if missing
             if not icon and row.get('link_title'):
                 try:
                     icon = find_infobox_image(fetch_html(row['link_title']))
                 except Exception:
                     icon = None
-            char_id = get_or_create_node(char_name, 'Character', page_url, icon)
-            schema_get_or_create(char_name, 'Character', page_url, icon)
+            if not description and row.get('link_title'):
+                description = extract_description_from_page(row['link_title'])
+            char_id = get_or_create_node(char_name, 'Character', page_url, icon, description, None, unlock, ability)
+            schema_get_or_create(char_name, 'Character', page_url, icon, description, None, unlock, ability)
             ball_name = (row.get('ball') or '').strip()
             if ball_name:
                 ball_id = get_or_create_node(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
@@ -517,13 +576,16 @@ def build_graph() -> Dict:
             ball_name = row.get('name')
             icon = row.get('icon')
             page_url = row.get('page_url') or (BASE_WIKI_URL + 'Balls')
+            description = row.get('description')
             if not icon and row.get('link_title'):
                 try:
                     icon = find_infobox_image(fetch_html(row['link_title']))
                 except Exception:
                     icon = None
-            get_or_create_node(ball_name, 'Ball', page_url, icon)
-            schema_get_or_create(ball_name, 'Ball', page_url, icon)
+            if not description and row.get('link_title'):
+                description = extract_description_from_page(row['link_title'])
+            get_or_create_node(ball_name, 'Ball', page_url, icon, description, None)
+            schema_get_or_create(ball_name, 'Ball', page_url, icon, description, None)
             # If the table lists a passive column value, add relationship
             passive_name = (row.get('passive') or '').strip()
             if passive_name:
@@ -602,13 +664,17 @@ def build_graph() -> Dict:
             passive_name = row.get('name')
             icon = row.get('icon')
             page_url = row.get('page_url') or (BASE_WIKI_URL + 'Passives')
+            description = row.get('description')
             if not icon and row.get('link_title'):
                 try:
                     icon = find_infobox_image(fetch_html(row['link_title']))
                 except Exception:
                     icon = None
-            get_or_create_node(passive_name, 'Passive', page_url, icon)
-            schema_get_or_create(passive_name, 'Passive', page_url, icon)
+            if not description and row.get('link_title'):
+                description = extract_description_from_page(row['link_title'])
+            req_text = row.get('requirement')
+            get_or_create_node(passive_name, 'Passive', page_url, icon, description, req_text)
+            schema_get_or_create(passive_name, 'Passive', page_url, icon, description, req_text)
             # Passive combinations -> evolution nodes analogous to balls
             combos = row.get('combinations') or []
             for combo_line in combos:
@@ -645,6 +711,375 @@ def build_graph() -> Dict:
                     schema_add_rel(evo_node_name, passive_name, '')
     except Exception:
         pass
+
+    # Re-load from CSVs to drive effect/requirement extraction (authoritative rows)
+    def load_csv_rows(page_title: str) -> List[Dict[str, str]]:
+        csv_path = OUTPUT_DIR / 'tables' / f"{safe_slug(page_title)}.csv"
+        rows: List[Dict[str, str]] = []
+        if not csv_path.exists():
+            return rows
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for r in reader:
+                rows.append(r)
+        return rows
+
+    char_rows = load_csv_rows('Characters')
+    ball_rows = load_csv_rows('Balls')
+    passive_rows = load_csv_rows('Passives')
+
+    # Effects extraction utilities
+    def normalize_effect(raw: str) -> Optional[str]:
+        if not raw:
+            return None
+        s = raw.strip().lower()
+        # simple stemming
+        s = re.sub(r"[.,()\[\]{}!?:;'\"]+", '', s)
+        s = re.sub(r"ing$|ed$|s$", '', s)  # crude
+        # map common roots
+        replacements = {
+            'bleeding': 'bleed', 'bleed': 'bleed',
+            'burnt': 'burn', 'burn': 'burn',
+            'freez': 'freeze', 'frozen': 'freeze', 'freeze': 'freeze',
+            'poison': 'poison', 'poisoned': 'poison',
+            'charm': 'charm', 'charmed': 'charm',
+            'curse': 'curse', 'cursed': 'curse',
+            'overgrowth': 'overgrowth', 'overgrown': 'overgrowth',
+            'disease': 'disease', 'diseased': 'disease',
+            'radiation': 'radiation',
+            'blind': 'blind', 'blinded': 'blind', 'blindness': 'blind',
+            'crit': 'critical chance', 'critical': 'critical chance',
+            'ally': 'allies', 'allies': 'allies'
+        }
+        # prefer substring containment to canonicalize even if embedded
+        for k, v in replacements.items():
+            if k in s:
+                return v.title()
+        return s.title()
+
+    effect_title_to_id: Dict[str, str] = {}
+
+    def get_or_create_effect(effect_name: str, is_aoe: Optional[bool] = None) -> str:
+        effect_name = effect_name.strip()
+        if not effect_name:
+            return ''
+        key = effect_name.lower()
+        if key in effect_title_to_id:
+            # upgrade AOE flag if provided
+            if is_aoe is True:
+                eff_id = effect_title_to_id[key]
+                for n in nodes:
+                    if n["id"] == eff_id:
+                        n.setdefault("properties", {})
+                        n["properties"]["isAOE"] = True
+                        break
+            return effect_title_to_id[key]
+        node_id = f"n{len(nodes)}"
+        effect_title_to_id[key] = node_id
+        nodes.append({
+            "id": node_id,
+            "caption": effect_name,
+            "labels": ["Effect"],
+            "properties": {"url": "", "imagePath": "", "description": "", "isAOE": bool(is_aoe) if is_aoe is not None else False},
+            "style": {},
+        })
+        return node_id
+
+    def mark_effect_aoe(effect_name: str):
+        if not effect_name:
+            return
+        _ = get_or_create_effect(effect_name, is_aoe=True)
+
+    # Interaction nodes (Wall, Projectile, Bounce, Heal, Instant Kill, Full Screen, Area Of Effect, etc.)
+    interaction_title_to_id: Dict[str, str] = {}
+
+    def normalize_interaction(raw: str) -> Optional[str]:
+        if not raw:
+            return None
+        s = raw.strip().lower()
+        maps = {
+            'wall': 'Wall',
+            'projectile': 'Projectile',
+            'bounce': 'Bounce', 'bouncing': 'Bounce',
+            'heal': 'Heal', 'heals': 'Heal', 'healing': 'Heal',
+            'instant kill': 'Instant Kill', 'instantly kill': 'Instant Kill',
+            'instantly dying': 'Instant Kill', 'dying immediately': 'Instant Kill',
+            'chance of killing enemies': 'Instant Kill', 'kill': 'Instant Kill',
+            'full screen': 'Full Screen', 'in view': 'Full Screen',
+            'all active enemies': 'Full Screen', 'all enemies on screen': 'Full Screen',
+            'every enemy on screen': 'Full Screen',
+            'area of effect': 'Area Of Effect', 'aoe': 'Area Of Effect',
+        }
+        for k, v in maps.items():
+            if k in s:
+                return v
+        return raw.strip().title()
+
+    def get_or_create_interaction(name: str) -> str:
+        name = (normalize_interaction(name) or '').strip()
+        if not name:
+            return ''
+        key = name.lower()
+        if key in interaction_title_to_id:
+            return interaction_title_to_id[key]
+        node_id = f"n{len(nodes)}"
+        interaction_title_to_id[key] = node_id
+        nodes.append({
+            "id": node_id,
+            "caption": name,
+            "labels": ["Interaction"],
+            "properties": {"url": "", "imagePath": "", "description": ""},
+            "style": {},
+        })
+        return node_id
+
+    def connect_has_interaction(from_name: str, interaction_name: str):
+        if from_name not in title_to_node_id:
+            return
+        iid = get_or_create_interaction(interaction_name)
+        if not iid:
+            return
+        relationships.append({
+            "id": f"r{len(relationships)}",
+            "type": 'HAS Interaction',
+            "style": {},
+            "properties": {},
+            "fromId": title_to_node_id[from_name],
+            "toId": iid
+        })
+
+    def connect_requires_interaction(from_name: str, interaction_name: str):
+        if from_name not in title_to_node_id:
+            return
+        iid = get_or_create_interaction(interaction_name)
+        if not iid:
+            return
+        relationships.append({
+            "id": f"r{len(relationships)}",
+            "type": 'REQUIRES',
+            "style": {},
+            "properties": {},
+            "fromId": title_to_node_id[from_name],
+            "toId": iid
+        })
+
+    def connect_has_effect(from_name: str, effect_name: str, is_aoe: Optional[bool] = None):
+        norm = normalize_effect(effect_name)
+        if not norm:
+            return
+        eff_id = get_or_create_effect(norm, is_aoe=is_aoe)
+        # ensure from node exists
+        if from_name not in title_to_node_id:
+            return
+        relationships.append({
+            "id": f"r{len(relationships)}",
+            "type": 'HAS Effect',
+            "style": {},
+            "properties": {},
+            "fromId": title_to_node_id[from_name],
+            "toId": eff_id
+        })
+
+    def connect_requires_effect(from_name: str, effect_name: str):
+        norm = normalize_effect(effect_name)
+        if not norm:
+            return
+        eff_id = get_or_create_effect(norm)
+        if from_name not in title_to_node_id:
+            return
+        relationships.append({
+            "id": f"r{len(relationships)}",
+            "type": 'REQUIRES',
+            "style": {},
+            "properties": {},
+            "fromId": title_to_node_id[from_name],
+            "toId": eff_id
+        })
+
+    def is_aoe_text(text: str) -> bool:
+        if not text:
+            return False
+        t = text.lower()
+        if 'area-of-effect' in t or 'area of effect' in t or 'aoe' in t:
+            return True
+        # Explicit triggers
+        if 'tile radius' in t or 'tile square' in t:
+            return True
+        # Row/column wide effects
+        if 'same row' in t or 'same column' in t:
+            return True
+        # general tile-based
+        if 'tile' in t and ('square' in t or 'radius' in t):
+            return True
+        if 'within a' in t and 'radius' in t:
+            return True
+        return False
+
+    # 1) Ball effects from descriptions
+    for row in ball_rows:
+        name = row.get('name') or ''
+        desc = (row.get('description') or '').lower()
+        if not name:
+            continue
+        # stacks of X
+        for m in re.finditer(r"stack[s]? of\s+([a-z\-]+)", desc):
+            connect_has_effect(name, m.group(1), is_aoe=is_aoe_text(desc))
+        # keywords (effects)
+        for kw in ['freeze', 'blind', 'charm', 'curse', 'overgrowth', 'disease', 'radiation', 'burn', 'bleed', 'poison']:
+            if kw in desc:
+                connect_has_effect(name, kw, is_aoe=is_aoe_text(desc))
+                if is_aoe_text(desc):
+                    mark_effect_aoe(kw)
+        # interactions
+        if 'wall' in desc:
+            connect_has_interaction(name, 'Wall')
+        if 'projectile' in desc:
+            connect_has_interaction(name, 'Projectile')
+        if 'bounc' in desc:
+            connect_has_interaction(name, 'Bounce')
+        if 'heal' in desc or 'heals' in desc or 'healing' in desc:
+            connect_has_interaction(name, 'Heal')
+        if any(k in desc for k in ['instantly kill', 'instantly dying', 'dying immediately', 'chance of killing enemies']):
+            connect_has_interaction(name, 'Instant Kill')
+        if any(k in desc for k in ['in view', 'all active enemies', 'all enemies on screen', 'every enemy on screen', 'full screen']):
+            connect_has_interaction(name, 'Full Screen')
+        # baby balls
+        if 'baby ball' in desc:
+            connect_has_effect(name, 'baby balls')
+        # flag AOE on generic effect and connect ball -> AOE
+        if is_aoe_text(desc):
+            connect_has_effect(name, 'Area Of Effect', is_aoe=True)
+
+    # 2) Passive requirements/effects
+    effigy_passives = {r.get('name') for r in passive_rows if r.get('name') and 'effigy' in (r.get('name') or '').lower()}
+    for row in passive_rows:
+        pname = row.get('name') or ''
+        desc = (row.get('description') or '').lower()
+        req = (row.get('requirement') or '').lower()
+        if not pname:
+            continue
+        # HAS Effect from description
+        for m in re.finditer(r"stack[s]? of\s+([a-z\-]+)", desc):
+            connect_has_effect(pname, m.group(1), is_aoe=is_aoe_text(desc))
+        if 'crit' in desc or 'critical' in desc:
+            connect_has_effect(pname, 'critical chance')
+        for kw in ['freeze', 'blind', 'charm', 'curse', 'overgrowth', 'disease', 'radiation', 'burn', 'bleed', 'poison']:
+            if kw in desc:
+                connect_has_effect(pname, kw, is_aoe=is_aoe_text(desc))
+                if is_aoe_text(desc):
+                    mark_effect_aoe(kw)
+        # baby balls effect from passive descriptions
+        if 'baby ball' in desc or 'baby balls' in desc:
+            connect_has_effect(pname, 'baby balls')
+        if is_aoe_text(desc):
+            connect_has_interaction(pname, 'Area Of Effect')
+        # interactions from passive description
+        if 'wall' in desc:
+            connect_has_interaction(pname, 'Wall')
+        if 'projectile' in desc:
+            connect_has_interaction(pname, 'Projectile')
+        if 'bounc' in desc:
+            connect_has_interaction(pname, 'Bounce')
+        if 'heal' in desc or 'heals' in desc or 'healing' in desc:
+            connect_has_interaction(pname, 'Heal')
+        if any(k in desc for k in ['instantly kill', 'instantly dying', 'dying immediately', 'chance of killing enemies']):
+            connect_has_interaction(pname, 'Instant Kill')
+        if any(k in desc for k in ['in view', 'all active enemies', 'all enemies on screen', 'every enemy on screen', 'full screen']):
+            connect_has_interaction(pname, 'Full Screen')
+        # allies spawned (exclude baby balls)
+        if (('spawn a' in desc) or ('spawn an' in desc)) and ('baby ball' not in desc and 'baby balls' not in desc):
+            connect_has_effect(pname, 'Allies')
+        # REQUIRES effects from requirement
+        for m in re.finditer(r"(stack[s]? of\s+([a-z\-]+))", req):
+            connect_requires_effect(pname, m.group(2))
+        if 'crit' in req or 'critical' in req:
+            connect_requires_effect(pname, 'critical chance')
+        for kw in ['freeze', 'blind', 'charm', 'curse', 'overgrowth', 'disease', 'radiation', 'burn', 'bleed', 'poison', 'ally', 'allies']:
+            if kw in req:
+                connect_requires_effect(pname, kw)
+        # baby balls requirement mentions
+        if 'baby ball' in req or 'baby balls' in req:
+            connect_requires_effect(pname, 'baby balls')
+        if is_aoe_text(req):
+            connect_requires_interaction(pname, 'Area Of Effect')
+        # interactions from requirement
+        if 'wall' in req:
+            connect_requires_interaction(pname, 'Wall')
+        if 'projectile' in req:
+            connect_requires_interaction(pname, 'Projectile')
+        if 'bounc' in req:
+            connect_requires_interaction(pname, 'Bounce')
+        if 'heal' in req or 'heals' in req or 'healing' in req:
+            connect_requires_interaction(pname, 'Heal')
+        if any(k in req for k in ['instantly kill', 'instantly dying', 'dying immediately', 'chance of killing enemies']):
+            connect_requires_interaction(pname, 'Instant Kill')
+        if any(k in req for k in ['in view', 'all active enemies', 'all enemies on screen', 'every enemy on screen', 'full screen']):
+            connect_requires_interaction(pname, 'Full Screen')
+        # Allies/friendly pieces requirements should connect to all Effigy passives (providers of allies)
+        if any(ph in req for ph in ['stone allies', 'stone ally', 'allies', 'ally', 'friendly pieces']):
+            for eff in effigy_passives:
+                if eff and eff in title_to_node_id and pname in title_to_node_id:
+                    relationships.append({
+                        "id": f"r{len(relationships)}",
+                        "type": 'REQUIRES',
+                        "style": {},
+                        "properties": {},
+                        "fromId": title_to_node_id[pname],
+                        "toId": title_to_node_id[eff]
+                    })
+    # 3) Character ability interactions and AOE
+    for row in char_rows:
+        cname = row.get('name') or ''
+        ability = (row.get('ability') or '').lower()
+        if not cname:
+            continue
+        if 'wall' in ability:
+            connect_has_effect(cname, 'Wall')
+        if 'bounc' in ability:
+            connect_has_effect(cname, 'Bounce')
+        if 'projectile' in ability:
+            connect_has_effect(cname, 'Projectile')
+        if 'no baby ball' in ability:
+            connect_has_effect(cname, 'No Baby Balls')
+        if is_aoe_text(ability):
+            connect_has_interaction(cname, 'Area Of Effect')
+        # interactions from ability
+        if 'wall' in ability:
+            connect_has_interaction(cname, 'Wall')
+        if 'projectile' in ability:
+            connect_has_interaction(cname, 'Projectile')
+        if 'bounc' in ability:
+            connect_has_interaction(cname, 'Bounce')
+        if 'heal' in ability or 'heals' in ability or 'healing' in ability:
+            connect_has_interaction(cname, 'Heal')
+        if any(k in ability for k in ['instantly kill', 'instantly dying', 'dying immediately', 'chance of killing enemies']):
+            connect_has_interaction(cname, 'Instant Kill')
+        if any(k in ability for k in ['in view', 'all active enemies', 'all enemies on screen', 'every enemy on screen', 'full screen']):
+            connect_has_interaction(cname, 'Full Screen')
+
+    # Also parse explicit e.g. (...) lists in passive requirements to specific passives
+    for row in passive_rows:
+        pname = row.get('name') or ''
+        if not pname:
+            continue
+        eg_text = row.get('requirement') or ''
+        for a in re.findall(r"\((?:e\.g\.|eg)\.?\s*([^\)]+)\)", eg_text, flags=re.IGNORECASE):
+            for part in re.split(r",|;| and ", a):
+                nm = part.strip().strip('"\'')
+                if nm in title_to_node_id and pname in title_to_node_id:
+                    relationships.append({
+                        "id": f"r{len(relationships)}",
+                        "type": 'REQUIRES',
+                        "style": {},
+                        "properties": {},
+                        "fromId": title_to_node_id[pname],
+                        "toId": title_to_node_id[nm]
+                    })
+
+    # 4) Effigies grant Allies effect explicitly
+    for eff in effigy_passives:
+        if eff:
+            connect_has_effect(eff, 'Allies')
 
     # Write secondary output in schema
     schema_graph = {"nodes": schema_nodes, "relationships": schema_rels}
