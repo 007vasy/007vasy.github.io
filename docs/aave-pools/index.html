@@ -1,0 +1,205 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="//cdn.jsdelivr.net/npm/3d-force-graph"></script>
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+  <script type="module">
+      import * as THREE from 'https://esm.sh/three';
+     
+      let gData;
+
+      // URLs
+      const chainsUrl = 'https://chainlist.org/rpcs.json';
+      const aaveUrl = 'https://raw.githubusercontent.com/bgd-labs/aave-address-book/da3949507f9f23d556a50e510b40ba92b0fab532/tokenlist.json';
+
+      Promise.all([
+        fetch(chainsUrl).then(r => r.json()),
+        fetch(aaveUrl).then(r => r.json())
+      ])
+        .then(([chainsData, aaveData]) => {
+          
+          // 1. Process Chains Map
+          const chainMap = {};
+          chainsData.forEach(chain => {
+             // chain.icon is usually the filename without extension, e.g. "ethereum"
+             // User specified icon pattern: https://icons.llamao.fi/icons/chains/rsz_{icon}.jpg
+             // Fallback or special handling might be needed if icon is missing, but we'll follow instructions.
+             if (chain.chainId) {
+                chainMap[chain.chainId] = {
+                    name: chain.name,
+                    icon: chain.icon ? `https://icons.llamao.fi/icons/chains/rsz_${chain.icon}.jpg` : null,
+                    nativeCurrency: chain.nativeCurrency
+                };
+             }
+          });
+
+          const nodes = [];
+          const links = [];
+          const nodesById = new Set();
+
+          function addNode(id, name, img, type, val = 1) {
+            if (!nodesById.has(id)) {
+                nodes.push({ id, name, img, type, val });
+                nodesById.add(id);
+            }
+          }
+
+          // 2. Process Aave Tokens to build Graph
+          // Structure: Chain -> Pool -> [Underlying, aToken]
+          
+          // We need to group by Chain -> Pool first to ensure we create Pool nodes only once per pool address
+          const pools = {}; // key: chainId-poolAddress, value: { chainId, poolAddress, underlying: Set, aTokens: Set }
+
+          aaveData.tokens.forEach(token => {
+              // Check if it's an aToken or related to a pool
+              // The user prompt said: chain -> pool -> underlying, pool -> debt (which effectively means aToken here as per previous clarification assumption)
+              // aTokens usually have extensions.pool and extensions.underlying
+              
+              if (token.extensions && token.extensions.pool) {
+                  const chainId = token.chainId;
+                  const poolAddress = token.extensions.pool;
+                  const poolKey = `${chainId}-${poolAddress}`;
+                  
+                  if (!pools[poolKey]) {
+                      pools[poolKey] = {
+                          chainId: chainId,
+                          address: poolAddress,
+                          underlying: new Set(),
+                          aTokens: []
+                      };
+                  }
+
+                  // Add this token as an aToken (or debt token if we had that distinction explicitly, but based on file generic "aToken" tags)
+                  pools[poolKey].aTokens.push({
+                      address: token.address,
+                      symbol: token.symbol,
+                      name: token.name,
+                      logoURI: token.logoURI,
+                      underlying: token.extensions.underlying // Store underlying for direct linking
+                  });
+
+                  // Add underlying if present
+                  if (token.extensions.underlying) {
+                      pools[poolKey].underlying.add(token.extensions.underlying);
+                  }
+              }
+          });
+
+          // Pre-build token lookup for performance
+          const tokenLookup = {}; // key: chainId-address, value: token
+          aaveData.tokens.forEach(t => {
+              const key = `${t.chainId}-${t.address.toLowerCase()}`;
+              tokenLookup[key] = t;
+          });
+
+          // 3. Construct Graph Nodes and Links
+          
+          Object.values(pools).forEach(pool => {
+              // Chain Node
+              const chainId = pool.chainId;
+              const chainInfo = chainMap[chainId] || { name: `Chain ${chainId}`, icon: null };
+              const chainNodeId = `chain-${chainId}`;
+              
+              addNode(chainNodeId, chainInfo.name, chainInfo.icon, 'chain', 20);
+
+              // Pool Node
+              const poolNodeId = `pool-${chainId}-${pool.address}`;
+              // A pool doesn't strictly have an icon, maybe use Aave logo or a generic one? 
+              // Using Aave logo from tokenlist metadata if available, or hardcoded.
+              const aaveLogo = aaveData.logoURI || "https://raw.githubusercontent.com/bgd-labs/web3-icons/main/icons/full/aave.svg";
+              addNode(poolNodeId, `Pool: ${pool.address.slice(0,6)}...`, aaveLogo, 'pool', 10);
+
+              // Link Chain -> Pool
+              links.push({ source: chainNodeId, target: poolNodeId, type: 'chain-pool', color: '#ffffff' });
+
+              // aTokens
+              pool.aTokens.forEach(token => {
+                  const tokenNodeId = `token-${token.address}`;
+                  addNode(tokenNodeId, token.symbol, token.logoURI, 'atoken', 5);
+                  // Pool -> Debt (aToken) - Red
+                  links.push({ source: poolNodeId, target: tokenNodeId, type: 'pool-debt', color: '#ff4444' });
+
+                  // Link Underlying <-> aToken
+                  if (token.underlying) {
+                      const underlyingNodeId = `token-${token.underlying}`;
+                      // Check if underlying node exists (it should be added in the loop below or already exists)
+                      // To be safe, we can add it here too or rely on the fact that the underlying loop runs next?
+                      // Actually, order matters for existence check but links can be created blindly as long as nodes exist at render time.
+                      // However, to ensure the Underlying Node definitely exists in our list:
+                      
+                      // (We'll let the underlying loop handle creation to avoid duplication logic here, assuming every underlying in extensions is also in the pool.underlying set)
+                      
+                      links.push({ source: underlyingNodeId, target: tokenNodeId, type: 'pair', color: '#00ff00' });
+                  }
+              });
+
+              // Underlying
+              pool.underlying.forEach(underlyingAddress => {
+                  const tokenNodeId = `token-${underlyingAddress}`;
+                  
+                  const key = `${chainId}-${underlyingAddress.toLowerCase()}`;
+                  const metadata = tokenLookup[key];
+                  
+                  const name = metadata ? metadata.symbol : `Und: ${underlyingAddress.slice(0,6)}...`;
+                  const icon = metadata ? metadata.logoURI : null;
+                  
+                  addNode(tokenNodeId, name, icon, 'underlying', 5);
+                  // Pool -> Collateral (Underlying) - Blue
+                  links.push({ source: poolNodeId, target: tokenNodeId, type: 'pool-collateral', color: '#4444ff' });
+              });
+          });
+
+          gData = { nodes, links };
+
+          // Setup Graph
+          const Graph = ForceGraph3D()
+            (document.getElementById('3d-graph'))
+            .cooldownTicks(100)
+            .backgroundColor("#1d2229")
+            .graphData(gData)
+            .nodeAutoColorBy('type')
+            .linkAutoColorBy(null) // Disable auto color
+            .linkColor(link => link.color || '#cccccc')
+            .linkOpacity(0.3)
+            .nodeLabel('name')
+            .nodeThreeObject(({ img, type }) => {
+              if (!img) {
+                  // Fallback for nodes without images (text sprite or sphere)
+                  const obj = new THREE.Mesh(
+                      new THREE.SphereGeometry(5),
+                      new THREE.MeshBasicMaterial({ color: Math.random() * 0xffffff })
+                  );
+                  return obj;
+              }
+              
+              const loader = new THREE.TextureLoader();
+              loader.crossOrigin = 'anonymous';
+              const imgTexture = loader.load(img);
+              imgTexture.colorSpace = THREE.SRGBColorSpace;
+              const material = new THREE.SpriteMaterial({ map: imgTexture });
+              const sprite = new THREE.Sprite(material);
+              
+              // Scale based on type
+              if (type === 'chain') sprite.scale.set(20, 20);
+              else if (type === 'pool') sprite.scale.set(12, 12);
+              else sprite.scale.set(8, 8); // tokens
+              
+              return sprite;
+            })
+            .onNodeClick(node => {
+                // Open explorer if possible
+                // We need chain info to construct explorer URL, but here we just have ID.
+                // Simple fallback: specific behavior per type
+                console.log("Clicked", node);
+            });
+            
+            // Auto-fit
+            Graph.onEngineStop(() => Graph.zoomToFit(400));
+        })
+        .catch(err => console.error(err));
+  </script>
+</body>
+
