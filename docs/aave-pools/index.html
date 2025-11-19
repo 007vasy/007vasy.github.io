@@ -77,7 +77,8 @@
                       address: token.address,
                       symbol: token.symbol,
                       name: token.name,
-                      logoURI: token.logoURI
+                      logoURI: token.logoURI,
+                      underlying: token.extensions.underlying // Store underlying for direct linking
                   });
 
                   // Add underlying if present
@@ -112,13 +113,27 @@
               addNode(poolNodeId, `Pool: ${pool.address.slice(0,6)}...`, aaveLogo, 'pool', 10);
 
               // Link Chain -> Pool
-              links.push({ source: chainNodeId, target: poolNodeId });
+              links.push({ source: chainNodeId, target: poolNodeId, type: 'chain-pool', color: '#ffffff' });
 
               // aTokens
               pool.aTokens.forEach(token => {
                   const tokenNodeId = `token-${token.address}`;
                   addNode(tokenNodeId, token.symbol, token.logoURI, 'atoken', 5);
-                  links.push({ source: poolNodeId, target: tokenNodeId });
+                  // Pool -> Debt (aToken) - Red
+                  links.push({ source: poolNodeId, target: tokenNodeId, type: 'pool-debt', color: '#ff4444' });
+
+                  // Link Underlying <-> aToken
+                  if (token.underlying) {
+                      const underlyingNodeId = `token-${token.underlying}`;
+                      // Check if underlying node exists (it should be added in the loop below or already exists)
+                      // To be safe, we can add it here too or rely on the fact that the underlying loop runs next?
+                      // Actually, order matters for existence check but links can be created blindly as long as nodes exist at render time.
+                      // However, to ensure the Underlying Node definitely exists in our list:
+                      
+                      // (We'll let the underlying loop handle creation to avoid duplication logic here, assuming every underlying in extensions is also in the pool.underlying set)
+                      
+                      links.push({ source: underlyingNodeId, target: tokenNodeId, type: 'pair', color: '#00ff00' });
+                  }
               });
 
               // Underlying
@@ -132,7 +147,8 @@
                   const icon = metadata ? metadata.logoURI : null;
                   
                   addNode(tokenNodeId, name, icon, 'underlying', 5);
-                  links.push({ source: poolNodeId, target: tokenNodeId });
+                  // Pool -> Collateral (Underlying) - Blue
+                  links.push({ source: poolNodeId, target: tokenNodeId, type: 'pool-collateral', color: '#4444ff' });
               });
           });
 
@@ -145,10 +161,8 @@
             .backgroundColor("#1d2229")
             .graphData(gData)
             .nodeAutoColorBy('type')
-            .linkAutoColorBy(l => {
-                const sourceNode = typeof l.source === 'object' ? l.source : nodes.find(n => n.id === l.source);
-                return sourceNode ? sourceNode.type : null;
-            }) // color links by source type
+            .linkAutoColorBy(null) // Disable auto color
+            .linkColor(link => link.color || '#cccccc')
             .linkOpacity(0.3)
             .nodeLabel('name')
             .nodeThreeObject(({ img, type }) => {
