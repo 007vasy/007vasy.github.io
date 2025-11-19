@@ -166,6 +166,16 @@
             .linkOpacity(0.3)
             .nodeLabel('name')
             .nodeThreeObject(({ img, type }) => {
+              if (type === 'chain') {
+                  const geometry = new THREE.SphereGeometry(20, 32, 32);
+                  const material = new THREE.MeshLambertMaterial({ 
+                      color: 0xffffff,
+                      transparent: true,
+                      opacity: 0.7
+                  });
+                  return new THREE.Mesh(geometry, material);
+              }
+
               if (!img) {
                   // Fallback for nodes without images (text sprite or sphere)
                   const obj = new THREE.Mesh(
@@ -183,8 +193,7 @@
               const sprite = new THREE.Sprite(material);
               
               // Scale based on type
-              if (type === 'chain') sprite.scale.set(20, 20);
-              else if (type === 'pool') sprite.scale.set(12, 12);
+              if (type === 'pool') sprite.scale.set(12, 12);
               else sprite.scale.set(8, 8); // tokens
               
               return sprite;
