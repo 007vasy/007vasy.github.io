@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ars Contexta Knowledge Graph</title>
+    <style> body { margin: 0; } </style>
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/three-spritetext@1.8.0/dist/three-spritetext.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph@1.73.0/dist/3d-force-graph.min.js"></script>
+</head>
+
+<body>
+    <div id="3d-graph"></div>
+    <script>
+      async function loadJson() {
+          const res = await fetch('./graph.json');
+          return res.json();
+      }
+
+      loadJson().then(gData => {
+        const Graph = ForceGraph3D()
+          (document.getElementById('3d-graph'))
+            .graphData(gData)
+            .nodeLabel(node => node.label)
+            .nodeThreeObject(node => {
+              const size = Math.max(node.degree / 8, 1.5);
+              const geometry = new THREE.SphereGeometry(size);
+              const material = new THREE.MeshLambertMaterial({
+                color: node.fill,
+                transparent: true,
+                opacity: 0.75
+              });
+              return new THREE.Mesh(geometry, material);
+            })
+            .onNodeClick(node => window.open(node.url, '_blank'))
+            .linkDirectionalParticles(3)
+            .linkDirectionalParticleSpeed(0.004)
+            .linkWidth(link => link.type === 'cross-folder' ? 0.3 : 0.5)
+            .linkOpacity(0.15)
+            .linkDirectionalArrowLength(3)
+            .linkColor(link => link.type === 'same-folder'
+              ? "#4db8ff"
+              : "#cc8844")
+            .backgroundColor('#000011');
+      });
+    </script>
+</body>
+
+</html>
