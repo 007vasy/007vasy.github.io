@@ -2,7 +2,12 @@
   "nodes": [
     {
       "id": "n0",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Warrior",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -13,12 +18,16 @@
         "requirement": "",
         "unlock": "N/A",
         "ability": "N/A"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n1",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Bleed",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -29,12 +38,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n2",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Itchy Finger",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -45,12 +58,16 @@
         "requirement": "",
         "unlock": "Build the Sheriff's Office Blueprint, which is unlocked by clearing the Bone x Yard biome",
         "ability": "Has scattered aim, but shoots twice as fast and constantly launches balls if any are available. Can move at full speed while shooting"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n3",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Burn",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -61,12 +78,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n4",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Repentant",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -77,12 +98,16 @@
         "requirement": "",
         "unlock": "Build the Haunted House Blueprint, which is unlocked by clearing the the Snowy x Shores biome",
         "ability": "Balls deal 5% more damage each time they bounce. But when they hit the back wall, they return to the player, damaging each enemy they pass through"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n5",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -93,12 +118,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n6",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Cohabitants",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -109,12 +138,16 @@
         "requirement": "",
         "unlock": "Build the Cozy Home Blueprint, which is unlocked by clearing the Bone x Yard biome",
         "ability": "For each ball launched, a copy is launched in the mirrored direction. Balls deal half damage"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n7",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Brood Mother",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -125,12 +158,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n8",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Cogitator",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -141,12 +178,16 @@
         "requirement": "",
         "unlock": "Build the Villa Blueprint, which is unlocked by clearing the Snowy x Shores biome",
         "ability": "Automatically chooses upgrades"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n9",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser (Vertical)",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -157,12 +198,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n10",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Embedded",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -173,12 +218,16 @@
         "requirement": "",
         "unlock": "Build the Veteran's Hut Blueprint, which is unlocked by clearing the Snowy x Shores biome",
         "ability": "Balls always pierce enemies until they hit a wall"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n11",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Poison",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -189,12 +238,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n12",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Shade",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -205,12 +258,16 @@
         "requirement": "",
         "unlock": "Build the Mausoleum Blueprint, which is unlocked by clearing the Liminal x Desert biome",
         "ability": "Balls shoot from the back and have a base critical hit chance of 10%"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n13",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Dark",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -221,12 +278,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n14",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Shieldbearer",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -237,12 +298,16 @@
         "requirement": "",
         "unlock": "Build the Iron Fortress Blueprint, which is unlocked by clearing the Fungal x Forest biome",
         "ability": "Holds a large shield that bounces back balls that hit it."
-      },
-      "style": {}
+      }
     },
     {
       "id": "n15",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Iron",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -253,12 +318,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n16",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Spendthrift",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -269,12 +338,16 @@
         "requirement": "",
         "unlock": "Build the Mansion Blueprint, which is unlocked by clearing the Fungal x Forest biome",
         "ability": "Shoots all balls at the same time in a wide arc"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n17",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -285,12 +358,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n18",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Juggler",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -301,12 +378,16 @@
         "requirement": "",
         "unlock": "Build the Theater Blueprint, which you can unlock by clearing the Gory x Grasslands biome",
         "ability": "Lobs balls into the air at a target position on the field. Balls don't start bouncing until they reach the ground"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n19",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Lightning",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -317,12 +398,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n20",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Empty Nester",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -333,12 +418,16 @@
         "requirement": "",
         "unlock": "Build the Single Family Home Blueprint, which is which is unlocked by clearing the the Snowy x Shores biome",
         "ability": "No baby balls. Each shot shoots multiple instances of one equipped special ball"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n21",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Ghost",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -349,12 +438,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n22",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Flagellant",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -365,12 +458,16 @@
         "requirement": "",
         "unlock": "Build the Monastery Blueprint, which you can unlock by clearing the Gory x Grasslands biome",
         "ability": "Balls bounce normally off the bottom of the screen"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n23",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Egg Sac",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -381,12 +478,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n24",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Makeshift Sisyphus",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -397,12 +498,16 @@
         "requirement": "",
         "unlock": "Build the Rocky Hill Blueprint",
         "ability": "Balls no longer deal direct hit damage, but AOE and status effects damage is increased by 4x. No baby balls"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n25",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Earthquake",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -413,12 +518,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n26",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Physicist",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -429,12 +538,16 @@
         "requirement": "",
         "unlock": "Build the Laboratory Blueprint, which is unlocked by clearing the Fungal x Forest biome",
         "ability": "Balls are affected by gravity pulling towards the back of the screen"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n27",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Light",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -445,12 +558,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n28",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Tactician",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -461,12 +578,16 @@
         "requirement": "",
         "unlock": "Build the Captain's Headquarters Blueprint, which is unlocked by clearing the Smoldering x Depths biome",
         "ability": "Battler become turn-based"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n29",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "The Radical",
+      "style": {},
       "labels": [
         "Character"
       ],
@@ -477,12 +598,16 @@
         "requirement": "",
         "unlock": "Build the Campground Blueprint, which is unlocked by clearing the Heavenly x Gates biome",
         "ability": "Plays the game and chooses upgrades automatically"
-      },
-      "style": {}
+      }
     },
     {
       "id": "n30",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Wind",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -493,12 +618,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n31",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Cell",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -509,12 +638,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n32",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Charm",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -525,12 +658,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n33",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser (Horizontal)",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -541,12 +678,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n34",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Assassin",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -557,12 +698,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n35",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Iron + Ghost",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -573,12 +718,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n36",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Iron + Dark",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -589,12 +738,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n37",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Berserk",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -605,12 +758,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n38",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Charm + Bleed",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -621,12 +778,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n39",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Charm + Burn",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -637,12 +798,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n40",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Black Hole",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -653,12 +818,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n41",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Dark + Sun",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -669,12 +838,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n42",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Sun",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -685,12 +858,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n43",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Blizzard",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -701,12 +878,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n44",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze + Wind",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -717,12 +898,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n45",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze + Lightning",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -733,12 +918,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n46",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Bomb",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -749,12 +938,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n47",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Burn + Iron",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -765,12 +958,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n48",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Flash",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -781,12 +978,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n49",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Lightning + Light",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -797,12 +998,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n50",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Flicker",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -813,12 +1018,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n51",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Light + Dark",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -829,12 +1038,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n52",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze Ray",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -845,12 +1058,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n53",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze + Laser (Horizontal)",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -861,12 +1078,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n54",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze + Laser (Vertical)",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -877,12 +1098,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n55",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Frozen Flame",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -893,12 +1118,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n56",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Burn + Freeze",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -909,12 +1138,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n57",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Glacier",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -925,12 +1158,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n58",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze + Earthquake",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -941,12 +1178,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n59",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Hemorrhage",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -957,12 +1198,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n60",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Bleed + Iron",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -973,12 +1218,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n61",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Holy Laser",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -989,12 +1238,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n62",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser (Horizontal) + Laser (Vertical)",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1005,12 +1258,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n63",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Incubus",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1021,12 +1278,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n64",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Charm + Dark",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1037,12 +1298,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n65",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Inferno",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1053,12 +1318,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n66",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Burn + Wind",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1069,12 +1338,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n67",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser Beam",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1085,12 +1358,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n68",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Light + Laser (Horizontal)",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1101,12 +1378,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n69",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Light + Laser (Vertical)",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1117,12 +1398,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n70",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Leech",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1133,12 +1418,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n71",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Brood Mother + Bleed",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1149,12 +1438,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n72",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Lightning Rod",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1165,12 +1458,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n73",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Lightning + Iron",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1181,12 +1478,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n74",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Lovestruck",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1197,12 +1498,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n75",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Charm + Light",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1213,12 +1518,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n76",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Charm + Lightning",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1229,12 +1538,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n77",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Maggot",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1245,12 +1558,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n78",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Brood Mother + Cell",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1261,12 +1578,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n79",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Magma",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1277,12 +1598,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n80",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Burn + Earthquake",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1293,12 +1618,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n81",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Mosquito King",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1309,12 +1638,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n82",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire + Brood Mother",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1325,12 +1658,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n83",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Mosquito Swarm",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1341,12 +1678,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n84",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire + Egg Sac",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1357,12 +1698,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n85",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Noxious",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1373,12 +1718,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n86",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Poison + Wind",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1389,12 +1738,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n87",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Dark + Wind",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1405,12 +1758,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n88",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Nuclear Bomb",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1421,12 +1778,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n89",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Bomb + Poison",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1437,12 +1798,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n90",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Overgrowth",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1453,12 +1818,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n91",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Earthquake + Cell",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1469,12 +1838,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n92",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Phantom",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1485,12 +1858,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n93",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Dark + Ghost",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1501,12 +1878,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n94",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Radiation Beam",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1517,12 +1898,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n95",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser (Horizontal) + Poison",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1533,12 +1918,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n96",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser (Horizontal) + Cell",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1549,12 +1938,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n97",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser (Vertical) + Poison",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1565,12 +1958,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n98",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Laser (Vertical) + Cell",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1581,12 +1978,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n99",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Sacrifice",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1597,12 +1998,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n100",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Bleed + Dark",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1613,12 +2018,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n101",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Sandstorm",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1629,12 +2038,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n102",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Earthquake + Wind",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1645,12 +2058,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n103",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Satan",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1661,12 +2078,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n104",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Incubus + Succubus",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1677,12 +2098,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n105",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Succubus",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1693,12 +2118,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n106",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Shotgun",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1709,12 +2138,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n107",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Iron + Egg Sac",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1725,12 +2158,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n108",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Soul Sucker",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1741,12 +2178,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n109",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire + Ghost",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1757,12 +2198,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n110",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Spider Queen",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1773,12 +2218,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n111",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Brood Mother + Egg Sac",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1789,12 +2238,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n112",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Storm",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1805,12 +2258,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n113",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Lightning + Wind",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1821,12 +2278,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n114",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Charm + Vampire",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1837,12 +2298,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n115",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Burn + Light",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1853,12 +2318,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n116",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Swamp",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1869,12 +2338,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n117",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Poison + Earthquake",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1885,12 +2358,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n118",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire Lord",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1901,12 +2378,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n119",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire + Bleed",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1917,12 +2398,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n120",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire + Dark",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1933,12 +2418,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n121",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Virus",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1949,12 +2438,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n122",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Poison + Ghost",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1965,12 +2458,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n123",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Poison + Cell",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -1981,12 +2478,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n124",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Voluptuous Egg Sac",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -1997,12 +2498,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n125",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Egg Sac + Cell",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -2013,12 +2518,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n126",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Wraith",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -2029,12 +2538,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n127",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Freeze + Ghost",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -2045,12 +2558,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n128",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Nosferatu",
+      "style": {},
       "labels": [
         "Ball"
       ],
@@ -2061,12 +2578,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n129",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampire Lord + Spider Queen + Mosquito King",
+      "style": {},
       "labels": [
         "Evolution"
       ],
@@ -2077,12 +2598,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n130",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Archer's Effigy",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2093,12 +2618,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n131",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Artificial Heart",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2109,12 +2638,16 @@
         "requirement": "The player needs to have at least one other passive that gives them \"friendly pieces\" (e.g. Archer's Effigy)",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n132",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Baby Rattle",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2125,12 +2658,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n133",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Bandage Roll",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2141,12 +2678,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n134",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Bottled Tornado",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2157,12 +2698,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n135",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Breastplate",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2173,12 +2718,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n136",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Crown of Thorns",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2189,12 +2738,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n137",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Cursed Elixir",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2205,12 +2758,16 @@
         "requirement": "The player needs to have a ball that applies Poison",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n138",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Deadeye's Amulet",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2221,12 +2778,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n139",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Diamond Hilted Dagger",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2237,12 +2798,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n140",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Dynamite",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2253,12 +2818,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n141",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Emerald Hilted Dagger",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2269,12 +2838,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n142",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Ethereal Cloak",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2285,12 +2858,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n143",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Everflowing Goblet",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2301,12 +2878,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n144",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Eye of the Beholder",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2317,12 +2898,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n145",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Fleet Feet",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2333,12 +2918,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n146",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Frozen Spike",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2349,12 +2938,16 @@
         "requirement": "The player needs to have a ball that applies Freeze",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n147",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Gemspring",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2365,12 +2958,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n148",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Ghostly Corset",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2381,12 +2978,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n149",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Ghostly Shield",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2397,12 +2998,16 @@
         "requirement": "The player needs to have at least one other passive that gives them \"allies\" (e.g. Archer's Effigy)",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n150",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Golden Bull",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2413,12 +3018,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n151",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Hand Fan",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2429,12 +3038,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n152",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Hand Mirror",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2445,12 +3058,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n153",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Healer's Effigy",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2461,12 +3078,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n154",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Hourglass",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2477,12 +3098,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n155",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Kiss of Death",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2493,12 +3118,16 @@
         "requirement": "The player needs to have a ball that applies Charm",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n156",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Lover's Quiver",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2509,12 +3138,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n157",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Magic Staff",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2525,12 +3158,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n158",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Magnet",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2541,12 +3178,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n159",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Midnight Oil",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2557,12 +3198,16 @@
         "requirement": "The player needs to have a ball that applies Burn",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n160",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Pressure Valve",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2573,12 +3218,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n161",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Protective Charm",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2589,12 +3238,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n162",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Radiant Feather",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2605,12 +3258,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n163",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Reacher's Spear",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2621,12 +3278,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n164",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Rubber Headband",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2637,12 +3298,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n165",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Ruby Hilted Dagger",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2653,12 +3318,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n166",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Sapphire Hilted Dagger",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2669,12 +3338,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n167",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Shortbow",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2685,12 +3358,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n168",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Silver Blindfold",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2701,12 +3378,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n169",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Silver Bullet",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2717,12 +3398,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n170",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Slingshot",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2733,12 +3418,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n171",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Spiked Collar",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2749,12 +3438,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n172",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Stone Effigy",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2765,12 +3458,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n173",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Traitor's Cowl",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2781,12 +3478,16 @@
         "requirement": "The player needs to have at least one other passive that gives them \"stone allies\" (e.g. Archer's Effigy)",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n174",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Turret",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2797,12 +3498,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n175",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Upturned Hatchet",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2813,12 +3518,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n176",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Vampiric Sword",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2829,12 +3538,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n177",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Voodoo Doll",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2845,12 +3558,16 @@
         "requirement": "The player needs to have a ball that applies Curse",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n178",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Wagon Wheel",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2861,12 +3578,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n179",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "War Horn",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2877,12 +3598,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n180",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Wretched Onion",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2893,12 +3618,16 @@
         "requirement": "N/A",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n181",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Cornucopia",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2909,12 +3638,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n182",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Gracious Impaler",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2925,12 +3658,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n183",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Odiferous Shell",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2941,12 +3678,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n184",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Phantom Regalia",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2957,12 +3698,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n185",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Soul Reaver",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2973,12 +3718,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n186",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Tormenters Mask",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -2989,12 +3738,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n187",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Wings of the Anointed",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -3005,12 +3758,16 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
+      }
     },
     {
       "id": "n188",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
       "caption": "Deadeye's Cross",
+      "style": {},
       "labels": [
         "Passive"
       ],
@@ -3021,337 +3778,7 @@
         "requirement": "",
         "unlock": "",
         "ability": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n189",
-      "caption": "Ble",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n190",
-      "caption": "Baby Ball",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n191",
-      "caption": "Burn",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": true
-      },
-      "style": {}
-    },
-    {
-      "id": "n192",
-      "caption": "Charm",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n193",
-      "caption": "Area Of Effect",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": true
-      },
-      "style": {}
-    },
-    {
-      "id": "n194",
-      "caption": "Freeze",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": true
-      },
-      "style": {}
-    },
-    {
-      "id": "n195",
-      "caption": "Blind",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n196",
-      "caption": "Poison",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": true
-      },
-      "style": {}
-    },
-    {
-      "id": "n197",
-      "caption": "Heal",
-      "labels": [
-        "Interaction"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n198",
-      "caption": "Instant Kill",
-      "labels": [
-        "Interaction"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n199",
-      "caption": "Full Screen",
-      "labels": [
-        "Interaction"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n200",
-      "caption": "Curse",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n201",
-      "caption": "Radiation",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n202",
-      "caption": "Overgrowth",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": true
-      },
-      "style": {}
-    },
-    {
-      "id": "n203",
-      "caption": "Wall",
-      "labels": [
-        "Interaction"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n204",
-      "caption": "Disease",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n205",
-      "caption": "Bounce",
-      "labels": [
-        "Interaction"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n206",
-      "caption": "Allie",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n207",
-      "caption": "Critical Chance",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n208",
-      "caption": "Area Of Effect",
-      "labels": [
-        "Interaction"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n209",
-      "caption": "Projectile",
-      "labels": [
-        "Interaction"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": ""
-      },
-      "style": {}
-    },
-    {
-      "id": "n210",
-      "caption": "Wall",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n211",
-      "caption": "Bounce",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
-    },
-    {
-      "id": "n212",
-      "caption": "No Baby Ball",
-      "labels": [
-        "Effect"
-      ],
-      "properties": {
-        "url": "",
-        "imagePath": "",
-        "description": "",
-        "isAOE": false
-      },
-      "style": {}
+      }
     }
   ],
   "relationships": [
@@ -4786,1406 +5213,6 @@
       "properties": {},
       "fromId": "n129",
       "toId": "n128"
-    },
-    {
-      "id": "r179",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n1",
-      "toId": "n189"
-    },
-    {
-      "id": "r180",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n1",
-      "toId": "n189"
-    },
-    {
-      "id": "r181",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n7",
-      "toId": "n190"
-    },
-    {
-      "id": "r182",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n3",
-      "toId": "n191"
-    },
-    {
-      "id": "r183",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n3",
-      "toId": "n191"
-    },
-    {
-      "id": "r184",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n32",
-      "toId": "n192"
-    },
-    {
-      "id": "r185",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n25",
-      "toId": "n193"
-    },
-    {
-      "id": "r186",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n23",
-      "toId": "n190"
-    },
-    {
-      "id": "r187",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n5",
-      "toId": "n194"
-    },
-    {
-      "id": "r188",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n33",
-      "toId": "n193"
-    },
-    {
-      "id": "r189",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n9",
-      "toId": "n193"
-    },
-    {
-      "id": "r190",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n27",
-      "toId": "n195"
-    },
-    {
-      "id": "r191",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n11",
-      "toId": "n196"
-    },
-    {
-      "id": "r192",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n11",
-      "toId": "n196"
-    },
-    {
-      "id": "r193",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n17",
-      "toId": "n197"
-    },
-    {
-      "id": "r194",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n40",
-      "toId": "n198"
-    },
-    {
-      "id": "r195",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n43",
-      "toId": "n194"
-    },
-    {
-      "id": "r196",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n43",
-      "toId": "n193"
-    },
-    {
-      "id": "r197",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n48",
-      "toId": "n195"
-    },
-    {
-      "id": "r198",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n48",
-      "toId": "n199"
-    },
-    {
-      "id": "r199",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n50",
-      "toId": "n199"
-    },
-    {
-      "id": "r200",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n52",
-      "toId": "n194"
-    },
-    {
-      "id": "r201",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n55",
-      "toId": "n191"
-    },
-    {
-      "id": "r202",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n55",
-      "toId": "n191"
-    },
-    {
-      "id": "r203",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n57",
-      "toId": "n194"
-    },
-    {
-      "id": "r204",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n59",
-      "toId": "n189"
-    },
-    {
-      "id": "r205",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n59",
-      "toId": "n189"
-    },
-    {
-      "id": "r206",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n59",
-      "toId": "n189"
-    },
-    {
-      "id": "r207",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n59",
-      "toId": "n189"
-    },
-    {
-      "id": "r208",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n59",
-      "toId": "n197"
-    },
-    {
-      "id": "r209",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n61",
-      "toId": "n193"
-    },
-    {
-      "id": "r210",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n63",
-      "toId": "n192"
-    },
-    {
-      "id": "r211",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n63",
-      "toId": "n200"
-    },
-    {
-      "id": "r212",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n65",
-      "toId": "n191"
-    },
-    {
-      "id": "r213",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n65",
-      "toId": "n191"
-    },
-    {
-      "id": "r214",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n65",
-      "toId": "n193"
-    },
-    {
-      "id": "r215",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n67",
-      "toId": "n195"
-    },
-    {
-      "id": "r216",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n70",
-      "toId": "n189"
-    },
-    {
-      "id": "r217",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n70",
-      "toId": "n189"
-    },
-    {
-      "id": "r218",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n74",
-      "toId": "n197"
-    },
-    {
-      "id": "r219",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n77",
-      "toId": "n190"
-    },
-    {
-      "id": "r220",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n79",
-      "toId": "n191"
-    },
-    {
-      "id": "r221",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n79",
-      "toId": "n191"
-    },
-    {
-      "id": "r222",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n81",
-      "toId": "n197"
-    },
-    {
-      "id": "r223",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n83",
-      "toId": "n197"
-    },
-    {
-      "id": "r224",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n85",
-      "toId": "n196"
-    },
-    {
-      "id": "r225",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n85",
-      "toId": "n196"
-    },
-    {
-      "id": "r226",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n85",
-      "toId": "n193"
-    },
-    {
-      "id": "r227",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n88",
-      "toId": "n201"
-    },
-    {
-      "id": "r228",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n88",
-      "toId": "n201"
-    },
-    {
-      "id": "r229",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n88",
-      "toId": "n201"
-    },
-    {
-      "id": "r230",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n90",
-      "toId": "n202"
-    },
-    {
-      "id": "r231",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n90",
-      "toId": "n202"
-    },
-    {
-      "id": "r232",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n90",
-      "toId": "n193"
-    },
-    {
-      "id": "r233",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n92",
-      "toId": "n200"
-    },
-    {
-      "id": "r234",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n94",
-      "toId": "n201"
-    },
-    {
-      "id": "r235",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n94",
-      "toId": "n201"
-    },
-    {
-      "id": "r236",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n99",
-      "toId": "n189"
-    },
-    {
-      "id": "r237",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n99",
-      "toId": "n200"
-    },
-    {
-      "id": "r238",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n99",
-      "toId": "n189"
-    },
-    {
-      "id": "r239",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n101",
-      "toId": "n195"
-    },
-    {
-      "id": "r240",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n103",
-      "toId": "n191"
-    },
-    {
-      "id": "r241",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n103",
-      "toId": "n191"
-    },
-    {
-      "id": "r242",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n103",
-      "toId": "n199"
-    },
-    {
-      "id": "r243",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n106",
-      "toId": "n203"
-    },
-    {
-      "id": "r244",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n106",
-      "toId": "n190"
-    },
-    {
-      "id": "r245",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n108",
-      "toId": "n197"
-    },
-    {
-      "id": "r246",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n105",
-      "toId": "n192"
-    },
-    {
-      "id": "r247",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n105",
-      "toId": "n197"
-    },
-    {
-      "id": "r248",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n42",
-      "toId": "n191"
-    },
-    {
-      "id": "r249",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n42",
-      "toId": "n195"
-    },
-    {
-      "id": "r250",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n42",
-      "toId": "n191"
-    },
-    {
-      "id": "r251",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n42",
-      "toId": "n199"
-    },
-    {
-      "id": "r252",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n116",
-      "toId": "n196"
-    },
-    {
-      "id": "r253",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n116",
-      "toId": "n196"
-    },
-    {
-      "id": "r254",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n116",
-      "toId": "n196"
-    },
-    {
-      "id": "r255",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n118",
-      "toId": "n189"
-    },
-    {
-      "id": "r256",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n118",
-      "toId": "n189"
-    },
-    {
-      "id": "r257",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n118",
-      "toId": "n189"
-    },
-    {
-      "id": "r258",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n118",
-      "toId": "n197"
-    },
-    {
-      "id": "r259",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n121",
-      "toId": "n204"
-    },
-    {
-      "id": "r260",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n121",
-      "toId": "n204"
-    },
-    {
-      "id": "r261",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n121",
-      "toId": "n204"
-    },
-    {
-      "id": "r262",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n126",
-      "toId": "n194"
-    },
-    {
-      "id": "r263",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n128",
-      "toId": "n205"
-    },
-    {
-      "id": "r264",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n130",
-      "toId": "n197"
-    },
-    {
-      "id": "r265",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n130",
-      "toId": "n206"
-    },
-    {
-      "id": "r266",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n131",
-      "toId": "n197"
-    },
-    {
-      "id": "r267",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n131",
-      "toId": "n172"
-    },
-    {
-      "id": "r268",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n131",
-      "toId": "n153"
-    },
-    {
-      "id": "r269",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n131",
-      "toId": "n130"
-    },
-    {
-      "id": "r270",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n132",
-      "toId": "n190"
-    },
-    {
-      "id": "r271",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n133",
-      "toId": "n190"
-    },
-    {
-      "id": "r272",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n133",
-      "toId": "n197"
-    },
-    {
-      "id": "r273",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n134",
-      "toId": "n190"
-    },
-    {
-      "id": "r274",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n137",
-      "toId": "n196"
-    },
-    {
-      "id": "r275",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n137",
-      "toId": "n197"
-    },
-    {
-      "id": "r276",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n137",
-      "toId": "n196"
-    },
-    {
-      "id": "r277",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n138",
-      "toId": "n207"
-    },
-    {
-      "id": "r278",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n139",
-      "toId": "n207"
-    },
-    {
-      "id": "r279",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n140",
-      "toId": "n206"
-    },
-    {
-      "id": "r280",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n141",
-      "toId": "n207"
-    },
-    {
-      "id": "r281",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n143",
-      "toId": "n197"
-    },
-    {
-      "id": "r282",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n146",
-      "toId": "n194"
-    },
-    {
-      "id": "r283",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n147",
-      "toId": "n206"
-    },
-    {
-      "id": "r284",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n149",
-      "toId": "n197"
-    },
-    {
-      "id": "r285",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n149",
-      "toId": "n206"
-    },
-    {
-      "id": "r286",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n149",
-      "toId": "n172"
-    },
-    {
-      "id": "r287",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n149",
-      "toId": "n153"
-    },
-    {
-      "id": "r288",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n149",
-      "toId": "n130"
-    },
-    {
-      "id": "r289",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n150",
-      "toId": "n197"
-    },
-    {
-      "id": "r290",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n150",
-      "toId": "n206"
-    },
-    {
-      "id": "r291",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n151",
-      "toId": "n208"
-    },
-    {
-      "id": "r292",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n152",
-      "toId": "n209"
-    },
-    {
-      "id": "r293",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n153",
-      "toId": "n197"
-    },
-    {
-      "id": "r294",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n153",
-      "toId": "n206"
-    },
-    {
-      "id": "r295",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n154",
-      "toId": "n205"
-    },
-    {
-      "id": "r296",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n155",
-      "toId": "n192"
-    },
-    {
-      "id": "r297",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n155",
-      "toId": "n192"
-    },
-    {
-      "id": "r298",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n156",
-      "toId": "n209"
-    },
-    {
-      "id": "r299",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n156",
-      "toId": "n197"
-    },
-    {
-      "id": "r300",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n157",
-      "toId": "n208"
-    },
-    {
-      "id": "r301",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n159",
-      "toId": "n191"
-    },
-    {
-      "id": "r302",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n163",
-      "toId": "n207"
-    },
-    {
-      "id": "r303",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n163",
-      "toId": "n208"
-    },
-    {
-      "id": "r304",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n164",
-      "toId": "n205"
-    },
-    {
-      "id": "r305",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n165",
-      "toId": "n207"
-    },
-    {
-      "id": "r306",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n166",
-      "toId": "n207"
-    },
-    {
-      "id": "r307",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n168",
-      "toId": "n207"
-    },
-    {
-      "id": "r308",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n168",
-      "toId": "n195"
-    },
-    {
-      "id": "r309",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n169",
-      "toId": "n203"
-    },
-    {
-      "id": "r310",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n170",
-      "toId": "n190"
-    },
-    {
-      "id": "r311",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n172",
-      "toId": "n197"
-    },
-    {
-      "id": "r312",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n172",
-      "toId": "n206"
-    },
-    {
-      "id": "r313",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n173",
-      "toId": "n197"
-    },
-    {
-      "id": "r314",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n173",
-      "toId": "n206"
-    },
-    {
-      "id": "r315",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n173",
-      "toId": "n172"
-    },
-    {
-      "id": "r316",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n173",
-      "toId": "n153"
-    },
-    {
-      "id": "r317",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n173",
-      "toId": "n130"
-    },
-    {
-      "id": "r318",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n174",
-      "toId": "n190"
-    },
-    {
-      "id": "r319",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n176",
-      "toId": "n197"
-    },
-    {
-      "id": "r320",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n177",
-      "toId": "n200"
-    },
-    {
-      "id": "r321",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n177",
-      "toId": "n198"
-    },
-    {
-      "id": "r322",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n177",
-      "toId": "n200"
-    },
-    {
-      "id": "r323",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n178",
-      "toId": "n203"
-    },
-    {
-      "id": "r324",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n179",
-      "toId": "n190"
-    },
-    {
-      "id": "r325",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n181",
-      "toId": "n190"
-    },
-    {
-      "id": "r326",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n182",
-      "toId": "n207"
-    },
-    {
-      "id": "r327",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n182",
-      "toId": "n198"
-    },
-    {
-      "id": "r328",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n183",
-      "toId": "n198"
-    },
-    {
-      "id": "r329",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n184",
-      "toId": "n203"
-    },
-    {
-      "id": "r330",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n185",
-      "toId": "n197"
-    },
-    {
-      "id": "r331",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n186",
-      "toId": "n198"
-    },
-    {
-      "id": "r332",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n188",
-      "toId": "n207"
-    },
-    {
-      "id": "r333",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n4",
-      "toId": "n210"
-    },
-    {
-      "id": "r334",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n4",
-      "toId": "n211"
-    },
-    {
-      "id": "r335",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n4",
-      "toId": "n203"
-    },
-    {
-      "id": "r336",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n4",
-      "toId": "n205"
-    },
-    {
-      "id": "r337",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n10",
-      "toId": "n210"
-    },
-    {
-      "id": "r338",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n10",
-      "toId": "n203"
-    },
-    {
-      "id": "r339",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n14",
-      "toId": "n211"
-    },
-    {
-      "id": "r340",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n14",
-      "toId": "n205"
-    },
-    {
-      "id": "r341",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n18",
-      "toId": "n211"
-    },
-    {
-      "id": "r342",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n18",
-      "toId": "n205"
-    },
-    {
-      "id": "r343",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n20",
-      "toId": "n212"
-    },
-    {
-      "id": "r344",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n22",
-      "toId": "n211"
-    },
-    {
-      "id": "r345",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n22",
-      "toId": "n205"
-    },
-    {
-      "id": "r346",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n24",
-      "toId": "n212"
-    },
-    {
-      "id": "r347",
-      "type": "HAS Interaction",
-      "style": {},
-      "properties": {},
-      "fromId": "n24",
-      "toId": "n208"
-    },
-    {
-      "id": "r348",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n131",
-      "toId": "n130"
-    },
-    {
-      "id": "r349",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n149",
-      "toId": "n130"
-    },
-    {
-      "id": "r350",
-      "type": "REQUIRES",
-      "style": {},
-      "properties": {},
-      "fromId": "n173",
-      "toId": "n130"
-    },
-    {
-      "id": "r351",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n172",
-      "toId": "n206"
-    },
-    {
-      "id": "r352",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n153",
-      "toId": "n206"
-    },
-    {
-      "id": "r353",
-      "type": "HAS Effect",
-      "style": {},
-      "properties": {},
-      "fromId": "n130",
-      "toId": "n206"
     }
   ]
 }
