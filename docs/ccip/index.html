@@ -10,18 +10,48 @@
   <div id="3d-graph"></div>
   <script type="module">
       import * as THREE from 'https://esm.sh/three';
-     
+
+      const perf = { t0: performance.now(), marks: {} };
+      function mark(name) { perf.marks[name] = performance.now() - perf.t0; console.log(`[perf] ${name}: ${perf.marks[name].toFixed(0)}ms`); }
+
+      const textureLoader = new THREE.TextureLoader();
+      textureLoader.crossOrigin = 'anonymous';
+      const textureCache = new Map();
+
+      async function preloadImages(nodes) {
+        const imgSet = [...new Set(nodes.map(n => n.img).filter(Boolean))];
+        if (!imgSet.length) return;
+        mark('image-preload-start');
+        const loadOne = (src) => new Promise((resolve, reject) => {
+          textureLoader.load(src, () => resolve({ src }), undefined, reject);
+        });
+        await Promise.allSettled(imgSet.map(loadOne));
+        mark('image-preload-done');
+      }
+
+      function createChainSprite(img) {
+        if (!img) return undefined;
+        const tex = textureLoader.load(img);
+        tex.colorSpace = THREE.SRGBColorSpace;
+        const material = new THREE.SpriteMaterial({ map: tex });
+        const sprite = new THREE.Sprite(material);
+        sprite.scale.set(5, 6);
+        return sprite;
+      }
+
       let gData;
 
       // Fetch and transform the data
       const chainsUrl = 'https://raw.githubusercontent.com/smartcontractkit/documentation/refs/heads/main/src/config/data/chains.json';
       const lanesUrl = 'https://raw.githubusercontent.com/smartcontractkit/documentation/refs/heads/main/src/config/data/ccip/v1_2_0/mainnet/lanes.json';
 
+      mark('start-fetch');
       Promise.all([
         fetch(chainsUrl).then(r => r.json()),
         fetch(lanesUrl).then(r => r.json())
       ])
-        .then(([chainsData, lanesData]) => {
+        .then(async ([chainsData, lanesData]) => {
+          mark('fetched-remote-json');
           // Transform chains data for lookup
           const chainImageMap = Object.entries(chainsData).reduce((acc, [_, chain]) => {
             let filename = chain.icon.split('/').pop();
@@ -118,6 +148,8 @@
             b.links.push(link);
           });
 
+          await preloadImages(gData.nodes);
+
           const highlightNodes = new Set();
           const highlightLinks = new Set();
           let hoverNode = null;
@@ -127,9 +159,8 @@
             .cooldownTicks(10)
             //.backgroundColor('#464b54')
             .backgroundColor("#1d2229")
-            .graphData(gData)  // use gData here instead of jsonUrl
+            .graphData(gData)
             .nodeAutoColorBy('name')
-            .linkAutoColorBy('name')
             .linkOpacity(0.2)
             .onNodeClick(node => window.open(node.url, '_blank'))
             // .linkCurvature(0.01)
@@ -141,49 +172,14 @@
             .linkWidth(link => highlightLinks.has(link) ? 1 : 0.05)
             .linkDirectionalParticles(link => highlightLinks.has(link) ? 4 : 0)
             .linkDirectionalParticleWidth(1)
-            .onNodeHover(node => {
-              // no state change
-              if ((!node && !highlightNodes.size) || (node && hoverNode === node)) return;
-
-              highlightNodes.clear();
-              highlightLinks.clear();
-              if (node) {
-                highlightNodes.add(node);
-                node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
-                node.links.forEach(link => highlightLinks.add(link));
-              }
-
-              hoverNode = node || null;
-
-              updateHighlight();
-            })
-            .onLinkHover(link => {
-              highlightNodes.clear();
-              highlightLinks.clear();
-
-              if (link) {
-                highlightLinks.add(link);
-                highlightNodes.add(link.source);
-                highlightNodes.add(link.target);
-              }
-
-              updateHighlight();
-            })
-            .nodeThreeObject(({ img }) => {
-              const loader = new THREE.TextureLoader();
-              loader.crossOrigin = 'anonymous';
-              const imgTexture = loader.load(img);
-              imgTexture.colorSpace = THREE.SRGBColorSpace;
-              const material = new THREE.SpriteMaterial({ map: imgTexture });
-              const sprite = new THREE.Sprite(material);
-              sprite.scale.set(5, 6);
-              return sprite;
-            })
+            .nodeThreeObject(({ img }) => createChainSprite(img))
             .onNodeDragEnd(node => {
               node.fx = node.x;
               node.fy = node.y;
               node.fz = node.z;
             });
+
+          mark('graph-constructed');
 
           function updateHighlight() {
             // trigger update of highlighted objects in scene
@@ -199,6 +195,7 @@
             {
               if (firstTime) {
                 firstTime = false;
+                mark('first-render-complete');
                 Graph.zoomToFit(300);
               }
             }
