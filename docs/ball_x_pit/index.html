@@ -12,9 +12,57 @@
   <script type="module">
     import * as THREE from 'https://esm.sh/three';
 
+    const perf = { t0: performance.now(), marks: {} };
+    function mark(name) { perf.marks[name] = performance.now() - perf.t0; console.log(`[perf] ${name}: ${perf.marks[name].toFixed(0)}ms`); }
+
+    const textureLoader = new THREE.TextureLoader();
+    textureLoader.crossOrigin = 'anonymous';
+    const textureCache = new Map();
+
+    async function preloadImages(nodes) {
+      const imgPaths = [...new Set(nodes.map(n => n.img).filter(Boolean))];
+      if (!imgPaths.length) return;
+      mark('image-preload-start');
+      const loadOne = (src) => new Promise((resolve, reject) => {
+        const tex = textureLoader.load(src,
+          () => resolve({ src, tex }),
+          undefined,
+          reject
+        );
+      });
+      const results = await Promise.allSettled(imgPaths.map(loadOne));
+      for (const r of results) {
+        if (r.status === 'fulfilled') {
+          r.value.tex.colorSpace = THREE.SRGBColorSpace;
+          textureCache.set(r.value.src, r.value.tex);
+        }
+      }
+      mark('image-preload-done');
+    }
+
+    function createNodeSprite(img) {
+      const tex = textureCache.get(img);
+      if (!tex) {
+        const freshTex = textureLoader.load(img);
+        freshTex.colorSpace = THREE.SRGBColorSpace;
+        textureCache.set(img, freshTex);
+        const material = new THREE.SpriteMaterial({ map: freshTex });
+        const sprite = new THREE.Sprite(material);
+        sprite.scale.set(15, 15);
+        return sprite;
+      }
+      const material = new THREE.SpriteMaterial({ map: tex });
+      const sprite = new THREE.Sprite(material);
+      sprite.scale.set(15, 15);
+      return sprite;
+    }
+
     async function loadGraph() {
+      mark('start-fetch');
       const res = await fetch('./graph.json');
-      return await res.json();
+      const schema = await res.json();
+      mark('fetched-parsed-json');
+      return schema;
     }
 
     function transform(schema) {
@@ -37,6 +85,41 @@
         type: r.type || 'related'
       }));
 
+      const labelById = new Map();
+      for (const n of nodes) labelById.set(n.id, n.label);
+
+      // Precompute link colors
+      const LINK_COLORS = {
+        'Starts With__Character__Ball': '#66bb6a',
+        'HAS Evolution__Ball__Evolution': '#42a5f5',
+        '__Evolution__Ball': '#ffa726',
+        'HAS Evolution__Passive__Evolution': '#ab47bc',
+        '__Evolution__Passive': '#ec407a',
+        'HAS Passive__Ball__Passive': '#26c6da',
+        'HAS Interaction__*__Interaction': '#7e57c2',
+        'HAS Effect__*__Effect': '#ef5350',
+        'REQUIRES__*__*': '#8d6e63',
+      };
+      const defaultLinkColor = 'rgba(200,200,200,0.6)';
+
+      for (const l of links) {
+        const sl = labelById.get(l.source) || '';
+        const tl = labelById.get(l.target) || '';
+        const type = l.type || '';
+        l._color = defaultLinkColor;
+        // Check exact matches first
+        const key = `${type}__${sl}__${tl}`;
+        if (LINK_COLORS[key]) { l._color = LINK_COLORS[key]; continue; }
+        // Check wildcard patterns
+        for (const [k, color] of Object.entries(LINK_COLORS)) {
+          const [t, s, tgt] = k.split('__');
+          if (t === type && (s === '*' || s === sl) && (tgt === '*' || tgt === tl)) {
+            l._color = color;
+            break;
+          }
+        }
+      }
+
       // Cross-links
       const nodeById = Object.fromEntries(nodes.map(n => [n.id, n]));
       nodes.forEach(n => { n.neighbors = []; n.links = []; });
@@ -44,7 +127,6 @@
         const a = nodeById[l.source];
         const b = nodeById[l.target];
         if (a && b) {
-          // cache labels for coloring before library mutates source/target
           l._sl = a.label; l._tl = b.label;
           a.neighbors.push(b); b.neighbors.push(a);
           a.links.push(l); b.links.push(l);
@@ -64,52 +146,19 @@
     };
 
     function nodeObject(node) {
-      if (node.img) {
-        const loader = new THREE.TextureLoader();
-        loader.crossOrigin = 'anonymous';
-        const imgTexture = loader.load(node.img);
-        imgTexture.colorSpace = THREE.SRGBColorSpace;
-        const material = new THREE.SpriteMaterial({ map: imgTexture });
-        const sprite = new THREE.Sprite(material);
-        sprite.scale.set(15, 15);
-        return sprite;
-      }
+      if (node.img) return createNodeSprite(node.img);
       return new THREE.Mesh(
         new THREE.SphereGeometry(3),
         new THREE.MeshLambertMaterial({ color: labelColor[node.label] || 'rgba(180, 180, 255, 0.9)', transparent: true, opacity: 0.85 })
       );
     }
 
-    // Edge color based on relationship and node label types
-    function linkColor(link) {
-      const s = (link.source && link.source.label) ? link.source : null;
-      const t = (link.target && link.target.label) ? link.target : null;
-      const type = link.type || '';
-      const sl = s ? s.label : (link._sl || '');
-      const tl = t ? t.label : (link._tl || '');
-      // Character -> Ball (Starts With)
-      if (type === 'Starts With' && sl === 'Character' && tl === 'Ball') return '#66bb6a';
-      // Ball -> Evolution (components)
-      if (type === 'HAS Evolution' && sl === 'Ball' && tl === 'Evolution') return '#42a5f5';
-      // Evolution -> Ball (result)
-      if (type === '' && sl === 'Evolution' && tl === 'Ball') return '#ffa726';
-      // Passive -> Evolution (components)
-      if (type === 'HAS Evolution' && sl === 'Passive' && tl === 'Evolution') return '#ab47bc';
-      // Evolution -> Passive (result)
-      if (type === '' && sl === 'Evolution' && tl === 'Passive') return '#ec407a';
-      // Ball -> Passive (optional)
-      if (type === 'HAS Passive' && sl === 'Ball' && tl === 'Passive') return '#26c6da';
-      // HAS Interaction (to Interaction)
-      if (type === 'HAS Interaction' && tl === 'Interaction') return '#7e57c2';
-      // HAS Effect (Ball/Passive -> Effect)
-      if (type === 'HAS Effect' && tl === 'Effect') return '#ef5350';
-      // REQUIRES (Passive -> Effect/Passive)
-      if (type === 'REQUIRES') return '#8d6e63';
-      return 'rgba(200,200,200,0.6)';
-    }
+    function linkColor(link) { return link._color || 'rgba(200,200,200,0.6)'; }
 
-    loadGraph().then(schema => {
+    loadGraph().then(async schema => {
       const gData = transform(schema);
+      mark('data-transformed');
+      await preloadImages(gData.nodes);
 
       const highlightNodes = new Set();
       const highlightLinks = new Set();
@@ -118,13 +167,14 @@
       const Graph = ForceGraph3D()(document.getElementById('3d-graph'))
         .backgroundColor('#1d2229')
         .graphData(gData)
+        .cooldownTicks(30)
         .nodeLabel(n => `${n.label}: ${n.name}`)
         .linkLabel('type')
         .linkOpacity(0.35)
         .linkWidth(0.1)
         .linkColor(linkColor)
         .linkDirectionalArrowLength(5)
-        .linkDirectionalParticles(5)
+        .linkDirectionalParticles(2)
         .linkDirectionalParticleSpeed(0.004)
         .nodeThreeObject(nodeObject)
         .onNodeClick(node => { if (node.url) window.open(node.url, '_blank'); })
@@ -151,13 +201,23 @@
           updateHighlight();
         });
 
+      mark('graph-constructed');
+
       function updateHighlight() {
         Graph
           .linkWidth(l => highlightLinks.has(l) ? 1 : 0.1)
           .linkColor(Graph.linkColor())
-          .linkDirectionalParticles(l => highlightLinks.has(l) ? 4 : 0)
+          .linkDirectionalParticles(l => highlightLinks.has(l) ? 4 : 2)
           .nodeColor(n => highlightNodes.has(n) ? (n === hoverNode ? 'rgb(255,0,0)' : 'rgba(255,160,0,0.9)') : (labelColor[n.label] || 'rgba(180,180,255,0.8)'));
       }
+
+      let firstTime = true;
+      Graph.onEngineStop(() => {
+        if (firstTime) {
+          firstTime = false;
+          mark('first-render-complete');
+        }
+      });
 
       // Remove auto refocus/zoom to fit to prevent refocusing
     });

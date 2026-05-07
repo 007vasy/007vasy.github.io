@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ball-x-pit-scraper"
+version = "0.1.0"
+description = ""
+authors = ["007vasy <12837887+007vasy@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.33.1"
+beautifulsoup4 = "^4.14.3"
+lxml = "^6.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -4,6 +4,7 @@ import time
 import json
 import csv
 import pathlib
+import traceback
 from typing import Dict, List, Tuple, Optional
 
 import requests
@@ -135,10 +136,20 @@ def get_page_info(titles: List[str]) -> Dict[str, Dict]:
 
 
 def fetch_html(title: str) -> BeautifulSoup:
-    url = f"{BASE_WIKI_URL}{title.replace(' ', '_')}"
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return BeautifulSoup(r.text, "lxml")
+    # Fandom's Cloudflare front-end returns 403 for direct /wiki/<title> GETs from
+    # non-interactive clients, so pull rendered HTML via the MediaWiki parse API
+    # (api.php is not subject to the same block) and reconstruct a soup from it.
+    data = mw_get({
+        "action": "parse",
+        "page": title,
+        "prop": "text",
+        "formatversion": 2,
+        "redirects": 1,
+    })
+    html = data.get("parse", {}).get("text", "") or ""
+    if not html:
+        raise RuntimeError(f"empty parse response for title={title!r}: {data!r}")
+    return BeautifulSoup(html, "lxml")
 
 
 def find_infobox_image(soup: BeautifulSoup) -> Optional[str]:
@@ -176,12 +187,20 @@ def pick_best_img_src(img_tag) -> Optional[str]:
 def extract_description_from_page(title_or_url: str) -> Optional[str]:
     try:
         if title_or_url.startswith('http://') or title_or_url.startswith('https://'):
-            r = requests.get(title_or_url, headers=HEADERS, timeout=30)
-            r.raise_for_status()
-            soup = BeautifulSoup(r.text, 'lxml')
+            # Normalize URL -> wiki title and go through the parse API
+            title = title_or_url.split('/wiki/')[-1].replace('_', ' ')
         else:
-            soup = fetch_html(title_or_url)
-        for p in soup.select('.mw-parser-output > p'):
+            title = title_or_url
+        soup = fetch_html(title)
+        # Parse API returns HTML rooted at <div class="mw-parser-output">,
+        # so .mw-parser-output > p misses the actual paragraphs. Look for
+        # both the rooted and unrooted variants.
+        for p in soup.select('.mw-parser-output > p, :scope > p'):
+            txt = p.get_text(' ', strip=True)
+            if txt and len(txt) > 20:
+                return txt
+        # Fallback: any <p> in the document
+        for p in soup.select('p'):
             txt = p.get_text(' ', strip=True)
             if txt and len(txt) > 20:
                 return txt
@@ -512,7 +531,10 @@ def build_graph() -> Dict:
                     # store raw requirement text for node property/CSV
                     if raw:
                         val['requirement'] = raw
-                if val['name']:
+                # Skip rows whose name cell is empty or purely punctuation
+                # (the Passives wiki table intersperses "+" combination separators
+                # that would otherwise be parsed as a phantom "+" entity).
+                if val['name'] and re.search(r"[A-Za-z0-9]", val['name']):
                     rows.append(val)
             if rows:
                 all_rows.extend(rows)
@@ -566,7 +588,8 @@ def build_graph() -> Dict:
                 schema_get_or_create(ball_name, 'Ball', BASE_WIKI_URL + 'Balls', None)
                 schema_add_rel(char_name, ball_name, 'Starts With')
     except Exception:
-        pass
+        print("[scraper] Characters section failed:")
+        traceback.print_exc()
 
     # Parse Balls
     try:
@@ -654,7 +677,8 @@ def build_graph() -> Dict:
                     schema_add_rel(comp, evo_node_name, 'HAS Evolution')
                 schema_add_rel(evo_node_name, ball_name, '')
     except Exception:
-        pass
+        print("[scraper] Balls section failed:")
+        traceback.print_exc()
 
     # Parse Passives
     try:
@@ -710,7 +734,8 @@ def build_graph() -> Dict:
                         schema_add_rel(comp, evo_node_name, 'HAS Evolution')
                     schema_add_rel(evo_node_name, passive_name, '')
     except Exception:
-        pass
+        print("[scraper] Passives section failed:")
+        traceback.print_exc()
 
     # Re-load from CSVs to drive effect/requirement extraction (authoritative rows)
     def load_csv_rows(page_title: str) -> List[Dict[str, str]]:
