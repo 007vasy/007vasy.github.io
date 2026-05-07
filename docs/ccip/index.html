@@ -79,6 +79,17 @@
 
             return acc;
           }, {});
+
+          // Fallback map for chains that don't normalize cleanly
+          const LOOKUP_FALLBACK = {
+            'ab': 'abchain',
+            'adi': 'adinetwork',
+            'binancesmartchainopbnb': 'opbnb',
+            'bittensor': 'bittensorevm',
+            'hyperliquid': 'hyperevm',
+            'metal': 'metall2',
+            'nexonhenesys': 'henesys',
+          };
           console.log(chainImageMap);
           // Get unique chain names from lanes data
           const uniqueChains = new Set();
@@ -109,6 +120,7 @@
               .replace("hashkey", "hashkeychain")
               .replace("optimism", "op")
               .replace("mind", "mindnetwork");
+            lookupName = LOOKUP_FALLBACK[lookupName] || lookupName;
             console.log(lookupName);
             return {
               id: index,
@@ -172,6 +184,7 @@
             .backgroundColor("#1d2229")
             .graphData(gData)
             .nodeAutoColorBy('name')
+            .linkAutoColorBy('name')
             .linkOpacity(0.2)
             .onNodeClick(node => window.open(node.url, '_blank'))
             .linkDirectionalArrowLength(2)
