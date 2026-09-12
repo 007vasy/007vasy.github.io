@@ -33,6 +33,15 @@ WIP 3d viz of the great Brian Sanderson's fantasy universe
 
 visulisation of CCIP lanes, go for [https://docs.chain.link/ccip/supported-networks](https://docs.chain.link/ccip/supported-networks) for up-to-date information
 
+## /podcast-hops
+
+shortest path between people via podcast guest appearances. Default: Chiara Marletto from Eric Smith. Guests are extracted with spaCy (`en_core_web_sm`) plus title parsers. Weekly GitHub Action (`.github/workflows/update-podcast-hops.yml`) only NER’s new RSS items and keeps `docs/podcast-hops/episodes.json` as incremental state.
+
+```bash
+python scraper/podcast_hops.py            # reuse cached episodes
+python scraper/podcast_hops.py --full-refresh
+```
+
 ## Local dev
 ```bash
 nodemon index.js

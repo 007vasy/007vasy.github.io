@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Podcast Hops</title>
+  <style>
+    :root {
+      --bg: #05060f;
+      --panel: rgba(10, 14, 32, 0.92);
+      --line: rgba(140, 190, 255, 0.18);
+      --text: #e8eefc;
+      --muted: #93a0c2;
+      --accent: #7ad7ff;
+      --gold: #ffd166;
+      --danger: #ff8b8b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); font: 14px/1.45 "IBM Plex Sans", "Segoe UI", sans-serif; }
+    #3d-graph { position: fixed; inset: 0; }
+    .panel {
+      position: fixed; z-index: 2; top: 16px; left: 16px; width: min(420px, calc(100vw - 32px));
+      background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+      padding: 16px 16px 14px; backdrop-filter: blur(12px);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+      max-height: calc(100vh - 32px); overflow: auto;
+    }
+    h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: 0.02em; }
+    .lede { color: var(--muted); margin: 0 0 14px; }
+    label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 8px 0 4px; }
+    .row { display: flex; gap: 8px; align-items: end; }
+    .field { flex: 1; position: relative; }
+    input[type="text"] {
+      width: 100%; background: #0b1022; color: var(--text); border: 1px solid var(--line);
+      border-radius: 10px; padding: 8px 10px; font: inherit;
+    }
+    input[type="text"]:focus { outline: 1px solid var(--accent); }
+    button {
+      background: #12324a; color: var(--accent); border: 1px solid rgba(122, 215, 255, 0.35);
+      border-radius: 10px; padding: 8px 12px; font: inherit; cursor: pointer; white-space: nowrap;
+    }
+    button:hover { background: #17415e; }
+    .swap { padding: 8px 10px; }
+    .hops {
+      margin: 14px 0 8px; padding: 12px; border-radius: 12px;
+      background: rgba(122, 215, 255, 0.08); border: 1px solid var(--line);
+    }
+    .hops strong { color: var(--gold); font-size: 28px; letter-spacing: 0.04em; }
+    .hops .msg { margin: 0; }
+    .hops.error { background: rgba(255, 139, 139, 0.08); color: var(--danger); }
+    .path { list-style: none; margin: 0; padding: 0; }
+    .path li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+    .path li:last-child { border-bottom: 0; }
+    .who { font-weight: 650; }
+    .via { color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .via a { color: var(--accent); text-decoration: none; }
+    .via a:hover { text-decoration: underline; }
+    .suggest {
+      position: absolute; left: 0; right: 0; top: 100%; z-index: 5;
+      background: #0d1430; border: 1px solid var(--line); border-radius: 10px;
+      margin-top: 4px; max-height: 220px; overflow: auto; display: none;
+    }
+    .suggest button {
+      display: block; width: 100%; text-align: left; background: transparent;
+      color: var(--text); border: 0; border-radius: 0; padding: 8px 10px;
+    }
+    .suggest button[aria-selected="true"], .suggest button:hover { background: #173056; }
+    .meta { color: var(--muted); font-size: 12px; margin-top: 10px; }
+    .home { color: var(--accent); text-decoration: none; font-size: 12px; }
+    @media (max-width: 720px) {
+      .panel { top: 8px; left: 8px; right: 8px; width: auto; max-height: 48vh; }
+    }
+  </style>
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three-spritetext@1.8.0/dist/three-spritetext.min.js"></script>
+  <script src="https://unpkg.com/3d-force-graph@1.73.0/dist/3d-force-graph.min.js"></script>
+</head>
+<body>
+  <div id="3d-graph"></div>
+  <aside class="panel">
+    <a class="home" href="/">← 3D Maps</a>
+    <h1>Podcast Hops</h1>
+    <p class="lede">How many guest appearances sit between two people?</p>
+    <div class="row">
+      <div class="field">
+        <label for="from-input">From</label>
+        <input id="from-input" type="text" autocomplete="off" spellcheck="false" aria-autocomplete="list">
+        <div id="from-suggest" class="suggest" role="listbox"></div>
+      </div>
+      <button class="swap" type="button" id="swap-btn" title="Swap people">⇄</button>
+      <div class="field">
+        <label for="to-input">To</label>
+        <input id="to-input" type="text" autocomplete="off" spellcheck="false" aria-autocomplete="list">
+        <div id="to-suggest" class="suggest" role="listbox"></div>
+      </div>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <button type="button" id="find-btn">Find shortest path</button>
+    </div>
+    <div id="result" class="hops" hidden></div>
+    <ol id="path" class="path" hidden></ol>
+    <p class="meta" id="meta"></p>
+  </aside>
+  <script>
+    const DIST_COLORS = ["#ffd166", "#7ad7ff", "#7dffb3", "#c9a7ff", "#ff9ecf", "#9aa6c9"];
+    const params = new URLSearchParams(location.search);
+
+    const $ = (id) => document.getElementById(id);
+    const fromInput = $("from-input");
+    const toInput = $("to-input");
+    const resultEl = $("result");
+    const pathEl = $("path");
+    const metaEl = $("meta");
+
+    let graphJson;
+    let nodesById;
+    let nodesByName;
+    let adj;
+    let edgeMeta;
+    let Graph;
+    let currentPath = [];
+
+    function normName(s) {
+      return (s || "").trim().toLowerCase().replace(/\s+/g, " ");
+    }
+
+    function shortestPath(src, dst) {
+      if (!src || !dst || !adj.has(src) || !adj.has(dst)) return null;
+      if (src === dst) return [src];
+      const prev = new Map([[src, null]]);
+      const q = [src];
+      for (let i = 0; i < q.length; i++) {
+        const cur = q[i];
+        for (const nxt of adj.get(cur)) {
+          if (prev.has(nxt)) continue;
+          prev.set(nxt, cur);
+          if (nxt === dst) {
+            const path = [dst];
+            while (path[path.length - 1] !== src) path.push(prev.get(path[path.length - 1]));
+            path.reverse();
+            return path;
+          }
+          q.push(nxt);
+        }
+      }
+      return null;
+    }
+
+    function distancesFrom(src) {
+      const dist = new Map([[src, 0]]);
+      const q = [src];
+      for (let i = 0; i < q.length; i++) {
+        const cur = q[i];
+        for (const nxt of adj.get(cur) || []) {
+          if (dist.has(nxt)) continue;
+          dist.set(nxt, dist.get(cur) + 1);
+          q.push(nxt);
+        }
+      }
+      return dist;
+    }
+
+    function edgeKey(a, b) {
+      return a < b ? a + "|" + b : b + "|" + a;
+    }
+
+    function resolvePerson(query) {
+      const n = normName(query);
+      if (nodesByName.has(n)) return nodesByName.get(n);
+      const starts = [...nodesByName.values()].filter(p => p.name.toLowerCase().startsWith(n));
+      if (starts.length === 1) return starts[0];
+      const contains = [...nodesByName.values()].filter(p => p.name.toLowerCase().includes(n));
+      return contains.length === 1 ? contains[0] : null;
+    }
+
+    function suggestions(query) {
+      const n = normName(query);
+      if (!n) return [];
+      return graphJson.nodes
+        .filter(p => p.name.toLowerCase().includes(n))
+        .sort((a, b) => {
+          const as = a.name.toLowerCase().startsWith(n) ? 0 : 1;
+          const bs = b.name.toLowerCase().startsWith(n) ? 0 : 1;
+          return as - bs || b.episodeCount - a.episodeCount;
+        })
+        .slice(0, 12);
+    }
+
+    function bindAutocomplete(input, box) {
+      let items = [];
+      let idx = -1;
+      const hide = () => { box.style.display = "none"; box.innerHTML = ""; idx = -1; };
+      const show = () => {
+        items = suggestions(input.value);
+        if (!items.length) { hide(); return; }
+        box.innerHTML = items.map((p, i) =>
+          `<button type="button" role="option" data-i="${i}" ${i === 0 ? 'aria-selected="true"' : ""}>${p.name}</button>`
+        ).join("");
+        box.style.display = "block";
+        idx = 0;
+      };
+      input.addEventListener("input", show);
+      input.addEventListener("focus", show);
+      input.addEventListener("keydown", (e) => {
+        if (box.style.display !== "block") return;
+        if (e.key === "ArrowDown") { e.preventDefault(); idx = Math.min(idx + 1, items.length - 1); }
+        else if (e.key === "ArrowUp") { e.preventDefault(); idx = Math.max(idx - 1, 0); }
+        else if (e.key === "Enter" && idx >= 0) {
+          e.preventDefault();
+          input.value = items[idx].name;
+          hide();
+          findPath();
+          return;
+        } else if (e.key === "Escape") { hide(); return; }
+        else return;
+        [...box.querySelectorAll("button")].forEach((b, i) => b.setAttribute("aria-selected", i === idx ? "true" : "false"));
+      });
+      box.addEventListener("mousedown", (e) => {
+        const btn = e.target.closest("button");
+        if (!btn) return;
+        input.value = items[Number(btn.dataset.i)].name;
+        hide();
+        findPath();
+      });
+      document.addEventListener("click", (e) => {
+        if (!box.contains(e.target) && e.target !== input) hide();
+      });
+    }
+
+    function renderResult(fromNode, toNode, path) {
+      pathEl.innerHTML = "";
+      if (!fromNode || !toNode) {
+        resultEl.hidden = false;
+        resultEl.className = "hops error";
+        resultEl.innerHTML = `<p class="msg">Pick two people from the scanned podcasts.</p>`;
+        pathEl.hidden = true;
+        return;
+      }
+      if (!path) {
+        resultEl.hidden = false;
+        resultEl.className = "hops error";
+        resultEl.innerHTML = `<p class="msg">No path between <b>${fromNode.name}</b> and <b>${toNode.name}</b> in this guest graph.</p>`;
+        pathEl.hidden = true;
+        return;
+      }
+      const hops = Math.max(0, path.length - 1);
+      const hopWord = hops === 1 ? "hop" : "hops";
+      resultEl.hidden = false;
+      resultEl.className = "hops";
+      resultEl.innerHTML = `
+        <p class="msg"><b>${toNode.name}</b> is <strong>${hops}</strong> ${hopWord} from <b>${fromNode.name}</b></p>
+      `;
+      path.forEach((id, i) => {
+        const li = document.createElement("li");
+        const person = nodesById.get(id);
+        let via = "";
+        if (i < path.length - 1) {
+          const eps = edgeMeta.get(edgeKey(id, path[i + 1])) || [];
+          via = eps.slice(0, 3).map(ep => {
+            const href = ep.url ? `href="${ep.url}" target="_blank" rel="noopener"` : "";
+            return `<a ${href}>${ep.podcast}: ${ep.title}</a>`;
+          }).join("<br>");
+        }
+        li.innerHTML = `<div class="who">${i}. ${person.name}</div>${via ? `<div class="via">${via}</div>` : ""}`;
+        pathEl.appendChild(li);
+      });
+      pathEl.hidden = false;
+    }
+
+    function visibleSubgraph(path, fromId) {
+      const dist = distancesFrom(fromId);
+      const pathSet = new Set(path);
+      const keep = new Set(path);
+      const maxNodes = 420;
+      const ranked = graphJson.nodes
+        .filter(n => dist.has(n.id) && dist.get(n.id) <= Math.max(2, path.length))
+        .sort((a, b) => {
+          const pa = pathSet.has(a.id) ? 0 : 1;
+          const pb = pathSet.has(b.id) ? 0 : 1;
+          return pa - pb || dist.get(a.id) - dist.get(b.id) || b.episodeCount - a.episodeCount;
+        });
+      for (const n of ranked) {
+        if (keep.size >= maxNodes) break;
+        keep.add(n.id);
+      }
+      const nodes = graphJson.nodes.filter(n => keep.has(n.id)).map(n => ({
+        ...n,
+        dist: dist.get(n.id),
+        onPath: pathSet.has(n.id),
+      }));
+      const links = graphJson.links
+        .filter(l => keep.has(l.source.id || l.source) && keep.has(l.target.id || l.target))
+        .map(l => ({
+          source: l.source.id || l.source,
+          target: l.target.id || l.target,
+          value: l.value,
+          onPath: pathSet.has(l.source.id || l.source) && pathSet.has(l.target.id || l.target)
+            && Math.abs(path.indexOf(l.source.id || l.source) - path.indexOf(l.target.id || l.target)) === 1,
+        }));
+      return { nodes, links };
+    }
+
+    function paintGraph(path, fromId) {
+      currentPath = path || [];
+      const gData = visibleSubgraph(currentPath, fromId);
+      Graph.graphData(gData);
+    }
+
+    function findPath() {
+      const fromNode = resolvePerson(fromInput.value);
+      const toNode = resolvePerson(toInput.value);
+      if (fromNode) fromInput.value = fromNode.name;
+      if (toNode) toInput.value = toNode.name;
+      const path = fromNode && toNode ? shortestPath(fromNode.id, toNode.id) : null;
+      renderResult(fromNode, toNode, path);
+      if (fromNode) paintGraph(path || [fromNode.id], fromNode.id);
+      const next = new URLSearchParams();
+      if (fromInput.value) next.set("from", fromInput.value);
+      if (toInput.value) next.set("to", toInput.value);
+      history.replaceState(null, "", `${location.pathname}?${next}`);
+    }
+
+    async function boot() {
+      const res = await fetch("./graph.json");
+      graphJson = await res.json();
+      nodesById = new Map(graphJson.nodes.map(n => [n.id, n]));
+      nodesByName = new Map(graphJson.nodes.map(n => [normName(n.name), n]));
+      adj = new Map(graphJson.nodes.map(n => [n.id, new Set()]));
+      edgeMeta = new Map();
+      for (const link of graphJson.links) {
+        adj.get(link.source).add(link.target);
+        adj.get(link.target).add(link.source);
+        edgeMeta.set(edgeKey(link.source, link.target), link.episodes || []);
+      }
+
+      fromInput.value = params.get("from") || graphJson.defaultFrom || "Eric Smith";
+      toInput.value = params.get("to") || graphJson.defaultTo || "Chiara Marletto";
+      metaEl.textContent = `${graphJson.stats.people} people · ${graphJson.stats.links} appearances · ${graphJson.podcasts.length} podcasts · updated ${graphJson.generatedAt.slice(0, 10)}`;
+
+      Graph = ForceGraph3D()(document.getElementById("3d-graph"))
+        .backgroundColor("#05060f")
+        .nodeLabel(n => `${n.name} · ${n.episodeCount} ep · hop ${n.dist ?? "?"}`)
+        .nodeVal(n => n.onPath ? 6 : Math.max(1, Math.sqrt(n.episodeCount || 1)))
+        .nodeColor(n => n.onPath ? "#ffd166" : DIST_COLORS[Math.min(n.dist || 9, DIST_COLORS.length - 1)])
+        .nodeOpacity(0.92)
+        .linkColor(l => l.onPath ? "#ffd166" : "rgba(120,150,190,0.18)")
+        .linkWidth(l => l.onPath ? 2.2 : 0.35)
+        .linkOpacity(0.7)
+        .onNodeClick(node => {
+          toInput.value = node.name;
+          findPath();
+        })
+        .nodeThreeObject(node => {
+          if (!node.onPath) return undefined;
+          const sprite = new SpriteText(node.name);
+          sprite.color = "#fff6d6";
+          sprite.textHeight = 5;
+          sprite.position.y = 8;
+          return sprite;
+        })
+        .nodeThreeObjectExtend(true);
+
+      bindAutocomplete(fromInput, $("from-suggest"));
+      bindAutocomplete(toInput, $("to-suggest"));
+      $("find-btn").addEventListener("click", findPath);
+      $("swap-btn").addEventListener("click", () => {
+        const a = fromInput.value;
+        fromInput.value = toInput.value;
+        toInput.value = a;
+        findPath();
+      });
+      fromInput.addEventListener("keydown", e => { if (e.key === "Enter") findPath(); });
+      toInput.addEventListener("keydown", e => { if (e.key === "Enter") findPath(); });
+      findPath();
+    }
+
+    boot();
+  </script>
+</body>
+</html>
