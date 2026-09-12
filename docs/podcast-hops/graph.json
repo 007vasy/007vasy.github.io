@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T04:25:23Z",
+  "generatedAt": "2026-09-12T04:37:20Z",
   "defaultFrom": "Eric Smith",
   "defaultTo": "Chiara Marletto",
   "podcasts": [
@@ -12,8 +12,8 @@
       "episodeCount": 122,
       "rssItems": 140,
       "guestCount": 103,
-      "newItems": 140,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 140
     },
     {
       "id": "toe",
@@ -24,8 +24,8 @@
       "episodeCount": 316,
       "rssItems": 362,
       "guestCount": 223,
-      "newItems": 362,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 362
     },
     {
       "id": "dissenter",
@@ -36,8 +36,8 @@
       "episodeCount": 1267,
       "rssItems": 1299,
       "guestCount": 1070,
-      "newItems": 1299,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 1299
     },
     {
       "id": "jim-rutt",
@@ -48,8 +48,8 @@
       "episodeCount": 424,
       "rssItems": 461,
       "guestCount": 285,
-      "newItems": 461,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 461
     },
     {
       "id": "tokcast",
@@ -60,8 +60,8 @@
       "episodeCount": 46,
       "rssItems": 268,
       "guestCount": 29,
-      "newItems": 268,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 268
     },
     {
       "id": "lex-fridman",
@@ -72,8 +72,8 @@
       "episodeCount": 472,
       "rssItems": 502,
       "guestCount": 409,
-      "newItems": 502,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 502
     },
     {
       "id": "mindscape",
@@ -84,8 +84,8 @@
       "episodeCount": 342,
       "rssItems": 443,
       "guestCount": 345,
-      "newItems": 443,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 443
     },
     {
       "id": "cwt",
@@ -96,8 +96,8 @@
       "episodeCount": 289,
       "rssItems": 300,
       "guestCount": 269,
-      "newItems": 300,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 300
     },
     {
       "id": "foresight",
@@ -108,8 +108,8 @@
       "episodeCount": 204,
       "rssItems": 220,
       "guestCount": 268,
-      "newItems": 220,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 220
     },
     {
       "id": "existential-hope",
@@ -120,8 +120,8 @@
       "episodeCount": 30,
       "rssItems": 40,
       "guestCount": 30,
-      "newItems": 40,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 40
     },
     {
       "id": "mlst",
@@ -132,8 +132,8 @@
       "episodeCount": 167,
       "rssItems": 263,
       "guestCount": 164,
-      "newItems": 263,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 263
     },
     {
       "id": "fallible-animals",
@@ -144,8 +144,8 @@
       "episodeCount": 12,
       "rssItems": 23,
       "guestCount": 11,
-      "newItems": 23,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 23
     },
     {
       "id": "conjecture",
@@ -156,8 +156,8 @@
       "episodeCount": 17,
       "rssItems": 35,
       "guestCount": 17,
-      "newItems": 35,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 35
     },
     {
       "id": "complexity",
@@ -166,8 +166,8 @@
       "episodeCount": 93,
       "rssItems": 119,
       "guestCount": 75,
-      "newItems": 119,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 119
     },
     {
       "id": "wtf4cities",
@@ -178,8 +178,8 @@
       "episodeCount": 208,
       "rssItems": 725,
       "guestCount": 200,
-      "newItems": 725,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 725
     },
     {
       "id": "tim-ferriss",
@@ -190,16 +190,16 @@
       "episodeCount": 693,
       "rssItems": 886,
       "guestCount": 640,
-      "newItems": 886,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 886
     }
   ],
   "stats": {
     "people": 3654,
     "links": 4643,
     "episodes": 4702,
-    "newItems": 6086,
-    "reusedItems": 0,
+    "newItems": 0,
+    "reusedItems": 6086,
     "extractor": "spacy+parsers",
     "defaultHops": 2,
     "defaultPath": [
