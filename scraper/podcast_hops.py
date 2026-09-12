@@ -76,6 +76,10 @@ ALIASES = {
     "ricardo lopes": "Ricardo Lopes",
     "tim ferris": "Tim Ferriss",
     "timothy ferriss": "Tim Ferriss",
+    "vitalik": "Vitalik Buterin",
+    "fei fei li": "Fei-Fei Li",
+    "fei-fei li": "Fei-Fei Li",
+    "balaji": "Balaji Srinivasan",
 }
 
 PODCASTS = [
@@ -191,6 +195,27 @@ PODCASTS = [
         "rss": "https://rss.art19.com/tim-ferriss-show",
         "hosts": ["Tim Ferriss"],
         "parser": "ferriss",
+    },
+    {
+        "id": "arjun-khemani",
+        "name": "Arjun Khemani Podcast",
+        "rss": "https://api.substack.com/feed/podcast/847348.rss",
+        "hosts": ["Arjun Khemani"],
+        "parser": "arjun",
+    },
+    {
+        "id": "network-state",
+        "name": "The Network State Podcast",
+        "rss": "https://anchor.fm/s/73801358/podcast/rss",
+        "hosts": ["Balaji Srinivasan"],
+        "parser": "network-state",
+    },
+    {
+        "id": "a16z",
+        "name": "The a16z Show",
+        "rss": "https://feeds.simplecast.com/JGE3yC0V",
+        "hosts": [],
+        "parser": "a16z",
     },
 ]
 
@@ -508,6 +533,57 @@ def parse_wtf4cities(title: str) -> list[str]:
     return split_people(blob)
 
 
+def parse_arjun(title: str) -> list[str]:
+    rest = re.sub(r"^#?\d+\s*[–—-]\s*", "", title).strip()
+    names = parse_colon(rest)
+    if names:
+        return names
+    if ":" in rest:
+        return split_people(rest.split(":", 1)[0])
+    return split_people(rest)
+
+
+def parse_network_state(title: str) -> list[str]:
+    if re.search(r"Interviews Balaji", title, re.I):
+        return []
+    m = re.match(r"#\d+\s*[-–—]\s*(.+)$", title)
+    if not m:
+        return []
+    rest = m.group(1).strip()
+    if "|" in rest:
+        return split_people(rest.split("|")[-1])
+    on_m = re.match(r"^(.+?)\s+on\s+\S", rest)
+    if on_m:
+        names = split_people(on_m.group(1))
+        if names:
+            return names
+        key = on_m.group(1).strip().lower()
+        if key in ALIASES:
+            return [ALIASES[key]]
+    with_m = re.search(r"\bwith\s+(.+)$", rest)
+    if with_m:
+        return split_people(with_m.group(1))
+    name = canonical_name(rest)
+    if looks_like_name(name) or _loose_person_name(name):
+        return [name]
+    if name.lower() in {k.lower() for k in ALIASES}:
+        return [ALIASES[name.lower()]]
+    return []
+
+
+def parse_a16z(title: str) -> list[str]:
+    rest = re.sub(r"^(OpenAI's|a16z's)\s+", "", title, flags=re.I)
+    if "|" in rest:
+        return split_people(rest.split("|")[-1].replace(" & ", ", "))
+    names = parse_colon(rest)
+    if names:
+        return names
+    on_m = re.match(r"^(.+?)\s+on\s+\S", rest)
+    if on_m:
+        return split_people(on_m.group(1).replace(" and ", ", "))
+    return []
+
+
 PARSERS = {
     "dwarkesh": parse_dwarkesh,
     "colon": parse_colon,
@@ -522,6 +598,9 @@ PARSERS = {
     "with_or_colon": parse_with_or_colon,
     "wtf4cities": parse_wtf4cities,
     "ferriss": parse_ferriss,
+    "arjun": parse_arjun,
+    "network-state": parse_network_state,
+    "a16z": parse_a16z,
 }
 
 
@@ -744,6 +823,16 @@ def run_parser_self_check() -> None:
         ("ferriss", "#856: Jim Collins — What to Make of a Life and How to Maximize Your Return on Luck", ["Jim Collins"]),
         ("ferriss", "#875: The Random Show — Tim and Kevin Talk Retreats", []),
         ("ferriss", "#881: Tales of Overcoming The Odds — Tim McGraw, Terry Crews, Dax Shepard, and More", ["Tim McGraw", "Terry Crews", "Dax Shepard"]),
+        ("arjun", "David Deutsch: The Era of Man, Popper, and Western Civilization", ["David Deutsch"]),
+        ("arjun", "#15 – Naval Ravikant and Brett Hall: Knowledge, Constraints, and Truth-Seeking Mechanisms", ["Naval Ravikant", "Brett Hall"]),
+        ("network-state", "#36 - Arjun Khemani", ["Arjun Khemani"]),
+        ("network-state", "#26 - Andrew Huberman", ["Andrew Huberman"]),
+        ("network-state", "#31 - The Don't Die Network State | Bryan Johnson", ["Bryan Johnson"]),
+        ("network-state", "#14 - Vitalik on Ethereum", ["Vitalik Buterin"]),
+        ("network-state", "#20 - Solana", []),
+        ("a16z", "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan", ["Ben Horowitz", "Rayan Krishnan"]),
+        ("a16z", "Aaron Levie on Why Open AI Wins", ["Aaron Levie"]),
+        ("a16z", "The State of AI: Macro, Apps, and Consumer", []),
     ]
     failed = 0
     for parser_name, title, expected in cases:
