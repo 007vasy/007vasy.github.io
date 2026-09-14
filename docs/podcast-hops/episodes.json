@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T05:05:01Z",
-  "episodeCount": 7169,
+  "updatedAt": "2026-09-14T11:04:14Z",
+  "episodeCount": 7175,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -2394,6 +2394,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::5114c6d7-ce69-45f1-945f-d37ea476b349": {
+      "id": "a16z::5114c6d7-ce69-45f1-945f-d37ea476b349",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Greg Brockman on Why OpenAI Says We’re Entering the AGI Era",
+      "url": "https://a16z.simplecast.com/episodes/greg-brockman-on-why-openai-says-were-entering-the-agi-era-deKod42i",
+      "guid": "5114c6d7-ce69-45f1-945f-d37ea476b349",
+      "guests": [
+        "Greg Brockman"
+      ],
+      "hosts": []
+    },
     "a16z::5128a76c-faf0-4eb6-8503-59974f41991f": {
       "id": "a16z::5128a76c-faf0-4eb6-8503-59974f41991f",
       "podcastId": "a16z",
@@ -2977,6 +2989,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::655e460d-9b1f-42f3-8678-a3b8b561e964": {
+      "id": "a16z::655e460d-9b1f-42f3-8678-a3b8b561e964",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast",
+      "url": "https://a16z.simplecast.com/episodes/why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lennys-podcast-ZW9GBD70",
+      "guid": "655e460d-9b1f-42f3-8678-a3b8b561e964",
+      "guests": [
+        "Lenny’s Podcast"
+      ],
+      "hosts": []
+    },
     "a16z::658b4c59-4281-4f83-8bf6-09bc840e0387": {
       "id": "a16z::658b4c59-4281-4f83-8bf6-09bc840e0387",
       "podcastId": "a16z",
@@ -3054,6 +3078,16 @@
       "guests": [
         "Fei-Fei Li"
       ],
+      "hosts": []
+    },
+    "a16z::67fac3b8-966b-4d0f-8dd8-017b57b601df": {
+      "id": "a16z::67fac3b8-966b-4d0f-8dd8-017b57b601df",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "World Models, Robotics, and the Future of 3D AI",
+      "url": "https://a16z.simplecast.com/episodes/world-models-robotics-and-the-future-of-3d-ai-mGOuUHi0",
+      "guid": "67fac3b8-966b-4d0f-8dd8-017b57b601df",
+      "guests": [],
       "hosts": []
     },
     "a16z::68348400-14e8-4e29-9285-46bef39ffb8b": {
@@ -55021,6 +55055,18 @@
         "Sean Carroll"
       ]
     },
+    "mindscape::2247d1c8-dcfa-473e-9bfe-7b3cd7bbaaa3": {
+      "id": "mindscape::2247d1c8-dcfa-473e-9bfe-7b3cd7bbaaa3",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "Mindscape Ask Me Anything, Sean Carroll | September 2026",
+      "url": "https://preposterousuniverse.com/podcast/2026/09/14/ama-september-2026/",
+      "guid": "2247d1c8-dcfa-473e-9bfe-7b3cd7bbaaa3",
+      "guests": [],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
     "mindscape::229a181401f248729fe433a650b5cc52": {
       "id": "mindscape::229a181401f248729fe433a650b5cc52",
       "podcastId": "mindscape",
@@ -91442,6 +91488,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::a65761a1-f86e-4c9d-8cb6-a11341761b04": {
+      "id": "wtf4cities::a65761a1-f86e-4c9d-8cb6-a11341761b04",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "We do have solutions today for the urban challenges - Laura Reupke (464I trailer 2)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/We-do-have-solutions-today-for-the-urban-challenges---Laura-Reupke-464I-trailer-2-e3nmav3",
+      "guid": "a65761a1-f86e-4c9d-8cb6-a11341761b04",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::a6614019-eb6c-4bfa-8b94-72c6fa071117": {
       "id": "wtf4cities::a6614019-eb6c-4bfa-8b94-72c6fa071117",
       "podcastId": "wtf4cities",
@@ -92839,6 +92897,18 @@
       "guests": [
         "Andrew J. Cary"
       ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::caa1724f-2179-4bb2-b6a2-9df77bea7047": {
+      "id": "wtf4cities::caa1724f-2179-4bb2-b6a2-9df77bea7047",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "What healthy liveability means - Laura Reupke (464I trailer 1)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/What-healthy-liveability-means---Laura-Reupke-464I-trailer-1-e3nmaus",
+      "guid": "caa1724f-2179-4bb2-b6a2-9df77bea7047",
+      "guests": [],
       "hosts": [
         "Fanni Melles"
       ]

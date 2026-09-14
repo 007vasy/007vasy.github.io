@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T05:05:01Z",
+  "generatedAt": "2026-09-14T11:04:14Z",
   "defaultFrom": "Eric Smith",
   "defaultTo": "Chiara Marletto",
   "podcasts": [
@@ -82,9 +82,9 @@
         "Sean Carroll"
       ],
       "episodeCount": 342,
-      "rssItems": 443,
+      "rssItems": 444,
       "guestCount": 345,
-      "newItems": 0,
+      "newItems": 1,
       "reusedItems": 443
     },
     {
@@ -176,9 +176,9 @@
         "Fanni Melles"
       ],
       "episodeCount": 208,
-      "rssItems": 725,
+      "rssItems": 727,
       "guestCount": 200,
-      "newItems": 0,
+      "newItems": 2,
       "reusedItems": 725
     },
     {
@@ -199,11 +199,9 @@
       "hosts": [
         "Arjun Khemani"
       ],
-      "episodeCount": 46,
-      "rssItems": 46,
-      "guestCount": 46,
-      "newItems": 46,
-      "reusedItems": 0
+      "episodeCount": 0,
+      "guestCount": 0,
+      "error": "failed to fetch https://api.substack.com/feed/podcast/847348.rss: HTTP Error 403: Forbidden"
     },
     {
       "id": "network-state",
@@ -214,26 +212,26 @@
       "episodeCount": 31,
       "rssItems": 37,
       "guestCount": 31,
-      "newItems": 37,
-      "reusedItems": 0
+      "newItems": 0,
+      "reusedItems": 37
     },
     {
       "id": "a16z",
       "name": "The a16z Show",
       "hosts": [],
-      "episodeCount": 313,
+      "episodeCount": 315,
       "rssItems": 1000,
-      "guestCount": 239,
-      "newItems": 1000,
-      "reusedItems": 0
+      "guestCount": 241,
+      "newItems": 3,
+      "reusedItems": 997
     }
   ],
   "stats": {
-    "people": 3902,
-    "links": 4776,
-    "episodes": 5092,
-    "newItems": 1083,
-    "reusedItems": 6086,
+    "people": 3872,
+    "links": 4725,
+    "episodes": 5048,
+    "newItems": 6,
+    "reusedItems": 7120,
     "extractor": "spacy+parsers",
     "defaultHops": 2,
     "defaultPath": [
@@ -374,20 +372,9 @@
       "id": "brett-hall",
       "name": "Brett Hall",
       "isHost": true,
-      "episodeCount": 48,
+      "episodeCount": 46,
       "podcasts": [
-        "tokcast",
-        "arjun-khemani"
-      ]
-    },
-    {
-      "id": "arjun-khemani",
-      "name": "Arjun Khemani",
-      "isHost": true,
-      "episodeCount": 47,
-      "podcasts": [
-        "arjun-khemani",
-        "network-state"
+        "tokcast"
       ]
     },
     {
@@ -418,19 +405,18 @@
       "id": "logan-chipkin",
       "name": "Logan Chipkin",
       "isHost": true,
-      "episodeCount": 31,
+      "episodeCount": 30,
       "podcasts": [
         "fallible-animals",
         "conjecture",
-        "wtf4cities",
-        "arjun-khemani"
+        "wtf4cities"
       ]
     },
     {
       "id": "david-deutsch",
       "name": "David Deutsch",
       "isHost": false,
-      "episodeCount": 24,
+      "episodeCount": 22,
       "podcasts": [
         "dwarkesh",
         "toe",
@@ -441,8 +427,7 @@
         "existential-hope",
         "fallible-animals",
         "conjecture",
-        "tim-ferriss",
-        "arjun-khemani"
+        "tim-ferriss"
       ]
     },
     {
@@ -502,23 +487,6 @@
       ]
     },
     {
-      "id": "chiara-marletto",
-      "name": "Chiara Marletto",
-      "isHost": false,
-      "episodeCount": 13,
-      "podcasts": [
-        "toe",
-        "dissenter",
-        "tokcast",
-        "mindscape",
-        "foresight",
-        "fallible-animals",
-        "conjecture",
-        "wtf4cities",
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "john-vervaeke",
       "name": "John Vervaeke",
       "isHost": false,
@@ -562,6 +530,22 @@
       "episodeCount": 12,
       "podcasts": [
         "tim-ferriss"
+      ]
+    },
+    {
+      "id": "chiara-marletto",
+      "name": "Chiara Marletto",
+      "isHost": false,
+      "episodeCount": 12,
+      "podcasts": [
+        "toe",
+        "dissenter",
+        "tokcast",
+        "mindscape",
+        "foresight",
+        "fallible-animals",
+        "conjecture",
+        "wtf4cities"
       ]
     },
     {
@@ -690,18 +674,6 @@
       ]
     },
     {
-      "id": "samo-burja",
-      "name": "Samo Burja",
-      "isHost": false,
-      "episodeCount": 9,
-      "podcasts": [
-        "jim-rutt",
-        "foresight",
-        "arjun-khemani",
-        "a16z"
-      ]
-    },
-    {
       "id": "sara-walker",
       "name": "Sara Walker",
       "isHost": false,
@@ -762,16 +734,6 @@
       ]
     },
     {
-      "id": "naval-ravikant",
-      "name": "Naval Ravikant",
-      "isHost": false,
-      "episodeCount": 8,
-      "podcasts": [
-        "tim-ferriss",
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "reid-hoffman",
       "name": "Reid Hoffman",
       "isHost": false,
@@ -792,6 +754,17 @@
         "tokcast",
         "lex-fridman",
         "tim-ferriss"
+      ]
+    },
+    {
+      "id": "samo-burja",
+      "name": "Samo Burja",
+      "isHost": false,
+      "episodeCount": 8,
+      "podcasts": [
+        "jim-rutt",
+        "foresight",
+        "a16z"
       ]
     },
     {
@@ -877,18 +850,6 @@
       "episodeCount": 7,
       "podcasts": [
         "jim-rutt"
-      ]
-    },
-    {
-      "id": "jason-crawford",
-      "name": "Jason Crawford",
-      "isHost": false,
-      "episodeCount": 7,
-      "podcasts": [
-        "dwarkesh",
-        "foresight",
-        "existential-hope",
-        "arjun-khemani"
       ]
     },
     {
@@ -1051,6 +1012,17 @@
       ]
     },
     {
+      "id": "jason-crawford",
+      "name": "Jason Crawford",
+      "isHost": false,
+      "episodeCount": 6,
+      "podcasts": [
+        "dwarkesh",
+        "foresight",
+        "existential-hope"
+      ]
+    },
+    {
       "id": "jordan-peterson",
       "name": "Jordan Peterson",
       "isHost": false,
@@ -1099,6 +1071,15 @@
     {
       "id": "maria-popova",
       "name": "Maria Popova",
+      "isHost": false,
+      "episodeCount": 6,
+      "podcasts": [
+        "tim-ferriss"
+      ]
+    },
+    {
+      "id": "naval-ravikant",
+      "name": "Naval Ravikant",
       "isHost": false,
       "episodeCount": 6,
       "podcasts": [
@@ -1309,18 +1290,6 @@
         "dissenter",
         "lex-fridman",
         "mindscape"
-      ]
-    },
-    {
-      "id": "julian-barbour",
-      "name": "Julian Barbour",
-      "isHost": false,
-      "episodeCount": 5,
-      "podcasts": [
-        "toe",
-        "tokcast",
-        "conjecture",
-        "arjun-khemani"
       ]
     },
     {
@@ -1840,6 +1809,17 @@
       "episodeCount": 4,
       "podcasts": [
         "jim-rutt"
+      ]
+    },
+    {
+      "id": "julian-barbour",
+      "name": "Julian Barbour",
+      "isHost": false,
+      "episodeCount": 4,
+      "podcasts": [
+        "toe",
+        "tokcast",
+        "conjecture"
       ]
     },
     {
@@ -2966,16 +2946,6 @@
       ]
     },
     {
-      "id": "karl-pfleger",
-      "name": "Karl Pfleger",
-      "isHost": false,
-      "episodeCount": 3,
-      "podcasts": [
-        "foresight",
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "kate-adamala",
       "name": "Kate Adamala",
       "isHost": false,
@@ -3666,16 +3636,6 @@
       "podcasts": [
         "lex-fridman",
         "mlst"
-      ]
-    },
-    {
-      "id": "yaron-brook",
-      "name": "Yaron Brook",
-      "isHost": false,
-      "episodeCount": 3,
-      "podcasts": [
-        "lex-fridman",
-        "arjun-khemani"
       ]
     },
     {
@@ -4853,15 +4813,6 @@
       ]
     },
     {
-      "id": "david-d-friedman",
-      "name": "David D. Friedman",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "david-friedman",
       "name": "David Friedman",
       "isHost": false,
@@ -5415,6 +5366,16 @@
       ]
     },
     {
+      "id": "greg-brockman",
+      "name": "Greg Brockman",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "lex-fridman",
+        "a16z"
+      ]
+    },
+    {
       "id": "greg-lukianoff",
       "name": "Greg Lukianoff",
       "isHost": false,
@@ -5790,16 +5751,6 @@
       ]
     },
     {
-      "id": "jim-o-shaughnessy",
-      "name": "Jim O'Shaughnessy",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "existential-hope",
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "joe-brewer",
       "name": "Joe Brewer",
       "isHost": false,
@@ -6013,6 +5964,15 @@
       "podcasts": [
         "dissenter",
         "mindscape"
+      ]
+    },
+    {
+      "id": "karl-pfleger",
+      "name": "Karl Pfleger",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "foresight"
       ]
     },
     {
@@ -6501,16 +6461,6 @@
       ]
     },
     {
-      "id": "max-more",
-      "name": "Max More",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "foresight",
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "mechanistic-interpretability",
       "name": "Mechanistic Interpretability",
       "isHost": false,
@@ -6885,16 +6835,6 @@
       "podcasts": [
         "dissenter",
         "mindscape"
-      ]
-    },
-    {
-      "id": "niklas-anzinger",
-      "name": "Niklas Anzinger",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "wtf4cities",
-        "arjun-khemani"
       ]
     },
     {
@@ -7422,16 +7362,6 @@
       ]
     },
     {
-      "id": "sarah-fitz-claridge",
-      "name": "Sarah Fitz-Claridge",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "dwarkesh",
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "satya-nadella",
       "name": "Satya Nadella",
       "isHost": false,
@@ -7448,15 +7378,6 @@
       "podcasts": [
         "dissenter",
         "mindscape"
-      ]
-    },
-    {
-      "id": "sean-bowe",
-      "name": "Sean Bowe",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -7897,16 +7818,6 @@
       ]
     },
     {
-      "id": "tom-hyde",
-      "name": "Tom Hyde",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "conjecture",
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "tony-fadell",
       "name": "Tony Fadell",
       "isHost": false,
@@ -8005,6 +7916,15 @@
       "episodeCount": 2,
       "podcasts": [
         "toe"
+      ]
+    },
+    {
+      "id": "yaron-brook",
+      "name": "Yaron Brook",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "lex-fridman"
       ]
     },
     {
@@ -8145,15 +8065,6 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
-      ]
-    },
-    {
-      "id": "aastha-jain",
-      "name": "Aastha Jain",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -9534,15 +9445,6 @@
       ]
     },
     {
-      "id": "andrew-kirby",
-      "name": "Andrew Kirby",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "andrew-knoll",
       "name": "Andrew Knoll",
       "isHost": false,
@@ -10146,6 +10048,15 @@
       ]
     },
     {
+      "id": "arjun-khemani",
+      "name": "Arjun Khemani",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "network-state"
+      ]
+    },
+    {
       "id": "arlindo-oliveira",
       "name": "Arlindo Oliveira",
       "isHost": false,
@@ -10287,15 +10198,6 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
-      ]
-    },
-    {
-      "id": "ashley-st-clair",
-      "name": "Ashley St. Clair",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -12801,15 +12703,6 @@
       ]
     },
     {
-      "id": "charlie-jungheim",
-      "name": "Charlie Jungheim",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "charlie-kirk",
       "name": "Charlie Kirk",
       "isHost": false,
@@ -13149,15 +13042,6 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
-      ]
-    },
-    {
-      "id": "chris-turner",
-      "name": "Chris Turner",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -14790,15 +14674,6 @@
       ]
     },
     {
-      "id": "danny-miranda",
-      "name": "Danny Miranda",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "daphne-koller",
       "name": "Daphne Koller",
       "isHost": false,
@@ -15348,15 +15223,6 @@
       ]
     },
     {
-      "id": "david-perell",
-      "name": "David Perell",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "david-poeppel",
       "name": "David Poeppel",
       "isHost": false,
@@ -15807,15 +15673,6 @@
       ]
     },
     {
-      "id": "dev-ojha",
-      "name": "Dev Ojha",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "devon-larratt",
       "name": "Devon Larratt",
       "isHost": false,
@@ -16038,15 +15895,6 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
-      ]
-    },
-    {
-      "id": "don-watkins",
-      "name": "Don Watkins",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -17139,15 +16987,6 @@
       ]
     },
     {
-      "id": "ethan-thornton",
-      "name": "Ethan Thornton",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "eugenia-kuyda",
       "name": "Eugenia Kuyda",
       "isHost": false,
@@ -17343,15 +17182,6 @@
       "episodeCount": 1,
       "podcasts": [
         "tim-ferriss"
-      ]
-    },
-    {
-      "id": "farbood-nivi",
-      "name": "Farbood Nivi",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -18522,15 +18352,6 @@
       "episodeCount": 1,
       "podcasts": [
         "tim-ferriss"
-      ]
-    },
-    {
-      "id": "greg-brockman",
-      "name": "Greg Brockman",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "lex-fridman"
       ]
     },
     {
@@ -19911,15 +19732,6 @@
       ]
     },
     {
-      "id": "jack-grigg",
-      "name": "Jack Grigg",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "jack-murphy",
       "name": "Jack Murphy",
       "isHost": false,
@@ -20253,15 +20065,6 @@
       ]
     },
     {
-      "id": "james-pierce",
-      "name": "James Pierce",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "james-poulos",
       "name": "James Poulos",
       "isHost": false,
@@ -20583,15 +20386,6 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
-      ]
-    },
-    {
-      "id": "jay-topp",
-      "name": "Jay Topp",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -20982,15 +20776,6 @@
       ]
     },
     {
-      "id": "jeremy-shearmur",
-      "name": "Jeremy Shearmur",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "jeremy-sherman",
       "name": "Jeremy Sherman",
       "isHost": false,
@@ -21216,6 +21001,15 @@
       ]
     },
     {
+      "id": "jim-o-shaughnessy",
+      "name": "Jim O'Shaughnessy",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "existential-hope"
+      ]
+    },
+    {
       "id": "jimmy-chin",
       "name": "Jimmy Chin",
       "isHost": false,
@@ -21384,15 +21178,6 @@
       "episodeCount": 1,
       "podcasts": [
         "mindscape"
-      ]
-    },
-    {
-      "id": "johan-norberg",
-      "name": "Johan Norberg",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -22230,15 +22015,6 @@
       "episodeCount": 1,
       "podcasts": [
         "wtf4cities"
-      ]
-    },
-    {
-      "id": "josh-swihart",
-      "name": "Josh Swihart",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -23943,6 +23719,15 @@
       ]
     },
     {
+      "id": "lenny-s-podcast",
+      "name": "Lenny’s Podcast",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "leonard-newman",
       "name": "Leonard Newman",
       "isHost": false,
@@ -24534,15 +24319,6 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
-      ]
-    },
-    {
-      "id": "lulie-tanett",
-      "name": "Lulie Tanett",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -25374,15 +25150,6 @@
       ]
     },
     {
-      "id": "martha-sharpe",
-      "name": "Martha Sharpe",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "martie-haselton",
       "name": "Martie Haselton",
       "isHost": false,
@@ -25851,15 +25618,6 @@
       ]
     },
     {
-      "id": "matthew-lysiak",
-      "name": "Matthew Lysiak",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "matthew-mccartney",
       "name": "Matthew McCartney",
       "isHost": false,
@@ -25974,6 +25732,15 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "max-more",
+      "name": "Max More",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "foresight"
       ]
     },
     {
@@ -26433,15 +26200,6 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
-      ]
-    },
-    {
-      "id": "michael-strong",
-      "name": "Michael Strong",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -27048,15 +26806,6 @@
       ]
     },
     {
-      "id": "nat-eliason",
-      "name": "Nat Eliason",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "nat-friedman",
       "name": "Nat Friedman",
       "isHost": false,
@@ -27126,15 +26875,6 @@
       "episodeCount": 1,
       "podcasts": [
         "jim-rutt"
-      ]
-    },
-    {
-      "id": "nate-wilcox",
-      "name": "Nate Wilcox",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -27597,15 +27337,6 @@
       ]
     },
     {
-      "id": "nicole-behnam",
-      "name": "Nicole Behnam",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "nicole-creanza",
       "name": "Nicole Creanza",
       "isHost": false,
@@ -27693,6 +27424,15 @@
       "episodeCount": 1,
       "podcasts": [
         "toe"
+      ]
+    },
+    {
+      "id": "niklas-anzinger",
+      "name": "Niklas Anzinger",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "wtf4cities"
       ]
     },
     {
@@ -28758,15 +28498,6 @@
       ]
     },
     {
-      "id": "per-bylund",
-      "name": "Per Bylund",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "perfect-abs",
       "name": "Perfect Abs",
       "isHost": false,
@@ -28827,15 +28558,6 @@
       "episodeCount": 1,
       "podcasts": [
         "mlst"
-      ]
-    },
-    {
-      "id": "peter-boghossian",
-      "name": "Peter Boghossian",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -30396,15 +30118,6 @@
       ]
     },
     {
-      "id": "riva-tez",
-      "name": "Riva Tez",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "roar-bjonnes",
       "name": "Roar Bjonnes",
       "isHost": false,
@@ -31503,15 +31216,6 @@
       ]
     },
     {
-      "id": "samuel-kuypers",
-      "name": "Samuel Kuypers",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
-      ]
-    },
-    {
       "id": "samuel-veissi-re",
       "name": "Samuel Veissière",
       "isHost": false,
@@ -31617,6 +31321,15 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "sarah-fitz-claridge",
+      "name": "Sarah Fitz-Claridge",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dwarkesh"
       ]
     },
     {
@@ -34338,6 +34051,15 @@
       ]
     },
     {
+      "id": "tom-hyde",
+      "name": "Tom Hyde",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "conjecture"
+      ]
+    },
+    {
       "id": "tom-mcgrath",
       "name": "Tom McGrath",
       "isHost": false,
@@ -35892,15 +35614,6 @@
       "episodeCount": 1,
       "podcasts": [
         "wtf4cities"
-      ]
-    },
-    {
-      "id": "zooko-wilcox",
-      "name": "Zooko Wilcox",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "arjun-khemani"
       ]
     },
     {
@@ -43530,101 +43243,6 @@
       ]
     },
     {
-      "source": "arjun-khemani",
-      "target": "brett-hall",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#15 – Naval Ravikant and Brett Hall: Knowledge, Constraints, and Truth-Seeking Mechanisms",
-          "url": "https://www.arjunkhemani.com/p/15-naval-ravikant-and-brett-hall"
-        },
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#1 – Brett Hall: Knowledge, Evolutionary Psychology and Free Will",
-          "url": "https://www.arjunkhemani.com/p/1-brett-hall-knowledge-evolutionary-a4c"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "david-d-friedman",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "David D. Friedman: Death, Taxes, and Other Solvable Problems",
-          "url": "https://www.arjunkhemani.com/p/david-d-friedman-death-taxes-and"
-        },
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#21 – David D. Friedman: The Machinery of Freedom, Education, and India",
-          "url": "https://www.arjunkhemani.com/p/21-david-d-friedman-the-machinery"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "david-deutsch",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "David Deutsch: The Era of Man, Popper, and Western Civilization",
-          "url": "https://www.arjunkhemani.com/p/david-deutsch-the-era-of-man-popper"
-        },
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#25 – David Deutsch: Free-Will, Taking Children Seriously, and Anarcho-Capitalism",
-          "url": "https://www.arjunkhemani.com/p/25-david-deutsch-free-will-taking"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "naval-ravikant",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Naval Ravikant: The Beginning of Infinity",
-          "url": "https://www.arjunkhemani.com/p/naval-ravikant-the-beginning-of-infinity"
-        },
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#15 – Naval Ravikant and Brett Hall: Knowledge, Constraints, and Truth-Seeking Mechanisms",
-          "url": "https://www.arjunkhemani.com/p/15-naval-ravikant-and-brett-hall"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "sean-bowe",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Sean Bowe and Dev Ojha: Architecture of Freedom",
-          "url": "https://www.arjunkhemani.com/p/sean-bowe-and-dev-ojha-architecture"
-        },
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Sean Bowe and Jack Grigg: Encrypted Money at Planetary Scale",
-          "url": "https://www.arjunkhemani.com/p/sean-bowe-and-jack-grigg-encrypted"
-        }
-      ]
-    },
-    {
       "source": "art-brock",
       "target": "jim-rutt",
       "value": 2,
@@ -50312,19 +49930,6 @@
       ]
     },
     {
-      "source": "aastha-jain",
-      "target": "arjun-khemani",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#3 – Aastha Jain: Should We Live Forever?",
-          "url": "https://www.arjunkhemani.com/p/3-aastha-jain-should-we-live-forever"
-        }
-      ]
-    },
-    {
       "source": "abbas-amanat",
       "target": "lex-fridman",
       "value": 1,
@@ -56279,19 +55884,6 @@
       ]
     },
     {
-      "source": "andrew-kirby",
-      "target": "arjun-khemani",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#10 – Andrew Kirby: Hitting Financial Freedom At Age 22, Solving Problems and Happiness",
-          "url": "https://www.arjunkhemani.com/p/10-andrew-kirby-hitting-financial"
-        }
-      ]
-    },
-    {
       "source": "andrew-knoll",
       "target": "ricardo-lopes",
       "value": 1,
@@ -57658,19 +57250,6 @@
     },
     {
       "source": "arjun-khemani",
-      "target": "ashley-st-clair",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#29 – Ashley St. Clair: Immigration Crisis, Free Speech, and Birth Control",
-          "url": "https://www.arjunkhemani.com/p/29-ashley-st-clair-immigration-crisis"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
       "target": "balaji-srinivasan",
       "value": 1,
       "episodes": [
@@ -57679,500 +57258,6 @@
           "podcastId": "network-state",
           "title": "#36 - Arjun Khemani",
           "url": "https://podcasters.spotify.com/pod/show/thenetworkstate/episodes/36---Arjun-Khemani-e3f8vb4"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "charlie-jungheim",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#8 – Charlie Jungheim: From Meditation to Mars",
-          "url": "https://www.arjunkhemani.com/p/8-charlie-jungheim-from-meditation"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "chiara-marletto",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#9 – Chiara Marletto: Knowledge, Constraints and Good Explanations",
-          "url": "https://www.arjunkhemani.com/p/9-chiara-marletto-knowledge-constraints"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "chris-turner",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#5 – Chris Turner: Changing The Education System",
-          "url": "https://www.arjunkhemani.com/p/5-chris-turner-changing-the-education"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "danny-miranda",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#13 – Danny Miranda: Creating Podcasts and The Future",
-          "url": "https://www.arjunkhemani.com/p/13-danny-miranda-creating-podcasts"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "david-perell",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#11 – David Perell: Writing and Education",
-          "url": "https://www.arjunkhemani.com/p/11-david-perell-writing-and-education"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "dev-ojha",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Sean Bowe and Dev Ojha: Architecture of Freedom",
-          "url": "https://www.arjunkhemani.com/p/sean-bowe-and-dev-ojha-architecture"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "don-watkins",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "14 – Don Watkins: Virtue of Selfishness, Ayn Rand, Epistemology and Wealth",
-          "url": "https://www.arjunkhemani.com/p/14-don-watkins-virtue-of-selfishness"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "ethan-thornton",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Ethan Thornton: The Future of Warfare",
-          "url": "https://www.arjunkhemani.com/p/ethan-thornton-the-future-of-warfare"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "farbood-nivi",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#27 – Farbood Nivi: Follistatin Gene Therapy, E/Acc, and Following Your Heart",
-          "url": "https://www.arjunkhemani.com/p/27-farbood-nivi-follistatin-gene"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "jack-grigg",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Sean Bowe and Jack Grigg: Encrypted Money at Planetary Scale",
-          "url": "https://www.arjunkhemani.com/p/sean-bowe-and-jack-grigg-encrypted"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "james-pierce",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#12 – James Pierce: Perspective, Prescriptions, and Sincerity",
-          "url": "https://www.arjunkhemani.com/p/12-james-pierce-perspective-prescriptions"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "jason-crawford",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#6 – Jason Crawford: Does Progress Make Us Any Happier?",
-          "url": "https://www.arjunkhemani.com/p/6-jason-crawford-does-progress-make"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "jay-topp",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#4 – Jay Topp: Dropping Out, Being a Digital Nomad and the Arctic Circle",
-          "url": "https://www.arjunkhemani.com/p/4-jay-topp-dropping-out-being-a-digital"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "jeremy-shearmur",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#26 – Jeremy Shearmur: Epistemology, Austrian economics, and The Life of Karl Popper",
-          "url": "https://www.arjunkhemani.com/p/26-jeremy-shearmur-epistemology-austrian"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "jim-o-shaughnessy",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#20 – Jim O'Shaughnessy: AI, Education, Media, and Living Forever",
-          "url": "https://www.arjunkhemani.com/p/20-jim-oshaughnessy-ai-education"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "johan-norberg",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#33 – Johan Norberg: Capitalism, Degrowth, and Elon Musk",
-          "url": "https://www.arjunkhemani.com/p/33-johan-norberg-capitalism-degrowth"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "josh-swihart",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Zooko Wilcox and Josh Swihart: Unstoppable Private Money",
-          "url": "https://www.arjunkhemani.com/p/zooko-wilcox-and-josh-swihart-unstoppable"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "julian-barbour",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#35 – Julian Barbour and Samuel Kuypers: The Nature of Time",
-          "url": "https://www.arjunkhemani.com/p/35-julian-barbour-and-samuel-kuypers"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "karl-pfleger",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Karl Pfleger: The Road to Solving Aging",
-          "url": "https://www.arjunkhemani.com/p/karl-pfleger-the-road-to-solving"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "logan-chipkin",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#19 – Logan Chipkin: Understanding Economics",
-          "url": "https://www.arjunkhemani.com/p/19-logan-chipkin-understanding-economics"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "lulie-tanett",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#17 – Lulie Tanett: Epistemology in the Social Sciences, Mindfulness and Taking Children Seriously",
-          "url": "https://www.arjunkhemani.com/p/17-lulie-tanett-epistemology-in-the"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "martha-sharpe",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#16 – Nat and Martha Sharpe: Alternative-Education, Making Movies and Doing Stuff",
-          "url": "https://www.arjunkhemani.com/p/16-nat-and-martha-sharpe-alternative"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "matthew-lysiak",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#28 – Matthew Lysiak: Fiat Food, Bitcoin, and Fake Science",
-          "url": "https://www.arjunkhemani.com/p/28-matthew-lysiak-fiat-food-bitcoin"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "max-more",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#24 – Max More: Cryonics, Transhumanism, and The Morality of Progress",
-          "url": "https://www.arjunkhemani.com/p/24-max-more-cryonics-transhumanism"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "michael-strong",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#7 – Michael Strong: Deschooling Society and The Future of Education",
-          "url": "https://www.arjunkhemani.com/p/7-michael-strong-deschooling-society"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "nat-eliason",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#34 – Nat Eliason: Crypto Confidential, Writing, and The Future of Work",
-          "url": "https://www.arjunkhemani.com/p/34-nat-eliason-crypto-confidential"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "nate-wilcox",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Zooko, Nate Wilcox, and Sean Bowe: Zcash",
-          "url": "https://www.arjunkhemani.com/p/zooko-nate-wilcox-and-sean-bowe-zcash"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "nicole-behnam",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#31 – Nicole Behnam: Leveraging Social Media, Building Cults, and Parenting",
-          "url": "https://www.arjunkhemani.com/p/31-nicole-behnam-leveraging-social"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "niklas-anzinger",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#30 – Niklas Anzinger: Longevity, Crypto, and Network States",
-          "url": "https://www.arjunkhemani.com/p/30-niklas-anzinger-longevity-crypto"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "per-bylund",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#22 – Per Bylund: Economic Illiteracy, Entrepreneurship, and The Primacy of Theory",
-          "url": "https://www.arjunkhemani.com/p/22-per-bylund-economic-illiteracy"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "peter-boghossian",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Peter Boghossian: Moral Relativism and The Future of The West",
-          "url": "https://www.arjunkhemani.com/p/peter-boghossian-moral-relativism"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "riva-tez",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#32 – Riva Tez: Anarchy, Beauty, and Longevity",
-          "url": "https://www.arjunkhemani.com/p/32-riva-tez-anarchy-beauty-and-longevity"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "samo-burja",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Samo Burja: Building an Immortal Society",
-          "url": "https://www.arjunkhemani.com/p/samo-burja-building-an-immortal-society"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "samuel-kuypers",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#35 – Julian Barbour and Samuel Kuypers: The Nature of Time",
-          "url": "https://www.arjunkhemani.com/p/35-julian-barbour-and-samuel-kuypers"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "sarah-fitz-claridge",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#2 – Sarah Fitz-Claridge: Taking Children Seriously, Fallibilism and the Growth of Knowledge",
-          "url": "https://www.arjunkhemani.com/p/2-sarah-fitz-claridge-taking-children-71c"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "tom-hyde",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#23 – Tom Hyde: Population, Immortality, Anarchism, and Gender",
-          "url": "https://www.arjunkhemani.com/p/23-tom-hyde-population-immortality"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "yaron-brook",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#18 – Yaron Brook: Humans, Inequality and AI",
-          "url": "https://www.arjunkhemani.com/p/18-yaron-brook-humans-inequality"
-        }
-      ]
-    },
-    {
-      "source": "arjun-khemani",
-      "target": "zooko-wilcox",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Zooko Wilcox and Josh Swihart: Unstoppable Private Money",
-          "url": "https://www.arjunkhemani.com/p/zooko-wilcox-and-josh-swihart-unstoppable"
         }
       ]
     },
@@ -61618,19 +60703,6 @@
           "podcastId": "tokcast",
           "title": "Ep 19: Mr. Popper's Problems",
           "url": "https://brettroberthall.podbean.com/e/ep-19-mr-poppers-problems/"
-        }
-      ]
-    },
-    {
-      "source": "brett-hall",
-      "target": "naval-ravikant",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#15 – Naval Ravikant and Brett Hall: Knowledge, Constraints, and Truth-Seeking Mechanisms",
-          "url": "https://www.arjunkhemani.com/p/15-naval-ravikant-and-brett-hall"
         }
       ]
     },
@@ -71541,19 +70613,6 @@
       ]
     },
     {
-      "source": "dev-ojha",
-      "target": "sean-bowe",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Sean Bowe and Dev Ojha: Architecture of Freedom",
-          "url": "https://www.arjunkhemani.com/p/sean-bowe-and-dev-ojha-architecture"
-        }
-      ]
-    },
-    {
       "source": "devon-larratt",
       "target": "lex-fridman",
       "value": 1,
@@ -80875,19 +79934,6 @@
       ]
     },
     {
-      "source": "jack-grigg",
-      "target": "sean-bowe",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Sean Bowe and Jack Grigg: Encrypted Money at Planetary Scale",
-          "url": "https://www.arjunkhemani.com/p/sean-bowe-and-jack-grigg-encrypted"
-        }
-      ]
-    },
-    {
       "source": "jack-murphy",
       "target": "jim-rutt",
       "value": 1,
@@ -86010,19 +85056,6 @@
       ]
     },
     {
-      "source": "josh-swihart",
-      "target": "zooko-wilcox",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "Zooko Wilcox and Josh Swihart: Unstoppable Private Money",
-          "url": "https://www.arjunkhemani.com/p/zooko-wilcox-and-josh-swihart-unstoppable"
-        }
-      ]
-    },
-    {
       "source": "josh-tan",
       "target": "kate-sills",
       "value": 1,
@@ -86292,19 +85325,6 @@
           "podcastId": "conjecture",
           "title": "Gravity Without Absolutes, by Julian Barbour",
           "url": "https://conjectureinstitute.podbean.com/e/gravity-without-absolutes-by-julian-barbour/"
-        }
-      ]
-    },
-    {
-      "source": "julian-barbour",
-      "target": "samuel-kuypers",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Arjun Khemani Podcast",
-          "podcastId": "arjun-khemani",
-          "title": "#35 – Julian Barbour and Samuel Kuypers: The Nature of Time",
-          "url": "https://www.arjunkhemani.com/p/35-julian-barbour-and-samuel-kuypers"
         }
       ]
     },
