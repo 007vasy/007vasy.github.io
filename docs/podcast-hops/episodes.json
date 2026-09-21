@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T11:04:14Z",
-  "episodeCount": 7175,
+  "updatedAt": "2026-09-21T11:14:00Z",
+  "episodeCount": 7200,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -1202,6 +1202,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::25f3d896-f1a0-4870-b8fd-a2ff22d160c7": {
+      "id": "a16z::25f3d896-f1a0-4870-b8fd-a2ff22d160c7",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
+      "url": "https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I",
+      "guid": "25f3d896-f1a0-4870-b8fd-a2ff22d160c7",
+      "guests": [
+        "Databricks CEO"
+      ],
+      "hosts": []
+    },
     "a16z::261a1e6a-adaf-4e7d-800c-642d618c72db": {
       "id": "a16z::261a1e6a-adaf-4e7d-800c-642d618c72db",
       "podcastId": "a16z",
@@ -1254,6 +1266,16 @@
       "title": "Seeing The Future from AI Companions to Personal Software",
       "url": "https://a16z.simplecast.com/episodes/seeing-the-future-from-ai-companions-to-personal-software-Fj9VrDbk",
       "guid": "26e4e0ad-add6-44ec-af0a-87384b37c53c",
+      "guests": [],
+      "hosts": []
+    },
+    "a16z::277d8505-7c23-4f94-ac79-c48f1f9b89eb": {
+      "id": "a16z::277d8505-7c23-4f94-ac79-c48f1f9b89eb",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The AI-Native CRM",
+      "url": "https://a16z.simplecast.com/episodes/the-ai-native-crm-PM_eRvpt",
+      "guid": "277d8505-7c23-4f94-ac79-c48f1f9b89eb",
       "guests": [],
       "hosts": []
     },
@@ -1520,6 +1542,18 @@
       ],
       "hosts": []
     },
+    "a16z::3346a500-eb7e-4419-a483-6859c9709058": {
+      "id": "a16z::3346a500-eb7e-4419-a483-6859c9709058",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Age of Body Futurism | Ruby Justice Thelot",
+      "url": "https://a16z.simplecast.com/episodes/the-age-of-body-futurism-ruby-justice-thelot-ZnUXyeWf",
+      "guid": "3346a500-eb7e-4419-a483-6859c9709058",
+      "guests": [
+        "Ruby Justice Thelot"
+      ],
+      "hosts": []
+    },
     "a16z::337f4098-3e6e-4ff6-a553-e71ce8abc53a": {
       "id": "a16z::337f4098-3e6e-4ff6-a553-e71ce8abc53a",
       "podcastId": "a16z",
@@ -1595,6 +1629,16 @@
         "Enabling Agents",
         "Battling Bots"
       ],
+      "hosts": []
+    },
+    "a16z::360e9305-a300-4381-a4ee-640fd8833922": {
+      "id": "a16z::360e9305-a300-4381-a4ee-640fd8833922",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Next Frontier of AI Video Is Control",
+      "url": "https://a16z.simplecast.com/episodes/the-next-frontier-of-ai-video-is-control-RmfmPBwf",
+      "guid": "360e9305-a300-4381-a4ee-640fd8833922",
+      "guests": [],
       "hosts": []
     },
     "a16z::3614cc37-b64d-47e9-88da-51eda0e6bca7": {
@@ -1679,6 +1723,18 @@
       "url": "https://a16z.simplecast.com/episodes/leadership-evolution-cto-ceo-product-sales-transitions-external-ceo-Y2AHODLF",
       "guid": "37e48f84-be41-4c31-94b8-8d474f6fe298",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::382b7a08-2528-42bf-89a3-0977d83fffff": {
+      "id": "a16z::382b7a08-2528-42bf-89a3-0977d83fffff",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "What Makes a Consumer AI Product Stick? | Josh Elman",
+      "url": "https://a16z.simplecast.com/episodes/what-makes-a-consumer-ai-product-stick-josh-elman-xHQUEG_W",
+      "guid": "382b7a08-2528-42bf-89a3-0977d83fffff",
+      "guests": [
+        "Josh Elman"
+      ],
       "hosts": []
     },
     "a16z::385f0d9f-763e-45ec-9406-f95c6e2b7534": {
@@ -3302,6 +3358,20 @@
       "url": "https://a16z.simplecast.com/episodes/ai-inside-the-enterprise-0LPmCf9V",
       "guid": "6f16c3a2-1ec5-45ee-b043-3e16b2b6b297",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::6f1d0668-af88-4f33-abb8-e5ffbc3bfc09": {
+      "id": "a16z::6f1d0668-af88-4f33-abb8-e5ffbc3bfc09",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop’s Pioneers Their Due",
+      "url": "https://a16z.simplecast.com/episodes/nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip-hops-pioneers-their-due-0OiuXVpk",
+      "guid": "6f1d0668-af88-4f33-abb8-e5ffbc3bfc09",
+      "guests": [
+        "Grandmaster Caz",
+        "Steve Stoute",
+        "Ben Horowitz"
+      ],
       "hosts": []
     },
     "a16z::6f678f9f-5cae-4738-b89a-7612977302ed": {
@@ -12984,6 +13054,18 @@
         "Logan Chipkin"
       ]
     },
+    "conjecture::conjectureinstitute.podbean.com/a41383d5-7872-3824-afff-035482b2692f": {
+      "id": "conjecture::conjectureinstitute.podbean.com/a41383d5-7872-3824-afff-035482b2692f",
+      "podcastId": "conjecture",
+      "podcast": "Conjecture Institute",
+      "title": "Permissionless Knowledge Creation",
+      "url": "https://conjectureinstitute.podbean.com/e/permissionless-knowledge-creation/",
+      "guid": "conjectureinstitute.podbean.com/a41383d5-7872-3824-afff-035482b2692f",
+      "guests": [],
+      "hosts": [
+        "Logan Chipkin"
+      ]
+    },
     "conjecture::conjectureinstitute.podbean.com/a9a91042-6941-329c-9bd8-b730e1184a0b": {
       "id": "conjecture::conjectureinstitute.podbean.com/a9a91042-6941-329c-9bd8-b730e1184a0b",
       "podcastId": "conjecture",
@@ -13942,6 +14024,20 @@
       "guid": "3b0eefad-9f37-4089-9841-633f1d5fe05b",
       "guests": [
         "Tobi Lütke"
+      ],
+      "hosts": [
+        "Tyler Cowen"
+      ]
+    },
+    "cwt::3b3075d6-88eb-49e8-a362-b110a84429b5": {
+      "id": "cwt::3b3075d6-88eb-49e8-a362-b110a84429b5",
+      "podcastId": "cwt",
+      "podcast": "Conversations with Tyler",
+      "title": "Annie Lowrey on the Time Tax, Fraud, and Rationing by Paperwork",
+      "url": "https://cowenconvos.libsyn.com/annie-lowrey-on-the-time-tax-fraud-and-rationing-by-paperwork",
+      "guid": "3b3075d6-88eb-49e8-a362-b110a84429b5",
+      "guests": [
+        "Annie Lowrey"
       ],
       "hosts": [
         "Tyler Cowen"
@@ -18572,6 +18668,21 @@
       "guid": "116ac98f-2409-ab17-ec71-c358200589ef",
       "guests": [
         "Tania Reynolds"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::118008a1-e10f-4cea-9b37-3c190cdd7922": {
+      "id": "dissenter::118008a1-e10f-4cea-9b37-3c190cdd7922",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1307 James Tilley & Sara Hobolt - Tribal Politics: How Brexit Divided Britain",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1307-James-Tilley--Sara-Hobolt---Tribal-Politics-How-Brexit-Divided-Britain-e3nsjta",
+      "guid": "118008a1-e10f-4cea-9b37-3c190cdd7922",
+      "guests": [
+        "James Tilley",
+        "Sara Hobolt"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -28412,6 +28523,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::9e36e71b-930d-48c3-a973-1902847fdd1c": {
+      "id": "dissenter::9e36e71b-930d-48c3-a973-1902847fdd1c",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1308 Stephen Vaisey: The Sociology of Morality and Political Beliefs",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1308-Stephen-Vaisey-The-Sociology-of-Morality-and-Political-Beliefs-e3kvhib",
+      "guid": "9e36e71b-930d-48c3-a973-1902847fdd1c",
+      "guests": [
+        "Stephen Vaisey"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::9ebe94f8-8739-48da-96e7-ff23f20a2ef1": {
       "id": "dissenter::9ebe94f8-8739-48da-96e7-ff23f20a2ef1",
       "podcastId": "dissenter",
@@ -32125,6 +32250,20 @@
       "guid": "d0cda289-8327-4d20-a94d-55c8e491c11a",
       "guests": [
         "Stephen Stearns"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::d0e114e0-1f08-4d04-8c06-b1afb341dd63": {
+      "id": "dissenter::d0e114e0-1f08-4d04-8c06-b1afb341dd63",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1306 Steve Keen: The Existential Risk of Climate Change, and the War in Iran",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1306-Steve-Keen-The-Existential-Risk-of-Climate-Change--and-the-War-in-Iran-e3ob4s8",
+      "guid": "d0e114e0-1f08-4d04-8c06-b1afb341dd63",
+      "guests": [
+        "Steve Keen"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -37119,6 +37258,20 @@
         "Dwarkesh Patel"
       ]
     },
+    "dwarkesh::substack:post:216149332": {
+      "id": "dwarkesh::substack:post:216149332",
+      "podcastId": "dwarkesh",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+      "url": "https://www.dwarkesh.com/p/noam-brown",
+      "guid": "substack:post:216149332",
+      "guests": [
+        "Noam Brown"
+      ],
+      "hosts": [
+        "Dwarkesh Patel"
+      ]
+    },
     "dwarkesh::substack:post:53132062": {
       "id": "dwarkesh::substack:post:53132062",
       "podcastId": "dwarkesh",
@@ -38005,6 +38158,20 @@
       "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6a8e9b2d8c90bb6011e73b30",
       "guid": "6a8e9b2d8c90bb6011e73b30",
       "guests": [],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "existential-hope::6aaa83ec8a1508074d5f4da3": {
+      "id": "existential-hope::6aaa83ec8a1508074d5f4da3",
+      "podcastId": "existential-hope",
+      "podcast": "Existential Hope",
+      "title": "Civic tech in action: how 447 random citizens fixed an AI deepfake crisis | Audrey Tang",
+      "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6aaa83ec8a1508074d5f4da3",
+      "guid": "6aaa83ec8a1508074d5f4da3",
+      "guests": [
+        "Audrey Tang"
+      ],
       "hosts": [
         "Allison Duettmann"
       ]
@@ -39897,6 +40064,20 @@
       "guid": "6a9550713255edf6048a020d",
       "guests": [
         "Robin Hanson"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "foresight::6aa7c1c4c939da27956f8d8b": {
+      "id": "foresight::6aa7c1c4c939da27956f8d8b",
+      "podcastId": "foresight",
+      "podcast": "Foresight Institute Radio",
+      "title": "Innovation Needs More than Intelligence | Taylor Tondelli",
+      "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/innovation-needs-more-than-intelligence-taylor-tondelli",
+      "guid": "6aa7c1c4c939da27956f8d8b",
+      "guests": [
+        "Taylor Tondelli"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -54877,6 +55058,20 @@
         "Lex Fridman"
       ]
     },
+    "lex-fridman::https://lexfridman.com/?p=6554": {
+      "id": "lex-fridman::https://lexfridman.com/?p=6554",
+      "podcastId": "lex-fridman",
+      "podcast": "Lex Fridman Podcast",
+      "title": "#502 – Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung",
+      "url": "https://lexfridman.com/andrew-scull/?utm_source=rss&utm_medium=rss&utm_campaign=andrew-scull",
+      "guid": "https://lexfridman.com/?p=6554",
+      "guests": [
+        "Insane Asylums"
+      ],
+      "hosts": [
+        "Lex Fridman"
+      ]
+    },
     "mindscape::0021b522-f377-4731-a1f6-186a5b115df6": {
       "id": "mindscape::0021b522-f377-4731-a1f6-186a5b115df6",
       "podcastId": "mindscape",
@@ -55992,6 +56187,20 @@
       "guid": "e3aac4b1-12c3-4cdf-a82e-0d4518469684",
       "guests": [
         "Chandra Sripada"
+      ],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
+    "mindscape::ebaebf4b-e2e1-4804-96a2-3194ee53ffa0": {
+      "id": "mindscape::ebaebf4b-e2e1-4804-96a2-3194ee53ffa0",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "368 | Elizabeth Alexander on Why Democracy Needs Imagination",
+      "url": "https://preposterousuniverse.com/podcast/2026/09/21/368-elizabeth-alexander-on-why-democracy-needs-imagination/",
+      "guid": "ebaebf4b-e2e1-4804-96a2-3194ee53ffa0",
+      "guests": [
+        "Elizabeth Alexander"
       ],
       "hosts": [
         "Sean Carroll"
@@ -60892,6 +61101,20 @@
         "Sean Carroll"
       ]
     },
+    "mlst::05a9d7a4-9b0e-49ec-99c1-cb90da7a28fa": {
+      "id": "mlst::05a9d7a4-9b0e-49ec-99c1-cb90da7a28fa",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "Speech Recognition Is Not a Solved Problem — Pavan Muddireddy",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Speech-Recognition-Is-Not-a-Solved-Problem--Pavan-Muddireddy-e3orlk9",
+      "guid": "05a9d7a4-9b0e-49ec-99c1-cb90da7a28fa",
+      "guests": [
+        "Pavan Muddireddy"
+      ],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
     "mlst::0625feba-36d1-4cfc-adc9-3b5ed8b3e6c3": {
       "id": "mlst::0625feba-36d1-4cfc-adc9-3b5ed8b3e6c3",
       "podcastId": "mlst",
@@ -61944,6 +62167,20 @@
       "guid": "4f6a7e55-14ce-4a5d-b6a9-204df45471e2",
       "guests": [
         "Generation Speech Recognition"
+      ],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
+    "mlst::5207ae6b-de37-4063-b419-058ae6782077": {
+      "id": "mlst::5207ae6b-de37-4063-b419-058ae6782077",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "How Physical AI Learns Across Language, Video and Action — Ming-Yu Liu",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/How-Physical-AI-Learns-Across-Language--Video-and-Action--Ming-Yu-Liu-e3ospub",
+      "guid": "5207ae6b-de37-4063-b419-058ae6782077",
+      "guests": [
+        "Yu Liu"
       ],
       "hosts": [
         "Tim Scarfe"
@@ -74643,11 +74880,11 @@
       "id": "tim-ferriss::gid://art19-episode-locator/V0/hlfIEJeS2K_iQgzutRXXJAC6dXv-jL4o0bS-FNofBpM",
       "podcastId": "tim-ferriss",
       "podcast": "The Tim Ferriss Show",
-      "title": "#882: Why Kids Can Learn 10x Faster Than We Think — Niels Hoven of Mentava (Tim Coaching Session)",
+      "title": "#882: How to Teach a 3-Year-Old to Read and Rethinking Education — Tim Coaches Niels Hoven of Mentava",
       "url": "gid://art19-episode-locator/V0/hlfIEJeS2K_iQgzutRXXJAC6dXv-jL4o0bS-FNofBpM",
       "guid": "gid://art19-episode-locator/V0/hlfIEJeS2K_iQgzutRXXJAC6dXv-jL4o0bS-FNofBpM",
       "guests": [
-        "Tim Coaching Session"
+        "Rethinking Education"
       ],
       "hosts": [
         "Tim Ferriss"
@@ -76600,6 +76837,18 @@
       "guests": [
         "Harley Finkelstein"
       ],
+      "hosts": [
+        "Tim Ferriss"
+      ]
+    },
+    "tim-ferriss::gid://art19-episode-locator/V0/w-0oGFd2IzhFS0QEXBKFFS5ISPi0tChyH9JjnpZM9NI": {
+      "id": "tim-ferriss::gid://art19-episode-locator/V0/w-0oGFd2IzhFS0QEXBKFFS5ISPi0tChyH9JjnpZM9NI",
+      "podcastId": "tim-ferriss",
+      "podcast": "The Tim Ferriss Show",
+      "title": "#883: How to Legalize Medical Psychedelics in Your Country — Tania de Jong on The Playbook Behind Australia's World-First Breakthrough",
+      "url": "gid://art19-episode-locator/V0/w-0oGFd2IzhFS0QEXBKFFS5ISPi0tChyH9JjnpZM9NI",
+      "guid": "gid://art19-episode-locator/V0/w-0oGFd2IzhFS0QEXBKFFS5ISPi0tChyH9JjnpZM9NI",
+      "guests": [],
       "hosts": [
         "Tim Ferriss"
       ]
@@ -81628,6 +81877,18 @@
       "guests": [
         "Eva Miranda"
       ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
+    "toe::df20b01c-ab94-11f1-8eb4-53f71ceaf009": {
+      "id": "toe::df20b01c-ab94-11f1-8eb4-53f71ceaf009",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "She Says Spacetime Points Are Just Where Fields Meet",
+      "url": "df20b01c-ab94-11f1-8eb4-53f71ceaf009",
+      "guid": "df20b01c-ab94-11f1-8eb4-53f71ceaf009",
+      "guests": [],
       "hosts": [
         "Curt Jaimungal"
       ]
@@ -87358,6 +87619,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::3430ee44-d023-45b9-963e-9472d0883234": {
+      "id": "wtf4cities::3430ee44-d023-45b9-963e-9472d0883234",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "463R_Environmental and health effects of the Barcelona superblocks",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/463R_Environmental-and-health-effects-of-the-Barcelona-superblocks-e3ncp3c",
+      "guid": "3430ee44-d023-45b9-963e-9472d0883234",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::349060aa-fc33-43ac-a792-348d1c824b48": {
       "id": "wtf4cities::349060aa-fc33-43ac-a792-348d1c824b48",
       "podcastId": "wtf4cities",
@@ -87417,6 +87690,18 @@
       "title": "341R_Global urban structure growth shows a profound shift from spreading out to building up (research summary)",
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/341R_Global-urban-structure-growth-shows-a-profound-shift-from-spreading-out-to-building-up-research-summary-e34hpld",
       "guid": "35799593-651f-42f6-9b3e-9d29ccfcac13",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::361009e0-2bf5-4f2b-8af6-4b88681f071d": {
+      "id": "wtf4cities::361009e0-2bf5-4f2b-8af6-4b88681f071d",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "The importance of leaders setting the urban vision - Anne Goodchild (466I trailer 1)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/The-importance-of-leaders-setting-the-urban-vision---Anne-Goodchild-466I-trailer-1-e3os9h3",
+      "guid": "361009e0-2bf5-4f2b-8af6-4b88681f071d",
       "guests": [],
       "hosts": [
         "Fanni Melles"
@@ -87961,6 +88246,18 @@
       "title": "Authority (a.k.a. government) vs execution (a.k.a. governance) Bradford Cross (398I trailer 3)",
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Authority-a-k-a--government-vs-execution-a-k-a--governance-Bradford-Cross-398I-trailer-3-e3d8c2d",
       "guid": "4488e3d2-904e-4d11-bcc7-5e43298b0879",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::44d32fd7-d431-485e-824d-a0f40a3fcb48": {
+      "id": "wtf4cities::44d32fd7-d431-485e-824d-a0f40a3fcb48",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Urban freight designed to leave space for people - Anne Goodchild (466I trailer 2)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Urban-freight-designed-to-leave-space-for-people---Anne-Goodchild-466I-trailer-2-e3os9h5",
+      "guid": "44d32fd7-d431-485e-824d-a0f40a3fcb48",
       "guests": [],
       "hosts": [
         "Fanni Melles"
@@ -89072,6 +89369,18 @@
       "guests": [
         "Aapo Huovila"
       ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::63678e16-163a-42af-aff9-1ad50ae2f31c": {
+      "id": "wtf4cities::63678e16-163a-42af-aff9-1ad50ae2f31c",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Why do we still need to be optimistic? Laura Reupke (464I trailer 3)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Why-do-we-still-need-to-be-optimistic--Laura-Reupke-464I-trailer-3-e3nmav9",
+      "guid": "63678e16-163a-42af-aff9-1ad50ae2f31c",
+      "guests": [],
       "hosts": [
         "Fanni Melles"
       ]
@@ -93220,6 +93529,20 @@
       "guid": "d2ec9416-6d91-426c-82b2-302b8e970079",
       "guests": [
         "Gilbert Rochecouste"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::d42794ef-50c9-48b4-ab41-18a74569eae0": {
+      "id": "wtf4cities::d42794ef-50c9-48b4-ab41-18a74569eae0",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "464I_Laura Reupke, CEO of BABLE",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/464I_Laura-Reupke--CEO-of-BABLE-e3nmaup",
+      "guid": "d42794ef-50c9-48b4-ab41-18a74569eae0",
+      "guests": [
+        "Laura Reupke"
       ],
       "hosts": [
         "Fanni Melles"
