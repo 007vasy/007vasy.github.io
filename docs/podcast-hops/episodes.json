@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T11:14:00Z",
-  "episodeCount": 7200,
+  "updatedAt": "2026-09-28T12:08:26Z",
+  "episodeCount": 7226,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -697,6 +697,18 @@
       ],
       "hosts": []
     },
+    "a16z::154dab55-ef4d-40f9-9c51-5ed30abafc26": {
+      "id": "a16z::154dab55-ef4d-40f9-9c51-5ed30abafc26",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Building a Team at AI Speed | Harvey’s Maggie Landers",
+      "url": "https://a16z.simplecast.com/episodes/building-a-team-at-ai-speed-harveys-maggie-landers-1mxeFqtp",
+      "guid": "154dab55-ef4d-40f9-9c51-5ed30abafc26",
+      "guests": [
+        "Harvey’s Maggie Landers"
+      ],
+      "hosts": []
+    },
     "a16z::157677b1-d361-4cbe-bcbf-9361c82a9a42": {
       "id": "a16z::157677b1-d361-4cbe-bcbf-9361c82a9a42",
       "podcastId": "a16z",
@@ -1189,6 +1201,18 @@
       "guid": "25a12538-2fe4-4c5c-8d3f-32f69f551bc5",
       "guests": [
         "Katherine Boyle"
+      ],
+      "hosts": []
+    },
+    "a16z::25d19aed-44c4-4885-8cdb-0b5226cf930d": {
+      "id": "a16z::25d19aed-44c4-4885-8cdb-0b5226cf930d",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Why a16z is Building a New School for the AI Era | Ben Horowitz",
+      "url": "https://a16z.simplecast.com/episodes/why-a16z-is-building-a-new-school-for-the-ai-era-ben-horowitz-yv3mnCj_",
+      "guid": "25d19aed-44c4-4885-8cdb-0b5226cf930d",
+      "guests": [
+        "Ben Horowitz"
       ],
       "hosts": []
     },
@@ -1723,6 +1747,20 @@
       "url": "https://a16z.simplecast.com/episodes/leadership-evolution-cto-ceo-product-sales-transitions-external-ceo-Y2AHODLF",
       "guid": "37e48f84-be41-4c31-94b8-8d474f6fe298",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::38112b09-8b96-41b6-8d9e-b8fb3f25061d": {
+      "id": "a16z::38112b09-8b96-41b6-8d9e-b8fb3f25061d",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+      "url": "https://a16z.simplecast.com/episodes/aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-ai-agents-v8Q401cc",
+      "guid": "38112b09-8b96-41b6-8d9e-b8fb3f25061d",
+      "guests": [
+        "Aaron Levie",
+        "Steven Sinofsky",
+        "Martin Casado"
+      ],
       "hosts": []
     },
     "a16z::382b7a08-2528-42bf-89a3-0977d83fffff": {
@@ -2948,6 +2986,18 @@
       "url": "https://a16z.simplecast.com/episodes/the-deepfake-dilemma-the-technology-policy-and-economy-hdnnNXcG",
       "guid": "60c5eb2d-0d83-472f-b7f3-4c4d0f266385",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::60d3d80f-1312-47fc-befc-21fdc4b7e9ff": {
+      "id": "a16z::60d3d80f-1312-47fc-befc-21fdc4b7e9ff",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+      "url": "https://a16z.simplecast.com/episodes/ai-safety-language-is-destroying-the-debate-steven-sinofsky-p7Rb9M_7",
+      "guid": "60d3d80f-1312-47fc-befc-21fdc4b7e9ff",
+      "guests": [
+        "Steven Sinofsky"
+      ],
       "hosts": []
     },
     "a16z::61719217-bf40-4998-be1a-23bef65fc813": {
@@ -4276,6 +4326,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::8f0887d4-0c0f-45cc-b0e7-d7fe166c111c": {
+      "id": "a16z::8f0887d4-0c0f-45cc-b0e7-d7fe166c111c",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Case Against an AI Pause | Eddy Lazzarin",
+      "url": "https://a16z.simplecast.com/episodes/the-case-against-an-ai-pause-eddy-lazzarin-oPay7sAU",
+      "guid": "8f0887d4-0c0f-45cc-b0e7-d7fe166c111c",
+      "guests": [
+        "Eddy Lazzarin"
+      ],
+      "hosts": []
+    },
     "a16z::8f3cd695-7dd8-47c9-85ec-a92873c75dff": {
       "id": "a16z::8f3cd695-7dd8-47c9-85ec-a92873c75dff",
       "podcastId": "a16z",
@@ -5233,6 +5295,18 @@
       ],
       "hosts": []
     },
+    "a16z::ad703a5b-581f-4220-a4aa-55ad60535ace": {
+      "id": "a16z::ad703a5b-581f-4220-a4aa-55ad60535ace",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Amjad Masad on Rethinking College for the AI Era",
+      "url": "https://a16z.simplecast.com/episodes/amjad-masad-on-rethinking-college-for-the-ai-era-sOmuMQGQ",
+      "guid": "ad703a5b-581f-4220-a4aa-55ad60535ace",
+      "guests": [
+        "Amjad Masad"
+      ],
+      "hosts": []
+    },
     "a16z::ad7935c0-efad-40fd-912a-c7919bb26f27": {
       "id": "a16z::ad7935c0-efad-40fd-912a-c7919bb26f27",
       "podcastId": "a16z",
@@ -6053,6 +6127,16 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::c61919bb-5988-4aef-825f-ae983752f1fe": {
+      "id": "a16z::c61919bb-5988-4aef-825f-ae983752f1fe",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
+      "url": "https://a16z.simplecast.com/episodes/the-reputation-graph-of-silicon-valley-introducing-cosign-qLcU00IT",
+      "guid": "c61919bb-5988-4aef-825f-ae983752f1fe",
+      "guests": [],
+      "hosts": []
+    },
     "a16z::c6d5cf08-82ad-4ef4-a7a4-449f8491de7a": {
       "id": "a16z::c6d5cf08-82ad-4ef4-a7a4-449f8491de7a",
       "podcastId": "a16z",
@@ -6497,6 +6581,16 @@
       "title": "Safety in Numbers: Keeping AI Open",
       "url": "https://a16z.simplecast.com/episodes/safety-in-numbers-keeping-ai-open-a6JhgHZb",
       "guid": "d7b60835-847c-4df9-86e4-2e0e548e713a",
+      "guests": [],
+      "hosts": []
+    },
+    "a16z::d86f541d-9341-4833-b84a-29e85df6d174": {
+      "id": "a16z::d86f541d-9341-4833-b84a-29e85df6d174",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "AI Can Write Code. Why Isn’t Software Better?",
+      "url": "https://a16z.simplecast.com/episodes/ai-can-write-code-why-isnt-software-better-je38wEkC",
+      "guid": "d86f541d-9341-4833-b84a-29e85df6d174",
       "guests": [],
       "hosts": []
     },
@@ -15951,6 +16045,20 @@
         "Tyler Cowen"
       ]
     },
+    "cwt::c93068a8-bf8b-409f-b3a6-9b9b54a2f196": {
+      "id": "cwt::c93068a8-bf8b-409f-b3a6-9b9b54a2f196",
+      "podcastId": "cwt",
+      "podcast": "Conversations with Tyler",
+      "title": "Gita Gopinath on Trade, Currencies, and Economic Transformation",
+      "url": "https://cowenconvos.libsyn.com/gita-gopinath-on-trade-currencies-and-economic-transformation",
+      "guid": "c93068a8-bf8b-409f-b3a6-9b9b54a2f196",
+      "guests": [
+        "Gita Gopinath"
+      ],
+      "hosts": [
+        "Tyler Cowen"
+      ]
+    },
     "cwt::cbb1788f-2e41-455a-8027-f21cba4a7b5e": {
       "id": "cwt::cbb1788f-2e41-455a-8027-f21cba4a7b5e",
       "podcastId": "cwt",
@@ -23581,6 +23689,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::537688c5-cd3f-4a4c-8921-7ff9e9b0230a": {
+      "id": "dissenter::537688c5-cd3f-4a4c-8921-7ff9e9b0230a",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1309 Espen Hammer: Death of God: Secularization as a Philosophical Challenge from Kant to Nietzsche",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1309-Espen-Hammer-Death-of-God-Secularization-as-a-Philosophical-Challenge-from-Kant-to-Nietzsche-e3h84so",
+      "guid": "537688c5-cd3f-4a4c-8921-7ff9e9b0230a",
+      "guests": [
+        "Espen Hammer"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::53aeebaf-0459-4e2e-b9be-820825db5c2f": {
       "id": "dissenter::53aeebaf-0459-4e2e-b9be-820825db5c2f",
       "podcastId": "dissenter",
@@ -29740,6 +29862,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::afd18c3d-8070-449f-a3c2-559f4ff7dff5": {
+      "id": "dissenter::afd18c3d-8070-449f-a3c2-559f4ff7dff5",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1310 George Boss: Marx and the Politics of Need",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1310-George-Boss-Marx-and-the-Politics-of-Need-e3nv9lq",
+      "guid": "afd18c3d-8070-449f-a3c2-559f4ff7dff5",
+      "guests": [
+        "George Boss"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::afd56aab-efd3-4bee-a1a5-c18374202d02": {
       "id": "dissenter::afd56aab-efd3-4bee-a1a5-c18374202d02",
       "podcastId": "dissenter",
@@ -31664,6 +31800,20 @@
       "guid": "c8391f14-bd92-4c41-a914-516710862cc4",
       "guests": [
         "Francesca Righetti"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::c8e7628b-cf00-4b86-a057-df9eacbd1e1b": {
+      "id": "dissenter::c8e7628b-cf00-4b86-a057-df9eacbd1e1b",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1311 Séamus Power - Inequality: A View from Manywheres",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1311-Samus-Power---Inequality-A-View-from-Manywheres-e3o4kkk",
+      "guid": "c8e7628b-cf00-4b86-a057-df9eacbd1e1b",
+      "guests": [
+        "Séamus Power"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -38172,6 +38322,18 @@
       "guests": [
         "Audrey Tang"
       ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "existential-hope::6ab24f15d00a4eacd50af0d7": {
+      "id": "existential-hope::6ab24f15d00a4eacd50af0d7",
+      "podcastId": "existential-hope",
+      "podcast": "Existential Hope",
+      "title": "How a board game helps Google DeepMind plan for AI in science",
+      "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6ab24f15d00a4eacd50af0d7",
+      "guid": "6ab24f15d00a4eacd50af0d7",
+      "guests": [],
       "hosts": [
         "Allison Duettmann"
       ]
@@ -56302,6 +56464,20 @@
         "Sean Carroll"
       ]
     },
+    "mindscape::fbc9810f-f983-49eb-8753-f7d6e4457a80": {
+      "id": "mindscape::fbc9810f-f983-49eb-8753-f7d6e4457a80",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "369 | Gregg Caruso on Living Well Without Free Will",
+      "url": "https://preposterousuniverse.com/podcast/2026/09/28/369-gregg-caruso-on-living-well-without-free-will/",
+      "guid": "fbc9810f-f983-49eb-8753-f7d6e4457a80",
+      "guests": [
+        "Gregg Caruso"
+      ],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
     "mindscape::gid://art19-episode-locator/V0/--4OwD93sjSFl7mGhjcpcdNreoYGGMLu8mKzw8Tzl30": {
       "id": "mindscape::gid://art19-episode-locator/V0/--4OwD93sjSFl7mGhjcpcdNreoYGGMLu8mKzw8Tzl30",
       "podcastId": "mindscape",
@@ -61105,11 +61281,11 @@
       "id": "mlst::05a9d7a4-9b0e-49ec-99c1-cb90da7a28fa",
       "podcastId": "mlst",
       "podcast": "Machine Learning Street Talk",
-      "title": "Speech Recognition Is Not a Solved Problem — Pavan Muddireddy",
-      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Speech-Recognition-Is-Not-a-Solved-Problem--Pavan-Muddireddy-e3orlk9",
+      "title": "Speech Recognition Is Not a Solved Problem — Pavan Kumar Reddy",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Speech-Recognition-Is-Not-a-Solved-Problem--Pavan-Kumar-Reddy-e3orlk9",
       "guid": "05a9d7a4-9b0e-49ec-99c1-cb90da7a28fa",
       "guests": [
-        "Pavan Muddireddy"
+        "Pavan Kumar Reddy"
       ],
       "hosts": [
         "Tim Scarfe"
@@ -62306,6 +62482,20 @@
         "Tim Scarfe"
       ]
     },
+    "mlst::5aad98f5-7294-4fb4-bd28-f091ec21d3bd": {
+      "id": "mlst::5aad98f5-7294-4fb4-bd28-f091ec21d3bd",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "Why Scaling Prediction Cannot Create Intelligence - Alexander Mattick",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Why-Scaling-Prediction-Cannot-Create-Intelligence---Alexander-Mattick-e3p69rq",
+      "guid": "5aad98f5-7294-4fb4-bd28-f091ec21d3bd",
+      "guests": [
+        "Alexander Mattick"
+      ],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
     "mlst::5c8cf397-751f-4481-b0d3-693f83d1385c": {
       "id": "mlst::5c8cf397-751f-4481-b0d3-693f83d1385c",
       "podcastId": "mlst",
@@ -62559,6 +62749,20 @@
       "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Sepp-Hochreiter---LSTM-The-Comeback-Story-e2uoffb",
       "guid": "6ce02743-772d-47f9-a86d-26a7a396d718",
       "guests": [],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
+    "mlst::6e09d5ae-4028-499d-9606-734aadb982d4": {
+      "id": "mlst::6e09d5ae-4028-499d-9606-734aadb982d4",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "When AI Research Starts Moving Faster Than Human Research - Zhengyao Jiang",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/When-AI-Research-Starts-Moving-Faster-Than-Human-Research---Zhengyao-Jiang-e3pe7db",
+      "guid": "6e09d5ae-4028-499d-9606-734aadb982d4",
+      "guests": [
+        "Zhengyao Jiang"
+      ],
       "hosts": [
         "Tim Scarfe"
       ]
@@ -63244,6 +63448,20 @@
       "guid": "9618ef53-29de-4be6-b005-db97e761b4bc",
       "guests": [
         "Francois Chollet"
+      ],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
+    "mlst::992350a1-56bb-4952-8d86-6e53b295a70c": {
+      "id": "mlst::992350a1-56bb-4952-8d86-6e53b295a70c",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "How Deep Learning Finally Cracked Messy Tables - Frank Hutter",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/How-Deep-Learning-Finally-Cracked-Messy-Tables---Frank-Hutter-e3p9qvq",
+      "guid": "992350a1-56bb-4952-8d86-6e53b295a70c",
+      "guests": [
+        "Frank Hutter"
       ],
       "hosts": [
         "Tim Scarfe"
@@ -75398,6 +75616,20 @@
         "Tim Ferriss"
       ]
     },
+    "tim-ferriss::gid://art19-episode-locator/V0/mbdm7FqApWkMF1leES32j8BmnIVkghmms67B1O_PMMg": {
+      "id": "tim-ferriss::gid://art19-episode-locator/V0/mbdm7FqApWkMF1leES32j8BmnIVkghmms67B1O_PMMg",
+      "podcastId": "tim-ferriss",
+      "podcast": "The Tim Ferriss Show",
+      "title": "#884: How to Spot 10-Year Trends and Build Billion-Dollar Companies — Kevin Ryan of DoubleClick, MongoDB, Business Insider, and Many More",
+      "url": "gid://art19-episode-locator/V0/mbdm7FqApWkMF1leES32j8BmnIVkghmms67B1O_PMMg",
+      "guid": "gid://art19-episode-locator/V0/mbdm7FqApWkMF1leES32j8BmnIVkghmms67B1O_PMMg",
+      "guests": [
+        "Build Billion-Dollar Companies"
+      ],
+      "hosts": [
+        "Tim Ferriss"
+      ]
+    },
     "tim-ferriss::gid://art19-episode-locator/V0/mo2cSjHgAeZ1qDJjoflD5hNs0s54k0BYVRtiiBmSgbg": {
       "id": "tim-ferriss::gid://art19-episode-locator/V0/mo2cSjHgAeZ1qDJjoflD5hNs0s54k0BYVRtiiBmSgbg",
       "podcastId": "tim-ferriss",
@@ -78363,6 +78595,20 @@
       "guid": "354ba66a-47ee-11f0-89a7-2fd3f81c0039",
       "guests": [
         "Elan Barenholtz"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
+    "toe::35872cec-b4fa-11f1-9e5f-8ba9d04f95d0": {
+      "id": "toe::35872cec-b4fa-11f1-9e5f-8ba9d04f95d0",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Jim Al-Khalili: The Ontology of Time. We Had It Backwards",
+      "url": "35872cec-b4fa-11f1-9e5f-8ba9d04f95d0",
+      "guid": "35872cec-b4fa-11f1-9e5f-8ba9d04f95d0",
+      "guests": [
+        "Jim Al-Khalili"
       ],
       "hosts": [
         "Curt Jaimungal"
@@ -83770,6 +84016,18 @@
         "Brett Hall"
       ]
     },
+    "tokcast::brettroberthall.podbean.com/78302ad8-0db3-3d57-8592-fc8e9a79a499": {
+      "id": "tokcast::brettroberthall.podbean.com/78302ad8-0db3-3d57-8592-fc8e9a79a499",
+      "podcastId": "tokcast",
+      "podcast": "ToKCast",
+      "title": "Ep 270: The Gradient Descent into Doom.",
+      "url": "https://brettroberthall.podbean.com/e/ep-270-the-gradient-descent-into-doom/",
+      "guid": "brettroberthall.podbean.com/78302ad8-0db3-3d57-8592-fc8e9a79a499",
+      "guests": [],
+      "hosts": [
+        "Brett Hall"
+      ]
+    },
     "tokcast::brettroberthall.podbean.com/7b51cf17-3310-38a5-ae8c-6ec71761f126": {
       "id": "tokcast::brettroberthall.podbean.com/7b51cf17-3310-38a5-ae8c-6ec71761f126",
       "podcastId": "tokcast",
@@ -84832,6 +85090,18 @@
       "title": "Ep 63: \"The Fabric of Reality\" episode 1",
       "url": "https://brettroberthall.podbean.com/e/ep-63-the-fabric-of-reality-episode-1/",
       "guid": "brettroberthall.podbean.com/c2e7f060-f2c3-39b3-a663-fd933181197b",
+      "guests": [],
+      "hosts": [
+        "Brett Hall"
+      ]
+    },
+    "tokcast::brettroberthall.podbean.com/c4de421d-a5c5-3417-9448-2d763816bd72": {
+      "id": "tokcast::brettroberthall.podbean.com/c4de421d-a5c5-3417-9448-2d763816bd72",
+      "podcastId": "tokcast",
+      "podcast": "ToKCast",
+      "title": "Ep 269: The Quantum Observer Effect?",
+      "url": "https://brettroberthall.podbean.com/e/ep-269-the-quantum-observer-effect/",
+      "guid": "brettroberthall.podbean.com/c4de421d-a5c5-3417-9448-2d763816bd72",
       "guests": [],
       "hosts": [
         "Brett Hall"
@@ -86840,6 +87110,20 @@
       "guid": "213ed329-5794-4426-b0eb-0ab44cbdeeac",
       "guests": [
         "Michael Browne"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::21809606-0f27-4d0d-815a-dc625ebebca4": {
+      "id": "wtf4cities::21809606-0f27-4d0d-815a-dc625ebebca4",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "466I_Dr Anne Goodchild, Professor of Civil and Environmental Engineering at the University of Washington and Founding Director at Urban Freight Lab",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/466I_Dr-Anne-Goodchild--Professor-of-Civil-and-Environmental-Engineering-at-the-University-of-Washington-and-Founding-Director-at-Urban-Freight-Lab-e3os9h0",
+      "guid": "21809606-0f27-4d0d-815a-dc625ebebca4",
+      "guests": [
+        "Anne Goodchild"
       ],
       "hosts": [
         "Fanni Melles"
@@ -89267,6 +89551,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::60cf0cbe-29ef-46f8-8d90-1870a97ce588": {
+      "id": "wtf4cities::60cf0cbe-29ef-46f8-8d90-1870a97ce588",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Cities providing opportunities for sustainability - Anne Goodchild (466I trailer 3)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Cities-providing-opportunities-for-sustainability---Anne-Goodchild-466I-trailer-3-e3os9h7",
+      "guid": "60cf0cbe-29ef-46f8-8d90-1870a97ce588",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::60e1b660-7037-456b-955f-aaeb165d7c69": {
       "id": "wtf4cities::60e1b660-7037-456b-955f-aaeb165d7c69",
       "podcastId": "wtf4cities",
@@ -91357,6 +91653,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::9d2bda6b-c9aa-4514-a298-508e70c5389c": {
+      "id": "wtf4cities::9d2bda6b-c9aa-4514-a298-508e70c5389c",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Moving from design to implementation - Shawn Meyers (468I trailer 2)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Moving-from-design-to-implementation---Shawn-Meyers-468I-trailer-2-e3ovhrb",
+      "guid": "9d2bda6b-c9aa-4514-a298-508e70c5389c",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::9d542130-e946-4c65-b917-decb62e7bb51": {
       "id": "wtf4cities::9d542130-e946-4c65-b917-decb62e7bb51",
       "podcastId": "wtf4cities",
@@ -92286,6 +92594,18 @@
       "guests": [
         "Zoe Wang"
       ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::b3728579-c041-4359-bde5-bae321380a5c": {
+      "id": "wtf4cities::b3728579-c041-4359-bde5-bae321380a5c",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "465R_The state of sustainable urban last-mile freight planning in the United States (research)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/465R_The-state-of-sustainable-urban-last-mile-freight-planning-in-the-United-States-research-e3os9gh",
+      "guid": "b3728579-c041-4359-bde5-bae321380a5c",
+      "guests": [],
       "hosts": [
         "Fanni Melles"
       ]
@@ -93414,6 +93734,18 @@
       "guests": [
         "Richard Manasseh"
       ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::d0c0d281-a7fc-493d-8bda-fde60dc46ac5": {
+      "id": "wtf4cities::d0c0d281-a7fc-493d-8bda-fde60dc46ac5",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "What is possible if you are willing to change approaches? Shawn Meyers (468I trailer 1)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/What-is-possible-if-you-are-willing-to-change-approaches--Shawn-Meyers-468I-trailer-1-e3ovhr9",
+      "guid": "d0c0d281-a7fc-493d-8bda-fde60dc46ac5",
+      "guests": [],
       "hosts": [
         "Fanni Melles"
       ]

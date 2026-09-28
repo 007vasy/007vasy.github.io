@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:14:00Z",
+  "generatedAt": "2026-09-28T12:08:26Z",
   "defaultFrom": "Eric Smith",
   "defaultTo": "Chiara Marletto",
   "podcasts": [
@@ -12,8 +12,8 @@
       "episodeCount": 123,
       "rssItems": 141,
       "guestCount": 104,
-      "newItems": 1,
-      "reusedItems": 140
+      "newItems": 0,
+      "reusedItems": 141
     },
     {
       "id": "toe",
@@ -21,11 +21,11 @@
       "hosts": [
         "Curt Jaimungal"
       ],
-      "episodeCount": 316,
-      "rssItems": 363,
-      "guestCount": 223,
+      "episodeCount": 317,
+      "rssItems": 364,
+      "guestCount": 224,
       "newItems": 1,
-      "reusedItems": 362
+      "reusedItems": 363
     },
     {
       "id": "dissenter",
@@ -33,11 +33,11 @@
       "hosts": [
         "Ricardo Lopes"
       ],
-      "episodeCount": 1270,
-      "rssItems": 1302,
-      "guestCount": 1073,
+      "episodeCount": 1273,
+      "rssItems": 1305,
+      "guestCount": 1076,
       "newItems": 3,
-      "reusedItems": 1299
+      "reusedItems": 1302
     },
     {
       "id": "jim-rutt",
@@ -58,9 +58,9 @@
         "Brett Hall"
       ],
       "episodeCount": 46,
-      "rssItems": 268,
+      "rssItems": 270,
       "guestCount": 29,
-      "newItems": 0,
+      "newItems": 2,
       "reusedItems": 268
     },
     {
@@ -72,8 +72,8 @@
       "episodeCount": 473,
       "rssItems": 503,
       "guestCount": 410,
-      "newItems": 1,
-      "reusedItems": 502
+      "newItems": 0,
+      "reusedItems": 503
     },
     {
       "id": "mindscape",
@@ -81,11 +81,11 @@
       "hosts": [
         "Sean Carroll"
       ],
-      "episodeCount": 343,
-      "rssItems": 445,
-      "guestCount": 346,
+      "episodeCount": 344,
+      "rssItems": 446,
+      "guestCount": 347,
       "newItems": 1,
-      "reusedItems": 444
+      "reusedItems": 445
     },
     {
       "id": "cwt",
@@ -93,11 +93,11 @@
       "hosts": [
         "Tyler Cowen"
       ],
-      "episodeCount": 290,
-      "rssItems": 301,
-      "guestCount": 270,
+      "episodeCount": 291,
+      "rssItems": 302,
+      "guestCount": 271,
       "newItems": 1,
-      "reusedItems": 300
+      "reusedItems": 301
     },
     {
       "id": "foresight",
@@ -108,8 +108,8 @@
       "episodeCount": 205,
       "rssItems": 221,
       "guestCount": 269,
-      "newItems": 1,
-      "reusedItems": 220
+      "newItems": 0,
+      "reusedItems": 221
     },
     {
       "id": "existential-hope",
@@ -118,10 +118,10 @@
         "Allison Duettmann"
       ],
       "episodeCount": 31,
-      "rssItems": 41,
+      "rssItems": 42,
       "guestCount": 31,
       "newItems": 1,
-      "reusedItems": 40
+      "reusedItems": 41
     },
     {
       "id": "mlst",
@@ -129,11 +129,11 @@
       "hosts": [
         "Tim Scarfe"
       ],
-      "episodeCount": 169,
-      "rssItems": 265,
-      "guestCount": 166,
-      "newItems": 2,
-      "reusedItems": 263
+      "episodeCount": 172,
+      "rssItems": 268,
+      "guestCount": 169,
+      "newItems": 4,
+      "reusedItems": 264
     },
     {
       "id": "fallible-animals",
@@ -156,8 +156,8 @@
       "episodeCount": 17,
       "rssItems": 36,
       "guestCount": 17,
-      "newItems": 1,
-      "reusedItems": 35
+      "newItems": 0,
+      "reusedItems": 36
     },
     {
       "id": "complexity",
@@ -175,11 +175,11 @@
       "hosts": [
         "Fanni Melles"
       ],
-      "episodeCount": 209,
-      "rssItems": 732,
-      "guestCount": 201,
+      "episodeCount": 210,
+      "rssItems": 737,
+      "guestCount": 202,
       "newItems": 5,
-      "reusedItems": 727
+      "reusedItems": 732
     },
     {
       "id": "tim-ferriss",
@@ -187,11 +187,11 @@
       "hosts": [
         "Tim Ferriss"
       ],
-      "episodeCount": 693,
-      "rssItems": 887,
-      "guestCount": 640,
-      "newItems": 2,
-      "reusedItems": 885
+      "episodeCount": 694,
+      "rssItems": 888,
+      "guestCount": 641,
+      "newItems": 1,
+      "reusedItems": 887
     },
     {
       "id": "arjun-khemani",
@@ -219,19 +219,19 @@
       "id": "a16z",
       "name": "The a16z Show",
       "hosts": [],
-      "episodeCount": 319,
+      "episodeCount": 325,
       "rssItems": 1000,
-      "guestCount": 245,
-      "newItems": 6,
-      "reusedItems": 994
+      "guestCount": 247,
+      "newItems": 8,
+      "reusedItems": 992
     }
   ],
   "stats": {
-    "people": 3886,
-    "links": 4740,
-    "episodes": 5064,
-    "newItems": 26,
-    "reusedItems": 7121,
+    "people": 3897,
+    "links": 4752,
+    "episodes": 5081,
+    "newItems": 27,
+    "reusedItems": 7139,
     "extractor": "spacy+parsers",
     "defaultHops": 2,
     "defaultPath": [
@@ -245,7 +245,7 @@
       "id": "ricardo-lopes",
       "name": "Ricardo Lopes",
       "isHost": true,
-      "episodeCount": 1270,
+      "episodeCount": 1273,
       "podcasts": [
         "dissenter"
       ]
@@ -254,7 +254,7 @@
       "id": "tim-ferriss",
       "name": "Tim Ferriss",
       "isHost": true,
-      "episodeCount": 693,
+      "episodeCount": 694,
       "podcasts": [
         "tim-ferriss"
       ]
@@ -281,7 +281,7 @@
       "id": "sean-carroll",
       "name": "Sean Carroll",
       "isHost": true,
-      "episodeCount": 348,
+      "episodeCount": 349,
       "podcasts": [
         "toe",
         "dissenter",
@@ -293,7 +293,7 @@
       "id": "curt-jaimungal",
       "name": "Curt Jaimungal",
       "isHost": true,
-      "episodeCount": 316,
+      "episodeCount": 317,
       "podcasts": [
         "toe"
       ]
@@ -302,7 +302,7 @@
       "id": "tyler-cowen",
       "name": "Tyler Cowen",
       "isHost": true,
-      "episodeCount": 303,
+      "episodeCount": 304,
       "podcasts": [
         "dwarkesh",
         "toe",
@@ -330,7 +330,7 @@
       "id": "fanni-melles",
       "name": "Fanni Melles",
       "isHost": true,
-      "episodeCount": 209,
+      "episodeCount": 210,
       "podcasts": [
         "wtf4cities"
       ]
@@ -339,7 +339,7 @@
       "id": "tim-scarfe",
       "name": "Tim Scarfe",
       "isHost": true,
-      "episodeCount": 169,
+      "episodeCount": 172,
       "podcasts": [
         "mlst"
       ]
@@ -378,6 +378,17 @@
       ]
     },
     {
+      "id": "ben-horowitz",
+      "name": "Ben Horowitz",
+      "isHost": false,
+      "episodeCount": 35,
+      "podcasts": [
+        "tim-ferriss",
+        "network-state",
+        "a16z"
+      ]
+    },
+    {
       "id": "marc-andreessen",
       "name": "Marc Andreessen",
       "isHost": false,
@@ -387,17 +398,6 @@
         "lex-fridman",
         "cwt",
         "tim-ferriss",
-        "a16z"
-      ]
-    },
-    {
-      "id": "ben-horowitz",
-      "name": "Ben Horowitz",
-      "isHost": false,
-      "episodeCount": 34,
-      "podcasts": [
-        "tim-ferriss",
-        "network-state",
         "a16z"
       ]
     },
@@ -734,6 +734,15 @@
       ]
     },
     {
+      "id": "martin-casado",
+      "name": "Martin Casado",
+      "isHost": false,
+      "episodeCount": 8,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "reid-hoffman",
       "name": "Reid Hoffman",
       "isHost": false,
@@ -780,6 +789,15 @@
         "cwt",
         "foresight",
         "existential-hope"
+      ]
+    },
+    {
+      "id": "steven-sinofsky",
+      "name": "Steven Sinofsky",
+      "isHost": false,
+      "episodeCount": 8,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -901,15 +919,6 @@
       ]
     },
     {
-      "id": "martin-casado",
-      "name": "Martin Casado",
-      "isHost": false,
-      "episodeCount": 7,
-      "podcasts": [
-        "a16z"
-      ]
-    },
-    {
       "id": "michael-malice",
       "name": "Michael Malice",
       "isHost": false,
@@ -957,6 +966,15 @@
       "episodeCount": 7,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "aaron-levie",
+      "name": "Aaron Levie",
+      "isHost": false,
+      "episodeCount": 6,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -1119,15 +1137,6 @@
       ]
     },
     {
-      "id": "steven-sinofsky",
-      "name": "Steven Sinofsky",
-      "isHost": false,
-      "episodeCount": 6,
-      "podcasts": [
-        "a16z"
-      ]
-    },
-    {
       "id": "trent-mcconaghy",
       "name": "Trent McConaghy",
       "isHost": false,
@@ -1146,15 +1155,6 @@
         "jim-rutt",
         "mindscape",
         "complexity"
-      ]
-    },
-    {
-      "id": "aaron-levie",
-      "name": "Aaron Levie",
-      "isHost": false,
-      "episodeCount": 5,
-      "podcasts": [
-        "a16z"
       ]
     },
     {
@@ -1481,6 +1481,15 @@
       "podcasts": [
         "dwarkesh",
         "foresight"
+      ]
+    },
+    {
+      "id": "amjad-masad",
+      "name": "Amjad Masad",
+      "isHost": false,
+      "episodeCount": 4,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -2190,15 +2199,6 @@
       ]
     },
     {
-      "id": "amjad-masad",
-      "name": "Amjad Masad",
-      "isHost": false,
-      "episodeCount": 3,
-      "podcasts": [
-        "a16z"
-      ]
-    },
-    {
       "id": "ann-miura-ko",
       "name": "Ann Miura-Ko",
       "isHost": false,
@@ -2904,6 +2904,17 @@
       "episodeCount": 3,
       "podcasts": [
         "jim-rutt"
+      ]
+    },
+    {
+      "id": "jim-al-khalili",
+      "name": "Jim Al-Khalili",
+      "isHost": false,
+      "episodeCount": 3,
+      "podcasts": [
+        "toe",
+        "dissenter",
+        "mindscape"
       ]
     },
     {
@@ -5397,6 +5408,16 @@
       ]
     },
     {
+      "id": "gregg-caruso",
+      "name": "Gregg Caruso",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "dissenter",
+        "mindscape"
+      ]
+    },
+    {
       "id": "guido-van-rossum",
       "name": "Guido van Rossum",
       "isHost": false,
@@ -5740,16 +5761,6 @@
       "episodeCount": 2,
       "podcasts": [
         "toe"
-      ]
-    },
-    {
-      "id": "jim-al-khalili",
-      "name": "Jim Al-Khalili",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "dissenter",
-        "mindscape"
       ]
     },
     {
@@ -8790,6 +8801,15 @@
       ]
     },
     {
+      "id": "alexander-mattick",
+      "name": "Alexander Mattick",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "mlst"
+      ]
+    },
+    {
       "id": "alexander-mikaberidze",
       "name": "Alexander Mikaberidze",
       "isHost": false,
@@ -9831,6 +9851,15 @@
       "episodeCount": 1,
       "podcasts": [
         "mindscape"
+      ]
+    },
+    {
+      "id": "anne-goodchild",
+      "name": "Anne Goodchild",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "wtf4cities"
       ]
     },
     {
@@ -11933,6 +11962,15 @@
     {
       "id": "bucket-lists",
       "name": "Bucket Lists",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "tim-ferriss"
+      ]
+    },
+    {
+      "id": "build-billion-dollar-companies",
+      "name": "Build Billion-Dollar Companies",
       "isHost": false,
       "episodeCount": 1,
       "podcasts": [
@@ -16251,6 +16289,15 @@
       ]
     },
     {
+      "id": "eddy-lazzarin",
+      "name": "Eddy Lazzarin",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "edgar-dubourg",
       "name": "Edgar Dubourg",
       "isHost": false,
@@ -17007,6 +17054,15 @@
       ]
     },
     {
+      "id": "espen-hammer",
+      "name": "Espen Hammer",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "esther-duflo",
       "name": "Esther Duflo",
       "isHost": false,
@@ -17574,6 +17630,15 @@
       ]
     },
     {
+      "id": "frank-hutter",
+      "name": "Frank Hutter",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "mlst"
+      ]
+    },
+    {
       "id": "frank-keil",
       "name": "Frank Keil",
       "isHost": false,
@@ -18006,6 +18071,15 @@
       ]
     },
     {
+      "id": "george-boss",
+      "name": "George Boss",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "george-church",
       "name": "George Church",
       "isHost": false,
@@ -18201,6 +18275,15 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "gita-gopinath",
+      "name": "Gita Gopinath",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "cwt"
       ]
     },
     {
@@ -18458,15 +18541,6 @@
     {
       "id": "greger-larson",
       "name": "Greger Larson",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "dissenter"
-      ]
-    },
-    {
-      "id": "gregg-caruso",
-      "name": "Gregg Caruso",
       "isHost": false,
       "episodeCount": 1,
       "podcasts": [
@@ -18885,6 +18959,15 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
+      ]
+    },
+    {
+      "id": "harvey-s-maggie-landers",
+      "name": "Harvey’s Maggie Landers",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -28500,8 +28583,8 @@
       ]
     },
     {
-      "id": "pavan-muddireddy",
-      "name": "Pavan Muddireddy",
+      "id": "pavan-kumar-reddy",
+      "name": "Pavan Kumar Reddy",
       "isHost": false,
       "episodeCount": 1,
       "podcasts": [
@@ -33396,6 +33479,15 @@
       ]
     },
     {
+      "id": "s-amus-power",
+      "name": "Séamus Power",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "s-nia-frota",
       "name": "Sónia Frota",
       "isHost": false,
@@ -35706,6 +35798,15 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
+      ]
+    },
+    {
+      "id": "zhengyao-jiang",
+      "name": "Zhengyao Jiang",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "mlst"
       ]
     },
     {
@@ -42212,6 +42313,25 @@
       ]
     },
     {
+      "source": "aaron-levie",
+      "target": "steven-sinofsky",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+          "url": "https://a16z.simplecast.com/episodes/aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-ai-agents-v8Q401cc"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Aaron Levie and Steven Sinofsky on the AI-Worker Future",
+          "url": "https://a16z.simplecast.com/episodes/aaron-levie-and-steven-sinofsky-on-the-ai-worker-future-_LFktcaE"
+        }
+      ]
+    },
+    {
       "source": "ada-palmer",
       "target": "dwarkesh-patel",
       "value": 2,
@@ -48273,6 +48393,25 @@
       ]
     },
     {
+      "source": "martin-casado",
+      "target": "steven-sinofsky",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+          "url": "https://a16z.simplecast.com/episodes/aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-ai-agents-v8Q401cc"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "The New Economics of AI | Martin Casado & Steven Sinofsky",
+          "url": "https://a16z.simplecast.com/episodes/the-new-economics-of-ai-martin-casado-steven-sinofsky-6Xew5iHr"
+        }
+      ]
+    },
+    {
       "source": "martine-rothblatt",
       "target": "tim-ferriss",
       "value": 2,
@@ -49967,14 +50106,14 @@
     },
     {
       "source": "aaron-levie",
-      "target": "steven-sinofsky",
+      "target": "martin-casado",
       "value": 1,
       "episodes": [
         {
           "podcast": "The a16z Show",
           "podcastId": "a16z",
-          "title": "Aaron Levie and Steven Sinofsky on the AI-Worker Future",
-          "url": "https://a16z.simplecast.com/episodes/aaron-levie-and-steven-sinofsky-on-the-ai-worker-future-_LFktcaE"
+          "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+          "url": "https://a16z.simplecast.com/episodes/aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-ai-agents-v8Q401cc"
         }
       ]
     },
@@ -51704,6 +51843,19 @@
           "podcastId": "wtf4cities",
           "title": "406I_Alexander Josephson, founder of Cumulus and Partisans",
           "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/406I_Alexander-Josephson--founder-of-Cumulus-and-Partisans-e3f025q"
+        }
+      ]
+    },
+    {
+      "source": "alexander-mattick",
+      "target": "tim-scarfe",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Machine Learning Street Talk",
+          "podcastId": "mlst",
+          "title": "Why Scaling Prediction Cannot Create Intelligence - Alexander Mattick",
+          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Why-Scaling-Prediction-Cannot-Create-Intelligence---Alexander-Mattick-e3p69rq"
         }
       ]
     },
@@ -56817,6 +56969,19 @@
       ]
     },
     {
+      "source": "anne-goodchild",
+      "target": "fanni-melles",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "466I_Dr Anne Goodchild, Professor of Civil and Environmental Engineering at the University of Washington and Founding Director at Urban Freight Lab",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/466I_Dr-Anne-Goodchild--Professor-of-Civil-and-Environmental-Engineering-at-the-University-of-Washington-and-Founding-Director-at-Urban-Freight-Lab-e3os9h0"
+        }
+      ]
+    },
+    {
       "source": "anne-lamott",
       "target": "josh-waitzkin",
       "value": 1,
@@ -61874,6 +62039,19 @@
       ]
     },
     {
+      "source": "build-billion-dollar-companies",
+      "target": "tim-ferriss",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Tim Ferriss Show",
+          "podcastId": "tim-ferriss",
+          "title": "#884: How to Spot 10-Year Trends and Build Billion-Dollar Companies — Kevin Ryan of DoubleClick, MongoDB, Business Insider, and Many More",
+          "url": "gid://art19-episode-locator/V0/mbdm7FqApWkMF1leES32j8BmnIVkghmms67B1O_PMMg"
+        }
+      ]
+    },
+    {
       "source": "building-companies",
       "target": "tim-ferriss",
       "value": 1,
@@ -66797,6 +66975,19 @@
           "podcastId": "toe",
           "title": "Jenny Wagner: What If We've Been Wrong About Dark Matter For Decades?",
           "url": "97af3c1e-27d5-11f1-8e23-3fbea88ca6a1"
+        }
+      ]
+    },
+    {
+      "source": "curt-jaimungal",
+      "target": "jim-al-khalili",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Jim Al-Khalili: The Ontology of Time. We Had It Backwards",
+          "url": "35872cec-b4fa-11f1-9e5f-8ba9d04f95d0"
         }
       ]
     },
@@ -73834,6 +74025,19 @@
       ]
     },
     {
+      "source": "espen-hammer",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1309 Espen Hammer: Death of God: Secularization as a Philosophical Challenge from Kant to Nietzsche",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1309-Espen-Hammer-Death-of-God-Secularization-as-a-Philosophical-Challenge-from-Kant-to-Nietzsche-e3h84so"
+        }
+      ]
+    },
+    {
       "source": "esther-duflo",
       "target": "tyler-cowen",
       "value": 1,
@@ -76486,6 +76690,19 @@
       ]
     },
     {
+      "source": "frank-hutter",
+      "target": "tim-scarfe",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Machine Learning Street Talk",
+          "podcastId": "mlst",
+          "title": "How Deep Learning Finally Cracked Messy Tables - Frank Hutter",
+          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/How-Deep-Learning-Finally-Cracked-Messy-Tables---Frank-Hutter-e3p9qvq"
+        }
+      ]
+    },
+    {
       "source": "frank-keil",
       "target": "ricardo-lopes",
       "value": 1,
@@ -77344,6 +77561,19 @@
       ]
     },
     {
+      "source": "george-boss",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1310 George Boss: Marx and the Politics of Need",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1310-George-Boss-Marx-and-the-Politics-of-Need-e3nv9lq"
+        }
+      ]
+    },
+    {
       "source": "george-graham",
       "target": "ricardo-lopes",
       "value": 1,
@@ -77665,6 +77895,19 @@
           "podcastId": "dissenter",
           "title": "#1185 Giovanni Rolla: Enactivism, Ecological Psychology, and Embodied Cognition",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1185-Giovanni-Rolla-Enactivism--Ecological-Psychology--and-Embodied-Cognition-e3820s3"
+        }
+      ]
+    },
+    {
+      "source": "gita-gopinath",
+      "target": "tyler-cowen",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Conversations with Tyler",
+          "podcastId": "cwt",
+          "title": "Gita Gopinath on Trade, Currencies, and Economic Transformation",
+          "url": "https://cowenconvos.libsyn.com/gita-gopinath-on-trade-currencies-and-economic-transformation"
         }
       ]
     },
@@ -78250,6 +78493,19 @@
           "podcastId": "dissenter",
           "title": "#436 Gregg Caruso: Just Deserts, and Rejecting Retributivism",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/436-Gregg-Caruso-Just-Deserts--and-Rejecting-Retributivism-equ2b3"
+        }
+      ]
+    },
+    {
+      "source": "gregg-caruso",
+      "target": "sean-carroll",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Mindscape",
+          "podcastId": "mindscape",
+          "title": "369 | Gregg Caruso on Living Well Without Free Will",
+          "url": "https://preposterousuniverse.com/podcast/2026/09/28/369-gregg-caruso-on-living-well-without-free-will/"
         }
       ]
     },
@@ -91566,19 +91822,6 @@
       ]
     },
     {
-      "source": "martin-casado",
-      "target": "steven-sinofsky",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "The a16z Show",
-          "podcastId": "a16z",
-          "title": "The New Economics of AI | Martin Casado & Steven Sinofsky",
-          "url": "https://a16z.simplecast.com/episodes/the-new-economics-of-ai-martin-casado-steven-sinofsky-6Xew5iHr"
-        }
-      ]
-    },
-    {
       "source": "martin-daly",
       "target": "ricardo-lopes",
       "value": 1,
@@ -95739,15 +95982,15 @@
       ]
     },
     {
-      "source": "pavan-muddireddy",
+      "source": "pavan-kumar-reddy",
       "target": "tim-scarfe",
       "value": 1,
       "episodes": [
         {
           "podcast": "Machine Learning Street Talk",
           "podcastId": "mlst",
-          "title": "Speech Recognition Is Not a Solved Problem — Pavan Muddireddy",
-          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Speech-Recognition-Is-Not-a-Solved-Problem--Pavan-Muddireddy-e3orlk9"
+          "title": "Speech Recognition Is Not a Solved Problem — Pavan Kumar Reddy",
+          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Speech-Recognition-Is-Not-a-Solved-Problem--Pavan-Kumar-Reddy-e3orlk9"
         }
       ]
     },
@@ -99037,6 +99280,19 @@
           "podcastId": "dissenter",
           "title": "#1114 Sybil Hart: Attachment and Parent-Offspring Conflict",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1114-Sybil-Hart-Attachment-and-Parent-Offspring-Conflict-e31loni"
+        }
+      ]
+    },
+    {
+      "source": "ricardo-lopes",
+      "target": "s-amus-power",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1311 Séamus Power - Inequality: A View from Manywheres",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1311-Samus-Power---Inequality-A-View-from-Manywheres-e3o4kkk"
         }
       ]
     },
@@ -103288,6 +103544,19 @@
           "podcastId": "mlst",
           "title": "How Physical AI Learns Across Language, Video and Action — Ming-Yu Liu",
           "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/How-Physical-AI-Learns-Across-Language--Video-and-Action--Ming-Yu-Liu-e3ospub"
+        }
+      ]
+    },
+    {
+      "source": "tim-scarfe",
+      "target": "zhengyao-jiang",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Machine Learning Street Talk",
+          "podcastId": "mlst",
+          "title": "When AI Research Starts Moving Faster Than Human Research - Zhengyao Jiang",
+          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/When-AI-Research-Starts-Moving-Faster-Than-Human-Research---Zhengyao-Jiang-e3pe7db"
         }
       ]
     },
