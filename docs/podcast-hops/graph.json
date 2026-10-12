@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:48:56Z",
+  "generatedAt": "2026-10-12T13:40:03Z",
   "defaultFrom": "Eric Smith",
   "defaultTo": "Chiara Marletto",
   "podcasts": [
@@ -12,8 +12,8 @@
       "episodeCount": 124,
       "rssItems": 142,
       "guestCount": 105,
-      "newItems": 1,
-      "reusedItems": 141
+      "newItems": 0,
+      "reusedItems": 142
     },
     {
       "id": "toe",
@@ -21,11 +21,11 @@
       "hosts": [
         "Curt Jaimungal"
       ],
-      "episodeCount": 318,
-      "rssItems": 365,
+      "episodeCount": 319,
+      "rssItems": 366,
       "guestCount": 225,
       "newItems": 1,
-      "reusedItems": 364
+      "reusedItems": 365
     },
     {
       "id": "dissenter",
@@ -33,11 +33,11 @@
       "hosts": [
         "Ricardo Lopes"
       ],
-      "episodeCount": 1276,
-      "rssItems": 1308,
-      "guestCount": 1078,
+      "episodeCount": 1279,
+      "rssItems": 1311,
+      "guestCount": 1081,
       "newItems": 3,
-      "reusedItems": 1305
+      "reusedItems": 1308
     },
     {
       "id": "jim-rutt",
@@ -58,9 +58,9 @@
         "Brett Hall"
       ],
       "episodeCount": 46,
-      "rssItems": 270,
+      "rssItems": 271,
       "guestCount": 29,
-      "newItems": 0,
+      "newItems": 1,
       "reusedItems": 270
     },
     {
@@ -70,10 +70,10 @@
         "Lex Fridman"
       ],
       "episodeCount": 473,
-      "rssItems": 503,
+      "rssItems": 502,
       "guestCount": 410,
       "newItems": 0,
-      "reusedItems": 503
+      "reusedItems": 502
     },
     {
       "id": "mindscape",
@@ -82,10 +82,10 @@
         "Sean Carroll"
       ],
       "episodeCount": 345,
-      "rssItems": 447,
+      "rssItems": 448,
       "guestCount": 348,
       "newItems": 1,
-      "reusedItems": 446
+      "reusedItems": 447
     },
     {
       "id": "cwt",
@@ -96,8 +96,8 @@
       "episodeCount": 292,
       "rssItems": 303,
       "guestCount": 272,
-      "newItems": 1,
-      "reusedItems": 302
+      "newItems": 0,
+      "reusedItems": 303
     },
     {
       "id": "foresight",
@@ -105,11 +105,11 @@
       "hosts": [
         "Allison Duettmann"
       ],
-      "episodeCount": 206,
-      "rssItems": 222,
-      "guestCount": 270,
+      "episodeCount": 207,
+      "rssItems": 223,
+      "guestCount": 272,
       "newItems": 1,
-      "reusedItems": 221
+      "reusedItems": 222
     },
     {
       "id": "existential-hope",
@@ -120,8 +120,8 @@
       "episodeCount": 32,
       "rssItems": 43,
       "guestCount": 32,
-      "newItems": 1,
-      "reusedItems": 42
+      "newItems": 0,
+      "reusedItems": 43
     },
     {
       "id": "mlst",
@@ -130,10 +130,10 @@
         "Tim Scarfe"
       ],
       "episodeCount": 174,
-      "rssItems": 270,
+      "rssItems": 271,
       "guestCount": 171,
-      "newItems": 2,
-      "reusedItems": 268
+      "newItems": 1,
+      "reusedItems": 270
     },
     {
       "id": "fallible-animals",
@@ -175,11 +175,11 @@
       "hosts": [
         "Fanni Melles"
       ],
-      "episodeCount": 213,
-      "rssItems": 742,
-      "guestCount": 204,
+      "episodeCount": 215,
+      "rssItems": 747,
+      "guestCount": 205,
       "newItems": 5,
-      "reusedItems": 737
+      "reusedItems": 742
     },
     {
       "id": "tim-ferriss",
@@ -187,11 +187,11 @@
       "hosts": [
         "Tim Ferriss"
       ],
-      "episodeCount": 695,
-      "rssItems": 889,
-      "guestCount": 641,
+      "episodeCount": 696,
+      "rssItems": 890,
+      "guestCount": 642,
       "newItems": 1,
-      "reusedItems": 888
+      "reusedItems": 889
     },
     {
       "id": "arjun-khemani",
@@ -219,19 +219,19 @@
       "id": "a16z",
       "name": "The a16z Show",
       "hosts": [],
-      "episodeCount": 329,
+      "episodeCount": 335,
       "rssItems": 1000,
-      "guestCount": 250,
+      "guestCount": 255,
       "newItems": 7,
       "reusedItems": 993
     }
   ],
   "stats": {
-    "people": 3910,
-    "links": 4768,
-    "episodes": 5100,
-    "newItems": 24,
-    "reusedItems": 7159,
+    "people": 3920,
+    "links": 4776,
+    "episodes": 5114,
+    "newItems": 21,
+    "reusedItems": 7175,
     "extractor": "spacy+parsers",
     "defaultHops": 2,
     "defaultPath": [
@@ -245,7 +245,7 @@
       "id": "ricardo-lopes",
       "name": "Ricardo Lopes",
       "isHost": true,
-      "episodeCount": 1276,
+      "episodeCount": 1279,
       "podcasts": [
         "dissenter"
       ]
@@ -254,7 +254,7 @@
       "id": "tim-ferriss",
       "name": "Tim Ferriss",
       "isHost": true,
-      "episodeCount": 695,
+      "episodeCount": 696,
       "podcasts": [
         "tim-ferriss"
       ]
@@ -293,7 +293,7 @@
       "id": "curt-jaimungal",
       "name": "Curt Jaimungal",
       "isHost": true,
-      "episodeCount": 318,
+      "episodeCount": 319,
       "podcasts": [
         "toe"
       ]
@@ -319,7 +319,7 @@
       "id": "allison-duettmann",
       "name": "Allison Duettmann",
       "isHost": true,
-      "episodeCount": 239,
+      "episodeCount": 240,
       "podcasts": [
         "foresight",
         "existential-hope",
@@ -330,7 +330,7 @@
       "id": "fanni-melles",
       "name": "Fanni Melles",
       "isHost": true,
-      "episodeCount": 213,
+      "episodeCount": 215,
       "podcasts": [
         "wtf4cities"
       ]
@@ -381,7 +381,7 @@
       "id": "ben-horowitz",
       "name": "Ben Horowitz",
       "isHost": false,
-      "episodeCount": 35,
+      "episodeCount": 36,
       "podcasts": [
         "tim-ferriss",
         "network-state",
@@ -1021,6 +1021,18 @@
       ]
     },
     {
+      "id": "geoffrey-west",
+      "name": "Geoffrey West",
+      "isHost": false,
+      "episodeCount": 6,
+      "podcasts": [
+        "dissenter",
+        "mindscape",
+        "complexity",
+        "wtf4cities"
+      ]
+    },
+    {
       "id": "greg-mckeown",
       "name": "Greg McKeown",
       "isHost": false,
@@ -1249,18 +1261,6 @@
       "podcasts": [
         "tim-ferriss",
         "a16z"
-      ]
-    },
-    {
-      "id": "geoffrey-west",
-      "name": "Geoffrey West",
-      "isHost": false,
-      "episodeCount": 5,
-      "podcasts": [
-        "dissenter",
-        "mindscape",
-        "complexity",
-        "wtf4cities"
       ]
     },
     {
@@ -1972,6 +1972,18 @@
         "mindscape",
         "cwt",
         "tim-ferriss"
+      ]
+    },
+    {
+      "id": "nick-bostrom",
+      "name": "Nick Bostrom",
+      "isHost": false,
+      "episodeCount": 4,
+      "podcasts": [
+        "tokcast",
+        "lex-fridman",
+        "mindscape",
+        "a16z"
       ]
     },
     {
@@ -3260,17 +3272,6 @@
       "episodeCount": 3,
       "podcasts": [
         "tim-ferriss"
-      ]
-    },
-    {
-      "id": "nick-bostrom",
-      "name": "Nick Bostrom",
-      "isHost": false,
-      "episodeCount": 3,
-      "podcasts": [
-        "tokcast",
-        "lex-fridman",
-        "mindscape"
       ]
     },
     {
@@ -5888,6 +5889,15 @@
       ]
     },
     {
+      "id": "jonathan-gorard",
+      "name": "Jonathan Gorard",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "toe"
+      ]
+    },
+    {
       "id": "jonathan-oppenheim",
       "name": "Jonathan Oppenheim",
       "isHost": false,
@@ -7423,6 +7433,16 @@
       ]
     },
     {
+      "id": "samuel-arbesman",
+      "name": "Samuel Arbesman",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "dissenter",
+        "jim-rutt"
+      ]
+    },
+    {
       "id": "satya-nadella",
       "name": "Satya Nadella",
       "isHost": false,
@@ -8062,6 +8082,15 @@
       "episodeCount": 1,
       "podcasts": [
         "wtf4cities"
+      ]
+    },
+    {
+      "id": "aws-ceo-matt-garman",
+      "name": "AWS CEO Matt Garman",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -11431,6 +11460,15 @@
       ]
     },
     {
+      "id": "boner-pills",
+      "name": "Boner Pills",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "tim-ferriss"
+      ]
+    },
+    {
       "id": "bonnie-bassler",
       "name": "Bonnie Bassler",
       "isHost": false,
@@ -12495,6 +12533,15 @@
     {
       "id": "cas-soper",
       "name": "Cas Soper",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
+      "id": "casper-hesp",
+      "name": "Casper Hesp",
       "isHost": false,
       "episodeCount": 1,
       "podcasts": [
@@ -18586,6 +18633,15 @@
       ]
     },
     {
+      "id": "greg-wayne",
+      "name": "Greg Wayne",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "foresight"
+      ]
+    },
+    {
       "id": "greger-larson",
       "name": "Greger Larson",
       "isHost": false,
@@ -21907,15 +21963,6 @@
       ]
     },
     {
-      "id": "jonathan-gorard",
-      "name": "Jonathan Gorard",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "toe"
-      ]
-    },
-    {
       "id": "jonathan-haidt-s",
       "name": "Jonathan Haidt's",
       "isHost": false,
@@ -23164,6 +23211,15 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "kevin-mandia",
+      "name": "Kevin Mandia",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -28369,6 +28425,15 @@
       ]
     },
     {
+      "id": "pat-gelsinger",
+      "name": "Pat Gelsinger",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "patricia-fara",
       "name": "Patricia Fara",
       "isHost": false,
@@ -31438,6 +31503,15 @@
       ]
     },
     {
+      "id": "samantha-waite",
+      "name": "Samantha Waite",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "sami-inkinen",
       "name": "Sami Inkinen",
       "isHost": false,
@@ -31462,15 +31536,6 @@
       "episodeCount": 1,
       "podcasts": [
         "tim-ferriss"
-      ]
-    },
-    {
-      "id": "samuel-arbesman",
-      "name": "Samuel Arbesman",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "jim-rutt"
       ]
     },
     {
@@ -34813,6 +34878,15 @@
       ]
     },
     {
+      "id": "universal-ai-assistants",
+      "name": "Universal AI Assistants",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "foresight"
+      ]
+    },
+    {
       "id": "urolithin-a",
       "name": "Urolithin A",
       "isHost": false,
@@ -34858,6 +34932,15 @@
       ]
     },
     {
+      "id": "v-kelly-turner",
+      "name": "V. Kelly Turner",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "wtf4cities"
+      ]
+    },
+    {
       "id": "vaccine-choice",
       "name": "Vaccine Choice",
       "isHost": false,
@@ -34900,6 +34983,15 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "valon-rebuilt",
+      "name": "Valon Rebuilt",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -40782,6 +40874,31 @@
     },
     {
       "source": "fanni-melles",
+      "target": "geoffrey-west",
+      "value": 3,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Scaling Laws from Cells to Cities | Geoffrey West",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Scaling-Laws-from-Cells-to-Cities--Geoffrey-West-e3p5p8h"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "A City Is a Machine for Social Interaction | Geoffrey West",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/A-City-Is-a-Machine-for-Social-Interaction--Geoffrey-West-e3p5p8f"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Cities Growing Faster Than Exponential | Geoffrey West",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Cities-Growing-Faster-Than-Exponential--Geoffrey-West-e3p5p8e"
+        }
+      ]
+    },
+    {
+      "source": "fanni-melles",
       "target": "kirsten-day",
       "value": 3,
       "episodes": [
@@ -44763,6 +44880,25 @@
     },
     {
       "source": "curt-jaimungal",
+      "target": "jonathan-gorard",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Jonathan Gorard: The Physicist Revolutionizing Physics With AI",
+          "url": "a1af6280-c05e-11f1-b25f-0fe8ed5e530b"
+        },
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Jonathan Gorard: Quantum Gravity Inside the Wolfram Physics Project",
+          "url": "https://youtube.com/TheoriesOfEverything"
+        }
+      ]
+    },
+    {
+      "source": "curt-jaimungal",
       "target": "jonathan-oppenheim",
       "value": 2,
       "episodes": [
@@ -46107,25 +46243,6 @@
           "podcastId": "tim-ferriss",
           "title": "#367: Eric Schmidt — Lessons from a Trillion-Dollar Coach",
           "url": "gid://art19-episode-locator/V0/ELkCqQwGKsgmTQAH-sarUU2joTpqqQz-dv9TR7WhIiI"
-        }
-      ]
-    },
-    {
-      "source": "fanni-melles",
-      "target": "geoffrey-west",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "WTF4Cities",
-          "podcastId": "wtf4cities",
-          "title": "A City Is a Machine for Social Interaction | Geoffrey West",
-          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/A-City-Is-a-Machine-for-Social-Interaction--Geoffrey-West-e3p5p8f"
-        },
-        {
-          "podcast": "WTF4Cities",
-          "podcastId": "wtf4cities",
-          "title": "Cities Growing Faster Than Exponential | Geoffrey West",
-          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Cities-Growing-Faster-Than-Exponential--Geoffrey-West-e3p5p8e"
         }
       ]
     },
@@ -53668,6 +53785,19 @@
     },
     {
       "source": "allison-duettmann",
+      "target": "greg-wayne",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "Situated, Universal AI Assistants | Greg Wayne",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/situated-universal-ai-assistants-greg-wayne"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
       "target": "gus-docker",
       "value": 1,
       "episodes": [
@@ -55314,6 +55444,19 @@
           "podcastId": "foresight",
           "title": "Tom Chi | Understanding Investment and Fundraising",
           "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/6527e4f6d5cc0400128c85f5"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
+      "target": "universal-ai-assistants",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "Situated, Universal AI Assistants | Greg Wayne",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/situated-universal-ai-assistants-greg-wayne"
         }
       ]
     },
@@ -60661,6 +60804,19 @@
       ]
     },
     {
+      "source": "boner-pills",
+      "target": "tim-ferriss",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Tim Ferriss Show",
+          "podcastId": "tim-ferriss",
+          "title": "#886: The Random Show — AI Super Assistants, Boner Pills, Dream Engineering, Wizards, Supplements, Books, and More",
+          "url": "gid://art19-episode-locator/V0/2gc0hStoXesmLQZPcbIV2jgLHbfTSjMnSRajpeMjrBM"
+        }
+      ]
+    },
+    {
       "source": "bonnie-bassler",
       "target": "sean-carroll",
       "value": 1,
@@ -63257,6 +63413,19 @@
           "podcastId": "wtf4cities",
           "title": "410I_Casey Handmer, founder of Terraform Industries",
           "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/410I_Casey-Handmer--founder-of-Terraform-Industries-e3fe2qh"
+        }
+      ]
+    },
+    {
+      "source": "casper-hesp",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1316 Casper Hesp: Active Inference, Affect, Culture, and Phenomenology",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1316-Casper-Hesp-Active-Inference--Affect--Culture--and-Phenomenology-e2bi7s0"
         }
       ]
     },
@@ -67273,19 +67442,6 @@
           "podcast": "Theories of Everything",
           "podcastId": "toe",
           "title": "Jonathan Blow: What Game Design Reveals About Consciousness",
-          "url": "https://youtube.com/TheoriesOfEverything"
-        }
-      ]
-    },
-    {
-      "source": "curt-jaimungal",
-      "target": "jonathan-gorard",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Theories of Everything",
-          "podcastId": "toe",
-          "title": "Jonathan Gorard: Quantum Gravity Inside the Wolfram Physics Project",
           "url": "https://youtube.com/TheoriesOfEverything"
         }
       ]
@@ -76340,6 +76496,19 @@
     },
     {
       "source": "fanni-melles",
+      "target": "v-kelly-turner",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Heat is a verb, so ask which heat - V. Kelly Turner (472)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Heat-is-a-verb--so-ask-which-heat---V--Kelly-Turner-472-e3pfjef"
+        }
+      ]
+    },
+    {
+      "source": "fanni-melles",
       "target": "ville-sirvi",
       "value": 1,
       "episodes": [
@@ -78753,6 +78922,19 @@
           "podcastId": "jim-rutt",
           "title": "EP 161 Greg Thomas on Untangling the Gordian Knot of Race",
           "url": "https://jimruttshow.blubrry.net/greg-thomas/"
+        }
+      ]
+    },
+    {
+      "source": "greg-wayne",
+      "target": "universal-ai-assistants",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "Situated, Universal AI Assistants | Greg Wayne",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/situated-universal-ai-assistants-greg-wayne"
         }
       ]
     },
@@ -98713,6 +98895,19 @@
     },
     {
       "source": "ricardo-lopes",
+      "target": "samantha-waite",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1315 Samantha Waite: Everything You've Ever Wanted to Know About Death",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1315-Samantha-Waite-Everything-Youve-Ever-Wanted-to-Know-About-Death-e3pg9ca"
+        }
+      ]
+    },
+    {
+      "source": "ricardo-lopes",
       "target": "sami-timimi",
       "value": 1,
       "episodes": [
@@ -98734,6 +98929,19 @@
           "podcastId": "dissenter",
           "title": "#234 Samir Okasha: Natural Selection, From Genes To Groups",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/234-Samir-Okasha-Natural-Selection--From-Genes-To-Groups-e4r319"
+        }
+      ]
+    },
+    {
+      "source": "ricardo-lopes",
+      "target": "samuel-arbesman",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1317 Samuel Arbesman - The Half-life of Facts: Why Everything We Know Has an Expiration Date",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1317-Samuel-Arbesman---The-Half-life-of-Facts-Why-Everything-We-Know-Has-an-Expiration-Date-e3lqrhs"
         }
       ]
     },

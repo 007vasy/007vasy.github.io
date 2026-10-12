@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T12:48:56Z",
-  "episodeCount": 7250,
+  "updatedAt": "2026-10-12T13:40:03Z",
+  "episodeCount": 7271,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -1723,6 +1723,18 @@
       ],
       "hosts": []
     },
+    "a16z::362a88d2-2968-43d5-b3e4-7531e65faea0": {
+      "id": "a16z::362a88d2-2968-43d5-b3e4-7531e65faea0",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+      "url": "https://a16z.simplecast.com/episodes/building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman-d18BWOHC",
+      "guid": "362a88d2-2968-43d5-b3e4-7531e65faea0",
+      "guests": [
+        "AWS CEO Matt Garman"
+      ],
+      "hosts": []
+    },
     "a16z::36a8220e-1090-417d-8ba7-c483df5c4f5d": {
       "id": "a16z::36a8220e-1090-417d-8ba7-c483df5c4f5d",
       "podcastId": "a16z",
@@ -2247,6 +2259,18 @@
       "url": "https://a16z.simplecast.com/episodes/blockchains-crypto-web3-connections-models-QRYQ9oIi",
       "guid": "446c10e8-6546-4ec1-b4b7-87c28d34d881",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::448c46f9-889e-436c-9230-b0050c6387f7": {
+      "id": "a16z::448c46f9-889e-436c-9230-b0050c6387f7",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
+      "url": "https://a16z.simplecast.com/episodes/how-valon-rebuilt-a-13-trillion-industry-from-scratch-0mcVWvYe",
+      "guid": "448c46f9-889e-436c-9230-b0050c6387f7",
+      "guests": [
+        "Valon Rebuilt"
+      ],
       "hosts": []
     },
     "a16z::44d511d0-9f4b-4378-a933-794405962c31": {
@@ -3076,6 +3100,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::622eb43c-ff90-4b57-bdc2-3289bee70e1a": {
+      "id": "a16z::622eb43c-ff90-4b57-bdc2-3289bee70e1a",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage",
+      "url": "https://a16z.simplecast.com/episodes/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage-FiiBzjgE",
+      "guid": "622eb43c-ff90-4b57-bdc2-3289bee70e1a",
+      "guests": [
+        "Ben Horowitz"
+      ],
+      "hosts": []
+    },
     "a16z::6378a012-4bce-4677-a28c-3df2589c37a3": {
       "id": "a16z::6378a012-4bce-4677-a28c-3df2589c37a3",
       "podcastId": "a16z",
@@ -3284,6 +3320,18 @@
       "guests": [
         "Rethinking Git",
         "Scott Chacon"
+      ],
+      "hosts": []
+    },
+    "a16z::6be2f208-f197-42c1-bd01-4b859bfc26cb": {
+      "id": "a16z::6be2f208-f197-42c1-bd01-4b859bfc26cb",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Chips, Memory, and Power | Pat Gelsinger",
+      "url": "https://a16z.simplecast.com/episodes/chips-memory-and-power-pat-gelsinger-uwHe_vsU",
+      "guid": "6be2f208-f197-42c1-bd01-4b859bfc26cb",
+      "guests": [
+        "Pat Gelsinger"
       ],
       "hosts": []
     },
@@ -4127,6 +4175,16 @@
       "guests": [
         "Founders Playbook"
       ],
+      "hosts": []
+    },
+    "a16z::86a5fbd4-dc69-4a2d-8dc9-ab28e67673aa": {
+      "id": "a16z::86a5fbd4-dc69-4a2d-8dc9-ab28e67673aa",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Race to Recursive Self-Improving AI",
+      "url": "https://a16z.simplecast.com/episodes/the-race-to-recursive-self-improving-ai-OPuX1TcP",
+      "guid": "86a5fbd4-dc69-4a2d-8dc9-ab28e67673aa",
+      "guests": [],
       "hosts": []
     },
     "a16z::87214c65-be58-418a-8b9b-f0d50d5095ca": {
@@ -5235,6 +5293,18 @@
       "url": "https://a16z.simplecast.com/episodes/introducing-raising-health-fireside-chat-with-sean-duffy-_pCZlfd3",
       "guid": "a7d82fbb-cfcc-43cc-adb0-e884a0e468b2",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::a81bc86d-fcb2-4837-9001-7f815fae8537": {
+      "id": "a16z::a81bc86d-fcb2-4837-9001-7f815fae8537",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+      "url": "https://a16z.simplecast.com/episodes/nick-bostrom-how-should-we-navigate-superintelligence-COJSBboX",
+      "guid": "a81bc86d-fcb2-4837-9001-7f815fae8537",
+      "guests": [
+        "Nick Bostrom"
+      ],
       "hosts": []
     },
     "a16z::a83034d7-1ba6-490f-96f6-632af406f2b2": {
@@ -6462,6 +6532,18 @@
       "guid": "d0efbb2a-29ae-40f8-930a-dbbbad636233",
       "guests": [
         "Biology’s Toughest"
+      ],
+      "hosts": []
+    },
+    "a16z::d110348a-bd35-4a71-a50f-90bf45a1db0b": {
+      "id": "a16z::d110348a-bd35-4a71-a50f-90bf45a1db0b",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Building Defense for the Agentic Era: Kevin Mandia",
+      "url": "https://a16z.simplecast.com/episodes/building-defense-for-the-agentic-era-kevin-mandia-4ylPD1X6",
+      "guid": "d110348a-bd35-4a71-a50f-90bf45a1db0b",
+      "guests": [
+        "Kevin Mandia"
       ],
       "hosts": []
     },
@@ -17716,6 +17798,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::0144ed70-ad00-4a30-b162-b42fa7e88f2c": {
+      "id": "dissenter::0144ed70-ad00-4a30-b162-b42fa7e88f2c",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1316 Casper Hesp: Active Inference, Affect, Culture, and Phenomenology",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1316-Casper-Hesp-Active-Inference--Affect--Culture--and-Phenomenology-e2bi7s0",
+      "guid": "0144ed70-ad00-4a30-b162-b42fa7e88f2c",
+      "guests": [
+        "Casper Hesp"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::014b4341-a9b2-4502-9ebc-c18a7306c03b": {
       "id": "dissenter::014b4341-a9b2-4502-9ebc-c18a7306c03b",
       "podcastId": "dissenter",
@@ -22867,6 +22963,20 @@
       "guid": "46402779-bdb3-45ff-a9cd-9dfbb8ef6f5f",
       "guests": [
         "James Lee"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::466d4249-ac1c-4f8b-8239-13be72bdf103": {
+      "id": "dissenter::466d4249-ac1c-4f8b-8239-13be72bdf103",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1317 Samuel Arbesman - The Half-life of Facts: Why Everything We Know Has an Expiration Date",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1317-Samuel-Arbesman---The-Half-life-of-Facts-Why-Everything-We-Know-Has-an-Expiration-Date-e3lqrhs",
+      "guid": "466d4249-ac1c-4f8b-8239-13be72bdf103",
+      "guests": [
+        "Samuel Arbesman"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -32376,6 +32486,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::cf268af5-a0c1-4b0d-9133-0dde19202339": {
+      "id": "dissenter::cf268af5-a0c1-4b0d-9133-0dde19202339",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1315 Samantha Waite: Everything You've Ever Wanted to Know About Death",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1315-Samantha-Waite-Everything-Youve-Ever-Wanted-to-Know-About-Death-e3pg9ca",
+      "guid": "cf268af5-a0c1-4b0d-9133-0dde19202339",
+      "guests": [
+        "Samantha Waite"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::cf7bec67-2395-4359-8cf2-0bc3126f8f74": {
       "id": "dissenter::cf7bec67-2395-4359-8cf2-0bc3126f8f74",
       "podcastId": "dissenter",
@@ -40419,6 +40543,21 @@
       "guid": "6abbacfef560f37dfc21e6c9",
       "guests": [
         "Andrew Trask"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "foresight::6ac4e5dcaef0446505bf9fc3": {
+      "id": "foresight::6ac4e5dcaef0446505bf9fc3",
+      "podcastId": "foresight",
+      "podcast": "Foresight Institute Radio",
+      "title": "Situated, Universal AI Assistants | Greg Wayne",
+      "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/situated-universal-ai-assistants-greg-wayne",
+      "guid": "6ac4e5dcaef0446505bf9fc3",
+      "guests": [
+        "Universal AI Assistants",
+        "Greg Wayne"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -56219,6 +56358,18 @@
         "Sean Carroll"
       ]
     },
+    "mindscape::9d164263-238b-48a7-8737-621c84d94c62": {
+      "id": "mindscape::9d164263-238b-48a7-8737-621c84d94c62",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "Ask Me Anything | October 2026",
+      "url": "https://preposterousuniverse.com/podcast/2026/10/12/ama-october-2026/",
+      "guid": "9d164263-238b-48a7-8737-621c84d94c62",
+      "guests": [],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
     "mindscape::a4066ed8fd334539a04e6fd420443591": {
       "id": "mindscape::a4066ed8fd334539a04e6fd420443591",
       "podcastId": "mindscape",
@@ -62223,6 +62374,18 @@
       "title": "Evolution \"Doesn't Need\" Mutation - Blaise Agüera y Arcas",
       "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Evolution-Doesnt-Need-Mutation---Blaise-Agera-y-Arcas-e3f5d8f",
       "guid": "37176ce1-a57d-4333-af2b-bd7ed26fd02b",
+      "guests": [],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
+    "mlst::387cf19d-15d2-40f5-9752-7893a16aa830": {
+      "id": "mlst::387cf19d-15d2-40f5-9752-7893a16aa830",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "What Most People Get Wrong About Evolution | Akarsh Kumar",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/What-Most-People-Get-Wrong-About-Evolution--Akarsh-Kumar-e3q8ds7",
+      "guid": "387cf19d-15d2-40f5-9752-7893a16aa830",
       "guests": [],
       "hosts": [
         "Tim Scarfe"
@@ -69630,6 +69793,20 @@
       "guid": "gid://art19-episode-locator/V0/2eOUBUY3-Lr3UYydZN6iBFhf79npKqzLq4KBFwbGa3M",
       "guests": [
         "Matthew McConaughey"
+      ],
+      "hosts": [
+        "Tim Ferriss"
+      ]
+    },
+    "tim-ferriss::gid://art19-episode-locator/V0/2gc0hStoXesmLQZPcbIV2jgLHbfTSjMnSRajpeMjrBM": {
+      "id": "tim-ferriss::gid://art19-episode-locator/V0/2gc0hStoXesmLQZPcbIV2jgLHbfTSjMnSRajpeMjrBM",
+      "podcastId": "tim-ferriss",
+      "podcast": "The Tim Ferriss Show",
+      "title": "#886: The Random Show — AI Super Assistants, Boner Pills, Dream Engineering, Wizards, Supplements, Books, and More",
+      "url": "gid://art19-episode-locator/V0/2gc0hStoXesmLQZPcbIV2jgLHbfTSjMnSRajpeMjrBM",
+      "guid": "gid://art19-episode-locator/V0/2gc0hStoXesmLQZPcbIV2jgLHbfTSjMnSRajpeMjrBM",
+      "guests": [
+        "Boner Pills"
       ],
       "hosts": [
         "Tim Ferriss"
@@ -80595,6 +80772,20 @@
         "Curt Jaimungal"
       ]
     },
+    "toe::a1af6280-c05e-11f1-b25f-0fe8ed5e530b": {
+      "id": "toe::a1af6280-c05e-11f1-b25f-0fe8ed5e530b",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Jonathan Gorard: The Physicist Revolutionizing Physics With AI",
+      "url": "a1af6280-c05e-11f1-b25f-0fe8ed5e530b",
+      "guid": "a1af6280-c05e-11f1-b25f-0fe8ed5e530b",
+      "guests": [
+        "Jonathan Gorard"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
     "toe::a36215f0-289f-11ee-8253-5f8eeb00ac02": {
       "id": "toe::a36215f0-289f-11ee-8253-5f8eeb00ac02",
       "podcastId": "toe",
@@ -83798,6 +83989,18 @@
         "Brett Hall"
       ]
     },
+    "tokcast::brettroberthall.podbean.com/53d60238-b4c0-3a00-a20c-cf49cb7c7e80": {
+      "id": "tokcast::brettroberthall.podbean.com/53d60238-b4c0-3a00-a20c-cf49cb7c7e80",
+      "podcastId": "tokcast",
+      "podcast": "ToKCast",
+      "title": "Ep 271: Super Intelligence: Then and Now. Fiction and Reality. Part 1",
+      "url": "https://brettroberthall.podbean.com/e/ep-271-super-intelligence-then-and-now-fiction-and-reality-part-1/",
+      "guid": "brettroberthall.podbean.com/53d60238-b4c0-3a00-a20c-cf49cb7c7e80",
+      "guests": [],
+      "hosts": [
+        "Brett Hall"
+      ]
+    },
     "tokcast::brettroberthall.podbean.com/543db203-62ec-34a8-bd49-d36a0b4b93c4": {
       "id": "tokcast::brettroberthall.podbean.com/543db203-62ec-34a8-bd49-d36a0b4b93c4",
       "podcastId": "tokcast",
@@ -86545,6 +86748,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::0ad40962-dc30-4fb2-b6a6-796e084d8505": {
+      "id": "wtf4cities::0ad40962-dc30-4fb2-b6a6-796e084d8505",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Growth, Innovation, and the Pace of Life in Cities (469)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Growth--Innovation--and-the-Pace-of-Life-in-Cities-469-e3p5p7m",
+      "guid": "0ad40962-dc30-4fb2-b6a6-796e084d8505",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::0af77472-a215-4210-bf01-bbb4c58ed64d": {
       "id": "wtf4cities::0af77472-a215-4210-bf01-bbb4c58ed64d",
       "podcastId": "wtf4cities",
@@ -87153,6 +87368,20 @@
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/103R_A-survey-of-environments-and-mechanisms-for-human-human-stigmergy-research-summary-e1seiso",
       "guid": "1c37959a-0cee-4ee8-a066-21858267097f",
       "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::1c51f267-b29d-46fc-a918-d3f26625f3b7": {
+      "id": "wtf4cities::1c51f267-b29d-46fc-a918-d3f26625f3b7",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Heat is a verb, so ask which heat - V. Kelly Turner (472)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Heat-is-a-verb--so-ask-which-heat---V--Kelly-Turner-472-e3pfjef",
+      "guid": "1c51f267-b29d-46fc-a918-d3f26625f3b7",
+      "guests": [
+        "V. Kelly Turner"
+      ],
       "hosts": [
         "Fanni Melles"
       ]
@@ -88238,6 +88467,18 @@
       "title": "341R_Global urban structure growth shows a profound shift from spreading out to building up (research summary)",
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/341R_Global-urban-structure-growth-shows-a-profound-shift-from-spreading-out-to-building-up-research-summary-e34hpld",
       "guid": "35799593-651f-42f6-9b3e-9d29ccfcac13",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::35f447ff-f141-4173-b8c5-0c3046145dc7": {
+      "id": "wtf4cities::35f447ff-f141-4173-b8c5-0c3046145dc7",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "If we built it, we can cool it - V. Kelly Turner (472)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/If-we-built-it--we-can-cool-it---V--Kelly-Turner-472-e3pfjej",
+      "guid": "35f447ff-f141-4173-b8c5-0c3046145dc7",
       "guests": [],
       "hosts": [
         "Fanni Melles"
@@ -92759,6 +93000,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::aeda6efe-6779-46ae-8e65-6dc2aed672f4": {
+      "id": "wtf4cities::aeda6efe-6779-46ae-8e65-6dc2aed672f4",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Geoffrey West: Urban Scaling Laws and the Future of Cities (470)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Geoffrey-West-Urban-Scaling-Laws-and-the-Future-of-Cities-470-e3p5p8b",
+      "guid": "aeda6efe-6779-46ae-8e65-6dc2aed672f4",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::b0085274-b9b3-47eb-afe5-43e81f14a1e1": {
       "id": "wtf4cities::b0085274-b9b3-47eb-afe5-43e81f14a1e1",
       "podcastId": "wtf4cities",
@@ -94190,6 +94443,20 @@
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Why-denial-is-not-a-plan-for-the-future---Ben-Gilliland-402I-trailer-1-e3egulh",
       "guid": "d4769f37-44c1-4969-90b7-609c2a80dace",
       "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::d5961635-f129-4e7a-a0c9-1dd7ccb0cd90": {
+      "id": "wtf4cities::d5961635-f129-4e7a-a0c9-1dd7ccb0cd90",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Scaling Laws from Cells to Cities | Geoffrey West",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Scaling-Laws-from-Cells-to-Cities--Geoffrey-West-e3p5p8h",
+      "guid": "d5961635-f129-4e7a-a0c9-1dd7ccb0cd90",
+      "guests": [
+        "Geoffrey West"
+      ],
       "hosts": [
         "Fanni Melles"
       ]
