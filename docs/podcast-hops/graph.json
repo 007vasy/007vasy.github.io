@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T13:40:03Z",
+  "generatedAt": "2026-10-19T11:23:07Z",
   "defaultFrom": "Eric Smith",
   "defaultTo": "Chiara Marletto",
   "podcasts": [
@@ -21,11 +21,11 @@
       "hosts": [
         "Curt Jaimungal"
       ],
-      "episodeCount": 319,
-      "rssItems": 366,
+      "episodeCount": 320,
+      "rssItems": 367,
       "guestCount": 225,
-      "newItems": 1,
-      "reusedItems": 365
+      "newItems": 20,
+      "reusedItems": 347
     },
     {
       "id": "dissenter",
@@ -33,11 +33,11 @@
       "hosts": [
         "Ricardo Lopes"
       ],
-      "episodeCount": 1279,
-      "rssItems": 1311,
-      "guestCount": 1081,
+      "episodeCount": 1282,
+      "rssItems": 1314,
+      "guestCount": 1083,
       "newItems": 3,
-      "reusedItems": 1308
+      "reusedItems": 1311
     },
     {
       "id": "jim-rutt",
@@ -58,10 +58,10 @@
         "Brett Hall"
       ],
       "episodeCount": 46,
-      "rssItems": 271,
+      "rssItems": 272,
       "guestCount": 29,
       "newItems": 1,
-      "reusedItems": 270
+      "reusedItems": 271
     },
     {
       "id": "lex-fridman",
@@ -81,11 +81,11 @@
       "hosts": [
         "Sean Carroll"
       ],
-      "episodeCount": 345,
-      "rssItems": 448,
-      "guestCount": 348,
+      "episodeCount": 346,
+      "rssItems": 449,
+      "guestCount": 349,
       "newItems": 1,
-      "reusedItems": 447
+      "reusedItems": 448
     },
     {
       "id": "cwt",
@@ -93,10 +93,10 @@
       "hosts": [
         "Tyler Cowen"
       ],
-      "episodeCount": 292,
-      "rssItems": 303,
-      "guestCount": 272,
-      "newItems": 0,
+      "episodeCount": 293,
+      "rssItems": 304,
+      "guestCount": 273,
+      "newItems": 1,
       "reusedItems": 303
     },
     {
@@ -105,11 +105,11 @@
       "hosts": [
         "Allison Duettmann"
       ],
-      "episodeCount": 207,
-      "rssItems": 223,
-      "guestCount": 272,
+      "episodeCount": 208,
+      "rssItems": 224,
+      "guestCount": 273,
       "newItems": 1,
-      "reusedItems": 222
+      "reusedItems": 223
     },
     {
       "id": "existential-hope",
@@ -117,10 +117,10 @@
       "hosts": [
         "Allison Duettmann"
       ],
-      "episodeCount": 32,
-      "rssItems": 43,
-      "guestCount": 32,
-      "newItems": 0,
+      "episodeCount": 33,
+      "rssItems": 44,
+      "guestCount": 33,
+      "newItems": 1,
       "reusedItems": 43
     },
     {
@@ -132,8 +132,8 @@
       "episodeCount": 174,
       "rssItems": 271,
       "guestCount": 171,
-      "newItems": 1,
-      "reusedItems": 270
+      "newItems": 0,
+      "reusedItems": 271
     },
     {
       "id": "fallible-animals",
@@ -175,11 +175,11 @@
       "hosts": [
         "Fanni Melles"
       ],
-      "episodeCount": 215,
-      "rssItems": 747,
-      "guestCount": 205,
+      "episodeCount": 219,
+      "rssItems": 752,
+      "guestCount": 206,
       "newItems": 5,
-      "reusedItems": 742
+      "reusedItems": 747
     },
     {
       "id": "tim-ferriss",
@@ -190,8 +190,8 @@
       "episodeCount": 696,
       "rssItems": 890,
       "guestCount": 642,
-      "newItems": 1,
-      "reusedItems": 889
+      "newItems": 0,
+      "reusedItems": 890
     },
     {
       "id": "arjun-khemani",
@@ -219,19 +219,19 @@
       "id": "a16z",
       "name": "The a16z Show",
       "hosts": [],
-      "episodeCount": 335,
+      "episodeCount": 341,
       "rssItems": 1000,
-      "guestCount": 255,
+      "guestCount": 261,
       "newItems": 7,
       "reusedItems": 993
     }
   ],
   "stats": {
-    "people": 3920,
-    "links": 4776,
-    "episodes": 5114,
-    "newItems": 21,
-    "reusedItems": 7175,
+    "people": 3931,
+    "links": 4784,
+    "episodes": 5132,
+    "newItems": 40,
+    "reusedItems": 7171,
     "extractor": "spacy+parsers",
     "defaultHops": 2,
     "defaultPath": [
@@ -245,7 +245,7 @@
       "id": "ricardo-lopes",
       "name": "Ricardo Lopes",
       "isHost": true,
-      "episodeCount": 1279,
+      "episodeCount": 1282,
       "podcasts": [
         "dissenter"
       ]
@@ -281,7 +281,7 @@
       "id": "sean-carroll",
       "name": "Sean Carroll",
       "isHost": true,
-      "episodeCount": 350,
+      "episodeCount": 351,
       "podcasts": [
         "toe",
         "dissenter",
@@ -293,7 +293,7 @@
       "id": "curt-jaimungal",
       "name": "Curt Jaimungal",
       "isHost": true,
-      "episodeCount": 319,
+      "episodeCount": 320,
       "podcasts": [
         "toe"
       ]
@@ -302,7 +302,7 @@
       "id": "tyler-cowen",
       "name": "Tyler Cowen",
       "isHost": true,
-      "episodeCount": 305,
+      "episodeCount": 306,
       "podcasts": [
         "dwarkesh",
         "toe",
@@ -319,7 +319,7 @@
       "id": "allison-duettmann",
       "name": "Allison Duettmann",
       "isHost": true,
-      "episodeCount": 240,
+      "episodeCount": 242,
       "podcasts": [
         "foresight",
         "existential-hope",
@@ -330,7 +330,7 @@
       "id": "fanni-melles",
       "name": "Fanni Melles",
       "isHost": true,
-      "episodeCount": 215,
+      "episodeCount": 219,
       "podcasts": [
         "wtf4cities"
       ]
@@ -1484,6 +1484,15 @@
       ]
     },
     {
+      "id": "vibeke-ottesen",
+      "name": "Vibeke Ottesen",
+      "isHost": false,
+      "episodeCount": 5,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "ada-palmer",
       "name": "Ada Palmer",
       "isHost": false,
@@ -2149,15 +2158,6 @@
       ]
     },
     {
-      "id": "vibeke-ottesen",
-      "name": "Vibeke Ottesen",
-      "isHost": false,
-      "episodeCount": 4,
-      "podcasts": [
-        "dissenter"
-      ]
-    },
-    {
       "id": "xhope-worldbuilding-course",
       "name": "Xhope Worldbuilding Course",
       "isHost": false,
@@ -2220,6 +2220,15 @@
       "episodeCount": 3,
       "podcasts": [
         "toe",
+        "a16z"
+      ]
+    },
+    {
+      "id": "alex-rampell",
+      "name": "Alex Rampell",
+      "isHost": false,
+      "episodeCount": 3,
+      "podcasts": [
         "a16z"
       ]
     },
@@ -3655,6 +3664,15 @@
       ]
     },
     {
+      "id": "v-kelly-turner",
+      "name": "V. Kelly Turner",
+      "isHost": false,
+      "episodeCount": 3,
+      "podcasts": [
+        "wtf4cities"
+      ]
+    },
+    {
       "id": "william-hahn",
       "name": "William Hahn",
       "isHost": false,
@@ -3822,15 +3840,6 @@
       "podcasts": [
         "lex-fridman",
         "network-state"
-      ]
-    },
-    {
-      "id": "alex-rampell",
-      "name": "Alex Rampell",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "a16z"
       ]
     },
     {
@@ -5758,6 +5767,16 @@
       ]
     },
     {
+      "id": "jeremy-lent",
+      "name": "Jeremy Lent",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "jim-rutt",
+        "existential-hope"
+      ]
+    },
+    {
       "id": "jeroen-hopster",
       "name": "Jeroen Hopster",
       "isHost": false,
@@ -6139,6 +6158,25 @@
       "podcasts": [
         "mindscape",
         "cwt"
+      ]
+    },
+    {
+      "id": "kyle-harper",
+      "name": "Kyle Harper",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "dwarkesh",
+        "mindscape"
+      ]
+    },
+    {
+      "id": "laetitia-dablanc",
+      "name": "Laetitia Dablanc",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "wtf4cities"
       ]
     },
     {
@@ -7120,6 +7158,15 @@
       "podcasts": [
         "dissenter",
         "jim-rutt"
+      ]
+    },
+    {
+      "id": "philip-mannheim",
+      "name": "Philip Mannheim",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "toe"
       ]
     },
     {
@@ -8568,6 +8615,15 @@
       "episodeCount": 1,
       "podcasts": [
         "mlst"
+      ]
+    },
+    {
+      "id": "al-agents-can-spend",
+      "name": "Al Agents Can Spend",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -14322,6 +14378,15 @@
       ]
     },
     {
+      "id": "c-sar-mar-n",
+      "name": "César Marín",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "david-foster",
       "name": "DAVID FOSTER",
       "isHost": false,
@@ -16635,6 +16700,15 @@
       ]
     },
     {
+      "id": "eliseai-s-mario-martone",
+      "name": "EliseAI’s Mario Martone",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "elizabeth-alexander",
       "name": "Elizabeth Alexander",
       "isHost": false,
@@ -18693,6 +18767,15 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "grepr-ceo-jad-naous",
+      "name": "Grepr CEO Jad Naous",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -21024,15 +21107,6 @@
       "episodeCount": 1,
       "podcasts": [
         "cwt"
-      ]
-    },
-    {
-      "id": "jeremy-lent",
-      "name": "Jeremy Lent",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "jim-rutt"
       ]
     },
     {
@@ -23538,15 +23612,6 @@
       ]
     },
     {
-      "id": "kyle-harper",
-      "name": "Kyle Harper",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "dwarkesh"
-      ]
-    },
-    {
       "id": "kyle-thomas",
       "name": "Kyle Thomas",
       "isHost": false,
@@ -24156,6 +24221,15 @@
       "episodeCount": 1,
       "podcasts": [
         "jim-rutt"
+      ]
+    },
+    {
+      "id": "liaquat-ahamed",
+      "name": "Liaquat Ahamed",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "cwt"
       ]
     },
     {
@@ -25191,6 +25265,15 @@
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "marius-hobbhahn",
+      "name": "Marius Hobbhahn",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "foresight"
       ]
     },
     {
@@ -27192,6 +27275,15 @@
       ]
     },
     {
+      "id": "nathan-lambert",
+      "name": "Nathan Lambert",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "nathan-myhrvold",
       "name": "Nathan Myhrvold",
       "isHost": false,
@@ -29091,15 +29183,6 @@
       ]
     },
     {
-      "id": "philip-mannheim",
-      "name": "Philip Mannheim",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "toe"
-      ]
-    },
-    {
       "id": "philip-nitschke",
       "name": "Philip Nitschke",
       "isHost": false,
@@ -30128,6 +30211,15 @@
     {
       "id": "ricardo-barroso",
       "name": "Ricardo Barroso",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
+      "id": "ricardo-paes-mamede",
+      "name": "Ricardo Paes Mamede",
       "isHost": false,
       "episodeCount": 1,
       "podcasts": [
@@ -33897,6 +33989,15 @@
       ]
     },
     {
+      "id": "terry-angelos",
+      "name": "Terry Angelos",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "terry-gainer",
       "name": "Terry Gainer",
       "isHost": false,
@@ -34929,15 +35030,6 @@
       "episodeCount": 1,
       "podcasts": [
         "foresight"
-      ]
-    },
-    {
-      "id": "v-kelly-turner",
-      "name": "V. Kelly Turner",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "wtf4cities"
       ]
     },
     {
@@ -36036,6 +36128,15 @@
       "episodeCount": 1,
       "podcasts": [
         "mindscape"
+      ]
+    },
+    {
+      "id": "zocdoc-ceo-oliver-kharraz",
+      "name": "Zocdoc CEO Oliver Kharraz",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -37828,7 +37929,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Neil Turok: Black Hole Interiors Are Antimatter Mirrors (New Theory)",
+          "title": "Neil Turok: The Most Astonishing Theory of Black Holes",
           "url": "643abe5c-1f9e-11f0-8532-3bbee8599860"
         },
         {
@@ -37920,7 +38021,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Tim Maudlin: Quantum Realism, Bell's Theorem, and the Pilot Wave",
+          "title": "Tim Maudlin: Why Bell’s Theorem Changes Everything",
           "url": "https://youtube.com/TheoriesOfEverything"
         }
       ]
@@ -38329,6 +38430,43 @@
           "podcastId": "dissenter",
           "title": "#31 Samuel Andreyev: Music Across Times and Cultures",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/31-Samuel-Andreyev-Music-Across-Times-and-Cultures-e2r9ao"
+        }
+      ]
+    },
+    {
+      "source": "ricardo-lopes",
+      "target": "vibeke-ottesen",
+      "value": 5,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1320 Vibeke Ottesen: How the Media Deal with Criminal Cases",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1320-Vibeke-Ottesen-How-the-Media-Deal-with-Criminal-Cases-e3pch9s"
+        },
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1158 Vibeke Ottesen: The Psychology of Political Violence",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1158-Vibeke-Ottesen-The-Psychology-of-Political-Violence-e38jl9h"
+        },
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#866 Vibeke Ottesen: The Evolution of Human Violence, Juvenile Crime, and Abortion",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/866-Vibeke-Ottesen-The-Evolution-of-Human-Violence--Juvenile-Crime--and-Abortion-e27ev08"
+        },
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#743 Vibeke Ottesen: The Evolution of Violence, and the Consequences of Banning Abortion",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/743-Vibeke-Ottesen-The-Evolution-of-Violence--and-the-Consequences-of-Banning-Abortion-e1r0u9e"
+        },
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#480 Vibeke Ottesen: The Evolution of Homicide, Filicide, and Neonaticide",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/480-Vibeke-Ottesen-The-Evolution-of-Homicide--Filicide--and-Neonaticide-e11vl60"
         }
       ]
     },
@@ -39481,37 +39619,6 @@
     },
     {
       "source": "ricardo-lopes",
-      "target": "vibeke-ottesen",
-      "value": 4,
-      "episodes": [
-        {
-          "podcast": "The Dissenter",
-          "podcastId": "dissenter",
-          "title": "#1158 Vibeke Ottesen: The Psychology of Political Violence",
-          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1158-Vibeke-Ottesen-The-Psychology-of-Political-Violence-e38jl9h"
-        },
-        {
-          "podcast": "The Dissenter",
-          "podcastId": "dissenter",
-          "title": "#866 Vibeke Ottesen: The Evolution of Human Violence, Juvenile Crime, and Abortion",
-          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/866-Vibeke-Ottesen-The-Evolution-of-Human-Violence--Juvenile-Crime--and-Abortion-e27ev08"
-        },
-        {
-          "podcast": "The Dissenter",
-          "podcastId": "dissenter",
-          "title": "#743 Vibeke Ottesen: The Evolution of Violence, and the Consequences of Banning Abortion",
-          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/743-Vibeke-Ottesen-The-Evolution-of-Violence--and-the-Consequences-of-Banning-Abortion-e1r0u9e"
-        },
-        {
-          "podcast": "The Dissenter",
-          "podcastId": "dissenter",
-          "title": "#480 Vibeke Ottesen: The Evolution of Homicide, Filicide, and Neonaticide",
-          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/480-Vibeke-Ottesen-The-Evolution-of-Homicide--Filicide--and-Neonaticide-e11vl60"
-        }
-      ]
-    },
-    {
-      "source": "ricardo-lopes",
       "target": "mile-torres",
       "value": 4,
       "episodes": [
@@ -40511,13 +40618,13 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Roger Penrose: Why The Big Bang Was Not The Beginning",
+          "title": "Roger Penrose: “My Crazy Idea That Explains the Universe”",
           "url": "ccc72d1e-b695-11f0-a456-176e0ea4252f"
         },
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Roger Penrose: Why Quantum Mechanics Needs a New Foundation",
+          "title": "Roger Penrose: Quantum Theory Is Wrong, Not Einstein",
           "url": "9e1fd53c-7da3-11ef-a369-eb9a6e795ae9"
         }
       ]
@@ -40994,6 +41101,31 @@
           "podcastId": "wtf4cities",
           "title": "220I_Simon Burt, the co-founder of LB Agtech – the Location Based Agricultural Technology company",
           "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/220I_Simon-Burt--the-co-founder-of-LB-Agtech--the-Location-Based-Agricultural-Technology-company-e2ap9na"
+        }
+      ]
+    },
+    {
+      "source": "fanni-melles",
+      "target": "v-kelly-turner",
+      "value": 3,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "V. Kelly Turner: Thermal literacy and which heat (472)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/V--Kelly-Turner-Thermal-literacy-and-which-heat-472-e3pfjed"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Passive cooling as agency, not blame - V. Kelly Turner (472)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Passive-cooling-as-agency--not-blame---V--Kelly-Turner-472-e3pfjek"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Heat is a verb, so ask which heat - V. Kelly Turner (472)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Heat-is-a-verb--so-ask-which-heat---V--Kelly-Turner-472-e3pfjef"
         }
       ]
     },
@@ -43556,7 +43688,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Andres Gomez-Emilsson: Mathematical Models That Predict DMT Trips",
+          "title": "Andres Gomez-Emilsson: DMT Entities Decoded by Coupled Oscillators",
           "url": "a136b5d8-930a-11f0-854e-1bb3f51a40a2"
         },
         {
@@ -44892,7 +45024,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Jonathan Gorard: Quantum Gravity Inside the Wolfram Physics Project",
+          "title": "Jonathan Gorard: Why He Won’t Call the Universe a Computer",
           "url": "https://youtube.com/TheoriesOfEverything"
         }
       ]
@@ -45108,6 +45240,25 @@
     },
     {
       "source": "curt-jaimungal",
+      "target": "philip-mannheim",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Philip Mannheim: Dark Matter and General Relativity Explained FROM SCRATCH",
+          "url": "694dab18-c35b-11f1-8934-bfa4d071cc87"
+        },
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Philip Mannheim: No Big Bang. No Inflation. No Dark Matter.",
+          "url": "0c516f7a-78c5-11f1-a6cb-0ff572298164"
+        }
+      ]
+    },
+    {
+      "source": "curt-jaimungal",
       "target": "raphael-liogier",
       "value": 2,
       "episodes": [
@@ -45152,7 +45303,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Rupert Sheldrake: The Evidence for Morphic Resonance and Telepathy",
+          "title": "Rupert Sheldrake: The UK’s Most Controversial Scientist on Telepathy",
           "url": "339f78fa-9097-11ef-b6cb-6f1f8a51b1c6"
         },
         {
@@ -46262,6 +46413,25 @@
           "podcastId": "wtf4cities",
           "title": "280I_Hudson Worsley, co-founder and director of Presync",
           "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/280I_Hudson-Worsley--co-founder-and-director-of-Presync-e2npv8s"
+        }
+      ]
+    },
+    {
+      "source": "fanni-melles",
+      "target": "laetitia-dablanc",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Why skills gather in big cities - Laetitia Dablanc (474)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Why-skills-gather-in-big-cities---Laetitia-Dablanc-474-e3pr9hv"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Robots and better warehouse jobs - Laetitia Dablanc (474)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Robots-and-better-warehouse-jobs---Laetitia-Dablanc-474-e3pr9hs"
         }
       ]
     },
@@ -52042,6 +52212,19 @@
       ]
     },
     {
+      "source": "alex-rampell",
+      "target": "terry-angelos",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
+          "url": "https://a16z.simplecast.com/episodes/when-ai-agents-start-spending-your-money-alex-rampell-terry-angelos-YowGFPLh"
+        }
+      ]
+    },
+    {
       "source": "alex-rosenberg",
       "target": "sean-carroll",
       "value": 1,
@@ -54110,6 +54293,19 @@
     },
     {
       "source": "allison-duettmann",
+      "target": "jeremy-lent",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Existential Hope",
+          "podcastId": "existential-hope",
+          "title": "Should we choose politicians by lottery? | Jeremy Lent",
+          "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6acf901b6203da9f282e40f0"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
       "target": "jesse-posner",
       "value": 1,
       "episodes": [
@@ -54430,6 +54626,19 @@
           "podcastId": "foresight",
           "title": "V. Gladyshev, M. Moqri, V.Sebastiano | Quantifying Aging",
           "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/6527e4f6d5cc0400128c85a5"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
+      "target": "marius-hobbhahn",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "The Case for AGI Safety Products | Marius Hobbhahn",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/the-case-for-agi-safety-products-marius-hobbhahn"
         }
       ]
     },
@@ -59550,7 +59759,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Becca Tarnas: Did Jung and Tolkien Enter the Same World?",
+          "title": "Becca Tarnas: The Unsettling Link Between Jung’s Red Book and Tolkien",
           "url": "ffdb4d5e-8c6c-11f1-b848-73fe54c6d6fb"
         }
       ]
@@ -66817,7 +67026,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "David Bessis: What Mathematics Really Is and How to Learn It",
+          "title": "David Bessis: The Mistake We All Make About Mathematics",
           "url": "41c3d162-0c4f-11f1-86d6-974752415489"
         }
       ]
@@ -67272,7 +67481,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Jacob Tsimerman: He Won Math's Highest Prize. Then Announced the End",
+          "title": "Jacob Tsimerman: The Last Generation of Mathematicians",
           "url": "bcdf1086-92b0-11f1-8f35-175c0bfe121e"
         }
       ]
@@ -67376,7 +67585,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Jim Al-Khalili: The Ontology of Time. We Had It Backwards",
+          "title": "Jim Al-Khalili: The (Unsettling) Reason Time Only Runs One Way",
           "url": "35872cec-b4fa-11f1-9e5f-8ba9d04f95d0"
         }
       ]
@@ -67519,7 +67728,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Leonard Susskind: The Crisis in String Theory Runs Even Deeper",
+          "title": "Leonard Susskind: The Crisis in String Theory Is Worse Than You Think",
           "url": "55b4a416-97a3-11ef-b84b-7bc643c5fe24"
         }
       ]
@@ -67675,7 +67884,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Max Tegmark: Why AI Belongs Inside Physics, Not Computer Science",
+          "title": "Max Tegmark: Physics Just Swallowed AI",
           "url": "36f8c4e0-88e2-11f0-8d3f-9bc5a9e5ee48"
         }
       ]
@@ -67885,19 +68094,6 @@
           "podcastId": "toe",
           "title": "Donald Hoffman vs. Philip Goff: Conscious Agents or Panpsychism?",
           "url": "https://youtube.com/TheoriesOfEverything"
-        }
-      ]
-    },
-    {
-      "source": "curt-jaimungal",
-      "target": "philip-mannheim",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Theories of Everything",
-          "podcastId": "toe",
-          "title": "Philip Mannheim: The Story of Conformal Gravity",
-          "url": "0c516f7a-78c5-11f1-a6cb-0ff572298164"
         }
       ]
     },
@@ -68182,7 +68378,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Sean Carroll: Why the Crisis in Fundamental Physics Is Deepening",
+          "title": "Sean Carroll: The (Great) Stagnation in Physics",
           "url": "https://youtu.be/9AoRxtYZrZo"
         }
       ]
@@ -68286,7 +68482,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Stuart Kauffman: There Is No Theory of Everything",
+          "title": "Stuart Kauffman: “If I’m Right, There Is No Theory of Everything”",
           "url": "1e6a18e6-f595-11f0-ba51-f32a2d8af43d"
         }
       ]
@@ -68481,7 +68677,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Yakir Aharonov: The Future Propagates Backward in Quantum Theory",
+          "title": "Yakir Aharonov: “Heisenberg Was Right and We Ignored Him”",
           "url": "06c07740-a46d-11f0-8686-97219488c75e"
         }
       ]
@@ -68574,6 +68770,19 @@
           "podcastId": "mindscape",
           "title": "72 | César Hidalgo on Information in Societies, Economies, and the Universe",
           "url": "https://1d1ac211-8392-45fe-82db-99fa7f77076e.libsyn.com/72-csar-hidalgo-on-information-in-societies-economies-and-the-universe"
+        }
+      ]
+    },
+    {
+      "source": "c-sar-mar-n",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1318 César Marín: Multilevel Selection in Evolutionary Biology",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1318-Csar-Marn-Multilevel-Selection-in-Evolutionary-Biology-e3mbr9h"
         }
       ]
     },
@@ -76491,19 +76700,6 @@
           "podcastId": "wtf4cities",
           "title": "306I_Tom Petty, co-founder of CarbonTrace",
           "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/306I_Tom-Petty--co-founder-of-CarbonTrace-e2slk8r"
-        }
-      ]
-    },
-    {
-      "source": "fanni-melles",
-      "target": "v-kelly-turner",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "WTF4Cities",
-          "podcastId": "wtf4cities",
-          "title": "Heat is a verb, so ask which heat - V. Kelly Turner (472)",
-          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Heat-is-a-verb--so-ask-which-heat---V--Kelly-Turner-472-e3pfjef"
         }
       ]
     },
@@ -87883,6 +88079,19 @@
       ]
     },
     {
+      "source": "kyle-harper",
+      "target": "sean-carroll",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Mindscape",
+          "podcastId": "mindscape",
+          "title": "371 | Kyle Harper on How Humans Have Shaped Life on Earth",
+          "url": "https://preposterousuniverse.com/podcast/2026/10/19/371-kyle-harper-on-how-humans-have-shaped-life-on-earth/"
+        }
+      ]
+    },
+    {
       "source": "kyle-thomas",
       "target": "ricardo-lopes",
       "value": 1,
@@ -90557,6 +90766,19 @@
           "podcastId": "mindscape",
           "title": "95 | Liam Kofi Bright on Knowledge, Truth, and Science",
           "url": "https://1d1ac211-8392-45fe-82db-99fa7f77076e.libsyn.com/95-liam-kofi-bright-on-knowledge-truth-and-science"
+        }
+      ]
+    },
+    {
+      "source": "liaquat-ahamed",
+      "target": "tyler-cowen",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Conversations with Tyler",
+          "podcastId": "cwt",
+          "title": "Liaquat Ahamed on Financial Crises, Gold, and the Lessons of 1873",
+          "url": "https://cowenconvos.libsyn.com/liaquat-ahamed-on-financial-crises-gold-and-the-lessons-of-1873"
         }
       ]
     },
@@ -98279,6 +98501,19 @@
           "podcastId": "dissenter",
           "title": "#1253 Ricardo Barroso: Compormento Criminoso, do Ponto de Vista da Psicologia Clínica e da Justiça",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1253-Ricardo-Barroso-Compormento-Criminoso--do-Ponto-de-Vista-da-Psicologia-Clnica-e-da-Justia-e3bsetd"
+        }
+      ]
+    },
+    {
+      "source": "ricardo-lopes",
+      "target": "ricardo-paes-mamede",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1319 Ricardo Paes Mamede - Política Industrial: Como os Estados Transformam as Economias",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1319-Ricardo-Paes-Mamede---Poltica-Industrial-Como-os-Estados-Transformam-as-Economias-e3q5dlg"
         }
       ]
     },

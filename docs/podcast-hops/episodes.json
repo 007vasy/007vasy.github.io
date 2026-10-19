@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T13:40:03Z",
-  "episodeCount": 7271,
+  "updatedAt": "2026-10-19T11:23:07Z",
+  "episodeCount": 7292,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -631,6 +631,19 @@
       ],
       "hosts": []
     },
+    "a16z::12bc8efc-c071-43b9-a012-444b5f7623e6": {
+      "id": "a16z::12bc8efc-c071-43b9-a012-444b5f7623e6",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
+      "url": "https://a16z.simplecast.com/episodes/when-ai-agents-start-spending-your-money-alex-rampell-terry-angelos-YowGFPLh",
+      "guid": "12bc8efc-c071-43b9-a012-444b5f7623e6",
+      "guests": [
+        "Alex Rampell",
+        "Terry Angelos"
+      ],
+      "hosts": []
+    },
     "a16z::132b7836-9883-49f6-83b1-3148a226d994": {
       "id": "a16z::132b7836-9883-49f6-83b1-3148a226d994",
       "podcastId": "a16z",
@@ -1090,6 +1103,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::201bef7f-898a-4de8-af42-b31487e73dfa": {
+      "id": "a16z::201bef7f-898a-4de8-af42-b31487e73dfa",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous",
+      "url": "https://a16z.simplecast.com/episodes/ai-can-write-the-code-can-it-run-the-system-grepr-ceo-jad-naous-p_ifxVi2",
+      "guid": "201bef7f-898a-4de8-af42-b31487e73dfa",
+      "guests": [
+        "Grepr CEO Jad Naous"
+      ],
+      "hosts": []
+    },
     "a16z::209667c0-f54d-4ff1-af6f-fb827a56b186": {
       "id": "a16z::209667c0-f54d-4ff1-af6f-fb827a56b186",
       "podcastId": "a16z",
@@ -1118,6 +1143,18 @@
       "url": "https://a16z.simplecast.com/episodes/preventing-pandemics-genomic-epidemiology-AVmc7IwS",
       "guid": "21aaac34-83e8-4b6f-ab58-cb5543b42bef",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::21d29a94-5fb5-4136-83a9-771927d7cdb8": {
+      "id": "a16z::21d29a94-5fb5-4136-83a9-771927d7cdb8",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "What Happens When Al Agents Can Spend Your Money?",
+      "url": "https://a16z.simplecast.com/episodes/what-happens-when-al-agents-can-spend-your-money-PREiwaJH",
+      "guid": "21d29a94-5fb5-4136-83a9-771927d7cdb8",
+      "guests": [
+        "Al Agents Can Spend"
+      ],
       "hosts": []
     },
     "a16z::21f4d29a-ea9e-4608-a1fb-2359a3fe53be": {
@@ -4721,6 +4758,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::98652706-dd49-44e9-ada2-e00e56b2be77": {
+      "id": "a16z::98652706-dd49-44e9-ada2-e00e56b2be77",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
+      "url": "https://a16z.simplecast.com/episodes/can-open-models-keep-up-with-the-ai-frontier-nathan-lambert-WqIVvxfv",
+      "guid": "98652706-dd49-44e9-ada2-e00e56b2be77",
+      "guests": [
+        "Nathan Lambert"
+      ],
+      "hosts": []
+    },
     "a16z::989a0ac7-426c-4ea3-98b5-e5b81ef86b12": {
       "id": "a16z::989a0ac7-426c-4ea3-98b5-e5b81ef86b12",
       "podcastId": "a16z",
@@ -5241,6 +5290,18 @@
       ],
       "hosts": []
     },
+    "a16z::a60e8933-ff87-4703-bfe7-b594d39bf445": {
+      "id": "a16z::a60e8933-ff87-4703-bfe7-b594d39bf445",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+      "url": "https://a16z.simplecast.com/episodes/why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver-kharraz-9n_zG60B",
+      "guid": "a60e8933-ff87-4703-bfe7-b594d39bf445",
+      "guests": [
+        "Zocdoc CEO Oliver Kharraz"
+      ],
+      "hosts": []
+    },
     "a16z::a64cf6c2-11a8-42f7-bf50-17e4d3264533": {
       "id": "a16z::a64cf6c2-11a8-42f7-bf50-17e4d3264533",
       "podcastId": "a16z",
@@ -5617,6 +5678,16 @@
       "guests": [
         "Amjad Masad"
       ],
+      "hosts": []
+    },
+    "a16z::b2319294-5e51-4982-abf9-86ddfb9d1834": {
+      "id": "a16z::b2319294-5e51-4982-abf9-86ddfb9d1834",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Can AI Break Cryptography? What the Experts Actually Think",
+      "url": "https://a16z.simplecast.com/episodes/can-ai-break-cryptography-what-the-experts-actually-think-LCUGnMEC",
+      "guid": "b2319294-5e51-4982-abf9-86ddfb9d1834",
+      "guests": [],
       "hosts": []
     },
     "a16z::b27552ed-6e90-47a2-9753-20a21225f1b6": {
@@ -7531,6 +7602,18 @@
       "url": "https://a16z.simplecast.com/episodes/the-plan-to-make-american-crime-obsolete-kFoaNrAU",
       "guid": "eebe9ade-ac88-4ffd-ae76-2264c608941e",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::eef7a29a-1f29-4cd8-b32b-365e617a3f1b": {
+      "id": "a16z::eef7a29a-1f29-4cd8-b32b-365e617a3f1b",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Why Real-World AI Is Harder Than the Benchmark | EliseAI’s Mario Martone",
+      "url": "https://a16z.simplecast.com/episodes/why-real-world-ai-is-harder-than-the-benchmark-eliseais-mario-martone-SJLazqim",
+      "guid": "eef7a29a-1f29-4cd8-b32b-365e617a3f1b",
+      "guests": [
+        "EliseAI’s Mario Martone"
+      ],
       "hosts": []
     },
     "a16z::ef54f007-9c46-4d15-b039-1183f989a26d": {
@@ -14440,6 +14523,20 @@
         "Tyler Cowen"
       ]
     },
+    "cwt::444f9639-3e69-447b-9c11-dd9d4d210a4e": {
+      "id": "cwt::444f9639-3e69-447b-9c11-dd9d4d210a4e",
+      "podcastId": "cwt",
+      "podcast": "Conversations with Tyler",
+      "title": "Liaquat Ahamed on Financial Crises, Gold, and the Lessons of 1873",
+      "url": "https://cowenconvos.libsyn.com/liaquat-ahamed-on-financial-crises-gold-and-the-lessons-of-1873",
+      "guid": "444f9639-3e69-447b-9c11-dd9d4d210a4e",
+      "guests": [
+        "Liaquat Ahamed"
+      ],
+      "hosts": [
+        "Tyler Cowen"
+      ]
+    },
     "cwt::4689db20-cb85-4c3b-a7b4-35ede26bbdd9": {
       "id": "cwt::4689db20-cb85-4c3b-a7b4-35ede26bbdd9",
       "podcastId": "cwt",
@@ -21040,6 +21137,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::2ee94669-cc41-4105-b6bf-faf41d1a20c1": {
+      "id": "dissenter::2ee94669-cc41-4105-b6bf-faf41d1a20c1",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1320 Vibeke Ottesen: How the Media Deal with Criminal Cases",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1320-Vibeke-Ottesen-How-the-Media-Deal-with-Criminal-Cases-e3pch9s",
+      "guid": "2ee94669-cc41-4105-b6bf-faf41d1a20c1",
+      "guests": [
+        "Vibeke Ottesen"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::2f13e1ef-10de-457a-ad61-806536e0639f": {
       "id": "dissenter::2f13e1ef-10de-457a-ad61-806536e0639f",
       "podcastId": "dissenter",
@@ -21693,6 +21804,20 @@
       "guid": "36722552-a32e-4d05-95c7-07faf01aacb8",
       "guests": [
         "Jonathan Ichikawa"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::36b69d11-a70d-4b6e-ad89-9b68745d5434": {
+      "id": "dissenter::36b69d11-a70d-4b6e-ad89-9b68745d5434",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1319 Ricardo Paes Mamede - Política Industrial: Como os Estados Transformam as Economias",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1319-Ricardo-Paes-Mamede---Poltica-Industrial-Como-os-Estados-Transformam-as-Economias-e3q5dlg",
+      "guid": "36b69d11-a70d-4b6e-ad89-9b68745d5434",
+      "guests": [
+        "Ricardo Paes Mamede"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -25645,6 +25770,20 @@
       "guid": "6b12f4b3-315e-4e35-adfa-d8322711ecf0",
       "guests": [
         "Andrew Buskell"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::6b561ebc-9dd5-44cd-be9c-e3fab7c42462": {
+      "id": "dissenter::6b561ebc-9dd5-44cd-be9c-e3fab7c42462",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1318 César Marín: Multilevel Selection in Evolutionary Biology",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1318-Csar-Marn-Multilevel-Selection-in-Evolutionary-Biology-e3mbr9h",
+      "guid": "6b561ebc-9dd5-44cd-be9c-e3fab7c42462",
+      "guests": [
+        "César Marín"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -38627,6 +38766,20 @@
         "Allison Duettmann"
       ]
     },
+    "existential-hope::6acf901b6203da9f282e40f0": {
+      "id": "existential-hope::6acf901b6203da9f282e40f0",
+      "podcastId": "existential-hope",
+      "podcast": "Existential Hope",
+      "title": "Should we choose politicians by lottery? | Jeremy Lent",
+      "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6acf901b6203da9f282e40f0",
+      "guid": "6acf901b6203da9f282e40f0",
+      "guests": [
+        "Jeremy Lent"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
     "fallible-animals::0193d493-f212-4345-8dff-57fb7bc31d9f": {
       "id": "fallible-animals::0193d493-f212-4345-8dff-57fb7bc31d9f",
       "podcastId": "fallible-animals",
@@ -40558,6 +40711,20 @@
       "guests": [
         "Universal AI Assistants",
         "Greg Wayne"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "foresight::6ac4e6a07b6e45d6bc9653db": {
+      "id": "foresight::6ac4e6a07b6e45d6bc9653db",
+      "podcastId": "foresight",
+      "podcast": "Foresight Institute Radio",
+      "title": "The Case for AGI Safety Products | Marius Hobbhahn",
+      "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/the-case-for-agi-safety-products-marius-hobbhahn",
+      "guid": "6ac4e6a07b6e45d6bc9653db",
+      "guests": [
+        "Marius Hobbhahn"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -55847,6 +56014,20 @@
       "guid": "32f1a7a724204791a32694c13669197f",
       "guests": [
         "Alex Rosenberg"
+      ],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
+    "mindscape::35fda09f-c02a-409d-ae4f-9f48392e078c": {
+      "id": "mindscape::35fda09f-c02a-409d-ae4f-9f48392e078c",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "371 | Kyle Harper on How Humans Have Shaped Life on Earth",
+      "url": "https://preposterousuniverse.com/podcast/2026/10/19/371-kyle-harper-on-how-humans-have-shaped-life-on-earth/",
+      "guid": "35fda09f-c02a-409d-ae4f-9f48392e078c",
+      "guests": [
+        "Kyle Harper"
       ],
       "hosts": [
         "Sean Carroll"
@@ -78103,7 +78284,7 @@
       "id": "toe::06c07740-a46d-11f0-8686-97219488c75e",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Yakir Aharonov: The Future Propagates Backward in Quantum Theory",
+      "title": "Yakir Aharonov: “Heisenberg Was Right and We Ignored Him”",
       "url": "06c07740-a46d-11f0-8686-97219488c75e",
       "guid": "06c07740-a46d-11f0-8686-97219488c75e",
       "guests": [
@@ -78257,7 +78438,7 @@
       "id": "toe::0c516f7a-78c5-11f1-a6cb-0ff572298164",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Philip Mannheim: The Story of Conformal Gravity",
+      "title": "Philip Mannheim: No Big Bang. No Inflation. No Dark Matter.",
       "url": "0c516f7a-78c5-11f1-a6cb-0ff572298164",
       "guid": "0c516f7a-78c5-11f1-a6cb-0ff572298164",
       "guests": [
@@ -78612,7 +78793,7 @@
       "id": "toe::1e6a18e6-f595-11f0-ba51-f32a2d8af43d",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Stuart Kauffman: There Is No Theory of Everything",
+      "title": "Stuart Kauffman: “If I’m Right, There Is No Theory of Everything”",
       "url": "1e6a18e6-f595-11f0-ba51-f32a2d8af43d",
       "guid": "1e6a18e6-f595-11f0-ba51-f32a2d8af43d",
       "guests": [
@@ -78961,7 +79142,7 @@
       "id": "toe::339f78fa-9097-11ef-b6cb-6f1f8a51b1c6",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Rupert Sheldrake: The Evidence for Morphic Resonance and Telepathy",
+      "title": "Rupert Sheldrake: The UK’s Most Controversial Scientist on Telepathy",
       "url": "339f78fa-9097-11ef-b6cb-6f1f8a51b1c6",
       "guid": "339f78fa-9097-11ef-b6cb-6f1f8a51b1c6",
       "guests": [
@@ -79017,7 +79198,7 @@
       "id": "toe::35872cec-b4fa-11f1-9e5f-8ba9d04f95d0",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Jim Al-Khalili: The Ontology of Time. We Had It Backwards",
+      "title": "Jim Al-Khalili: The (Unsettling) Reason Time Only Runs One Way",
       "url": "35872cec-b4fa-11f1-9e5f-8ba9d04f95d0",
       "guid": "35872cec-b4fa-11f1-9e5f-8ba9d04f95d0",
       "guests": [
@@ -79031,7 +79212,7 @@
       "id": "toe::36f8c4e0-88e2-11f0-8d3f-9bc5a9e5ee48",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Max Tegmark: Why AI Belongs Inside Physics, Not Computer Science",
+      "title": "Max Tegmark: Physics Just Swallowed AI",
       "url": "36f8c4e0-88e2-11f0-8d3f-9bc5a9e5ee48",
       "guid": "36f8c4e0-88e2-11f0-8d3f-9bc5a9e5ee48",
       "guests": [
@@ -79194,7 +79375,7 @@
       "id": "toe::41c3d162-0c4f-11f1-86d6-974752415489",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "David Bessis: What Mathematics Really Is and How to Learn It",
+      "title": "David Bessis: The Mistake We All Make About Mathematics",
       "url": "41c3d162-0c4f-11f1-86d6-974752415489",
       "guid": "41c3d162-0c4f-11f1-86d6-974752415489",
       "guests": [
@@ -79489,7 +79670,7 @@
       "id": "toe::55b4a416-97a3-11ef-b84b-7bc643c5fe24",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Leonard Susskind: The Crisis in String Theory Runs Even Deeper",
+      "title": "Leonard Susskind: The Crisis in String Theory Is Worse Than You Think",
       "url": "55b4a416-97a3-11ef-b84b-7bc643c5fe24",
       "guid": "55b4a416-97a3-11ef-b84b-7bc643c5fe24",
       "guests": [
@@ -79503,7 +79684,7 @@
       "id": "toe::56a0ab0b-eacc-4dee-b145-be6804b0c398",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Jonathan Gorard: Quantum Gravity Inside the Wolfram Physics Project",
+      "title": "Jonathan Gorard: Why He Won’t Call the Universe a Computer",
       "url": "https://youtube.com/TheoriesOfEverything",
       "guid": "56a0ab0b-eacc-4dee-b145-be6804b0c398",
       "guests": [
@@ -79641,7 +79822,7 @@
       "id": "toe::63758d32-4830-11ed-88f0-3b0f0cd029ab",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Tim Maudlin: Quantum Realism, Bell's Theorem, and the Pilot Wave",
+      "title": "Tim Maudlin: Why Bell’s Theorem Changes Everything",
       "url": "https://youtube.com/TheoriesOfEverything",
       "guid": "63758d32-4830-11ed-88f0-3b0f0cd029ab",
       "guests": [
@@ -79655,7 +79836,7 @@
       "id": "toe::643abe5c-1f9e-11f0-8532-3bbee8599860",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Neil Turok: Black Hole Interiors Are Antimatter Mirrors (New Theory)",
+      "title": "Neil Turok: The Most Astonishing Theory of Black Holes",
       "url": "643abe5c-1f9e-11f0-8532-3bbee8599860",
       "guid": "643abe5c-1f9e-11f0-8532-3bbee8599860",
       "guests": [
@@ -79759,6 +79940,20 @@
       "guid": "68ee890a-e57a-11ef-855d-1b8c22785b39",
       "guests": [
         "Ruth Kastner"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
+    "toe::694dab18-c35b-11f1-8934-bfa4d071cc87": {
+      "id": "toe::694dab18-c35b-11f1-8934-bfa4d071cc87",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Philip Mannheim: Dark Matter and General Relativity Explained FROM SCRATCH",
+      "url": "694dab18-c35b-11f1-8934-bfa4d071cc87",
+      "guid": "694dab18-c35b-11f1-8934-bfa4d071cc87",
+      "guests": [
+        "Philip Mannheim"
       ],
       "hosts": [
         "Curt Jaimungal"
@@ -80017,7 +80212,7 @@
       "id": "toe::7e3a8636-1d75-11f1-adb5-6f54c92d306e",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Curt Jaimungal: General Relativity Is NOT Deterministic (Here's the Proof)",
+      "title": "Curt Jaimungal: Why General Relativity Is Not Deterministic",
       "url": "7e3a8636-1d75-11f1-adb5-6f54c92d306e",
       "guid": "7e3a8636-1d75-11f1-adb5-6f54c92d306e",
       "guests": [],
@@ -80099,7 +80294,7 @@
       "id": "toe::82269d92-1b1f-11f0-86a7-a36aa475da31",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Curt Jaimungal: Debunking the All Possible Paths Myth",
+      "title": "Curt Jaimungal: Debunking Veritasium’s “All Possible Paths” Myth",
       "url": "82269d92-1b1f-11f0-86a7-a36aa475da31",
       "guid": "82269d92-1b1f-11f0-86a7-a36aa475da31",
       "guests": [],
@@ -80719,7 +80914,7 @@
       "id": "toe::9e1fd53c-7da3-11ef-a369-eb9a6e795ae9",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Roger Penrose: Why Quantum Mechanics Needs a New Foundation",
+      "title": "Roger Penrose: Quantum Theory Is Wrong, Not Einstein",
       "url": "9e1fd53c-7da3-11ef-a369-eb9a6e795ae9",
       "guid": "9e1fd53c-7da3-11ef-a369-eb9a6e795ae9",
       "guests": [
@@ -80747,7 +80942,7 @@
       "id": "toe::a136b5d8-930a-11f0-854e-1bb3f51a40a2",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Andres Gomez-Emilsson: Mathematical Models That Predict DMT Trips",
+      "title": "Andres Gomez-Emilsson: DMT Entities Decoded by Coupled Oscillators",
       "url": "a136b5d8-930a-11f0-854e-1bb3f51a40a2",
       "guid": "a136b5d8-930a-11f0-854e-1bb3f51a40a2",
       "guests": [
@@ -80862,7 +81057,7 @@
       "id": "toe::a56e5e7c-51b5-11ef-ba63-fba144747c26",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Sean Carroll: Why the Crisis in Fundamental Physics Is Deepening",
+      "title": "Sean Carroll: The (Great) Stagnation in Physics",
       "url": "https://youtu.be/9AoRxtYZrZo",
       "guid": "a56e5e7c-51b5-11ef-ba63-fba144747c26",
       "guests": [
@@ -81267,7 +81462,7 @@
       "id": "toe::bcdf1086-92b0-11f1-8f35-175c0bfe121e",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Jacob Tsimerman: He Won Math's Highest Prize. Then Announced the End",
+      "title": "Jacob Tsimerman: The Last Generation of Mathematicians",
       "url": "bcdf1086-92b0-11f1-8f35-175c0bfe121e",
       "guid": "bcdf1086-92b0-11f1-8f35-175c0bfe121e",
       "guests": [
@@ -81477,7 +81672,7 @@
       "id": "toe::ccc72d1e-b695-11f0-a456-176e0ea4252f",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Roger Penrose: Why The Big Bang Was Not The Beginning",
+      "title": "Roger Penrose: “My Crazy Idea That Explains the Universe”",
       "url": "ccc72d1e-b695-11f0-a456-176e0ea4252f",
       "guid": "ccc72d1e-b695-11f0-a456-176e0ea4252f",
       "guests": [
@@ -83042,7 +83237,7 @@
       "id": "toe::ffdb4d5e-8c6c-11f1-b848-73fe54c6d6fb",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Becca Tarnas: Did Jung and Tolkien Enter the Same World?",
+      "title": "Becca Tarnas: The Unsettling Link Between Jung’s Red Book and Tolkien",
       "url": "ffdb4d5e-8c6c-11f1-b848-73fe54c6d6fb",
       "guid": "ffdb4d5e-8c6c-11f1-b848-73fe54c6d6fb",
       "guests": [
@@ -83910,6 +84105,18 @@
       "title": "Ep 86: The Aim of Science",
       "url": "https://brettroberthall.podbean.com/e/ep-86-the-aim-of-science/",
       "guid": "brettroberthall.podbean.com/479c8a57-aa88-32cf-a23b-ef07b2ee2143",
+      "guests": [],
+      "hosts": [
+        "Brett Hall"
+      ]
+    },
+    "tokcast::brettroberthall.podbean.com/47c3482b-b87e-39d1-a0a1-47a9ca8bcaf0": {
+      "id": "tokcast::brettroberthall.podbean.com/47c3482b-b87e-39d1-a0a1-47a9ca8bcaf0",
+      "podcastId": "tokcast",
+      "podcast": "ToKCast",
+      "title": "Ep 272: Is science truly explanatory?",
+      "url": "https://brettroberthall.podbean.com/e/ep-272-is-science-truly-explanatory/",
+      "guid": "brettroberthall.podbean.com/47c3482b-b87e-39d1-a0a1-47a9ca8bcaf0",
       "guests": [],
       "hosts": [
         "Brett Hall"
@@ -88976,6 +89183,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::42521200-ed2c-4c07-a473-8eeddb14d566": {
+      "id": "wtf4cities::42521200-ed2c-4c07-a473-8eeddb14d566",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Passive cooling as agency, not blame - V. Kelly Turner (472)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Passive-cooling-as-agency--not-blame---V--Kelly-Turner-472-e3pfjek",
+      "guid": "42521200-ed2c-4c07-a473-8eeddb14d566",
+      "guests": [
+        "V. Kelly Turner"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::430b3e99-7f5b-4175-8817-60dc124ff8d3": {
       "id": "wtf4cities::430b3e99-7f5b-4175-8817-60dc124ff8d3",
       "podcastId": "wtf4cities",
@@ -89370,6 +89591,20 @@
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/016R_Constructing-a-universal-logic-of-urban-control--International-standards-for-data--management-and-interoperability-research-summary-e19smct",
       "guid": "4cdeda5e-76af-41cf-8fe5-ff2478af2763",
       "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::4d502367-34b2-4f42-b526-a74aca9700d1": {
+      "id": "wtf4cities::4d502367-34b2-4f42-b526-a74aca9700d1",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Robots and better warehouse jobs - Laetitia Dablanc (474)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Robots-and-better-warehouse-jobs---Laetitia-Dablanc-474-e3pr9hs",
+      "guid": "4d502367-34b2-4f42-b526-a74aca9700d1",
+      "guests": [
+        "Laetitia Dablanc"
+      ],
       "hosts": [
         "Fanni Melles"
       ]
@@ -90131,6 +90366,18 @@
       "title": "337R_Child-friendly cities and communities: opportunities and challenges (research summary)",
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/337R_Child-friendly-cities-and-communities-opportunities-and-challenges-research-summary-e33necs",
       "guid": "621d6a31-1b13-411f-87af-09b900fe05e3",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::6237ab9b-8b51-4ed7-92ef-150befa5d6cd": {
+      "id": "wtf4cities::6237ab9b-8b51-4ed7-92ef-150befa5d6cd",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Hyper-local heat beyond surface temperature (471)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Hyper-local-heat-beyond-surface-temperature-471-e3pfje7",
+      "guid": "6237ab9b-8b51-4ed7-92ef-150befa5d6cd",
       "guests": [],
       "hosts": [
         "Fanni Melles"
@@ -93050,6 +93297,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::b098927c-8d65-4e3d-87ed-a219847fdca1": {
+      "id": "wtf4cities::b098927c-8d65-4e3d-87ed-a219847fdca1",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "V. Kelly Turner: Thermal literacy and which heat (472)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/V--Kelly-Turner-Thermal-literacy-and-which-heat-472-e3pfjed",
+      "guid": "b098927c-8d65-4e3d-87ed-a219847fdca1",
+      "guests": [
+        "V. Kelly Turner"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::b0a1da37-7a17-4e73-a76f-186db9f86cda": {
       "id": "wtf4cities::b0a1da37-7a17-4e73-a76f-186db9f86cda",
       "podcastId": "wtf4cities",
@@ -94543,6 +94804,20 @@
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/399R_30-years-of-adaptation-under-the-Convention-and-the-Paris-Agreement-e3efeac",
       "guid": "d6d2d2d6-fabb-4ce4-9f25-951c4652433e",
       "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::d72e3fe7-4b2e-479f-b487-6d48010e0b57": {
+      "id": "wtf4cities::d72e3fe7-4b2e-479f-b487-6d48010e0b57",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Why skills gather in big cities - Laetitia Dablanc (474)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Why-skills-gather-in-big-cities---Laetitia-Dablanc-474-e3pr9hv",
+      "guid": "d72e3fe7-4b2e-479f-b487-6d48010e0b57",
+      "guests": [
+        "Laetitia Dablanc"
+      ],
       "hosts": [
         "Fanni Melles"
       ]
