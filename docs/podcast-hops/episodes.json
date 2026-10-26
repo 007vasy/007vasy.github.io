@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T11:23:07Z",
-  "episodeCount": 7292,
+  "updatedAt": "2026-10-26T11:40:22Z",
+  "episodeCount": 7314,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -719,6 +719,18 @@
       "guid": "154dab55-ef4d-40f9-9c51-5ed30abafc26",
       "guests": [
         "Harvey’s Maggie Landers"
+      ],
+      "hosts": []
+    },
+    "a16z::155547a3-6d30-4b48-a451-deded4179926": {
+      "id": "a16z::155547a3-6d30-4b48-a451-deded4179926",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "What It Takes to Win as a Founder | Ben Horowitz",
+      "url": "https://a16z.simplecast.com/episodes/what-it-takes-to-win-as-a-founder-ben-horowitz-AjG_7MSY",
+      "guid": "155547a3-6d30-4b48-a451-deded4179926",
+      "guests": [
+        "Ben Horowitz"
       ],
       "hosts": []
     },
@@ -1614,6 +1626,20 @@
       "guid": "306f9d23-c5f9-4621-8ad1-dd7d8a40535c",
       "guests": [
         "Ben Horowitz"
+      ],
+      "hosts": []
+    },
+    "a16z::310bb3d2-179e-4028-aa44-355aa31b7e95": {
+      "id": "a16z::310bb3d2-179e-4028-aa44-355aa31b7e95",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+      "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP",
+      "guid": "310bb3d2-179e-4028-aa44-355aa31b7e95",
+      "guests": [
+        "Marc Andreessen",
+        "Ben Horowitz",
+        "Chris Dixon"
       ],
       "hosts": []
     },
@@ -2898,6 +2924,18 @@
       ],
       "hosts": []
     },
+    "a16z::590840e5-03d2-4f57-9fcb-c65afabf4e54": {
+      "id": "a16z::590840e5-03d2-4f57-9fcb-c65afabf4e54",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI’s Karan Singhal",
+      "url": "https://a16z.simplecast.com/episodes/what-happens-when-everyone-has-a-health-expert-in-their-pocket-openais-karan-singhal-OIiX2t5T",
+      "guid": "590840e5-03d2-4f57-9fcb-c65afabf4e54",
+      "guests": [
+        "OpenAI’s Karan Singhal"
+      ],
+      "hosts": []
+    },
     "a16z::596e1eaf-5815-49ac-82de-7d5753fd45ce": {
       "id": "a16z::596e1eaf-5815-49ac-82de-7d5753fd45ce",
       "podcastId": "a16z",
@@ -3146,6 +3184,28 @@
       "guid": "622eb43c-ff90-4b57-bdc2-3289bee70e1a",
       "guests": [
         "Ben Horowitz"
+      ],
+      "hosts": []
+    },
+    "a16z::62b74e3f-b5e0-4b51-8d87-9d4b12ef86d1": {
+      "id": "a16z::62b74e3f-b5e0-4b51-8d87-9d4b12ef86d1",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "OpenAI: When AI Agents Use Computers Faster Than You",
+      "url": "https://a16z.simplecast.com/episodes/openai-when-ai-agents-use-computers-faster-than-you-QLF23qpt",
+      "guid": "62b74e3f-b5e0-4b51-8d87-9d4b12ef86d1",
+      "guests": [],
+      "hosts": []
+    },
+    "a16z::631e269e-b6a1-4241-8992-8a9d97cb83ff": {
+      "id": "a16z::631e269e-b6a1-4241-8992-8a9d97cb83ff",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The New Startup Playbook | Box CEO Aaron Levie",
+      "url": "https://a16z.simplecast.com/episodes/the-new-startup-playbook-box-ceo-aaron-levie-I0FN5_nv",
+      "guid": "631e269e-b6a1-4241-8992-8a9d97cb83ff",
+      "guests": [
+        "Box CEO Aaron Levie"
       ],
       "hosts": []
     },
@@ -3400,6 +3460,18 @@
       "url": "https://a16z.simplecast.com/episodes/why-every-satellite-needs-earth-northwood-ceo-on-a16z-sPoRUFws",
       "guid": "6cadc4a7-084f-42d7-900b-567c96cb425b",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::6cedfc66-45d4-4e69-9b1c-9ae2db71f875": {
+      "id": "a16z::6cedfc66-45d4-4e69-9b1c-9ae2db71f875",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Missing Infrastructure for AI Agents: Documents | Reducto’s Adit Abraham",
+      "url": "https://a16z.simplecast.com/episodes/the-missing-infrastructure-for-ai-agents-documents-reductos-adit-abraham-Tf_0B_WM",
+      "guid": "6cedfc66-45d4-4e69-9b1c-9ae2db71f875",
+      "guests": [
+        "Reducto’s Adit Abraham"
+      ],
       "hosts": []
     },
     "a16z::6d053595-72d7-4932-b4f3-e1ec6d239a95": {
@@ -4733,6 +4805,18 @@
       "guid": "976f91ea-e074-410f-bbb1-f4ca1aa43a5e",
       "guests": [
         "Columbia CS Professor"
+      ],
+      "hosts": []
+    },
+    "a16z::97aecd60-4163-493a-8a2e-0ab519561ae4": {
+      "id": "a16z::97aecd60-4163-493a-8a2e-0ab519561ae4",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Amazon CEO Andy Jassy on the $220 Billion AI Buildout",
+      "url": "https://a16z.simplecast.com/episodes/amazon-ceo-220-billion-still-cant-meet-ai-demand-3QzhqLQK",
+      "guid": "97aecd60-4163-493a-8a2e-0ab519561ae4",
+      "guests": [
+        "Amazon CEO Andy Jassy"
       ],
       "hosts": []
     },
@@ -13290,6 +13374,18 @@
         "Logan Chipkin"
       ]
     },
+    "conjecture::conjectureinstitute.podbean.com/5b1a938d-a8fb-3ff1-8b7a-442a360a4cfe": {
+      "id": "conjecture::conjectureinstitute.podbean.com/5b1a938d-a8fb-3ff1-8b7a-442a360a4cfe",
+      "podcastId": "conjecture",
+      "podcast": "Conjecture Institute",
+      "title": "Civilization, Module 2: Clash of Civilizations",
+      "url": "https://conjectureinstitute.podbean.com/e/civilization-module-2-clash-of-civilizations/",
+      "guid": "conjectureinstitute.podbean.com/5b1a938d-a8fb-3ff1-8b7a-442a360a4cfe",
+      "guests": [],
+      "hosts": [
+        "Logan Chipkin"
+      ]
+    },
     "conjecture::conjectureinstitute.podbean.com/6003ea0b-5077-393b-95a3-f2b62e7a2087": {
       "id": "conjecture::conjectureinstitute.podbean.com/6003ea0b-5077-393b-95a3-f2b62e7a2087",
       "podcastId": "conjecture",
@@ -19758,6 +19854,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::1b995ce2-08b6-4151-bcce-9e94d3b0ac37": {
+      "id": "dissenter::1b995ce2-08b6-4151-bcce-9e94d3b0ac37",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1321 Emily Towner: Social Isolation and Social Media Use in Adolescents",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1321-Emily-Towner-Social-Isolation-and-Social-Media-Use-in-Adolescents-e3puqs1",
+      "guid": "1b995ce2-08b6-4151-bcce-9e94d3b0ac37",
+      "guests": [
+        "Emily Towner"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::1b9da8a6-9cee-4a21-815e-b377f5c11c7c": {
       "id": "dissenter::1b9da8a6-9cee-4a21-815e-b377f5c11c7c",
       "podcastId": "dissenter",
@@ -20656,6 +20766,20 @@
       "guid": "280a8f98-7ef2-4b41-95e9-4567a7873365",
       "guests": [
         "Christian Hart"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::282e9794-345e-4658-b525-f2298ed2b248": {
+      "id": "dissenter::282e9794-345e-4658-b525-f2298ed2b248",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1323 Paula Lavigne: Mulheres Trans em Desportos Femininos",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1323-Paula-Lavigne-Mulheres-Trans-em-Desportos-Femininos-e3q3n32",
+      "guid": "282e9794-345e-4658-b525-f2298ed2b248",
+      "guests": [
+        "Paula Lavigne"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -31071,6 +31195,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::b9782ea2-a187-4bc9-ae15-f5c37ac6699b": {
+      "id": "dissenter::b9782ea2-a187-4bc9-ae15-f5c37ac6699b",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1322 Katie Rose Hejtmanek - The Cult of CrossFit: Christianity and the American Exercise Phenomenon",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1322-Katie-Rose-Hejtmanek---The-Cult-of-CrossFit-Christianity-and-the-American-Exercise-Phenomenon-e3qes7e",
+      "guid": "b9782ea2-a187-4bc9-ae15-f5c37ac6699b",
+      "guests": [
+        "Katie Rose Hejtmanek"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::ba00a2e5-a66c-46f6-a71f-60d9e0da0d9c": {
       "id": "dissenter::ba00a2e5-a66c-46f6-a71f-60d9e0da0d9c",
       "podcastId": "dissenter",
@@ -37836,6 +37974,18 @@
         "Dwarkesh Patel"
       ]
     },
+    "dwarkesh::substack:post:221632772": {
+      "id": "dwarkesh::substack:post:221632772",
+      "podcastId": "dwarkesh",
+      "podcast": "Dwarkesh Podcast",
+      "title": "What will computer chips look like in 2045?",
+      "url": "https://www.dwarkesh.com/p/intel-tour",
+      "guid": "substack:post:221632772",
+      "guests": [],
+      "hosts": [
+        "Dwarkesh Patel"
+      ]
+    },
     "dwarkesh::substack:post:53132062": {
       "id": "dwarkesh::substack:post:53132062",
       "podcastId": "dwarkesh",
@@ -40725,6 +40875,21 @@
       "guid": "6ac4e6a07b6e45d6bc9653db",
       "guests": [
         "Marius Hobbhahn"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "foresight::6ad77a3c819a15003cd8949a": {
+      "id": "foresight::6ad77a3c819a15003cd8949a",
+      "podcastId": "foresight",
+      "podcast": "Foresight Institute Radio",
+      "title": "Hacking Aging Biology | João Pedro de Magalhães",
+      "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/hacking-aging-biology-joao-pedro-de-magalhaes",
+      "guid": "6ad77a3c819a15003cd8949a",
+      "guests": [
+        "Hacking Aging Biology",
+        "João Pedro de Magalhães"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -56302,6 +56467,20 @@
       "guid": "73d472e8628a49af816a9958b81f9090",
       "guests": [
         "Carlo Rovelli"
+      ],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
+    "mindscape::74e3dbd2-1510-48e4-80a3-a55d0ae6d857": {
+      "id": "mindscape::74e3dbd2-1510-48e4-80a3-a55d0ae6d857",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "372 | Erik Winfree on DNA Computers and Robots",
+      "url": "https://preposterousuniverse.com/podcast/2026/10/26/372-erik-winfree-on-dna-robots-and-computers/",
+      "guid": "74e3dbd2-1510-48e4-80a3-a55d0ae6d857",
+      "guests": [
+        "Erik Winfree"
       ],
       "hosts": [
         "Sean Carroll"
@@ -72626,6 +72805,18 @@
         "Tim Ferriss"
       ]
     },
+    "tim-ferriss::gid://art19-episode-locator/V0/LLc01yasJycwSRaWbjpqbAnr-Xbpof3RMyXFoj1LTrY": {
+      "id": "tim-ferriss::gid://art19-episode-locator/V0/LLc01yasJycwSRaWbjpqbAnr-Xbpof3RMyXFoj1LTrY",
+      "podcastId": "tim-ferriss",
+      "podcast": "The Tim Ferriss Show",
+      "title": "#887: Q&A with Tim — The 4-Hour Workweek in a World of AI, Rebuilding Personal Agency, The 4-Hour Body After 40, and More",
+      "url": "gid://art19-episode-locator/V0/LLc01yasJycwSRaWbjpqbAnr-Xbpof3RMyXFoj1LTrY",
+      "guid": "gid://art19-episode-locator/V0/LLc01yasJycwSRaWbjpqbAnr-Xbpof3RMyXFoj1LTrY",
+      "guests": [],
+      "hosts": [
+        "Tim Ferriss"
+      ]
+    },
     "tim-ferriss::gid://art19-episode-locator/V0/LXoue547hghS4mDGX96ig3fsHDdv_OgB5EKxLBp-aXc": {
       "id": "tim-ferriss::gid://art19-episode-locator/V0/LXoue547hghS4mDGX96ig3fsHDdv_OgB5EKxLBp-aXc",
       "podcastId": "tim-ferriss",
@@ -78644,7 +78835,7 @@
       "id": "toe::182fbdec-1700-11f0-96bf-33b1e99a135b",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Emily Adlam: Reality Is a Completed Puzzle, Not a Flowing River",
+      "title": "Emily Adlam: The “All at Once” Universe Shatters Our View of Time",
       "url": "182fbdec-1700-11f0-96bf-33b1e99a135b",
       "guid": "182fbdec-1700-11f0-96bf-33b1e99a135b",
       "guests": [
@@ -80780,7 +80971,7 @@
       "id": "toe::907d4186-56b9-11f0-9895-e71385e799f9",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Jacob Barandes: The Mathematical Accident That Rewrites Quantum Theory",
+      "title": "Jacob Barandes: The Unsettling Assumption Beneath Quantum Physics",
       "url": "907d4186-56b9-11f0-9895-e71385e799f9",
       "guid": "907d4186-56b9-11f0-9895-e71385e799f9",
       "guests": [
@@ -82627,6 +82818,20 @@
         "Curt Jaimungal"
       ]
     },
+    "toe::d32b9e6a-c828-11f1-bee8-a341ea79a41c": {
+      "id": "toe::d32b9e6a-c828-11f1-bee8-a341ea79a41c",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Hirosi Ooguri: Could AI Find Physics We Can’t Understand?",
+      "url": "d32b9e6a-c828-11f1-bee8-a341ea79a41c",
+      "guid": "d32b9e6a-c828-11f1-bee8-a341ea79a41c",
+      "guests": [
+        "Hirosi Ooguri"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
     "toe::d3329498-2df2-11f1-95d2-d77255f194a2": {
       "id": "toe::d3329498-2df2-11f1-95d2-d77255f194a2",
       "podcastId": "toe",
@@ -83695,6 +83900,18 @@
       "title": "Ep 268: AGI has arrived podcast",
       "url": "https://brettroberthall.podbean.com/e/ep-268-agi-has-arrived-podcast/",
       "guid": "brettroberthall.podbean.com/1f5ced3f-f046-3823-9bb8-dbbc789b2a9c",
+      "guests": [],
+      "hosts": [
+        "Brett Hall"
+      ]
+    },
+    "tokcast::brettroberthall.podbean.com/20368790-4db1-3044-976f-85b5f9cd8e49": {
+      "id": "tokcast::brettroberthall.podbean.com/20368790-4db1-3044-976f-85b5f9cd8e49",
+      "podcastId": "tokcast",
+      "podcast": "ToKCast",
+      "title": "Ep 273: Super Intelligence: Then and Now. Fiction and Reality. Part 2",
+      "url": "https://brettroberthall.podbean.com/e/ep-273-super-intelligence-then-and-now-fiction-and-reality-part-2/",
+      "guid": "brettroberthall.podbean.com/20368790-4db1-3044-976f-85b5f9cd8e49",
       "guests": [],
       "hosts": [
         "Brett Hall"
@@ -86629,6 +86846,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::0134d13e-9486-479f-b084-4d24ac8e27cb": {
+      "id": "wtf4cities::0134d13e-9486-479f-b084-4d24ac8e27cb",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Last-mile urban logistics in Portuguese cities (473)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Last-mile-urban-logistics-in-Portuguese-cities-473-e3pr9hm",
+      "guid": "0134d13e-9486-479f-b084-4d24ac8e27cb",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::013f6be1-690f-4559-aef0-1533efa487bc": {
       "id": "wtf4cities::013f6be1-690f-4559-aef0-1533efa487bc",
       "podcastId": "wtf4cities",
@@ -88459,6 +88688,20 @@
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/133R_Multifunctional-Urban-Spaces--a-solution-to-increase-the-quality-of-urban-life-in-dense-cities-research-summary-e21asvv",
       "guid": "3133c45d-e383-46e6-aec1-255c6b596a64",
       "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::31361974-8a7b-4f3a-8663-240b4d66b608": {
+      "id": "wtf4cities::31361974-8a7b-4f3a-8663-240b4d66b608",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Urban logistics in large cities - Laetitia Dablanc (474)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Urban-logistics-in-large-cities---Laetitia-Dablanc-474-e3pr6ah",
+      "guid": "31361974-8a7b-4f3a-8663-240b4d66b608",
+      "guests": [
+        "Laetitia Dablanc"
+      ],
       "hosts": [
         "Fanni Melles"
       ]
@@ -91784,6 +92027,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::8c280285-caca-4430-ba78-d65bc11d2eac": {
+      "id": "wtf4cities::8c280285-caca-4430-ba78-d65bc11d2eac",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Zoning gets priced into the land - Howard Kozloff (476)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Zoning-gets-priced-into-the-land---Howard-Kozloff-476-e3qbrgj",
+      "guid": "8c280285-caca-4430-ba78-d65bc11d2eac",
+      "guests": [
+        "Howard Kozloff"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::8cc3032e-4592-492c-92a8-015312cfda2f": {
       "id": "wtf4cities::8cc3032e-4592-492c-92a8-015312cfda2f",
       "podcastId": "wtf4cities",
@@ -92326,6 +92583,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::9a521877-5f63-4d53-bce9-9aea79da65a9": {
+      "id": "wtf4cities::9a521877-5f63-4d53-bce9-9aea79da65a9",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Engineering cities can use now - Laetitia Dablanc (474)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Engineering-cities-can-use-now---Laetitia-Dablanc-474-e3pr9i0",
+      "guid": "9a521877-5f63-4d53-bce9-9aea79da65a9",
+      "guests": [
+        "Laetitia Dablanc"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::9a5bb1bb-18a6-48a3-a2df-34c6c62ddfb0": {
       "id": "wtf4cities::9a5bb1bb-18a6-48a3-a2df-34c6c62ddfb0",
       "podcastId": "wtf4cities",
@@ -92400,6 +92671,20 @@
       "guid": "9c8ce591-cbeb-471c-ae9c-0df2c7226282",
       "guests": [
         "Diana Balmori"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::9cb5cad3-6f02-4cb5-bb2e-bc2222da5afc": {
+      "id": "wtf4cities::9cb5cad3-6f02-4cb5-bb2e-bc2222da5afc",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Entrepreneurial planning for public space - Howard Kozloff (476)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Entrepreneurial-planning-for-public-space---Howard-Kozloff-476-e3qbrf4",
+      "guid": "9cb5cad3-6f02-4cb5-bb2e-bc2222da5afc",
+      "guests": [
+        "Howard Kozloff"
       ],
       "hosts": [
         "Fanni Melles"

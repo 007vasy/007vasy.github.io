@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T11:23:07Z",
+  "generatedAt": "2026-10-26T11:40:22Z",
   "defaultFrom": "Eric Smith",
   "defaultTo": "Chiara Marletto",
   "podcasts": [
@@ -10,9 +10,9 @@
         "Dwarkesh Patel"
       ],
       "episodeCount": 124,
-      "rssItems": 142,
+      "rssItems": 143,
       "guestCount": 105,
-      "newItems": 0,
+      "newItems": 1,
       "reusedItems": 142
     },
     {
@@ -21,11 +21,11 @@
       "hosts": [
         "Curt Jaimungal"
       ],
-      "episodeCount": 320,
-      "rssItems": 367,
-      "guestCount": 225,
-      "newItems": 20,
-      "reusedItems": 347
+      "episodeCount": 321,
+      "rssItems": 368,
+      "guestCount": 226,
+      "newItems": 3,
+      "reusedItems": 365
     },
     {
       "id": "dissenter",
@@ -33,11 +33,11 @@
       "hosts": [
         "Ricardo Lopes"
       ],
-      "episodeCount": 1282,
-      "rssItems": 1314,
-      "guestCount": 1083,
+      "episodeCount": 1285,
+      "rssItems": 1317,
+      "guestCount": 1085,
       "newItems": 3,
-      "reusedItems": 1311
+      "reusedItems": 1314
     },
     {
       "id": "jim-rutt",
@@ -58,10 +58,10 @@
         "Brett Hall"
       ],
       "episodeCount": 46,
-      "rssItems": 272,
+      "rssItems": 273,
       "guestCount": 29,
       "newItems": 1,
-      "reusedItems": 271
+      "reusedItems": 272
     },
     {
       "id": "lex-fridman",
@@ -81,11 +81,11 @@
       "hosts": [
         "Sean Carroll"
       ],
-      "episodeCount": 346,
-      "rssItems": 449,
-      "guestCount": 349,
+      "episodeCount": 347,
+      "rssItems": 450,
+      "guestCount": 350,
       "newItems": 1,
-      "reusedItems": 448
+      "reusedItems": 449
     },
     {
       "id": "cwt",
@@ -96,8 +96,8 @@
       "episodeCount": 293,
       "rssItems": 304,
       "guestCount": 273,
-      "newItems": 1,
-      "reusedItems": 303
+      "newItems": 0,
+      "reusedItems": 304
     },
     {
       "id": "foresight",
@@ -105,11 +105,11 @@
       "hosts": [
         "Allison Duettmann"
       ],
-      "episodeCount": 208,
-      "rssItems": 224,
-      "guestCount": 273,
+      "episodeCount": 209,
+      "rssItems": 225,
+      "guestCount": 275,
       "newItems": 1,
-      "reusedItems": 223
+      "reusedItems": 224
     },
     {
       "id": "existential-hope",
@@ -120,8 +120,8 @@
       "episodeCount": 33,
       "rssItems": 44,
       "guestCount": 33,
-      "newItems": 1,
-      "reusedItems": 43
+      "newItems": 0,
+      "reusedItems": 44
     },
     {
       "id": "mlst",
@@ -154,9 +154,9 @@
         "Logan Chipkin"
       ],
       "episodeCount": 17,
-      "rssItems": 36,
+      "rssItems": 37,
       "guestCount": 17,
-      "newItems": 0,
+      "newItems": 1,
       "reusedItems": 36
     },
     {
@@ -175,11 +175,11 @@
       "hosts": [
         "Fanni Melles"
       ],
-      "episodeCount": 219,
-      "rssItems": 752,
-      "guestCount": 206,
+      "episodeCount": 223,
+      "rssItems": 757,
+      "guestCount": 207,
       "newItems": 5,
-      "reusedItems": 747
+      "reusedItems": 752
     },
     {
       "id": "tim-ferriss",
@@ -188,9 +188,9 @@
         "Tim Ferriss"
       ],
       "episodeCount": 696,
-      "rssItems": 890,
+      "rssItems": 891,
       "guestCount": 642,
-      "newItems": 0,
+      "newItems": 1,
       "reusedItems": 890
     },
     {
@@ -219,19 +219,19 @@
       "id": "a16z",
       "name": "The a16z Show",
       "hosts": [],
-      "episodeCount": 341,
+      "episodeCount": 347,
       "rssItems": 1000,
-      "guestCount": 261,
+      "guestCount": 265,
       "newItems": 7,
       "reusedItems": 993
     }
   ],
   "stats": {
-    "people": 3931,
-    "links": 4784,
-    "episodes": 5132,
-    "newItems": 40,
-    "reusedItems": 7171,
+    "people": 3942,
+    "links": 4793,
+    "episodes": 5148,
+    "newItems": 24,
+    "reusedItems": 7203,
     "extractor": "spacy+parsers",
     "defaultHops": 2,
     "defaultPath": [
@@ -245,7 +245,7 @@
       "id": "ricardo-lopes",
       "name": "Ricardo Lopes",
       "isHost": true,
-      "episodeCount": 1282,
+      "episodeCount": 1285,
       "podcasts": [
         "dissenter"
       ]
@@ -281,7 +281,7 @@
       "id": "sean-carroll",
       "name": "Sean Carroll",
       "isHost": true,
-      "episodeCount": 351,
+      "episodeCount": 352,
       "podcasts": [
         "toe",
         "dissenter",
@@ -293,7 +293,7 @@
       "id": "curt-jaimungal",
       "name": "Curt Jaimungal",
       "isHost": true,
-      "episodeCount": 320,
+      "episodeCount": 321,
       "podcasts": [
         "toe"
       ]
@@ -319,7 +319,7 @@
       "id": "allison-duettmann",
       "name": "Allison Duettmann",
       "isHost": true,
-      "episodeCount": 242,
+      "episodeCount": 243,
       "podcasts": [
         "foresight",
         "existential-hope",
@@ -330,7 +330,7 @@
       "id": "fanni-melles",
       "name": "Fanni Melles",
       "isHost": true,
-      "episodeCount": 219,
+      "episodeCount": 223,
       "podcasts": [
         "wtf4cities"
       ]
@@ -381,7 +381,7 @@
       "id": "ben-horowitz",
       "name": "Ben Horowitz",
       "isHost": false,
-      "episodeCount": 36,
+      "episodeCount": 38,
       "podcasts": [
         "tim-ferriss",
         "network-state",
@@ -392,7 +392,7 @@
       "id": "marc-andreessen",
       "name": "Marc Andreessen",
       "isHost": false,
-      "episodeCount": 35,
+      "episodeCount": 36,
       "podcasts": [
         "dwarkesh",
         "lex-fridman",
@@ -604,6 +604,18 @@
       ]
     },
     {
+      "id": "chris-dixon",
+      "name": "Chris Dixon",
+      "isHost": false,
+      "episodeCount": 10,
+      "podcasts": [
+        "cwt",
+        "tim-ferriss",
+        "network-state",
+        "a16z"
+      ]
+    },
+    {
       "id": "scott-aaronson",
       "name": "Scott Aaronson",
       "isHost": false,
@@ -624,18 +636,6 @@
       "podcasts": [
         "cwt",
         "tim-ferriss"
-      ]
-    },
-    {
-      "id": "chris-dixon",
-      "name": "Chris Dixon",
-      "isHost": false,
-      "episodeCount": 9,
-      "podcasts": [
-        "cwt",
-        "tim-ferriss",
-        "network-state",
-        "a16z"
       ]
     },
     {
@@ -1877,6 +1877,15 @@
         "toe",
         "tokcast",
         "conjecture"
+      ]
+    },
+    {
+      "id": "laetitia-dablanc",
+      "name": "Laetitia Dablanc",
+      "isHost": false,
+      "episodeCount": 4,
+      "podcasts": [
+        "wtf4cities"
       ]
     },
     {
@@ -5504,6 +5513,15 @@
       ]
     },
     {
+      "id": "howard-kozloff",
+      "name": "Howard Kozloff",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "wtf4cities"
+      ]
+    },
+    {
       "id": "hudson-worsley",
       "name": "Hudson Worsley",
       "isHost": false,
@@ -6075,6 +6093,15 @@
       ]
     },
     {
+      "id": "katie-rose-hejtmanek",
+      "name": "Katie Rose Hejtmanek",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "ken-burns",
       "name": "Ken Burns",
       "isHost": false,
@@ -6168,15 +6195,6 @@
       "podcasts": [
         "dwarkesh",
         "mindscape"
-      ]
-    },
-    {
-      "id": "laetitia-dablanc",
-      "name": "Laetitia Dablanc",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "wtf4cities"
       ]
     },
     {
@@ -9221,6 +9239,15 @@
       ]
     },
     {
+      "id": "amazon-ceo-andy-jassy",
+      "name": "Amazon CEO Andy Jassy",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "amazon-narratives",
       "name": "Amazon Narratives",
       "isHost": false,
@@ -11558,6 +11585,15 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
+      ]
+    },
+    {
+      "id": "box-ceo-aaron-levie",
+      "name": "Box CEO Aaron Levie",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -16952,6 +16988,15 @@
       ]
     },
     {
+      "id": "emily-towner",
+      "name": "Emily Towner",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "emmett-shear",
       "name": "Emmett Shear",
       "isHost": false,
@@ -17210,6 +17255,15 @@
       "episodeCount": 1,
       "podcasts": [
         "toe"
+      ]
+    },
+    {
+      "id": "erik-winfree",
+      "name": "Erik Winfree",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "mindscape"
       ]
     },
     {
@@ -18905,6 +18959,15 @@
       ]
     },
     {
+      "id": "hacking-aging-biology",
+      "name": "Hacking Aging Biology",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "foresight"
+      ]
+    },
+    {
       "id": "hahrie-han",
       "name": "Hahrie Han",
       "isHost": false,
@@ -19343,6 +19406,15 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
+      ]
+    },
+    {
+      "id": "hirosi-ooguri",
+      "name": "Hirosi Ooguri",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "toe"
       ]
     },
     {
@@ -22487,6 +22559,15 @@
       ]
     },
     {
+      "id": "jo-o-pedro-de-magalh-es",
+      "name": "João Pedro de Magalhães",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "foresight"
+      ]
+    },
+    {
       "id": "jo-o-teixeira",
       "name": "João Teixeira",
       "isHost": false,
@@ -22979,15 +23060,6 @@
       "episodeCount": 1,
       "podcasts": [
         "mindscape"
-      ]
-    },
-    {
-      "id": "katie-rose-hejtmanek",
-      "name": "Katie Rose Hejtmanek",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "dissenter"
       ]
     },
     {
@@ -28319,6 +28391,15 @@
       ]
     },
     {
+      "id": "openai-s-karan-singhal",
+      "name": "OpenAI’s Karan Singhal",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "opens-locked-cars",
       "name": "Opens Locked Cars",
       "isHost": false,
@@ -28793,6 +28874,15 @@
       "episodeCount": 1,
       "podcasts": [
         "cwt"
+      ]
+    },
+    {
+      "id": "paula-lavigne",
+      "name": "Paula Lavigne",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
       ]
     },
     {
@@ -30026,6 +30116,15 @@
       "episodeCount": 1,
       "podcasts": [
         "tim-ferriss"
+      ]
+    },
+    {
+      "id": "reducto-s-adit-abraham",
+      "name": "Reducto’s Adit Abraham",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -36799,7 +36898,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Jacob Barandes: The Mathematical Accident That Rewrites Quantum Theory",
+          "title": "Jacob Barandes: The Unsettling Assumption Beneath Quantum Physics",
           "url": "907d4186-56b9-11f0-9895-e71385e799f9"
         },
         {
@@ -37223,6 +37322,49 @@
           "podcastId": "foresight",
           "title": "Robin Hanson | The Elephant in the Brain: Hidden Motives and Social Agendas",
           "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/6527e4f6d5cc0400128c85f3"
+        }
+      ]
+    },
+    {
+      "source": "ben-horowitz",
+      "target": "marc-andreessen",
+      "value": 6,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+          "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+          "url": "https://a16z.simplecast.com/episodes/the-new-rules-of-media-marc-andreessen-ben-horowitz-nXXfWW8E"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "The Techno-Optimist Manifesto with Marc Andreessen and Ben Horowitz",
+          "url": "https://a16z.simplecast.com/episodes/the-techno-optimist-manifesto-with-marc-andreessen-and-ben-horowitz-1b5mv8pi-gna9iB8R"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Ben Horowitz & Marc Andreessen: Why Silicon Valley Turned Against Defense (And How We’re Fixing It)",
+          "url": "https://a16z.simplecast.com/episodes/ben-horowitz-marc-andreessen-why-silicon-valley-turned-against-defense-and-how-were-fixing-it-aVPjuWj8"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Politics & the Future of Tech with Marc Andreessen and Ben Horowitz",
+          "url": "https://a16z.simplecast.com/episodes/politics-the-future-of-tech-with-marc-andreessen-and-ben-horowitz-KyR9Gesj"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "The Techno-Optimist Manifesto with Marc Andreessen and Ben Horowitz",
+          "url": "https://a16z.simplecast.com/episodes/the-techno-optimist-manifesto-with-marc-andreessen-and-ben-horowitz-ZNffyv2_"
         }
       ]
     },
@@ -37764,43 +37906,6 @@
           "podcastId": "lex-fridman",
           "title": "#139 – Andrew Huberman: Neuroscience of Optimal Performance",
           "url": "https://lexfridman.com/andrew-huberman/?utm_source=rss&utm_medium=rss&utm_campaign=andrew-huberman"
-        }
-      ]
-    },
-    {
-      "source": "ben-horowitz",
-      "target": "marc-andreessen",
-      "value": 5,
-      "episodes": [
-        {
-          "podcast": "The a16z Show",
-          "podcastId": "a16z",
-          "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
-          "url": "https://a16z.simplecast.com/episodes/the-new-rules-of-media-marc-andreessen-ben-horowitz-nXXfWW8E"
-        },
-        {
-          "podcast": "The a16z Show",
-          "podcastId": "a16z",
-          "title": "The Techno-Optimist Manifesto with Marc Andreessen and Ben Horowitz",
-          "url": "https://a16z.simplecast.com/episodes/the-techno-optimist-manifesto-with-marc-andreessen-and-ben-horowitz-1b5mv8pi-gna9iB8R"
-        },
-        {
-          "podcast": "The a16z Show",
-          "podcastId": "a16z",
-          "title": "Ben Horowitz & Marc Andreessen: Why Silicon Valley Turned Against Defense (And How We’re Fixing It)",
-          "url": "https://a16z.simplecast.com/episodes/ben-horowitz-marc-andreessen-why-silicon-valley-turned-against-defense-and-how-were-fixing-it-aVPjuWj8"
-        },
-        {
-          "podcast": "The a16z Show",
-          "podcastId": "a16z",
-          "title": "Politics & the Future of Tech with Marc Andreessen and Ben Horowitz",
-          "url": "https://a16z.simplecast.com/episodes/politics-the-future-of-tech-with-marc-andreessen-and-ben-horowitz-KyR9Gesj"
-        },
-        {
-          "podcast": "The a16z Show",
-          "podcastId": "a16z",
-          "title": "The Techno-Optimist Manifesto with Marc Andreessen and Ben Horowitz",
-          "url": "https://a16z.simplecast.com/episodes/the-techno-optimist-manifesto-with-marc-andreessen-and-ben-horowitz-ZNffyv2_"
         }
       ]
     },
@@ -39122,6 +39227,37 @@
       ]
     },
     {
+      "source": "fanni-melles",
+      "target": "laetitia-dablanc",
+      "value": 4,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Urban logistics in large cities - Laetitia Dablanc (474)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Urban-logistics-in-large-cities---Laetitia-Dablanc-474-e3pr6ah"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Engineering cities can use now - Laetitia Dablanc (474)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Engineering-cities-can-use-now---Laetitia-Dablanc-474-e3pr9i0"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Why skills gather in big cities - Laetitia Dablanc (474)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Why-skills-gather-in-big-cities---Laetitia-Dablanc-474-e3pr9hv"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Robots and better warehouse jobs - Laetitia Dablanc (474)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Robots-and-better-warehouse-jobs---Laetitia-Dablanc-474-e3pr9hs"
+        }
+      ]
+    },
+    {
       "source": "favorite-books",
       "target": "tim-ferriss",
       "value": 4,
@@ -40399,7 +40535,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Emily Adlam: Reality Is a Completed Puzzle, Not a Flowing River",
+          "title": "Emily Adlam: The “All at Once” Universe Shatters Our View of Time",
           "url": "182fbdec-1700-11f0-96bf-33b1e99a135b"
         }
       ]
@@ -44689,6 +44825,25 @@
     },
     {
       "source": "chris-dixon",
+      "target": "marc-andreessen",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+          "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP"
+        },
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation",
+          "url": "https://a16z.simplecast.com/episodes/marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-regulation-2sleSszn"
+        }
+      ]
+    },
+    {
+      "source": "chris-dixon",
       "target": "tyler-cowen",
       "value": 2,
       "episodes": [
@@ -46399,6 +46554,25 @@
     },
     {
       "source": "fanni-melles",
+      "target": "howard-kozloff",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Zoning gets priced into the land - Howard Kozloff (476)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Zoning-gets-priced-into-the-land---Howard-Kozloff-476-e3qbrgj"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Entrepreneurial planning for public space - Howard Kozloff (476)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Entrepreneurial-planning-for-public-space---Howard-Kozloff-476-e3qbrf4"
+        }
+      ]
+    },
+    {
+      "source": "fanni-melles",
       "target": "hudson-worsley",
       "value": 2,
       "episodes": [
@@ -46413,25 +46587,6 @@
           "podcastId": "wtf4cities",
           "title": "280I_Hudson Worsley, co-founder and director of Presync",
           "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/280I_Hudson-Worsley--co-founder-and-director-of-Presync-e2npv8s"
-        }
-      ]
-    },
-    {
-      "source": "fanni-melles",
-      "target": "laetitia-dablanc",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "WTF4Cities",
-          "podcastId": "wtf4cities",
-          "title": "Why skills gather in big cities - Laetitia Dablanc (474)",
-          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Why-skills-gather-in-big-cities---Laetitia-Dablanc-474-e3pr9hv"
-        },
-        {
-          "podcast": "WTF4Cities",
-          "podcastId": "wtf4cities",
-          "title": "Robots and better warehouse jobs - Laetitia Dablanc (474)",
-          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Robots-and-better-warehouse-jobs---Laetitia-Dablanc-474-e3pr9hs"
         }
       ]
     },
@@ -47952,6 +48107,25 @@
           "podcastId": "mlst",
           "title": "#033 Prof. Karl Friston - The Free Energy Principle",
           "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/033-Prof--Karl-Friston---The-Free-Energy-Principle-enon6c"
+        }
+      ]
+    },
+    {
+      "source": "katie-rose-hejtmanek",
+      "target": "ricardo-lopes",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1322 Katie Rose Hejtmanek - The Cult of CrossFit: Christianity and the American Exercise Phenomenon",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1322-Katie-Rose-Hejtmanek---The-Cult-of-CrossFit-Christianity-and-the-American-Exercise-Phenomenon-e3qes7e"
+        },
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1025 Katie Rose Hejtmanek - Gender and Power in Strength Sports: Strong As Feminist",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1025-Katie-Rose-Hejtmanek---Gender-and-Power-in-Strength-Sports-Strong-As-Feminist-e2jdp2a"
         }
       ]
     },
@@ -53994,6 +54168,19 @@
     },
     {
       "source": "allison-duettmann",
+      "target": "hacking-aging-biology",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "Hacking Aging Biology | João Pedro de Magalhães",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/hacking-aging-biology-joao-pedro-de-magalhaes"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
       "target": "haleh-fotowat",
       "value": 1,
       "episodes": [
@@ -54444,6 +54631,19 @@
           "podcastId": "foresight",
           "title": "Joshua Elliott | The Hail Mary Phase of Climate Change @ Vision Weekend USA 2025",
           "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/joshua-elliott-the-hail-mary-phase-of-climate-change-vision"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
+      "target": "jo-o-pedro-de-magalh-es",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "Hacking Aging Biology | João Pedro de Magalhães",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/hacking-aging-biology-joao-pedro-de-magalhaes"
         }
       ]
     },
@@ -59961,6 +60161,19 @@
     },
     {
       "source": "ben-horowitz",
+      "target": "chris-dixon",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+          "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP"
+        }
+      ]
+    },
+    {
+      "source": "ben-horowitz",
       "target": "david-solomon",
       "value": 1,
       "episodes": [
@@ -64394,19 +64607,6 @@
     },
     {
       "source": "chris-dixon",
-      "target": "marc-andreessen",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "The a16z Show",
-          "podcastId": "a16z",
-          "title": "Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation",
-          "url": "https://a16z.simplecast.com/episodes/marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-regulation-2sleSszn"
-        }
-      ]
-    },
-    {
-      "source": "chris-dixon",
       "target": "naval-ravikant",
       "value": 1,
       "episodes": [
@@ -67444,6 +67644,19 @@
           "podcastId": "toe",
           "title": "Harvey Friedman: The Genius Who Invented Reverse Mathematics",
           "url": "a3cde170-52ce-11f1-acff-9f4bcb2930fa"
+        }
+      ]
+    },
+    {
+      "source": "curt-jaimungal",
+      "target": "hirosi-ooguri",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Hirosi Ooguri: Could AI Find Physics We Can’t Understand?",
+          "url": "d32b9e6a-c828-11f1-bee8-a341ea79a41c"
         }
       ]
     },
@@ -74182,6 +74395,19 @@
       ]
     },
     {
+      "source": "emily-towner",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1321 Emily Towner: Social Isolation and Social Media Use in Adolescents",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1321-Emily-Towner-Social-Isolation-and-Social-Media-Use-in-Adolescents-e3puqs1"
+        }
+      ]
+    },
+    {
       "source": "emily-wilson",
       "target": "sean-carroll",
       "value": 1,
@@ -74620,6 +74846,19 @@
           "podcastId": "jim-rutt",
           "title": "Currents 089: Erik Torenberg on Status Games",
           "url": "https://jimruttshow.blubrry.net/currents-erik-torenberg/"
+        }
+      ]
+    },
+    {
+      "source": "erik-winfree",
+      "target": "sean-carroll",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Mindscape",
+          "podcastId": "mindscape",
+          "title": "372 | Erik Winfree on DNA Computers and Robots",
+          "url": "https://preposterousuniverse.com/podcast/2026/10/26/372-erik-winfree-on-dna-robots-and-computers/"
         }
       ]
     },
@@ -79391,6 +79630,19 @@
           "podcastId": "dissenter",
           "title": "#572 Günter Wagner: Gene Regulation, Evolutionary Novelties, and the Evolution of Pregnancy",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/572-Gnter-Wagner-Gene-Regulation--Evolutionary-Novelties--and-the-Evolution-of-Pregnancy-e17r8t5"
+        }
+      ]
+    },
+    {
+      "source": "hacking-aging-biology",
+      "target": "jo-o-pedro-de-magalh-es",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "Hacking Aging Biology | João Pedro de Magalhães",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/hacking-aging-biology-joao-pedro-de-magalhaes"
         }
       ]
     },
@@ -87165,19 +87417,6 @@
           "podcastId": "mindscape",
           "title": "70 | Katie Mack on How the Universe Will End",
           "url": "https://1d1ac211-8392-45fe-82db-99fa7f77076e.libsyn.com/70-katie-mack-on-how-the-universe-will-end"
-        }
-      ]
-    },
-    {
-      "source": "katie-rose-hejtmanek",
-      "target": "ricardo-lopes",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "The Dissenter",
-          "podcastId": "dissenter",
-          "title": "#1025 Katie Rose Hejtmanek - Gender and Power in Strength Sports: Strong As Feminist",
-          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1025-Katie-Rose-Hejtmanek---Gender-and-Power-in-Strength-Sports-Strong-As-Feminist-e2jdp2a"
         }
       ]
     },
@@ -96668,6 +96907,19 @@
           "podcastId": "cwt",
           "title": "Paula Byrne on Thomas Hardy's Women, Jane Austen's Humor, and Evelyn Waugh's Warmth",
           "url": "https://cowenconvos.libsyn.com/paula-byrne"
+        }
+      ]
+    },
+    {
+      "source": "paula-lavigne",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1323 Paula Lavigne: Mulheres Trans em Desportos Femininos",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1323-Paula-Lavigne-Mulheres-Trans-em-Desportos-Femininos-e3q3n32"
         }
       ]
     },
