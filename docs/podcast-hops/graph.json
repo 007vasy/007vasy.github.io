@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T11:40:22Z",
+  "generatedAt": "2026-11-02T13:57:52Z",
   "defaultFrom": "Eric Smith",
   "defaultTo": "Chiara Marletto",
   "podcasts": [
@@ -9,11 +9,11 @@
       "hosts": [
         "Dwarkesh Patel"
       ],
-      "episodeCount": 124,
-      "rssItems": 143,
-      "guestCount": 105,
-      "newItems": 1,
-      "reusedItems": 142
+      "episodeCount": 126,
+      "rssItems": 145,
+      "guestCount": 106,
+      "newItems": 2,
+      "reusedItems": 143
     },
     {
       "id": "toe",
@@ -21,11 +21,11 @@
       "hosts": [
         "Curt Jaimungal"
       ],
-      "episodeCount": 321,
-      "rssItems": 368,
-      "guestCount": 226,
+      "episodeCount": 323,
+      "rssItems": 369,
+      "guestCount": 227,
       "newItems": 3,
-      "reusedItems": 365
+      "reusedItems": 366
     },
     {
       "id": "dissenter",
@@ -33,11 +33,11 @@
       "hosts": [
         "Ricardo Lopes"
       ],
-      "episodeCount": 1285,
-      "rssItems": 1317,
-      "guestCount": 1085,
+      "episodeCount": 1288,
+      "rssItems": 1320,
+      "guestCount": 1087,
       "newItems": 3,
-      "reusedItems": 1314
+      "reusedItems": 1317
     },
     {
       "id": "jim-rutt",
@@ -60,8 +60,8 @@
       "episodeCount": 46,
       "rssItems": 273,
       "guestCount": 29,
-      "newItems": 1,
-      "reusedItems": 272
+      "newItems": 0,
+      "reusedItems": 273
     },
     {
       "id": "lex-fridman",
@@ -70,9 +70,9 @@
         "Lex Fridman"
       ],
       "episodeCount": 473,
-      "rssItems": 502,
+      "rssItems": 503,
       "guestCount": 410,
-      "newItems": 0,
+      "newItems": 1,
       "reusedItems": 502
     },
     {
@@ -81,11 +81,11 @@
       "hosts": [
         "Sean Carroll"
       ],
-      "episodeCount": 347,
-      "rssItems": 450,
-      "guestCount": 350,
+      "episodeCount": 348,
+      "rssItems": 451,
+      "guestCount": 351,
       "newItems": 1,
-      "reusedItems": 449
+      "reusedItems": 450
     },
     {
       "id": "cwt",
@@ -93,10 +93,10 @@
       "hosts": [
         "Tyler Cowen"
       ],
-      "episodeCount": 293,
-      "rssItems": 304,
-      "guestCount": 273,
-      "newItems": 0,
+      "episodeCount": 294,
+      "rssItems": 305,
+      "guestCount": 274,
+      "newItems": 1,
       "reusedItems": 304
     },
     {
@@ -105,11 +105,11 @@
       "hosts": [
         "Allison Duettmann"
       ],
-      "episodeCount": 209,
-      "rssItems": 225,
-      "guestCount": 275,
+      "episodeCount": 210,
+      "rssItems": 226,
+      "guestCount": 276,
       "newItems": 1,
-      "reusedItems": 224
+      "reusedItems": 225
     },
     {
       "id": "existential-hope",
@@ -117,10 +117,10 @@
       "hosts": [
         "Allison Duettmann"
       ],
-      "episodeCount": 33,
-      "rssItems": 44,
-      "guestCount": 33,
-      "newItems": 0,
+      "episodeCount": 34,
+      "rssItems": 45,
+      "guestCount": 34,
+      "newItems": 1,
       "reusedItems": 44
     },
     {
@@ -129,10 +129,10 @@
       "hosts": [
         "Tim Scarfe"
       ],
-      "episodeCount": 174,
-      "rssItems": 271,
-      "guestCount": 171,
-      "newItems": 0,
+      "episodeCount": 176,
+      "rssItems": 273,
+      "guestCount": 172,
+      "newItems": 2,
       "reusedItems": 271
     },
     {
@@ -153,11 +153,11 @@
       "hosts": [
         "Logan Chipkin"
       ],
-      "episodeCount": 17,
-      "rssItems": 37,
-      "guestCount": 17,
+      "episodeCount": 18,
+      "rssItems": 38,
+      "guestCount": 18,
       "newItems": 1,
-      "reusedItems": 36
+      "reusedItems": 37
     },
     {
       "id": "complexity",
@@ -175,11 +175,11 @@
       "hosts": [
         "Fanni Melles"
       ],
-      "episodeCount": 223,
-      "rssItems": 757,
-      "guestCount": 207,
+      "episodeCount": 227,
+      "rssItems": 762,
+      "guestCount": 208,
       "newItems": 5,
-      "reusedItems": 752
+      "reusedItems": 757
     },
     {
       "id": "tim-ferriss",
@@ -190,8 +190,8 @@
       "episodeCount": 696,
       "rssItems": 891,
       "guestCount": 642,
-      "newItems": 1,
-      "reusedItems": 890
+      "newItems": 0,
+      "reusedItems": 891
     },
     {
       "id": "arjun-khemani",
@@ -219,19 +219,19 @@
       "id": "a16z",
       "name": "The a16z Show",
       "hosts": [],
-      "episodeCount": 347,
+      "episodeCount": 350,
       "rssItems": 1000,
-      "guestCount": 265,
-      "newItems": 7,
-      "reusedItems": 993
+      "guestCount": 269,
+      "newItems": 6,
+      "reusedItems": 994
     }
   ],
   "stats": {
-    "people": 3942,
-    "links": 4793,
-    "episodes": 5148,
-    "newItems": 24,
-    "reusedItems": 7203,
+    "people": 3954,
+    "links": 4806,
+    "episodes": 5169,
+    "newItems": 27,
+    "reusedItems": 7219,
     "extractor": "spacy+parsers",
     "defaultHops": 2,
     "defaultPath": [
@@ -245,7 +245,7 @@
       "id": "ricardo-lopes",
       "name": "Ricardo Lopes",
       "isHost": true,
-      "episodeCount": 1285,
+      "episodeCount": 1288,
       "podcasts": [
         "dissenter"
       ]
@@ -281,7 +281,7 @@
       "id": "sean-carroll",
       "name": "Sean Carroll",
       "isHost": true,
-      "episodeCount": 352,
+      "episodeCount": 353,
       "podcasts": [
         "toe",
         "dissenter",
@@ -293,7 +293,7 @@
       "id": "curt-jaimungal",
       "name": "Curt Jaimungal",
       "isHost": true,
-      "episodeCount": 321,
+      "episodeCount": 323,
       "podcasts": [
         "toe"
       ]
@@ -302,7 +302,7 @@
       "id": "tyler-cowen",
       "name": "Tyler Cowen",
       "isHost": true,
-      "episodeCount": 306,
+      "episodeCount": 307,
       "podcasts": [
         "dwarkesh",
         "toe",
@@ -319,7 +319,7 @@
       "id": "allison-duettmann",
       "name": "Allison Duettmann",
       "isHost": true,
-      "episodeCount": 243,
+      "episodeCount": 245,
       "podcasts": [
         "foresight",
         "existential-hope",
@@ -330,7 +330,7 @@
       "id": "fanni-melles",
       "name": "Fanni Melles",
       "isHost": true,
-      "episodeCount": 223,
+      "episodeCount": 227,
       "podcasts": [
         "wtf4cities"
       ]
@@ -339,7 +339,7 @@
       "id": "tim-scarfe",
       "name": "Tim Scarfe",
       "isHost": true,
-      "episodeCount": 174,
+      "episodeCount": 176,
       "podcasts": [
         "mlst"
       ]
@@ -348,7 +348,7 @@
       "id": "dwarkesh-patel",
       "name": "Dwarkesh Patel",
       "isHost": true,
-      "episodeCount": 125,
+      "episodeCount": 127,
       "podcasts": [
         "dwarkesh",
         "a16z"
@@ -405,7 +405,7 @@
       "id": "logan-chipkin",
       "name": "Logan Chipkin",
       "isHost": true,
-      "episodeCount": 30,
+      "episodeCount": 31,
       "podcasts": [
         "fallible-animals",
         "conjecture",
@@ -477,7 +477,7 @@
       "id": "joscha-bach",
       "name": "Joscha Bach",
       "isHost": false,
-      "episodeCount": 15,
+      "episodeCount": 16,
       "podcasts": [
         "toe",
         "jim-rutt",
@@ -591,6 +591,19 @@
       ]
     },
     {
+      "id": "scott-aaronson",
+      "name": "Scott Aaronson",
+      "isHost": false,
+      "episodeCount": 11,
+      "podcasts": [
+        "dwarkesh",
+        "toe",
+        "lex-fridman",
+        "mindscape",
+        "foresight"
+      ]
+    },
+    {
       "id": "stephen-wolfram",
       "name": "Stephen Wolfram",
       "isHost": false,
@@ -613,19 +626,6 @@
         "tim-ferriss",
         "network-state",
         "a16z"
-      ]
-    },
-    {
-      "id": "scott-aaronson",
-      "name": "Scott Aaronson",
-      "isHost": false,
-      "episodeCount": 10,
-      "podcasts": [
-        "dwarkesh",
-        "toe",
-        "lex-fridman",
-        "mindscape",
-        "foresight"
       ]
     },
     {
@@ -1323,6 +1323,16 @@
       ]
     },
     {
+      "id": "mark-cuban",
+      "name": "Mark Cuban",
+      "isHost": false,
+      "episodeCount": 5,
+      "podcasts": [
+        "lex-fridman",
+        "a16z"
+      ]
+    },
+    {
       "id": "max-borders",
       "name": "Max Borders",
       "isHost": false,
@@ -1811,6 +1821,15 @@
       ]
     },
     {
+      "id": "howard-kozloff",
+      "name": "Howard Kozloff",
+      "isHost": false,
+      "episodeCount": 4,
+      "podcasts": [
+        "wtf4cities"
+      ]
+    },
+    {
       "id": "jack-altman",
       "name": "Jack Altman",
       "isHost": false,
@@ -1898,16 +1917,6 @@
         "jim-rutt",
         "lex-fridman",
         "mindscape"
-      ]
-    },
-    {
-      "id": "mark-cuban",
-      "name": "Mark Cuban",
-      "isHost": false,
-      "episodeCount": 4,
-      "podcasts": [
-        "lex-fridman",
-        "a16z"
       ]
     },
     {
@@ -2065,6 +2074,16 @@
       "podcasts": [
         "toe",
         "lex-fridman"
+      ]
+    },
+    {
+      "id": "philip-ball",
+      "name": "Philip Ball",
+      "isHost": false,
+      "episodeCount": 4,
+      "podcasts": [
+        "dissenter",
+        "cwt"
       ]
     },
     {
@@ -3387,16 +3406,6 @@
       ]
     },
     {
-      "id": "philip-ball",
-      "name": "Philip Ball",
-      "isHost": false,
-      "episodeCount": 3,
-      "podcasts": [
-        "dissenter",
-        "cwt"
-      ]
-    },
-    {
       "id": "ramez-naam",
       "name": "Ramez Naam",
       "isHost": false,
@@ -4663,6 +4672,16 @@
       ]
     },
     {
+      "id": "colin-camerer",
+      "name": "Colin Camerer",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "dissenter",
+        "mindscape"
+      ]
+    },
+    {
       "id": "colin-deyoung",
       "name": "Colin DeYoung",
       "isHost": false,
@@ -5090,6 +5109,16 @@
       ]
     },
     {
+      "id": "dorothy-chou",
+      "name": "Dorothy Chou",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "foresight",
+        "existential-hope"
+      ]
+    },
+    {
       "id": "douglas-murray",
       "name": "Douglas Murray",
       "isHost": false,
@@ -5247,6 +5276,16 @@
       "podcasts": [
         "dissenter",
         "mindscape"
+      ]
+    },
+    {
+      "id": "erik-torenberg",
+      "name": "Erik Torenberg",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "jim-rutt",
+        "a16z"
       ]
     },
     {
@@ -5510,15 +5549,6 @@
       "episodeCount": 2,
       "podcasts": [
         "dissenter"
-      ]
-    },
-    {
-      "id": "howard-kozloff",
-      "name": "Howard Kozloff",
-      "isHost": false,
-      "episodeCount": 2,
-      "podcasts": [
-        "wtf4cities"
       ]
     },
     {
@@ -6784,6 +6814,15 @@
       ]
     },
     {
+      "id": "moein-nodehi",
+      "name": "Moein Nodehi",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "wtf4cities"
+      ]
+    },
+    {
       "id": "morgan-levine",
       "name": "Morgan Levine",
       "isHost": false,
@@ -7365,6 +7404,15 @@
       "podcasts": [
         "toe",
         "lex-fridman"
+      ]
+    },
+    {
+      "id": "robert-caro",
+      "name": "Robert Caro",
+      "isHost": false,
+      "episodeCount": 2,
+      "podcasts": [
+        "dwarkesh"
       ]
     },
     {
@@ -13343,6 +13391,15 @@
       ]
     },
     {
+      "id": "christian-tryon",
+      "name": "Christian Tryon",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
+      ]
+    },
+    {
       "id": "christine-webber",
       "name": "Christine Webber",
       "isHost": false,
@@ -13754,15 +13811,6 @@
       "episodeCount": 1,
       "podcasts": [
         "lex-fridman"
-      ]
-    },
-    {
-      "id": "colin-camerer",
-      "name": "Colin Camerer",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "dissenter"
       ]
     },
     {
@@ -16250,15 +16298,6 @@
       ]
     },
     {
-      "id": "dorothy-chou",
-      "name": "Dorothy Chou",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "existential-hope"
-      ]
-    },
-    {
       "id": "doug-erwin",
       "name": "Doug Erwin",
       "isHost": false,
@@ -17240,15 +17279,6 @@
       ]
     },
     {
-      "id": "erik-torenberg",
-      "name": "Erik Torenberg",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "jim-rutt"
-      ]
-    },
-    {
       "id": "erik-verlinde",
       "name": "Erik Verlinde",
       "isHost": false,
@@ -18074,6 +18104,15 @@
       "episodeCount": 1,
       "podcasts": [
         "mlst"
+      ]
+    },
+    {
+      "id": "gagan-biyani",
+      "name": "Gagan Biyani",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
       ]
     },
     {
@@ -19793,6 +19832,15 @@
       "episodeCount": 1,
       "podcasts": [
         "network-state"
+      ]
+    },
+    {
+      "id": "indy-johar",
+      "name": "Indy Johar",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "existential-hope"
       ]
     },
     {
@@ -21560,6 +21608,15 @@
       ]
     },
     {
+      "id": "joe-liemandt",
+      "name": "Joe Liemandt",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "joe-studwell",
       "name": "Joe Studwell",
       "isHost": false,
@@ -23324,6 +23381,15 @@
       ]
     },
     {
+      "id": "kevin-hartnett",
+      "name": "Kevin Hartnett",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "mlst"
+      ]
+    },
+    {
       "id": "kevin-hit",
       "name": "Kevin Hit",
       "isHost": false,
@@ -24620,12 +24686,30 @@
       ]
     },
     {
+      "id": "luca-ferrari",
+      "name": "Luca Ferrari",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "a16z"
+      ]
+    },
+    {
       "id": "lucia-melloni",
       "name": "Lucia Melloni",
       "isHost": false,
       "episodeCount": 1,
       "podcasts": [
         "dissenter"
+      ]
+    },
+    {
+      "id": "lucrezia-ravera",
+      "name": "Lucrezia Ravera",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "toe"
       ]
     },
     {
@@ -25562,6 +25646,15 @@
       "episodeCount": 1,
       "podcasts": [
         "wtf4cities"
+      ]
+    },
+    {
+      "id": "marlene-zuk",
+      "name": "Marlene Zuk",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dissenter"
       ]
     },
     {
@@ -26935,6 +27028,15 @@
     {
       "id": "module-one",
       "name": "Module One",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "conjecture"
+      ]
+    },
+    {
+      "id": "module-three",
+      "name": "Module Three",
       "isHost": false,
       "episodeCount": 1,
       "podcasts": [
@@ -30722,15 +30824,6 @@
       ]
     },
     {
-      "id": "robert-caro",
-      "name": "Robert Caro",
-      "isHost": false,
-      "episodeCount": 1,
-      "podcasts": [
-        "dwarkesh"
-      ]
-    },
-    {
       "id": "robert-cialdini",
       "name": "Robert Cialdini",
       "isHost": false,
@@ -30800,6 +30893,15 @@
       "episodeCount": 1,
       "podcasts": [
         "foresight"
+      ]
+    },
+    {
+      "id": "robert-moses",
+      "name": "Robert Moses",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "dwarkesh"
       ]
     },
     {
@@ -31097,6 +31199,15 @@
       "episodeCount": 1,
       "podcasts": [
         "wtf4cities"
+      ]
+    },
+    {
+      "id": "roman-mars",
+      "name": "Roman Mars",
+      "isHost": false,
+      "episodeCount": 1,
+      "podcasts": [
+        "cwt"
       ]
     },
     {
@@ -37455,6 +37566,49 @@
       ]
     },
     {
+      "source": "curt-jaimungal",
+      "target": "scott-aaronson",
+      "value": 6,
+      "episodes": [
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Scott Aaronson: The Most Significant Moment in Math History",
+          "url": "162405f2-cfc4-11f1-b250-f7b62c2acad0"
+        },
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Scott Aaronson and Jacob Barandes: Quantum Mechanics Without Waves",
+          "url": "e62d018e-f87c-11ef-b14e-ab55eb9737e8"
+        },
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "David Chalmers and Scott Aaronson: What If We Are Simulated?",
+          "url": "https://youtube.com/TheoriesOfEverything"
+        },
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Scott Aaronson: The Simulation Hypothesis and Its Limits",
+          "url": "https://youtube.com/TheoriesOfEverything"
+        },
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Scott Aaronson: What OpenAI's Safety Team Actually Worries About",
+          "url": "https://youtube.com/TheoriesOfEverything"
+        },
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Scott Aaronson: The Greatest Unsolved Problem in Math",
+          "url": "https://youtube.com/TheoriesOfEverything"
+        }
+      ]
+    },
+    {
       "source": "deep-learning",
       "target": "lex-fridman",
       "value": 6,
@@ -38053,43 +38207,6 @@
           "podcast": "Theories of Everything",
           "podcastId": "toe",
           "title": "Neil Turok: The Simplest Theory That Explains Everything",
-          "url": "https://youtube.com/TheoriesOfEverything"
-        }
-      ]
-    },
-    {
-      "source": "curt-jaimungal",
-      "target": "scott-aaronson",
-      "value": 5,
-      "episodes": [
-        {
-          "podcast": "Theories of Everything",
-          "podcastId": "toe",
-          "title": "Scott Aaronson and Jacob Barandes: Quantum Mechanics Without Waves",
-          "url": "e62d018e-f87c-11ef-b14e-ab55eb9737e8"
-        },
-        {
-          "podcast": "Theories of Everything",
-          "podcastId": "toe",
-          "title": "David Chalmers and Scott Aaronson: What If We Are Simulated?",
-          "url": "https://youtube.com/TheoriesOfEverything"
-        },
-        {
-          "podcast": "Theories of Everything",
-          "podcastId": "toe",
-          "title": "Scott Aaronson: The Simulation Hypothesis and Its Limits",
-          "url": "https://youtube.com/TheoriesOfEverything"
-        },
-        {
-          "podcast": "Theories of Everything",
-          "podcastId": "toe",
-          "title": "Scott Aaronson: What OpenAI's Safety Team Actually Worries About",
-          "url": "https://youtube.com/TheoriesOfEverything"
-        },
-        {
-          "podcast": "Theories of Everything",
-          "podcastId": "toe",
-          "title": "Scott Aaronson: The Greatest Unsolved Problem in Math",
           "url": "https://youtube.com/TheoriesOfEverything"
         }
       ]
@@ -39223,6 +39340,37 @@
           "podcastId": "lex-fridman",
           "title": "Eric Weinstein: Revolutionary Ideas in Science, Math, and Society",
           "url": "https://lexfridman.com/eric-weinstein/?utm_source=rss&utm_medium=rss&utm_campaign=eric-weinstein"
+        }
+      ]
+    },
+    {
+      "source": "fanni-melles",
+      "target": "howard-kozloff",
+      "value": 4,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Public space as the product - Howard Kozloff (476)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Public-space-as-the-product---Howard-Kozloff-476-e3qbs8j"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Who pays to run a public space - Howard Kozloff (476)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Who-pays-to-run-a-public-space---Howard-Kozloff-476-e3qbria"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Zoning gets priced into the land - Howard Kozloff (476)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Zoning-gets-priced-into-the-land---Howard-Kozloff-476-e3qbrgj"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Entrepreneurial planning for public space - Howard Kozloff (476)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Entrepreneurial-planning-for-public-space---Howard-Kozloff-476-e3qbrf4"
         }
       ]
     },
@@ -42341,6 +42489,31 @@
       ]
     },
     {
+      "source": "philip-ball",
+      "target": "ricardo-lopes",
+      "value": 3,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1325 Philip Ball - The Man Who Broke Reality: Niels Bohr and the Making of Modern Physics",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1325-Philip-Ball---The-Man-Who-Broke-Reality-Niels-Bohr-and-the-Making-of-Modern-Physics-e3qickh"
+        },
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#985 Philip Ball - How Life Works: A User’s Guide to the New Biology",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/985-Philip-Ball---How-Life-Works-A-Users-Guide-to-the-New-Biology-e2mtr2o"
+        },
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#892 Philip Ball - The Book of Minds: How to Understand Ourselves and Other Beings",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/892-Philip-Ball---The-Book-of-Minds-How-to-Understand-Ourselves-and-Other-Beings-e2e0csg"
+        }
+      ]
+    },
+    {
       "source": "ramit-sethi",
       "target": "tim-ferriss",
       "value": 3,
@@ -43319,6 +43492,25 @@
           "podcastId": "foresight",
           "title": "Divya Siddarth | Collective Intelligence for Collective Progress",
           "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/6527e4f6d5cc0400128c859b"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
+      "target": "dorothy-chou",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "Foresight Institute Radio",
+          "podcastId": "foresight",
+          "title": "Financing Durable Innovation in an Age of Hype | Dorothy Chou",
+          "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/financing-durable-innovation-in-an-age-of-hype-dorothy-chou"
+        },
+        {
+          "podcast": "Existential Hope",
+          "podcastId": "existential-hope",
+          "title": "How tech can earn public trust and why 21st century science needs 21st century funding | Dorothy Chou",
+          "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6a589259e743c69800327557"
         }
       ]
     },
@@ -46326,6 +46518,25 @@
     },
     {
       "source": "dwarkesh-patel",
+      "target": "robert-caro",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "Dwarkesh Podcast",
+          "podcastId": "dwarkesh",
+          "title": "Robert Caro – The master biographer reflects at 91",
+          "url": "https://www.dwarkesh.com/p/robert-caro"
+        },
+        {
+          "podcast": "Dwarkesh Podcast",
+          "podcastId": "dwarkesh",
+          "title": "Lessons from The Years of Lyndon Johnson by Robert Caro [Narration]",
+          "url": "https://www.dwarkesh.com/p/lyndon-johnson-narration"
+        }
+      ]
+    },
+    {
+      "source": "dwarkesh-patel",
       "target": "satya-nadella",
       "value": 2,
       "episodes": [
@@ -46554,25 +46765,6 @@
     },
     {
       "source": "fanni-melles",
-      "target": "howard-kozloff",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "WTF4Cities",
-          "podcastId": "wtf4cities",
-          "title": "Zoning gets priced into the land - Howard Kozloff (476)",
-          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Zoning-gets-priced-into-the-land---Howard-Kozloff-476-e3qbrgj"
-        },
-        {
-          "podcast": "WTF4Cities",
-          "podcastId": "wtf4cities",
-          "title": "Entrepreneurial planning for public space - Howard Kozloff (476)",
-          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Entrepreneurial-planning-for-public-space---Howard-Kozloff-476-e3qbrf4"
-        }
-      ]
-    },
-    {
-      "source": "fanni-melles",
       "target": "hudson-worsley",
       "value": 2,
       "episodes": [
@@ -46625,6 +46817,25 @@
           "podcastId": "wtf4cities",
           "title": "346I_Trailer_Dr Mina Sartipi, founding director of the Center for Urban Informatics and Progress (CUIP) and Guerry Professor at the University of Tennessee Chattanooga (UTC)",
           "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/346I_Trailer_Dr-Mina-Sartipi--founding-director-of-the-Center-for-Urban-Informatics-and-Progress-CUIP-and-Guerry-Professor-at-the-University-of-Tennessee-Chattanooga-UTC-e324vpt"
+        }
+      ]
+    },
+    {
+      "source": "fanni-melles",
+      "target": "moein-nodehi",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "One greenhouse ties water, food, and heat - Moein Nodehi (478)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/One-greenhouse-ties-water--food--and-heat---Moein-Nodehi-478-e3qo0m3"
+        },
+        {
+          "podcast": "WTF4Cities",
+          "podcastId": "wtf4cities",
+          "title": "Do the right project, then the policy follows - Moein Nodehi (478)",
+          "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Do-the-right-project--then-the-policy-follows---Moein-Nodehi-478-e3qo0j0"
         }
       ]
     },
@@ -47955,6 +48166,25 @@
           "podcastId": "lex-fridman",
           "title": "#313 – Jordan Peterson: Life, Death, Power, Fame, and Meaning",
           "url": "https://lexfridman.com/jordan-peterson/?utm_source=rss&utm_medium=rss&utm_campaign=jordan-peterson"
+        }
+      ]
+    },
+    {
+      "source": "joscha-bach",
+      "target": "tim-scarfe",
+      "value": 2,
+      "episodes": [
+        {
+          "podcast": "Machine Learning Street Talk",
+          "podcastId": "mlst",
+          "title": "Why Leibniz Couldn't Find the Mind Inside the Mill (Joscha Bach)",
+          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Why-Leibniz-Couldnt-Find-the-Mind-Inside-the-Mill-Joscha-Bach-e3riq2d"
+        },
+        {
+          "podcast": "Machine Learning Street Talk",
+          "podcastId": "mlst",
+          "title": "Joscha Bach and Connor Leahy on AI risk",
+          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Joscha-Bach-and-Connor-Leahy-on-AI-risk-e25ukc5"
         }
       ]
     },
@@ -49874,25 +50104,6 @@
           "podcastId": "cwt",
           "title": "Peter Thiel on Stagnation, Innovation, and What Not to Call your Company (Live at Mason)",
           "url": "https://traffic.libsyn.com/cowenconvos/199071527-conversationswithtyler-peter-thiel-on-the-future-of-innovation.mp3"
-        }
-      ]
-    },
-    {
-      "source": "philip-ball",
-      "target": "ricardo-lopes",
-      "value": 2,
-      "episodes": [
-        {
-          "podcast": "The Dissenter",
-          "podcastId": "dissenter",
-          "title": "#985 Philip Ball - How Life Works: A User’s Guide to the New Biology",
-          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/985-Philip-Ball---How-Life-Works-A-Users-Guide-to-the-New-Biology-e2mtr2o"
-        },
-        {
-          "podcast": "The Dissenter",
-          "podcastId": "dissenter",
-          "title": "#892 Philip Ball - The Book of Minds: How to Understand Ourselves and Other Beings",
-          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/892-Philip-Ball---The-Book-of-Minds-How-to-Understand-Ourselves-and-Other-Beings-e2e0csg"
         }
       ]
     },
@@ -53830,19 +54041,6 @@
     },
     {
       "source": "allison-duettmann",
-      "target": "dorothy-chou",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Existential Hope",
-          "podcastId": "existential-hope",
-          "title": "How tech can earn public trust and why 21st century science needs 21st century funding | Dorothy Chou",
-          "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6a589259e743c69800327557"
-        }
-      ]
-    },
-    {
-      "source": "allison-duettmann",
       "target": "ed-boyden",
       "value": 1,
       "episodes": [
@@ -54267,6 +54465,19 @@
           "podcastId": "foresight",
           "title": "Ant Rowstron and Ilan Gur Fireside Chat @ Vision Weekend USA 2025",
           "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/ant-rowstron-and-ilan-gur-fireside-chat-vision-weekend-usa-2"
+        }
+      ]
+    },
+    {
+      "source": "allison-duettmann",
+      "target": "indy-johar",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Existential Hope",
+          "podcastId": "existential-hope",
+          "title": "The boring revolution humanity needs most | Indy Johar",
+          "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6ae30643092a0dff19904448"
         }
       ]
     },
@@ -65191,6 +65402,19 @@
       ]
     },
     {
+      "source": "christian-tryon",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1326 Christian Tryon: The Evolution of Homo Sapiens, and the Middle to Later Stone Age Transition",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1326-Christian-Tryon-The-Evolution-of-Homo-Sapiens--and-the-Middle-to-Later-Stone-Age-Transition-e3g7nnk"
+        }
+      ]
+    },
+    {
       "source": "christine-peterson",
       "target": "gaia-dempsey",
       "value": 1,
@@ -66084,6 +66308,19 @@
           "podcastId": "dissenter",
           "title": "#290 Colin Camerer: The Economics And Neuroscience Of Decision-Making",
           "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/290-Colin-Camerer-The-Economics-And-Neuroscience-Of-Decision-Making-e98jcu"
+        }
+      ]
+    },
+    {
+      "source": "colin-camerer",
+      "target": "sean-carroll",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Mindscape",
+          "podcastId": "mindscape",
+          "title": "373 | Colin Camerer on the Neuroscience of Economic Thinking",
+          "url": "https://preposterousuniverse.com/podcast/2026/11/02/373-colin-camerer-on-the-neuroscience-of-economic-thinking/"
         }
       ]
     },
@@ -68000,6 +68237,19 @@
     },
     {
       "source": "curt-jaimungal",
+      "target": "lucrezia-ravera",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Theories of Everything",
+          "podcastId": "toe",
+          "title": "Lucrezia Ravera: Take Away the Fields and Spacetime Disappears",
+          "url": "df20b01c-ab94-11f1-8eb4-53f71ceaf009"
+        }
+      ]
+    },
+    {
+      "source": "curt-jaimungal",
       "target": "maria-violaris",
       "value": 1,
       "episodes": [
@@ -68253,7 +68503,7 @@
         {
           "podcast": "Theories of Everything",
           "podcastId": "toe",
-          "title": "Olaf Dreyer: This One Number Explains the Beginning",
+          "title": "Olaf Dreyer: A New Explanation for Gravity",
           "url": "78160d14-bab6-11f1-a1e6-471313a25b83"
         }
       ]
@@ -73122,14 +73372,14 @@
     },
     {
       "source": "dwarkesh-patel",
-      "target": "robert-caro",
+      "target": "robert-moses",
       "value": 1,
       "episodes": [
         {
           "podcast": "Dwarkesh Podcast",
           "podcastId": "dwarkesh",
-          "title": "Lessons from The Years of Lyndon Johnson by Robert Caro [Narration]",
-          "url": "https://www.dwarkesh.com/p/lyndon-johnson-narration"
+          "title": "What I learned about power from LBJ and Robert Moses",
+          "url": "https://www.dwarkesh.com/p/lessons-in-power"
         }
       ]
     },
@@ -74838,6 +75088,19 @@
     },
     {
       "source": "erik-torenberg",
+      "target": "gagan-biyani",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+          "url": "https://a16z.simplecast.com/episodes/reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani-erik-torenberg-qpcIrpfu"
+        }
+      ]
+    },
+    {
+      "source": "erik-torenberg",
       "target": "jim-rutt",
       "value": 1,
       "episodes": [
@@ -74846,6 +75109,19 @@
           "podcastId": "jim-rutt",
           "title": "Currents 089: Erik Torenberg on Status Games",
           "url": "https://jimruttshow.blubrry.net/currents-erik-torenberg/"
+        }
+      ]
+    },
+    {
+      "source": "erik-torenberg",
+      "target": "joe-liemandt",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+          "url": "https://a16z.simplecast.com/episodes/reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani-erik-torenberg-qpcIrpfu"
         }
       ]
     },
@@ -78018,6 +78294,19 @@
           "podcastId": "mlst",
           "title": "#56 - Dr. Walid Saba, Gadi Singer, Prof. J. Mark Bishop (Panel discussion)",
           "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/56---Dr--Walid-Saba--Gadi-Singer--Prof--J--Mark-Bishop-Panel-discussion-e145bt0"
+        }
+      ]
+    },
+    {
+      "source": "gagan-biyani",
+      "target": "joe-liemandt",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The a16z Show",
+          "podcastId": "a16z",
+          "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+          "url": "https://a16z.simplecast.com/episodes/reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani-erik-torenberg-qpcIrpfu"
         }
       ]
     },
@@ -86316,19 +86605,6 @@
       ]
     },
     {
-      "source": "joscha-bach",
-      "target": "tim-scarfe",
-      "value": 1,
-      "episodes": [
-        {
-          "podcast": "Machine Learning Street Talk",
-          "podcastId": "mlst",
-          "title": "Joscha Bach and Connor Leahy on AI risk",
-          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Joscha-Bach-and-Connor-Leahy-on-AI-risk-e25ukc5"
-        }
-      ]
-    },
-    {
       "source": "jose-luis-ricon",
       "target": "karl-pfleger",
       "value": 1,
@@ -87703,6 +87979,19 @@
           "podcastId": "tim-ferriss",
           "title": "#435: Kevin Hart — The Unstoppable Combination of Positivity and Relentless Improvement",
           "url": "gid://art19-episode-locator/V0/9JJZ35oUeTg7C4yhuzOVyGhX6GWTYRntzQIC_70ZD6U"
+        }
+      ]
+    },
+    {
+      "source": "kevin-hartnett",
+      "target": "tim-scarfe",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Machine Learning Street Talk",
+          "podcastId": "mlst",
+          "title": "Mathematics Just Changed Forever — Kevin Hartnett",
+          "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Mathematics-Just-Changed-Forever--Kevin-Hartnett-e3r47eh"
         }
       ]
     },
@@ -91309,6 +91598,19 @@
     },
     {
       "source": "logan-chipkin",
+      "target": "module-three",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Conjecture Institute",
+          "podcastId": "conjecture",
+          "title": "Civilization, Module Three: Allies Abroad, Enemies at Home",
+          "url": "https://conjectureinstitute.podbean.com/e/civilization-module-three-allies-abroad-enemies-at-home/"
+        }
+      ]
+    },
+    {
+      "source": "logan-chipkin",
       "target": "nicetu-tibau-vidal",
       "value": 1,
       "episodes": [
@@ -92721,6 +93023,19 @@
           "podcastId": "tim-ferriss",
           "title": "#628: Q&A with Tim — Revisiting 15+ Years of PR and Marketing Lessons, Time Dilation for Deep Relaxation, The Art of Setting Ultra-High Prices, The Low-Information Diet, Studying Animal Communication, My 3-Day Fasting Protocol, Tools for Handling Adversity, Selling to the Affluent, My Current Coffee and Alcohol Rules, Risk Mitigation, and Much More",
           "url": "https://tim.blog/2022/10/12/qa-with-tim-ferriss/"
+        }
+      ]
+    },
+    {
+      "source": "marlene-zuk",
+      "target": "ricardo-lopes",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "The Dissenter",
+          "podcastId": "dissenter",
+          "title": "#1324 Marlene Zuk - Outsider Animals: Learning from the Creatures at the Margins of Our Lives",
+          "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1324-Marlene-Zuk---Outsider-Animals-Learning-from-the-Creatures-at-the-Margins-of-Our-Lives-e3mli49"
         }
       ]
     },
@@ -101574,6 +101889,19 @@
           "podcastId": "tim-ferriss",
           "title": "#641: Roland Griffiths, PhD — Life’s Ultimate Glide Path, An Unexpected Stage IV Diagnosis, Facing Death, How Meditation and Psychedelics Can Help, and The Art of Living a Life of Gratitude",
           "url": "gid://art19-episode-locator/V0/tKGF3vdnvKZikvXShljEJ3sYjtvOmGmCDf7usjyukKQ"
+        }
+      ]
+    },
+    {
+      "source": "roman-mars",
+      "target": "tyler-cowen",
+      "value": 1,
+      "episodes": [
+        {
+          "podcast": "Conversations with Tyler",
+          "podcastId": "cwt",
+          "title": "Roman Mars on Flags, Phones, and the Design of Everyday Life",
+          "url": "https://cowenconvos.libsyn.com/roman-mars-on-flags-phones-and-the-design-of-everyday-life"
         }
       ]
     },

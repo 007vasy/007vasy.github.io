@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T11:40:22Z",
-  "episodeCount": 7314,
+  "updatedAt": "2026-11-02T13:57:52Z",
+  "episodeCount": 7339,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -245,6 +245,18 @@
       "url": "https://a16z.simplecast.com/episodes/the-genai-100-the-apps-that-stick-V0i7ViZV",
       "guid": "0678a756-9e45-4b11-aef4-cb97e3931a2a",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::07d45a62-6c5d-4484-ac20-4547effdeb15": {
+      "id": "a16z::07d45a62-6c5d-4484-ac20-4547effdeb15",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
+      "url": "https://a16z.simplecast.com/episodes/how-bending-spoons-built-a-20-billion-compounder-luca-ferrari-etgfvfs0",
+      "guid": "07d45a62-6c5d-4484-ac20-4547effdeb15",
+      "guests": [
+        "Luca Ferrari"
+      ],
       "hosts": []
     },
     "a16z::08323963-62d0-41d1-b6ec-b7d1429ee533": {
@@ -1904,6 +1916,20 @@
       "url": "https://a16z.simplecast.com/episodes/when-gross-margins-matters-43LuzSul",
       "guid": "385f0d9f-763e-45ec-9406-f95c6e2b7534",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::3875e1e0-6e03-433c-bde4-2397d981189c": {
+      "id": "a16z::3875e1e0-6e03-433c-bde4-2397d981189c",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani & Erik Torenberg",
+      "url": "https://a16z.simplecast.com/episodes/reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani-erik-torenberg-qpcIrpfu",
+      "guid": "3875e1e0-6e03-433c-bde4-2397d981189c",
+      "guests": [
+        "Joe Liemandt",
+        "Gagan Biyani",
+        "Erik Torenberg"
+      ],
       "hosts": []
     },
     "a16z::38ff9198-903d-4a96-8b02-b577f87670c0": {
@@ -3587,6 +3613,16 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::6eecb254-c487-4eef-ae74-eda97c36cbef": {
+      "id": "a16z::6eecb254-c487-4eef-ae74-eda97c36cbef",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Can AI Fix Professional Networking? | Inside Cosign",
+      "url": "https://a16z.simplecast.com/episodes/can-ai-fix-professional-networking-inside-cosign-Qm0xoOue",
+      "guid": "6eecb254-c487-4eef-ae74-eda97c36cbef",
+      "guests": [],
+      "hosts": []
+    },
     "a16z::6ef0bcef-d857-40fb-b740-c3d5a22c7eb9": {
       "id": "a16z::6ef0bcef-d857-40fb-b740-c3d5a22c7eb9",
       "podcastId": "a16z",
@@ -4114,6 +4150,18 @@
       "guests": [
         "Balaji Srinivasan",
         "Taylor Lorenz"
+      ],
+      "hosts": []
+    },
+    "a16z::80c78d80-ce49-425d-bfa3-3545332b37e3": {
+      "id": "a16z::80c78d80-ce49-425d-bfa3-3545332b37e3",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Mark Cuban on Why AI Could Turn Solo Founders Into Trillionaires",
+      "url": "https://a16z.simplecast.com/episodes/mark-cubans-plan-to-make-healthcare-affordable-mwTxnVYe",
+      "guid": "80c78d80-ce49-425d-bfa3-3545332b37e3",
+      "guests": [
+        "Mark Cuban"
       ],
       "hosts": []
     },
@@ -6064,6 +6112,16 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::ba8601a9-647d-4c05-a111-cd6973f230fa": {
+      "id": "a16z::ba8601a9-647d-4c05-a111-cd6973f230fa",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
+      "url": "https://a16z.simplecast.com/episodes/why-ai-could-turn-small-law-firms-into-billion-dollar-businesses-e8YNZDux",
+      "guid": "ba8601a9-647d-4c05-a111-cd6973f230fa",
+      "guests": [],
+      "hosts": []
+    },
     "a16z::bb1e77fc-993f-4556-ac74-dfb8e58d40e8": {
       "id": "a16z::bb1e77fc-993f-4556-ac74-dfb8e58d40e8",
       "podcastId": "a16z",
@@ -6620,6 +6678,16 @@
       "title": "The Next Generation of Cultural Influencers in Tech",
       "url": "https://a16z.simplecast.com/episodes/next-gen-tech-influencers-ZsqIu8SR",
       "guid": "cc2c74ce-4cda-48d5-a18a-b32251fa51bf",
+      "guests": [],
+      "hosts": []
+    },
+    "a16z::cd4b040b-07b6-481d-ae20-0253f02c1347": {
+      "id": "a16z::cd4b040b-07b6-481d-ae20-0253f02c1347",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Startups Rebuilding American Industry | The AD50",
+      "url": "https://a16z.simplecast.com/episodes/the-startups-rebuilding-american-industry-the-ad50-ZBbH0YCR",
+      "guid": "cd4b040b-07b6-481d-ae20-0253f02c1347",
       "guests": [],
       "hosts": []
     },
@@ -13502,6 +13570,20 @@
         "Logan Chipkin"
       ]
     },
+    "conjecture::conjectureinstitute.podbean.com/a42ed7d9-dc84-3eaa-8d11-2218fcd8f972": {
+      "id": "conjecture::conjectureinstitute.podbean.com/a42ed7d9-dc84-3eaa-8d11-2218fcd8f972",
+      "podcastId": "conjecture",
+      "podcast": "Conjecture Institute",
+      "title": "Civilization, Module Three: Allies Abroad, Enemies at Home",
+      "url": "https://conjectureinstitute.podbean.com/e/civilization-module-three-allies-abroad-enemies-at-home/",
+      "guid": "conjectureinstitute.podbean.com/a42ed7d9-dc84-3eaa-8d11-2218fcd8f972",
+      "guests": [
+        "Module Three"
+      ],
+      "hosts": [
+        "Logan Chipkin"
+      ]
+    },
     "conjecture::conjectureinstitute.podbean.com/a9a91042-6941-329c-9bd8-b730e1184a0b": {
       "id": "conjecture::conjectureinstitute.podbean.com/a9a91042-6941-329c-9bd8-b730e1184a0b",
       "podcastId": "conjecture",
@@ -15688,6 +15770,20 @@
       "guid": "94e734cb-d9d3-4ff5-836e-63dc5a0f56c6",
       "guests": [
         "Ada Palmer"
+      ],
+      "hosts": [
+        "Tyler Cowen"
+      ]
+    },
+    "cwt::96cd7982-4581-46e1-bc58-14fb382bb03e": {
+      "id": "cwt::96cd7982-4581-46e1-bc58-14fb382bb03e",
+      "podcastId": "cwt",
+      "podcast": "Conversations with Tyler",
+      "title": "Roman Mars on Flags, Phones, and the Design of Everyday Life",
+      "url": "https://cowenconvos.libsyn.com/roman-mars-on-flags-phones-and-the-design-of-everyday-life",
+      "guid": "96cd7982-4581-46e1-bc58-14fb382bb03e",
+      "guests": [
+        "Roman Mars"
       ],
       "hosts": [
         "Tyler Cowen"
@@ -25803,6 +25899,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::6a2179a7-32f3-42d5-ad40-df2cb86a990e": {
+      "id": "dissenter::6a2179a7-32f3-42d5-ad40-df2cb86a990e",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1325 Philip Ball - The Man Who Broke Reality: Niels Bohr and the Making of Modern Physics",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1325-Philip-Ball---The-Man-Who-Broke-Reality-Niels-Bohr-and-the-Making-of-Modern-Physics-e3qickh",
+      "guid": "6a2179a7-32f3-42d5-ad40-df2cb86a990e",
+      "guests": [
+        "Philip Ball"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::6a249fc2-e157-4fb5-91b9-03e280ee077e": {
       "id": "dissenter::6a249fc2-e157-4fb5-91b9-03e280ee077e",
       "podcastId": "dissenter",
@@ -30246,6 +30356,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::ae9e14ff-d102-4198-b6bc-6296c75950be": {
+      "id": "dissenter::ae9e14ff-d102-4198-b6bc-6296c75950be",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1324 Marlene Zuk - Outsider Animals: Learning from the Creatures at the Margins of Our Lives",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1324-Marlene-Zuk---Outsider-Animals-Learning-from-the-Creatures-at-the-Margins-of-Our-Lives-e3mli49",
+      "guid": "ae9e14ff-d102-4198-b6bc-6296c75950be",
+      "guests": [
+        "Marlene Zuk"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::aeba36a6-0517-d39f-9b41-7df55ea7964f": {
       "id": "dissenter::aeba36a6-0517-d39f-9b41-7df55ea7964f",
       "podcastId": "dissenter",
@@ -33415,6 +33539,20 @@
       "guid": "d83d05ac-47b0-4dc1-a261-7a06d5ee9ef4",
       "guests": [
         "Stanley Fish"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::d84a88ba-acf8-4b70-aaf6-ff4b266984ab": {
+      "id": "dissenter::d84a88ba-acf8-4b70-aaf6-ff4b266984ab",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1326 Christian Tryon: The Evolution of Homo Sapiens, and the Middle to Later Stone Age Transition",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1326-Christian-Tryon-The-Evolution-of-Homo-Sapiens--and-the-Middle-to-Later-Stone-Age-Transition-e3g7nnk",
+      "guid": "d84a88ba-acf8-4b70-aaf6-ff4b266984ab",
+      "guests": [
+        "Christian Tryon"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -37986,6 +38124,34 @@
         "Dwarkesh Patel"
       ]
     },
+    "dwarkesh::substack:post:222663001": {
+      "id": "dwarkesh::substack:post:222663001",
+      "podcastId": "dwarkesh",
+      "podcast": "Dwarkesh Podcast",
+      "title": "What I learned about power from LBJ and Robert Moses",
+      "url": "https://www.dwarkesh.com/p/lessons-in-power",
+      "guid": "substack:post:222663001",
+      "guests": [
+        "Robert Moses"
+      ],
+      "hosts": [
+        "Dwarkesh Patel"
+      ]
+    },
+    "dwarkesh::substack:post:222791845": {
+      "id": "dwarkesh::substack:post:222791845",
+      "podcastId": "dwarkesh",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Robert Caro – The master biographer reflects at 91",
+      "url": "https://www.dwarkesh.com/p/robert-caro",
+      "guid": "substack:post:222791845",
+      "guests": [
+        "Robert Caro"
+      ],
+      "hosts": [
+        "Dwarkesh Patel"
+      ]
+    },
     "dwarkesh::substack:post:53132062": {
       "id": "dwarkesh::substack:post:53132062",
       "podcastId": "dwarkesh",
@@ -38925,6 +39091,20 @@
       "guid": "6acf901b6203da9f282e40f0",
       "guests": [
         "Jeremy Lent"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "existential-hope::6ae30643092a0dff19904448": {
+      "id": "existential-hope::6ae30643092a0dff19904448",
+      "podcastId": "existential-hope",
+      "podcast": "Existential Hope",
+      "title": "The boring revolution humanity needs most | Indy Johar",
+      "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6ae30643092a0dff19904448",
+      "guid": "6ae30643092a0dff19904448",
+      "guests": [
+        "Indy Johar"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -40890,6 +41070,20 @@
       "guests": [
         "Hacking Aging Biology",
         "João Pedro de Magalhães"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "foresight::6ae0851ca43e9c56af403581": {
+      "id": "foresight::6ae0851ca43e9c56af403581",
+      "podcastId": "foresight",
+      "podcast": "Foresight Institute Radio",
+      "title": "Financing Durable Innovation in an Age of Hype | Dorothy Chou",
+      "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/financing-durable-innovation-in-an-age-of-hype-dorothy-chou",
+      "guid": "6ae0851ca43e9c56af403581",
+      "guests": [
+        "Dorothy Chou"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -55884,6 +56078,18 @@
         "Lex Fridman"
       ]
     },
+    "lex-fridman::https://lexfridman.com/?p=7807": {
+      "id": "lex-fridman::https://lexfridman.com/?p=7807",
+      "podcastId": "lex-fridman",
+      "podcast": "Lex Fridman Podcast",
+      "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "url": "https://lexfridman.com/math-ai-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=math-ai-crisis",
+      "guid": "https://lexfridman.com/?p=7807",
+      "guests": [],
+      "hosts": [
+        "Lex Fridman"
+      ]
+    },
     "mindscape::0021b522-f377-4731-a1f6-186a5b115df6": {
       "id": "mindscape::0021b522-f377-4731-a1f6-186a5b115df6",
       "podcastId": "mindscape",
@@ -57081,6 +57287,20 @@
       "guid": "ecf8c46c-1220-4c53-864f-7cf23b19eb7d",
       "guests": [
         "Luis Bettencourt"
+      ],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
+    "mindscape::ed2cb226-97a3-45c1-8b8f-c12bdb77006b": {
+      "id": "mindscape::ed2cb226-97a3-45c1-8b8f-c12bdb77006b",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "373 | Colin Camerer on the Neuroscience of Economic Thinking",
+      "url": "https://preposterousuniverse.com/podcast/2026/11/02/373-colin-camerer-on-the-neuroscience-of-economic-thinking/",
+      "guid": "ed2cb226-97a3-45c1-8b8f-c12bdb77006b",
+      "guests": [
+        "Colin Camerer"
       ],
       "hosts": [
         "Sean Carroll"
@@ -62211,6 +62431,20 @@
         "Tim Scarfe"
       ]
     },
+    "mlst::10bbcd4a-a862-4a20-a3d1-795c70f1f20d": {
+      "id": "mlst::10bbcd4a-a862-4a20-a3d1-795c70f1f20d",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "Why Leibniz Couldn't Find the Mind Inside the Mill (Joscha Bach)",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Why-Leibniz-Couldnt-Find-the-Mind-Inside-the-Mill-Joscha-Bach-e3riq2d",
+      "guid": "10bbcd4a-a862-4a20-a3d1-795c70f1f20d",
+      "guests": [
+        "Joscha Bach"
+      ],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
     "mlst::111a9825-6ebf-4474-8501-7195a56100f8": {
       "id": "mlst::111a9825-6ebf-4474-8501-7195a56100f8",
       "podcastId": "mlst",
@@ -64984,6 +65218,20 @@
       "guid": "d95d40c2-773c-4473-809a-d1eed711ee27",
       "guests": [
         "Artificial Intelligence Is Stupid"
+      ],
+      "hosts": [
+        "Tim Scarfe"
+      ]
+    },
+    "mlst::d99b4720-283b-4f07-89c4-791b12acba2d": {
+      "id": "mlst::d99b4720-283b-4f07-89c4-791b12acba2d",
+      "podcastId": "mlst",
+      "podcast": "Machine Learning Street Talk",
+      "title": "Mathematics Just Changed Forever — Kevin Hartnett",
+      "url": "https://podcasters.spotify.com/pod/show/machinelearningstreettalk/episodes/Mathematics-Just-Changed-Forever--Kevin-Hartnett-e3r47eh",
+      "guid": "d99b4720-283b-4f07-89c4-791b12acba2d",
+      "guests": [
+        "Kevin Hartnett"
       ],
       "hosts": [
         "Tim Scarfe"
@@ -78831,6 +79079,20 @@
         "Curt Jaimungal"
       ]
     },
+    "toe::162405f2-cfc4-11f1-b250-f7b62c2acad0": {
+      "id": "toe::162405f2-cfc4-11f1-b250-f7b62c2acad0",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Scott Aaronson: The Most Significant Moment in Math History",
+      "url": "162405f2-cfc4-11f1-b250-f7b62c2acad0",
+      "guid": "162405f2-cfc4-11f1-b250-f7b62c2acad0",
+      "guests": [
+        "Scott Aaronson"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
     "toe::182fbdec-1700-11f0-96bf-33b1e99a135b": {
       "id": "toe::182fbdec-1700-11f0-96bf-33b1e99a135b",
       "podcastId": "toe",
@@ -80293,7 +80555,7 @@
       "id": "toe::78160d14-bab6-11f1-a1e6-471313a25b83",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "Olaf Dreyer: This One Number Explains the Beginning",
+      "title": "Olaf Dreyer: A New Explanation for Gravity",
       "url": "78160d14-bab6-11f1-a1e6-471313a25b83",
       "guid": "78160d14-bab6-11f1-a1e6-471313a25b83",
       "guests": [
@@ -82972,10 +83234,12 @@
       "id": "toe::df20b01c-ab94-11f1-8eb4-53f71ceaf009",
       "podcastId": "toe",
       "podcast": "Theories of Everything",
-      "title": "She Says Spacetime Points Are Just Where Fields Meet",
+      "title": "Lucrezia Ravera: Take Away the Fields and Spacetime Disappears",
       "url": "df20b01c-ab94-11f1-8eb4-53f71ceaf009",
       "guid": "df20b01c-ab94-11f1-8eb4-53f71ceaf009",
-      "guests": [],
+      "guests": [
+        "Lucrezia Ravera"
+      ],
       "hosts": [
         "Curt Jaimungal"
       ]
@@ -89912,6 +90176,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::4ea9fd81-9e02-4570-aa48-9350db83cabe": {
+      "id": "wtf4cities::4ea9fd81-9e02-4570-aa48-9350db83cabe",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Do the right project, then the policy follows - Moein Nodehi (478)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Do-the-right-project--then-the-policy-follows---Moein-Nodehi-478-e3qo0j0",
+      "guid": "4ea9fd81-9e02-4570-aa48-9350db83cabe",
+      "guests": [
+        "Moein Nodehi"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::4ecf8b6f-e5bf-4a47-a7c6-3448337eeb6b": {
       "id": "wtf4cities::4ecf8b6f-e5bf-4a47-a7c6-3448337eeb6b",
       "podcastId": "wtf4cities",
@@ -90813,6 +91091,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::682429ce-5f0e-4972-85b1-d70e0491f44d": {
+      "id": "wtf4cities::682429ce-5f0e-4972-85b1-d70e0491f44d",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "How much are public spaces worth? (475)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/How-much-are-public-spaces-worth--475-e3qbrhj",
+      "guid": "682429ce-5f0e-4972-85b1-d70e0491f44d",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::68506c93-47dd-4add-863a-3a22853c6a39": {
       "id": "wtf4cities::68506c93-47dd-4add-863a-3a22853c6a39",
       "podcastId": "wtf4cities",
@@ -90848,6 +91138,20 @@
       "guid": "6952bdca-1786-455b-a0a2-2b26921b959e",
       "guests": [
         "Gavin Cotterill"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::696325e4-0791-4154-85a8-dde0271ada79": {
+      "id": "wtf4cities::696325e4-0791-4154-85a8-dde0271ada79",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Public space as the product - Howard Kozloff (476)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Public-space-as-the-product---Howard-Kozloff-476-e3qbs8j",
+      "guid": "696325e4-0791-4154-85a8-dde0271ada79",
+      "guests": [
+        "Howard Kozloff"
       ],
       "hosts": [
         "Fanni Melles"
@@ -91997,6 +92301,20 @@
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Liberland-bringing-the-best-elements-of-all-governance-forms---Vt-Jedlika-370I-trailer-3-e39nb54",
       "guid": "89f7f0ba-1f9e-4efc-9dbc-24db81e2ae2a",
       "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::8a1c8bd6-4191-4f01-8540-931fad5e9a49": {
+      "id": "wtf4cities::8a1c8bd6-4191-4f01-8540-931fad5e9a49",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "One greenhouse ties water, food, and heat - Moein Nodehi (478)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/One-greenhouse-ties-water--food--and-heat---Moein-Nodehi-478-e3qo0m3",
+      "guid": "8a1c8bd6-4191-4f01-8540-931fad5e9a49",
+      "guests": [
+        "Moein Nodehi"
+      ],
       "hosts": [
         "Fanni Melles"
       ]
@@ -95950,6 +96268,20 @@
       "guid": "f11b1f2d-07e6-454f-810a-2c712150ef79",
       "guests": [
         "Oliver Stoltz"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::f18c2eae-5805-4ad7-b6eb-5657e1a36aa8": {
+      "id": "wtf4cities::f18c2eae-5805-4ad7-b6eb-5657e1a36aa8",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Who pays to run a public space - Howard Kozloff (476)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Who-pays-to-run-a-public-space---Howard-Kozloff-476-e3qbria",
+      "guid": "f18c2eae-5805-4ad7-b6eb-5657e1a36aa8",
+      "guests": [
+        "Howard Kozloff"
       ],
       "hosts": [
         "Fanni Melles"
