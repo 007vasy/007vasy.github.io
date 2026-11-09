@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T13:57:52Z",
-  "episodeCount": 7339,
+  "updatedAt": "2026-11-09T14:30:32Z",
+  "episodeCount": 7362,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -129,6 +129,18 @@
       ],
       "hosts": []
     },
+    "a16z::02b52d29-c7ae-46ec-bdbf-0ac5d22aee9a": {
+      "id": "a16z::02b52d29-c7ae-46ec-bdbf-0ac5d22aee9a",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Robots Already Working in American Factories | Tutor Intelligence",
+      "url": "https://a16z.simplecast.com/episodes/the-robots-already-working-in-american-factories-tutor-intelligence-331v57N3",
+      "guid": "02b52d29-c7ae-46ec-bdbf-0ac5d22aee9a",
+      "guests": [
+        "Tutor Intelligence"
+      ],
+      "hosts": []
+    },
     "a16z::03e4a734-9076-4e08-81fe-1374523a307b": {
       "id": "a16z::03e4a734-9076-4e08-81fe-1374523a307b",
       "podcastId": "a16z",
@@ -149,6 +161,19 @@
       "url": "https://a16z.simplecast.com/episodes/fintech-fuels-global-payments-1_8yOjk9",
       "guid": "03e9c106-ed99-4fbf-a8d9-3190114506aa",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::040938be-3d99-4f5b-ba74-f4dcd62c3570": {
+      "id": "a16z::040938be-3d99-4f5b-ba74-f4dcd62c3570",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Mark Hyman’s Guide to Living Longer and Staying Strong",
+      "url": "https://a16z.simplecast.com/episodes/mark-hymans-guide-to-living-longer-and-staying-strong-csBJXQYG",
+      "guid": "040938be-3d99-4f5b-ba74-f4dcd62c3570",
+      "guests": [
+        "Mark Hyman’s Guide",
+        "Staying Strong"
+      ],
       "hosts": []
     },
     "a16z::0409ff81-13b2-465a-a94c-d0d4e32e2a31": {
@@ -1517,6 +1542,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::2db85bd5-7b1f-4154-b3ad-b2d2a0d6857e": {
+      "id": "a16z::2db85bd5-7b1f-4154-b3ad-b2d2a0d6857e",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Andrew Huberman’s Three Rules for Better Health and Focus",
+      "url": "https://a16z.simplecast.com/episodes/andrew-hubermans-three-rules-for-better-health-and-focus-3LRT9Uzz",
+      "guid": "2db85bd5-7b1f-4154-b3ad-b2d2a0d6857e",
+      "guests": [
+        "Andrew Huberman’s"
+      ],
+      "hosts": []
+    },
     "a16z::2dd1e24b-996a-49fd-9cb6-96baa045294d": {
       "id": "a16z::2dd1e24b-996a-49fd-9cb6-96baa045294d",
       "podcastId": "a16z",
@@ -2083,6 +2120,18 @@
       "url": "https://a16z.simplecast.com/episodes/network-effects-moats-the-business-of-web3-eWugU00I",
       "guid": "3c21f9de-5075-4aec-9d7f-d486db715f97",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::3c2eab5a-0c39-4b57-9f33-6d621ffec2ee": {
+      "id": "a16z::3c2eab5a-0c39-4b57-9f33-6d621ffec2ee",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+      "url": "https://a16z.simplecast.com/episodes/the-new-cfo-how-ai-is-rewriting-the-finance-function-figma-cfo-praveer-melwani-z9a_w4ym",
+      "guid": "3c2eab5a-0c39-4b57-9f33-6d621ffec2ee",
+      "guests": [
+        "Figma CFO Praveer Melwani"
+      ],
       "hosts": []
     },
     "a16z::3c741ae3-84f4-4e74-896a-c9447b7d4bb6": {
@@ -4633,6 +4682,18 @@
       ],
       "hosts": []
     },
+    "a16z::8fbb4c83-2b9f-4d06-8d9f-239461f4fe3e": {
+      "id": "a16z::8fbb4c83-2b9f-4d06-8d9f-239461f4fe3e",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Health Interventions Actually Worth Your Time | Justin Mares",
+      "url": "https://a16z.simplecast.com/episodes/the-health-interventions-actually-worth-your-time-justin-mares-7c97fzV_",
+      "guid": "8fbb4c83-2b9f-4d06-8d9f-239461f4fe3e",
+      "guests": [
+        "Justin Mares"
+      ],
+      "hosts": []
+    },
     "a16z::8fe5cec4-1819-471b-b826-50cc7292e4f5": {
       "id": "a16z::8fe5cec4-1819-471b-b826-50cc7292e4f5",
       "podcastId": "a16z",
@@ -6006,6 +6067,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::b7c16493-833e-44f6-a387-ade1f823277c": {
+      "id": "a16z::b7c16493-833e-44f6-a387-ade1f823277c",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Inside Salesforce’s $100 Billion M&A Playbook | John Somorjai",
+      "url": "https://a16z.simplecast.com/episodes/inside-salesforces-100-billion-ma-playbook-john-somorjai-taKdd7nQ",
+      "guid": "b7c16493-833e-44f6-a387-ade1f823277c",
+      "guests": [
+        "John Somorjai"
+      ],
+      "hosts": []
+    },
     "a16z::b7e222cc-6b9e-4745-9119-983f395e61d7": {
       "id": "a16z::b7e222cc-6b9e-4745-9119-983f395e61d7",
       "podcastId": "a16z",
@@ -7057,6 +7130,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::dad00261-f3d1-4d2a-bf39-ce0cc14b7957": {
+      "id": "a16z::dad00261-f3d1-4d2a-bf39-ce0cc14b7957",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
+      "url": "https://a16z.simplecast.com/episodes/scott-kupor-on-building-a16z-and-rebuilding-the-federal-workforce-EU8R_X0j",
+      "guid": "dad00261-f3d1-4d2a-bf39-ce0cc14b7957",
+      "guests": [
+        "Scott Kupor"
+      ],
+      "hosts": []
+    },
     "a16z::db699518-5236-4413-b52f-37bb6a047665": {
       "id": "a16z::db699518-5236-4413-b52f-37bb6a047665",
       "podcastId": "a16z",
@@ -7459,6 +7544,16 @@
       "title": "On Pharma Trends and Big Company Innovation",
       "url": "https://a16z.simplecast.com/episodes/pharma-trends-innovation-tkbP6eML",
       "guid": "e5e0c9f1-fd76-47ca-bace-5f8cfb7deea8",
+      "guests": [],
+      "hosts": []
+    },
+    "a16z::e65c600e-19d2-4b1e-9f55-14b742f3fea9": {
+      "id": "a16z::e65c600e-19d2-4b1e-9f55-14b742f3fea9",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The New AI Agents That Shop, Plan, and Gossip",
+      "url": "https://a16z.simplecast.com/episodes/the-new-ai-agents-that-shop-plan-and-gossip-DXsIUYrd",
+      "guid": "e65c600e-19d2-4b1e-9f55-14b742f3fea9",
       "guests": [],
       "hosts": []
     },
@@ -13506,6 +13601,18 @@
         "Logan Chipkin"
       ]
     },
+    "conjecture::conjectureinstitute.podbean.com/71aa5533-5031-3ed5-ba76-8c4aca41b501": {
+      "id": "conjecture::conjectureinstitute.podbean.com/71aa5533-5031-3ed5-ba76-8c4aca41b501",
+      "podcastId": "conjecture",
+      "podcast": "Conjecture Institute",
+      "title": "Persuasion: Civilization's Engine",
+      "url": "https://conjectureinstitute.podbean.com/e/persuasion-civilizations-engine/",
+      "guid": "conjectureinstitute.podbean.com/71aa5533-5031-3ed5-ba76-8c4aca41b501",
+      "guests": [],
+      "hosts": [
+        "Logan Chipkin"
+      ]
+    },
     "conjecture::conjectureinstitute.podbean.com/9399e1f9-d3b4-361b-aaa9-c2e1e7fae585": {
       "id": "conjecture::conjectureinstitute.podbean.com/9399e1f9-d3b4-361b-aaa9-c2e1e7fae585",
       "podcastId": "conjecture",
@@ -14710,6 +14817,20 @@
       "guid": "444f9639-3e69-447b-9c11-dd9d4d210a4e",
       "guests": [
         "Liaquat Ahamed"
+      ],
+      "hosts": [
+        "Tyler Cowen"
+      ]
+    },
+    "cwt::466c4e25-ddd6-4f61-a741-97ca2e0c2d04": {
+      "id": "cwt::466c4e25-ddd6-4f61-a741-97ca2e0c2d04",
+      "podcastId": "cwt",
+      "podcast": "Conversations with Tyler",
+      "title": "Richard Hanania on Conrad's Nostromo, Latin American Crime, and Populism",
+      "url": "https://cowenconvos.libsyn.com/richard-hanania-on-conrads-nostromo-latin-american-crime-and-populism",
+      "guid": "466c4e25-ddd6-4f61-a741-97ca2e0c2d04",
+      "guests": [
+        "Richard Hanania"
       ],
       "hosts": [
         "Tyler Cowen"
@@ -30957,6 +31078,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::b5bfbb8d-ff70-4b2d-a0cc-3eb67baf4303": {
+      "id": "dissenter::b5bfbb8d-ff70-4b2d-a0cc-3eb67baf4303",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1327 Tommy Blanchard: Decorative Neuroscience, and the Neuro-Grifters",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1327-Tommy-Blanchard-Decorative-Neuroscience--and-the-Neuro-Grifters-e3qqds2",
+      "guid": "b5bfbb8d-ff70-4b2d-a0cc-3eb67baf4303",
+      "guests": [
+        "Tommy Blanchard"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::b5e453f9-cd6a-45ff-840e-f3866ddeb100": {
       "id": "dissenter::b5e453f9-cd6a-45ff-840e-f3866ddeb100",
       "podcastId": "dissenter",
@@ -31398,6 +31533,20 @@
       "guid": "ba4fbecd-6bf0-4d8a-a825-302f18523c5f",
       "guests": [
         "Nichola Raihani"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::ba787188-5c7b-42b1-bd0c-ebbe56f8f8b4": {
+      "id": "dissenter::ba787188-5c7b-42b1-bd0c-ebbe56f8f8b4",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1328 Jon Wisman - Why We Must Work: Economic Freedom, Fulfilling Work, and Workplace Democracy",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1328-Jon-Wisman---Why-We-Must-Work-Economic-Freedom--Fulfilling-Work--and-Workplace-Democracy-e3onpe6",
+      "guid": "ba787188-5c7b-42b1-bd0c-ebbe56f8f8b4",
+      "guests": [
+        "Jon Wisman"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -33843,6 +33992,20 @@
       "guid": "dc48bdbd-1f07-4690-9495-30021b0ae151",
       "guests": [
         "Paul Harris"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::dc5b6b09-4fce-4e3a-b758-ba75806098ce": {
+      "id": "dissenter::dc5b6b09-4fce-4e3a-b758-ba75806098ce",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1329 Pierrick Bourrat: Evolutionary Transitions, Heritability, Adaptation, and Multilevel Selection",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1329-Pierrick-Bourrat-Evolutionary-Transitions--Heritability--Adaptation--and-Multilevel-Selection-e3mo9mf",
+      "guid": "dc5b6b09-4fce-4e3a-b758-ba75806098ce",
+      "guests": [
+        "Pierrick Bourrat"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -38142,7 +38305,7 @@
       "id": "dwarkesh::substack:post:222791845",
       "podcastId": "dwarkesh",
       "podcast": "Dwarkesh Podcast",
-      "title": "Robert Caro – The master biographer reflects at 91",
+      "title": "What Robert Caro learned about power after studying it for 50 years",
       "url": "https://www.dwarkesh.com/p/robert-caro",
       "guid": "substack:post:222791845",
       "guests": [
@@ -41084,6 +41247,21 @@
       "guid": "6ae0851ca43e9c56af403581",
       "guests": [
         "Dorothy Chou"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "foresight::6ae085b38cf5c6557c242113": {
+      "id": "foresight::6ae085b38cf5c6557c242113",
+      "podcastId": "foresight",
+      "podcast": "Foresight Institute Radio",
+      "title": "Funding Brain Science | Sean Escola",
+      "url": "https://shows.acast.com/the-foresight-institute-podcast/episodes/funding-brain-science-sean-escola",
+      "guid": "6ae085b38cf5c6557c242113",
+      "guests": [
+        "Funding Brain Science",
+        "Sean Escola"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -56318,6 +56496,18 @@
       "guests": [
         "Jared Diamond"
       ],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
+    "mindscape::286e6ca6-531e-4d13-8f57-3b0359ebc096": {
+      "id": "mindscape::286e6ca6-531e-4d13-8f57-3b0359ebc096",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "Aak Me Anything | November 2026",
+      "url": "https://preposterousuniverse.com/podcast/2026/11/09/ama-november-2026/",
+      "guid": "286e6ca6-531e-4d13-8f57-3b0359ebc096",
+      "guests": [],
       "hosts": [
         "Sean Carroll"
       ]
@@ -76264,6 +76454,18 @@
         "Tim Ferriss"
       ]
     },
+    "tim-ferriss::gid://art19-episode-locator/V0/iysdMdGvN9fjpPlvVGkiu_988jdJiOnVpJwX_NlwUsE": {
+      "id": "tim-ferriss::gid://art19-episode-locator/V0/iysdMdGvN9fjpPlvVGkiu_988jdJiOnVpJwX_NlwUsE",
+      "podcastId": "tim-ferriss",
+      "podcast": "The Tim Ferriss Show",
+      "title": "Lucky #888 — My Tour of Designing Luck in China, Japan, and Korea",
+      "url": "gid://art19-episode-locator/V0/iysdMdGvN9fjpPlvVGkiu_988jdJiOnVpJwX_NlwUsE",
+      "guid": "gid://art19-episode-locator/V0/iysdMdGvN9fjpPlvVGkiu_988jdJiOnVpJwX_NlwUsE",
+      "guests": [],
+      "hosts": [
+        "Tim Ferriss"
+      ]
+    },
     "tim-ferriss::gid://art19-episode-locator/V0/jI3i7-cUk3UuQLINE4KpljKzP7XO0HztkzDV3JgLOCQ": {
       "id": "tim-ferriss::gid://art19-episode-locator/V0/jI3i7-cUk3UuQLINE4KpljKzP7XO0HztkzDV3JgLOCQ",
       "podcastId": "tim-ferriss",
@@ -81626,6 +81828,20 @@
         "Curt Jaimungal"
       ]
     },
+    "toe::a9486c70-d31a-11f1-924e-2740f87db497": {
+      "id": "toe::a9486c70-d31a-11f1-924e-2740f87db497",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Mark Solms: Consciousness Isn't in the Cortex",
+      "url": "a9486c70-d31a-11f1-924e-2740f87db497",
+      "guid": "a9486c70-d31a-11f1-924e-2740f87db497",
+      "guests": [
+        "Mark Solms"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
     "toe::aac4e014-8078-11ec-8c72-23c471c70415": {
       "id": "toe::aac4e014-8078-11ec-8c72-23c471c70415",
       "podcastId": "toe",
@@ -83669,6 +83885,21 @@
       "guid": "fd1b7024-795e-11ec-9715-7f824ec8a537",
       "guests": [
         "Stephon Alexander"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
+    "toe::fdbf50d0-db0c-11f1-8300-b748af1744a2": {
+      "id": "toe::fdbf50d0-db0c-11f1-8300-b748af1744a2",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Eric Weinstein & Richard Borcherds: Fields Medalist & Eric Weinstein on the Future of Mathematics",
+      "url": "fdbf50d0-db0c-11f1-8300-b748af1744a2",
+      "guid": "fdbf50d0-db0c-11f1-8300-b748af1744a2",
+      "guests": [
+        "Eric Weinstein",
+        "Richard Borcherds"
       ],
       "hosts": [
         "Curt Jaimungal"
@@ -87174,6 +87405,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::0212601c-9b28-433a-90ab-5ccc324ebfc0": {
+      "id": "wtf4cities::0212601c-9b28-433a-90ab-5ccc324ebfc0",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Cities that work with natural cycles - Moein Nodehi (478)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Cities-that-work-with-natural-cycles---Moein-Nodehi-478-e3qo0s5",
+      "guid": "0212601c-9b28-433a-90ab-5ccc324ebfc0",
+      "guests": [
+        "Moein Nodehi"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::0260372d-6882-465f-a01b-83e0624fb690": {
       "id": "wtf4cities::0260372d-6882-465f-a01b-83e0624fb690",
       "podcastId": "wtf4cities",
@@ -87417,6 +87662,18 @@
       "title": "Antifragility, criticality and resilience with Residuality Theory - Barry O'Reilly (360I trailer 3)",
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Antifragility--criticality-and-resilience-with-Residuality-Theory---Barry-OReilly-360I-trailer-3-e375vv6",
       "guid": "09b7f8c8-0d25-4b1f-9d40-340521d4e4cd",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::09c33b03-b5ef-497a-8b52-9b9a22fbc43d": {
+      "id": "wtf4cities::09c33b03-b5ef-497a-8b52-9b9a22fbc43d",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Nature-based solutions and the water-energy-food nexus (477)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Nature-based-solutions-and-the-water-energy-food-nexus-477-e3qo0o1",
+      "guid": "09c33b03-b5ef-497a-8b52-9b9a22fbc43d",
       "guests": [],
       "hosts": [
         "Fanni Melles"
@@ -90350,6 +90607,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::545a7636-01bd-4e15-9a8c-decf4db257af": {
+      "id": "wtf4cities::545a7636-01bd-4e15-9a8c-decf4db257af",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "We have everything today for the energy transformation - Jonas Birgersson (480I trailer 1)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/We-have-everything-today-for-the-energy-transformation---Jonas-Birgersson-480I-trailer-1-e3nculb",
+      "guid": "545a7636-01bd-4e15-9a8c-decf4db257af",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::547a23f5-fe98-4dd1-8e08-23515ea240ab": {
       "id": "wtf4cities::547a23f5-fe98-4dd1-8e08-23515ea240ab",
       "podcastId": "wtf4cities",
@@ -92281,6 +92550,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::89bd3007-fc91-474e-b113-dca7c079247c": {
+      "id": "wtf4cities::89bd3007-fc91-474e-b113-dca7c079247c",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Don't save the world. Do what is needed. - Moein Nodehi (478)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Dont-save-the-world--Do-what-is-needed----Moein-Nodehi-478-e3qo0n4",
+      "guid": "89bd3007-fc91-474e-b113-dca7c079247c",
+      "guests": [
+        "Moein Nodehi"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::89ec7246-933f-4302-8d76-827359b52816": {
       "id": "wtf4cities::89ec7246-933f-4302-8d76-827359b52816",
       "podcastId": "wtf4cities",
@@ -92656,6 +92939,18 @@
       "title": "Government's role for positive economic vibes - Remco Deelstra (378I trailer 2)",
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Governments-role-for-positive-economic-vibes---Remco-Deelstra-378I-trailer-2-e3aog1v",
       "guid": "9409d533-9fc7-47f5-a795-3109ac599fe9",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::9416a9ac-d105-4d79-a722-0f9abb9b4d38": {
+      "id": "wtf4cities::9416a9ac-d105-4d79-a722-0f9abb9b4d38",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Smart grids to distribute energy - Jonas Birgersson (480I trailer 2)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Smart-grids-to-distribute-energy---Jonas-Birgersson-480I-trailer-2-e3nculd",
+      "guid": "9416a9ac-d105-4d79-a722-0f9abb9b4d38",
       "guests": [],
       "hosts": [
         "Fanni Melles"
