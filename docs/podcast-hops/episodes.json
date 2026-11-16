@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T14:30:32Z",
-  "episodeCount": 7362,
+  "updatedAt": "2026-11-16T14:06:43Z",
+  "episodeCount": 7386,
   "episodes": {
     "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2": {
       "id": "a16z::0084a34a-1f5a-45ee-b946-4a020f7123a2",
@@ -1028,6 +1028,18 @@
       "url": "https://a16z.simplecast.com/episodes/the-1-trillion-ai-buildout-state-of-markets-tkJj_Zp1",
       "guid": "1ca256e1-d9aa-4b53-8086-97b5540ccd33",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::1d628599-d453-4bf2-a3ab-a6391a67ea9f": {
+      "id": "a16z::1d628599-d453-4bf2-a3ab-a6391a67ea9f",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+      "url": "https://a16z.simplecast.com/episodes/what-the-internet-boom-teaches-us-about-the-ai-buildout-mike-volpi-C_gHjXbG",
+      "guid": "1d628599-d453-4bf2-a3ab-a6391a67ea9f",
+      "guests": [
+        "Mike Volpi"
+      ],
       "hosts": []
     },
     "a16z::1d974537-e40d-412e-877a-23521a324acc": {
@@ -2188,6 +2200,18 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::3e52fa64-4b71-4444-b74f-7042c7ba8deb": {
+      "id": "a16z::3e52fa64-4b71-4444-b74f-7042c7ba8deb",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "From the Telephone to Modern Computing | James Gleick",
+      "url": "https://a16z.simplecast.com/episodes/from-the-telephone-to-modern-computing-james-gleick-oBlUL96w",
+      "guid": "3e52fa64-4b71-4444-b74f-7042c7ba8deb",
+      "guests": [
+        "James Gleick"
+      ],
+      "hosts": []
+    },
     "a16z::3e967f41-c28d-4160-b1b8-97538127bea3": {
       "id": "a16z::3e967f41-c28d-4160-b1b8-97538127bea3",
       "podcastId": "a16z",
@@ -2595,6 +2619,18 @@
       "guid": "4c2fe9c7-ce0c-4ee2-a93e-993327035281",
       "guests": [
         "Sovereign AI"
+      ],
+      "hosts": []
+    },
+    "a16z::4c3ca93b-13ff-4c6b-9d55-4b0ed4b6e91c": {
+      "id": "a16z::4c3ca93b-13ff-4c6b-9d55-4b0ed4b6e91c",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "HubSpot’s Co-Founder on Finding Your Next Startup Idea",
+      "url": "https://a16z.simplecast.com/episodes/hubspots-co-founder-on-finding-your-next-startup-idea-J9uhCiZA",
+      "guid": "4c3ca93b-13ff-4c6b-9d55-4b0ed4b6e91c",
+      "guests": [
+        "HubSpot’s Co-Founder"
       ],
       "hosts": []
     },
@@ -3514,6 +3550,16 @@
       "title": "The Marketplace 100: A Glimpse Into the Future of Commerce",
       "url": "https://a16z.simplecast.com/episodes/marketplace-100-2023-6njvE8Hi",
       "guid": "6bf789b0-06b1-4ec7-8edc-52d047914388",
+      "guests": [],
+      "hosts": []
+    },
+    "a16z::6c7ca528-6198-43c3-8b5e-9991ad8b518e": {
+      "id": "a16z::6c7ca528-6198-43c3-8b5e-9991ad8b518e",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "The Next Era of Games: Mods, Agents, and Infinite Worlds",
+      "url": "https://a16z.simplecast.com/episodes/the-next-era-of-games-mods-agents-and-infinite-worlds-cRTFWzHi",
+      "guid": "6c7ca528-6198-43c3-8b5e-9991ad8b518e",
       "guests": [],
       "hosts": []
     },
@@ -4848,6 +4894,16 @@
       "guests": [],
       "hosts": []
     },
+    "a16z::94e8e25d-cebe-4e18-b377-91a63ae26305": {
+      "id": "a16z::94e8e25d-cebe-4e18-b377-91a63ae26305",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn’t the Economy?",
+      "url": "https://a16z.simplecast.com/episodes/alex-imas-tyler-cowen-ai-is-moving-fast-why-isnt-the-economy-33WdZifY",
+      "guid": "94e8e25d-cebe-4e18-b377-91a63ae26305",
+      "guests": [],
+      "hosts": []
+    },
     "a16z::954c2915-b122-4138-ab3f-aff0bbfb33ed": {
       "id": "a16z::954c2915-b122-4138-ab3f-aff0bbfb33ed",
       "podcastId": "a16z",
@@ -4903,6 +4959,18 @@
       "url": "https://a16z.simplecast.com/episodes/the-state-of-ai-education-tjQQope1",
       "guid": "96a8de4d-4048-4510-af59-9b9f13525d9a",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::96b0ce71-b5ea-4c1a-9a05-f08cf4ff2546": {
+      "id": "a16z::96b0ce71-b5ea-4c1a-9a05-f08cf4ff2546",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
+      "url": "https://a16z.simplecast.com/episodes/every-day-is-zero-day-wiz-cto-ami-luttwak-s6KylyoZ",
+      "guid": "96b0ce71-b5ea-4c1a-9a05-f08cf4ff2546",
+      "guests": [
+        "Wiz CTO Ami Luttwak"
+      ],
       "hosts": []
     },
     "a16z::976f91ea-e074-410f-bbb1-f4ca1aa43a5e": {
@@ -8050,6 +8118,18 @@
       "url": "https://a16z.simplecast.com/episodes/stablecoins-ai-agents-and-the-future-of-global-banking-bZkqdwxO",
       "guid": "f785186b-12b9-4336-95e5-4242cc0b6ddb",
       "guests": [],
+      "hosts": []
+    },
+    "a16z::f8630efe-32c7-4d53-90af-02d1b1170ce0": {
+      "id": "a16z::f8630efe-32c7-4d53-90af-02d1b1170ce0",
+      "podcastId": "a16z",
+      "podcast": "The a16z Show",
+      "title": "What Breaks When You Scale 10x? | Zipline’s Keller Cliffton",
+      "url": "https://a16z.simplecast.com/episodes/what-breaks-when-you-scale-10x-ziplines-keller-cliffton-xr3f9vCW",
+      "guid": "f8630efe-32c7-4d53-90af-02d1b1170ce0",
+      "guests": [
+        "Zipline’s Keller Cliffton"
+      ],
       "hosts": []
     },
     "a16z::f8687280-b850-4d74-813e-a9b0077a12a6": {
@@ -13875,6 +13955,18 @@
         "Logan Chipkin"
       ]
     },
+    "conjecture::conjectureinstitute.podbean.com/eb46e452-3043-3c62-bcbc-095077ef4b8b": {
+      "id": "conjecture::conjectureinstitute.podbean.com/eb46e452-3043-3c62-bcbc-095077ef4b8b",
+      "podcastId": "conjecture",
+      "podcast": "Conjecture Institute",
+      "title": "Civilization, Module 4: Knowledge, Wealth, and Institutions",
+      "url": "https://conjectureinstitute.podbean.com/e/civilization-module-4-knowledge-wealth-and-institutions/",
+      "guid": "conjectureinstitute.podbean.com/eb46e452-3043-3c62-bcbc-095077ef4b8b",
+      "guests": [],
+      "hosts": [
+        "Logan Chipkin"
+      ]
+    },
     "conjecture::conjectureinstitute.podbean.com/ef80262d-ae83-3bd4-8fe1-d7c7eeecbdbb": {
       "id": "conjecture::conjectureinstitute.podbean.com/ef80262d-ae83-3bd4-8fe1-d7c7eeecbdbb",
       "podcastId": "conjecture",
@@ -16001,6 +16093,20 @@
       "guid": "a0949b4d-6315-4070-9de3-50971ccb1c7a",
       "guests": [
         "Philip Ball"
+      ],
+      "hosts": [
+        "Tyler Cowen"
+      ]
+    },
+    "cwt::a0cf4b4b-ccc8-4921-9e27-f083569d9338": {
+      "id": "cwt::a0cf4b4b-ccc8-4921-9e27-f083569d9338",
+      "podcastId": "cwt",
+      "podcast": "Conversations with Tyler",
+      "title": "Terence Tao on Proof, Beauty, and the Future of Mathematics",
+      "url": "https://cowenconvos.libsyn.com/terence-tao-on-proof-beauty-and-the-future-of-mathematics",
+      "guid": "a0cf4b4b-ccc8-4921-9e27-f083569d9338",
+      "guests": [
+        "Terence Tao"
       ],
       "hosts": [
         "Tyler Cowen"
@@ -22122,6 +22228,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::3658363d-c83f-4526-bf8a-0b04890dd147": {
+      "id": "dissenter::3658363d-c83f-4526-bf8a-0b04890dd147",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1330 Katrina Sifferd: The Ethics of Law, Punishment, and Criminal Responsibility",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1330-Katrina-Sifferd-The-Ethics-of-Law--Punishment--and-Criminal-Responsibility-e3jse34",
+      "guid": "3658363d-c83f-4526-bf8a-0b04890dd147",
+      "guests": [
+        "Katrina Sifferd"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::3663cb73-c850-4715-0cff-b50a04bcb635": {
       "id": "dissenter::3663cb73-c850-4715-0cff-b50a04bcb635",
       "podcastId": "dissenter",
@@ -26507,6 +26627,20 @@
         "Ricardo Lopes"
       ]
     },
+    "dissenter::711f74d7-816c-44f6-b8cf-9b003aed9d6c": {
+      "id": "dissenter::711f74d7-816c-44f6-b8cf-9b003aed9d6c",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1332 Cara Ocobock: Trans People in Sports",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1332-Cara-Ocobock-Trans-People-in-Sports-e3qgn4a",
+      "guid": "711f74d7-816c-44f6-b8cf-9b003aed9d6c",
+      "guests": [
+        "Cara Ocobock"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
     "dissenter::7129cc78-c240-44a3-aa48-fc9177068e26": {
       "id": "dissenter::7129cc78-c240-44a3-aa48-fc9177068e26",
       "podcastId": "dissenter",
@@ -26740,6 +26874,20 @@
       "guid": "747044d7-b2c9-4923-bcf3-7eef4393944f",
       "guests": [
         "Scott Barry Kaufman"
+      ],
+      "hosts": [
+        "Ricardo Lopes"
+      ]
+    },
+    "dissenter::7470dd12-9a8a-4055-9c29-1361aee20f4a": {
+      "id": "dissenter::7470dd12-9a8a-4055-9c29-1361aee20f4a",
+      "podcastId": "dissenter",
+      "podcast": "The Dissenter",
+      "title": "#1331 George Loewenstein - The Opposite of Happiness: How Bad Feelings Make and Break Us",
+      "url": "https://podcasters.spotify.com/pod/show/thedissenter/episodes/1331-George-Loewenstein---The-Opposite-of-Happiness-How-Bad-Feelings-Make-and-Break-Us-e3n2pi6",
+      "guid": "7470dd12-9a8a-4055-9c29-1361aee20f4a",
+      "guests": [
+        "George Loewenstein"
       ],
       "hosts": [
         "Ricardo Lopes"
@@ -38315,6 +38463,18 @@
         "Dwarkesh Patel"
       ]
     },
+    "dwarkesh::substack:post:224624765": {
+      "id": "dwarkesh::substack:post:224624765",
+      "podcastId": "dwarkesh",
+      "podcast": "Dwarkesh Podcast",
+      "title": "The avalanche that hit math is coming for AI development",
+      "url": "https://www.dwarkesh.com/p/rsi",
+      "guid": "substack:post:224624765",
+      "guests": [],
+      "hosts": [
+        "Dwarkesh Patel"
+      ]
+    },
     "dwarkesh::substack:post:53132062": {
       "id": "dwarkesh::substack:post:53132062",
       "podcastId": "dwarkesh",
@@ -39268,6 +39428,20 @@
       "guid": "6ae30643092a0dff19904448",
       "guests": [
         "Indy Johar"
+      ],
+      "hosts": [
+        "Allison Duettmann"
+      ]
+    },
+    "existential-hope::6af399951f5126ac85e06516": {
+      "id": "existential-hope::6af399951f5126ac85e06516",
+      "podcastId": "existential-hope",
+      "podcast": "Existential Hope",
+      "title": "How Poland and Hungary are rebuilding their democracy | Genevieve Shea",
+      "url": "https://shows.acast.com/the-existential-hope-podcast/episodes/6af399951f5126ac85e06516",
+      "guid": "6af399951f5126ac85e06516",
+      "guests": [
+        "Genevieve Shea"
       ],
       "hosts": [
         "Allison Duettmann"
@@ -56268,6 +56442,20 @@
         "Lex Fridman"
       ]
     },
+    "lex-fridman::https://lexfridman.com/?p=7818": {
+      "id": "lex-fridman::https://lexfridman.com/?p=7818",
+      "podcastId": "lex-fridman",
+      "podcast": "Lex Fridman Podcast",
+      "title": "#504 – Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare",
+      "url": "https://lexfridman.com/ukraine-war-preston-stewart-michael-kofman/?utm_source=rss&utm_medium=rss&utm_campaign=ukraine-war-preston-stewart-michael-kofman",
+      "guid": "https://lexfridman.com/?p=7818",
+      "guests": [
+        "Russia-Ukraine War"
+      ],
+      "hosts": [
+        "Lex Fridman"
+      ]
+    },
     "mindscape::0021b522-f377-4731-a1f6-186a5b115df6": {
       "id": "mindscape::0021b522-f377-4731-a1f6-186a5b115df6",
       "podcastId": "mindscape",
@@ -56656,6 +56844,20 @@
       "url": "https://preposterousuniverse.com/podcast/2026/08/03/ama-august-2026/",
       "guid": "43b6ab8f-38b3-48c1-b1d8-2e6a23139c08",
       "guests": [],
+      "hosts": [
+        "Sean Carroll"
+      ]
+    },
+    "mindscape::458a0cd5-815d-4d31-b8c7-404da39b524b": {
+      "id": "mindscape::458a0cd5-815d-4d31-b8c7-404da39b524b",
+      "podcastId": "mindscape",
+      "podcast": "Mindscape",
+      "title": "374 | Lindsey Fitzharris on Forensic Pathology, Reconstructive Surgery, and Sherlock Holmes",
+      "url": "https://preposterousuniverse.com/podcast/2026/11/16/374-lindsey-fitzharris-on-forensic-pathology-reconstructive-surgery-and-sherlock-holmes/",
+      "guid": "458a0cd5-815d-4d31-b8c7-404da39b524b",
+      "guests": [
+        "Lindsey Fitzharris"
+      ],
       "hosts": [
         "Sean Carroll"
       ]
@@ -71137,6 +71339,18 @@
         "Tim Ferriss"
       ]
     },
+    "tim-ferriss::gid://art19-episode-locator/V0/67uUttG4xZKDY-WDgW_KVsg-7VRHBPkeERYOQaC6ihg": {
+      "id": "tim-ferriss::gid://art19-episode-locator/V0/67uUttG4xZKDY-WDgW_KVsg-7VRHBPkeERYOQaC6ihg",
+      "podcastId": "tim-ferriss",
+      "podcast": "The Tim Ferriss Show",
+      "title": "#889: Q&A with Tim — How to Get Unstuck, Resilience in Hard Times, Tools for Brain Health, Finding Inner Peace, Optimism as a Learnable Skill, and More",
+      "url": "gid://art19-episode-locator/V0/67uUttG4xZKDY-WDgW_KVsg-7VRHBPkeERYOQaC6ihg",
+      "guid": "gid://art19-episode-locator/V0/67uUttG4xZKDY-WDgW_KVsg-7VRHBPkeERYOQaC6ihg",
+      "guests": [],
+      "hosts": [
+        "Tim Ferriss"
+      ]
+    },
     "tim-ferriss::gid://art19-episode-locator/V0/69Xaok_i9CRilQMvdpQpEwTLcpN-hCuNzigooBcBUjo": {
       "id": "tim-ferriss::gid://art19-episode-locator/V0/69Xaok_i9CRilQMvdpQpEwTLcpN-hCuNzigooBcBUjo",
       "podcastId": "tim-ferriss",
@@ -80628,6 +80842,20 @@
         "Curt Jaimungal"
       ]
     },
+    "toe::6a0bbc8c-dc99-11f1-89ba-ff7aaa70ebf7": {
+      "id": "toe::6a0bbc8c-dc99-11f1-89ba-ff7aaa70ebf7",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Dan Freed: What Is Quantum Field Theory, Really?",
+      "url": "6a0bbc8c-dc99-11f1-89ba-ff7aaa70ebf7",
+      "guid": "6a0bbc8c-dc99-11f1-89ba-ff7aaa70ebf7",
+      "guests": [
+        "Dan Freed"
+      ],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
     "toe::6a0cd3a8-6c9f-11f0-8a8a-23c414b53d16": {
       "id": "toe::6a0cd3a8-6c9f-11f0-8a8a-23c414b53d16",
       "podcastId": "toe",
@@ -82371,6 +82599,20 @@
       "url": "cff90160-335b-11ef-97aa-dbfad3bc511c",
       "guid": "cff90160-335b-11ef-97aa-dbfad3bc511c",
       "guests": [],
+      "hosts": [
+        "Curt Jaimungal"
+      ]
+    },
+    "toe::cffa21ae-dfab-11f1-9f57-8b2e724bb08b": {
+      "id": "toe::cffa21ae-dfab-11f1-9f57-8b2e724bb08b",
+      "podcastId": "toe",
+      "podcast": "Theories of Everything",
+      "title": "Philip Mannheim: Quantum Gravity & Origin of Mass Explained FROM SCRATCH",
+      "url": "cffa21ae-dfab-11f1-9f57-8b2e724bb08b",
+      "guid": "cffa21ae-dfab-11f1-9f57-8b2e724bb08b",
+      "guests": [
+        "Philip Mannheim"
+      ],
       "hosts": [
         "Curt Jaimungal"
       ]
@@ -88265,6 +88507,20 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::1945d01e-ea4c-4d05-97a8-b3188f84f375": {
+      "id": "wtf4cities::1945d01e-ea4c-4d05-97a8-b3188f84f375",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "480I_Jonas Birgersson, founder and vice chairman of the Board of ViaEuropa",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/480I_Jonas-Birgersson--founder-and-vice-chairman-of-the-Board-of-ViaEuropa-e3ncula",
+      "guid": "1945d01e-ea4c-4d05-97a8-b3188f84f375",
+      "guests": [
+        "Jonas Birgersson"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::1a8d6d77-aa77-48c2-b9ca-8a9f7a861335": {
       "id": "wtf4cities::1a8d6d77-aa77-48c2-b9ca-8a9f7a861335",
       "podcastId": "wtf4cities",
@@ -88956,6 +89212,20 @@
       "guid": "2b59a006-e4f2-4890-a87e-a6bbe11d794b",
       "guests": [
         "Glenn Drew"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::2ba2b5ce-7964-4509-8674-49631fc5a0b3": {
+      "id": "wtf4cities::2ba2b5ce-7964-4509-8674-49631fc5a0b3",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Same curb: unloading zone, then terrace - Bram Kin (482)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Same-curb-unloading-zone--then-terrace---Bram-Kin-482-e3qo1g0",
+      "guid": "2ba2b5ce-7964-4509-8674-49631fc5a0b3",
+      "guests": [
+        "Bram Kin"
       ],
       "hosts": [
         "Fanni Melles"
@@ -89712,6 +89982,20 @@
       "guid": "3b1a59cf-cd92-4c5b-a62e-cbcb87ab67d1",
       "guests": [
         "Alan Donegan"
+      ],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::3b1f4622-66da-4d41-bc15-287691f48342": {
+      "id": "wtf4cities::3b1f4622-66da-4d41-bc15-287691f48342",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Redesign now shapes the next 50 years - Bram Kin (482)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Redesign-now-shapes-the-next-50-years---Bram-Kin-482-e3qo1di",
+      "guid": "3b1f4622-66da-4d41-bc15-287691f48342",
+      "guests": [
+        "Bram Kin"
       ],
       "hosts": [
         "Fanni Melles"
@@ -93096,6 +93380,18 @@
         "Fanni Melles"
       ]
     },
+    "wtf4cities::979eb90e-5cfa-4e4c-9bdd-86e0ce9748af": {
+      "id": "wtf4cities::979eb90e-5cfa-4e4c-9bdd-86e0ce9748af",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "Instead of the old energy grid, let's take back control - Jonas Birgersson (480I trailer 3)",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/Instead-of-the-old-energy-grid--lets-take-back-control---Jonas-Birgersson-480I-trailer-3-e3nculi",
+      "guid": "979eb90e-5cfa-4e4c-9bdd-86e0ce9748af",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
     "wtf4cities::97a2f997-94ce-4c8b-a473-1d8d10939fda": {
       "id": "wtf4cities::97a2f997-94ce-4c8b-a473-1d8d10939fda",
       "podcastId": "wtf4cities",
@@ -96249,6 +96545,18 @@
       "title": "The evolution of culture and its importance - Raoul Rugamba (416I trailer 2)",
       "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/The-evolution-of-culture-and-its-importance---Raoul-Rugamba-416I-trailer-2-e3gppml",
       "guid": "e4058a03-535a-4cb3-9884-23bb844fdc3a",
+      "guests": [],
+      "hosts": [
+        "Fanni Melles"
+      ]
+    },
+    "wtf4cities::e41cabf5-032a-4e3f-beba-ec1a4e8122ee": {
+      "id": "wtf4cities::e41cabf5-032a-4e3f-beba-ec1a4e8122ee",
+      "podcastId": "wtf4cities",
+      "podcast": "WTF4Cities",
+      "title": "479R_EnergyNet explained: Internetification of energy distribution",
+      "url": "https://podcasters.spotify.com/pod/show/fanni-melles/episodes/479R_EnergyNet-explained-Internetification-of-energy-distribution-e3ncuku",
+      "guid": "e41cabf5-032a-4e3f-beba-ec1a4e8122ee",
       "guests": [],
       "hosts": [
         "Fanni Melles"
